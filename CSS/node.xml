@@ -13,7 +13,7 @@
       </array>
     </dict>
   </array>
-  <key>expanded</key><true/>
+  <key>expanded</key><false/>
   <key>nodeid</key><string>d113f56f-5a62-4007-ba5c-0f6648e31c18</string>
   <key>modified_time</key><integer>1578093638</integer>
   <key>content_type</key><string>application/x-notebook-dir</string>
@@ -21,7 +21,7 @@
   <key>title</key><string>CSS</string>
   <key>column_widths</key><dict>
     <key>created_time</key><integer>150</integer>
-    <key>modified_time</key><integer>1334</integer>
+    <key>modified_time</key><integer>1401</integer>
     <key>title</key><integer>150</integer>
   </dict>
   <key>attr_defs</key><array>
