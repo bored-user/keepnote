@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>substr</title>
+</head><body>substr() returns a part of a string.<br/>
+It takes three parameters (2 are mandatory): the string, the start position and lenght.<br/>
+<br/>
+The string is the input string. The one to be searched on.<br/>
+The start is where the search will start (positive: left to right; negative: right to left).<br/>
+Length: A "to" parameter. Meaning: get characters from start position to lenght one. If omitted, the substring starting from start until the end of the string will be returned.<br/>
+<br/>
+Examples:<br/>
+$string = "abcd"<br/>
+substr($string, 0)&#09;&#09;// "abcd"<br/>
+substr($string, -1)&#09;&#09;// "d"<br/>
+substr($string, 0, 1)&#09;// "a"<br/>
+substr($string, 0, -1)&#09;// "abc"<br/>
+substr($string, -2, -1)&#09;// "c"</body></html>

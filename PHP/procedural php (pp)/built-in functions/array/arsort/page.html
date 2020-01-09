@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>arsort</title>
+</head><body>"Unsrot" an array mantaining the index =&gt; value association.<br/>
+<br/>
+$myArray = array("A" =&gt; "a", "B" =&gt; "b", "C" =&gt; "c", "D" =&gt; "d");<br/>
+arsort($myArray);<br/>
+foreach ($myArray as $key =&gt; $val) {<ul><li style="list-style-type: none">echo "$key =&gt; $val\n";</li>
+</ul>
+}<br/>
+// "D" =&gt; "d" (that's [0])<br/>
+// "C" =&gt; "c" ([1])<br/>
+// "B" =&gt; "b" ([2])<br/>
+// "A" =&gt; "a" ([3])</body></html>
