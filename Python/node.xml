@@ -21,7 +21,7 @@
   <key>title</key><string>Python</string>
   <key>column_widths</key><dict>
     <key>created_time</key><integer>150</integer>
-    <key>modified_time</key><integer>1388</integer>
+    <key>modified_time</key><integer>1391</integer>
     <key>title</key><integer>150</integer>
   </dict>
   <key>attr_defs</key><array>
