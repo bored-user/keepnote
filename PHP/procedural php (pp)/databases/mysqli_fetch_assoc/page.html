@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>mysqli_fetch_assoc</title>
-</head><body>Function that takes the result of a mysqli_num_rows and saves it to a variable (array).<br/>
+</head><body>Function that takes the result of a mysqli_query and saves it to a variable (array).<br/>
 <br/>
 mysqli_num_rows($result);<br/>
-$row = mysqli_fetch_assoc($result);<br/>
-echo $row["rowName"];</body></html>
+$array_with_result = mysqli_fetch_assoc($result);<br/>
+print_r($array_with_result);</body></html>

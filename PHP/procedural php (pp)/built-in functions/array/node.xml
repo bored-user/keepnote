@@ -6,6 +6,7 @@
   <key>title</key><string>Array</string>
   <key>nodeid</key><string>97384e2c-3a4b-453e-8a33-39b02b2cec92</string>
   <key>modified_time</key><integer>1578430914</integer>
+  <key>expanded2</key><true/>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>application/x-notebook-dir</string>
   <key>created_time</key><integer>1578430914</integer>

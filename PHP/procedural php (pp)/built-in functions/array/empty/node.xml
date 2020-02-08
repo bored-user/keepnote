@@ -5,6 +5,7 @@
   <key>title</key><string>empty</string>
   <key>nodeid</key><string>ed45c39c-06cc-4bbb-a3fa-cfa63d476494</string>
   <key>modified_time</key><integer>1578495831</integer>
+  <key>expanded2</key><true/>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
   <key>created_time</key><integer>1578495321</integer>
