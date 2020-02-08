@@ -21,9 +21,9 @@
   <key>info_sort_dir</key><integer>1</integer>
   <key>title</key><string>PHP</string>
   <key>column_widths</key><dict>
-    <key>created_time</key><integer>150</integer>
-    <key>modified_time</key><integer>1404</integer>
-    <key>title</key><integer>150</integer>
+    <key>created_time</key><integer>128</integer>
+    <key>modified_time</key><integer>1414</integer>
+    <key>title</key><integer>162</integer>
   </dict>
   <key>attr_defs</key><array>
     <dict>

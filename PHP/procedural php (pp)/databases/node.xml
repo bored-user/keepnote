@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><false/>
+  <key>expanded</key><true/>
   <key>title</key><string>Databases</string>
   <key>nodeid</key><string>fd3045a0-d5f7-4d5e-b266-fa40312aea39</string>
   <key>modified_time</key><integer>1578590131</integer>
@@ -10,7 +10,7 @@
   <key>content_type</key><string>application/x-notebook-dir</string>
   <key>created_time</key><integer>1578590131</integer>
   <key>info_sort_dir</key><integer>1</integer>
-  <key>order</key><integer>9</integer>
+  <key>order</key><integer>10</integer>
   <key>info_sort</key><string>order</string>
 </dict>
 </node>
