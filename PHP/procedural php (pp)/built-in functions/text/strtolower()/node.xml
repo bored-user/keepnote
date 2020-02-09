@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>title</key><string>strtolower</string>
+  <key>title</key><string>strtolower()</string>
   <key>nodeid</key><string>b86ca1aa-8bb8-4505-8f26-4408ee02a418</string>
   <key>modified_time</key><integer>1578435354</integer>
   <key>version</key><integer>6</integer>

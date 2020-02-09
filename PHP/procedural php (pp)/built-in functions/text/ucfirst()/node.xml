@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>title</key><string>ucfirst</string>
+  <key>title</key><string>ucfirst()</string>
   <key>nodeid</key><string>bbb589eb-463a-4df2-aada-bd447bcfda4c</string>
   <key>modified_time</key><integer>1578435444</integer>
   <key>version</key><integer>6</integer>
