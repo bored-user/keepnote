@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>filter_input()</title>
+</head><body>Function taking a constant (the variable with the data. Example INPUT_POST and INPUT_GET), the index (the index where the data on the variable specified is located) and the filter type:<ul><li style="list-style-type: none">Validation filters: FILTER_VALIDATE_INT, FILTER_VALIDATE_EMAIL, FILTER_VALIDATE_URL, FILTER_VALIDATE_IP</li>
+<li style="list-style-type: none">Sanitize filters: FILTER_SANITIZE_SPECIAL_CHARS, FILTER_SANITIZE_INT, FILTER_SANITIZE_EMAIL, FILTER_SANITIZE_URL</li>
+</ul>
+<br/>
+<img src="screenshot_2020-02-10_103336.png" /><br/>
+<br/>
+<img src="screenshot_2020-02-10_103355.png" /><br/>
+<br/>
+<br/>
+Validate filters return a boolean (if the input is or isn't valid).<br/>
+<br/>
+Sanitize filters returns the string sanitized. <br/>
+Example:<ul><li style="list-style-type: none">FILTER_SANITIZE_SPECIAL_CHARS: Remove special characters like HTML markations.</li>
+</ul>
+<br/>
+FILTER_SANITIZE_EMAIL: Removes all characters which aren't allowed in email addresses.<br/>
+<br/>
+<img src="screenshot_2020-02-09_150827.png" /><br/>
+<br/>
+<img src="screenshot_2020-02-10_103538.png" /></body></html>
