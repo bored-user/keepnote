@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>This</title>
+</head><body>$this is used to access properties or methods from within the same class it was called originally.<br/>
+Example:<br/>
+<br/>
+Class MyClass {<ul><li style="list-style-type: none">private $myProp1 = "hello";</li>
+<li style="list-style-type: none">private $myProp2 = $this-&gt;myProp1;</li>
+</ul>
+}<ul><li style="list-style-type: none"></li>
+</ul>
+The private property "myProp2" has the same value as "myProp1", since we used the $this reference.<br/>
+Notice that when assigning the value of "myProp2" to "myProp1", I didn't use the dolar sign. That's because properties and methods don't need the dolar sign on referencing (only when declaring).<br/>
+<br/>
+<br/>
+$this is also used on extending.<br/>
+Example:<br/>
+<br/>
+Class MyClass {<ul><li style="list-style-type: none">private $myProp1 = "hello";</li>
+</ul>
+}<br/>
+<br/>
+Class MyClass2 extends myClass {<ul><li style="list-style-type: none">private $myProp2 = $this-&gt;myProp1;</li>
+</ul>
+}<br/>
+</body></html>
