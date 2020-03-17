@@ -2,6 +2,7 @@
 <node>
 <version>6</version>
 <dict>
+  <key>expanded</key><false/>
   <key>title</key><string>Magic Constants</string>
   <key>nodeid</key><string>3fdfb0aa-3afa-483a-8e3b-639840b6e538</string>
   <key>modified_time</key><integer>1581178171</integer>

@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Static properties and methods</title>
+</head><body>Static means it doesn't change.<br/>
+It is useful when setting a variable which doesn't deppends on users.<br/>
+<br/>
+It can be accessed without instanciating the object.<br/>
+<br/>
+<br/>
+Example:<br/>
+<br/>
+class Example {<ul><li style="list-style-type: none">public static $name = "Joao";</li>
+</ul>
+}<br/>
+echo Example::$name&#09;&#09;&#09;&#09;// When using statics, we use :: (scope resolution operator) instead of -&gt;<br/>
+// One can also use Example::myStaticFunction()<br/>
+<br/>
+class Example2 {<br/>
+public static function Example3() {<ul><li style="list-style-type: none">static $example = 123</li>
+<li style="list-style-type: none">echo self::$example;&#09;&#09;&#09;// Echoes 123. We use self instead of $this when using static.</li>
+</ul>
+}<br/>
+<br/>
+When using "$this-&gt;" it ins't necessary to use the dollar sign. However, when using a static property, one must use "ClassName::$prop".</body></html>
