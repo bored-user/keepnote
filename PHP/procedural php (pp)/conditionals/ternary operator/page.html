@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ternary operator</title>
+</head><body>It is the only expression that takes three operands.<br/>
+Is is used as a short for an if block.<br/>
+<br/>
+Example:<br/>
+echo $v === "value" ? "if it's true" : "if it's false"<br/>
+This will echo "if it's true" if $v === "value" and "if it's false" otherwise.<br/>
+<br/>
+<br/>
+One can also use the ternary operator when defining a variable. It analizes the value of the variable and sets it accordingly. It'll only set it to the 2nd value if the original value is a falsy one ("", [], null...)<br/>
+$v = 2;<br/>
+echo $v;&#09;&#09;// 2<br/>
+$v = $v ? "true" : "false";<br/>
+echo $v;&#09;&#09;// "true"<br/>
+<br/>
+$v = false;<br/>
+echo $v;&#09;&#09;// false<br/>
+$v = $v ? "true" : "false";<br/>
+echo $v;&#09;&#09;// "false"</body></html>

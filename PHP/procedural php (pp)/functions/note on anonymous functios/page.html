@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Note on anonymous functios</title>
+</head><body>One can set a string to the name of a variable and call it using (), giving it arguments or not.<br/>
+<br/>
+Example:<br/>
+function myFunc($val) { echo $val; }<br/>
+myFunc("hello world!")&#09;&#09;// echoes "hello world!"<br/>
+$str = "myFunc";<br/>
+$str("hello world!")&#09;&#09;&#09;// also echoes "hello world!"<br/>
+<br/>
+<br/>
+One can also create anonymous function like in JS.<br/>
+$myVar = function() { return "hello" }<br/>
+echo $myVar&#09;&#09;// echoes "hello"</body></html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Connection</title>
+</head><body>In order to connect to a database using PDO statements, one must use:<br/>
+<br/>
+$pdo = new PDO("mysql:host=[host_name];dbname=[database_name]", $username, $password);<br/>
+It's also good to use $pdo-&gt;setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC)<br/>
+<br/>
+And return the $pdo variable, which will later be used to query the database.</body></html>
