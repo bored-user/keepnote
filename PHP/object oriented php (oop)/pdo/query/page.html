@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Query</title>
+</head><body>One should first set the SQL query and then use it on a $stmt variable, like:<br/>
+$stmt = $this-&gt;connect()-&gt;query($sql);&#09;&#09;&#09;// where $this referes to the connect function set on the database class which was extended to the currently working class.<br/>
+And then use a $stmt-&gt;fetch() or $stmt-&gt;fetchAll() to get the result accordingly.<br/>
+<br/>
+Using prepared statements (when there's user input):<br/>
+$stmt = $this-&gt;connect()-&gt;prepare($sql);<br/>
+$stmt-&gt;execute(["item 1", "item 2"]);&#09;&#09;&#09;&#09;// in this case, the SQL query will have some "blanks" that need to be filled. Every time there's a blank, one should use the question mark as a placeholder. Example: $sql = "SELECT * FROM users WHERE name = ? AND id = ?"; The first array item will indicate the value of the name row, while the second item will indicate the value of the id row, and so on.<br/>
+<br/>
+This will also works on INSERT queries (need to use prepared statements for security).</body></html>
