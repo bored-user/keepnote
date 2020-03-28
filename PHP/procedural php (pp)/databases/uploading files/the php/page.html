@@ -9,4 +9,6 @@ It returns the name of the file, it's MIME type, it's tmp_name (path on user's c
 <br/>
 It's index is the *name* of the input:file on the HTML side. So if you use "&lt;input type='file' name='myFile'&gt;", the $_FILES index is myFile.<br/>
 <br/>
-Then, a function named move_uploaded_file() is used to move the uploaded file somewhere on the website. It takes 2 parameters: the original tmp destination ($_FILES["myFile]["tmp_name"]) and the permanent one (remembering that the / on PHP is the "absolute root" of the server, not the website root).</body></html>
+Then, a function named move_uploaded_file() is used to move the uploaded file somewhere on the website. It takes 2 parameters: the original tmp destination ($_FILES["myFile]["tmp_name"]) and the permanent one (remembering that the / on PHP is the "absolute root" of the server, not the website root).<br/>
+<br/>
+One can also have an HTML hidden typed input with the name set to "MAX_FILE_SIZE" and the value indicating the max size of the uploaded files. PHP will throw error #2 if the file size is larger than the allowed.</body></html>
