@@ -1,0 +1,10 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>rectMode()</title>
+</head><body>The way to align things (shapes).<br/>
+<br/>
+The default value is CORNER. This means that if you place a rectangle at the "center" of the screen but it's rectMode() is set to CORNER (or not set at all since it's the default value), it WON'T BE at the center of the screen. IT'S TOP-LEFT CORNER WILL.<br/>
+<br/>
+So, in order to solve that, one should use the rectMode(CENTER) (to have the alignment calculated relative to the rectangle's center) before drawing the rectangle itself.</body></html>
