@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><false/>
+  <key>expanded</key><true/>
   <key>title</key><string>Dirs and Files</string>
   <key>nodeid</key><string>27ac46a4-764c-4564-bf56-7c3cc1db6013</string>
   <key>modified_time</key><integer>1581293023</integer>

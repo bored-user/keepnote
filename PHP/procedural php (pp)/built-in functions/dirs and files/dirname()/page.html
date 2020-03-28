@@ -1,0 +1,12 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>dirname()</title>
+</head><body>Takes a file and returns it's parent directory.<br/>
+Example: dirname("/etc/something/somefile.txt") returns "/etc/something".<br/>
+<br/>
+PHP 7 added the levels optional parameter, which allows the programmer to choose the number of directories up they wanna go. Example: dirname("/etc/something/somefile.txt", 2) returns "/etc".<br/>
+Default value for levels parameter: 1.<br/>
+<br/>
+One can use dirname(__FILE__) to get the directory name of the file they're working on (or simply use getcwd() function or __DIR__ magic constant).</body></html>

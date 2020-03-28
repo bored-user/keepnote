@@ -2,12 +2,13 @@
 <node>
 <version>6</version>
 <dict>
-  <key>title</key><string>glob()</string>
-  <key>nodeid</key><string>3cd94f60-b09a-4a7c-ac0d-73b3401464a5</string>
-  <key>modified_time</key><integer>1581290478</integer>
+  <key>duplicate_of</key><string>c2c04bc4-1376-4d36-abc8-ef80447d17f9</string>
+  <key>title</key><string>urlencode()</string>
+  <key>nodeid</key><string>9f707f0b-6eec-45fd-b7a1-3bc9bce22b9a</string>
+  <key>modified_time</key><integer>1585406237</integer>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
-  <key>created_time</key><integer>1581290230</integer>
+  <key>created_time</key><integer>1585405746</integer>
   <key>info_sort_dir</key><integer>1</integer>
   <key>order</key><integer>0</integer>
   <key>info_sort</key><string>order</string>

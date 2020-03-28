@@ -1,0 +1,9 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Note on SESSIONS</title>
+</head><body>One can use a query string to give to another page access to sessions.<br/>
+The developer should pass the PHPSESSID and the session_id() function result as value.<br/>
+<br/>
+This should only be used when cookies are disabled (when cookies are disabled, the webpage which set the SESSION can still access it; but other webpages on the same server cannot - since every SESSION is basically a cookie with expiration date = when the browser closes).</body></html>
