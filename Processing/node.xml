@@ -14,9 +14,12 @@
     </dict>
   </array>
   <key>expanded</key><true/>
+  <key>nodeid</key><string>4d79af53-ffb0-43a5-a8c6-c9c74b7cef00</string>
+  <key>modified_time</key><integer>1585420071</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1585420071</integer>
+  <key>info_sort_dir</key><integer>1</integer>
   <key>title</key><string>Processing</string>
-  <key>nodeid</key><string>0a3b0c17-735c-42ec-a503-2b2bce4278f5</string>
-  <key>modified_time</key><integer>1585610197</integer>
   <key>column_widths</key><dict>
     <key>created_time</key><integer>150</integer>
     <key>modified_time</key><integer>505</integer>
@@ -115,8 +118,7 @@
     </dict>
   </array>
   <key>version</key><integer>6</integer>
-  <key>content_type</key><string>application/x-notebook-dir</string>
-  <key>created_time</key><integer>1585610197</integer>
   <key>order</key><integer>0</integer>
+  <key>info_sort</key><string>order</string>
 </dict>
 </node>
