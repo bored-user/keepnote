@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>res</title>
+</head><body>res is the respose object.<br/>
+It has methods like json(), to send json data or send() to send any type of data. One can send json using the send() method and giving a json object.<br/>
+<br/>
+One can also render HTML pages using res.render(). It takes the file name (without extension) that will be rendered as the first argument and arguments to be given to that specific file as an object in the second parameter.<br/>
+Example:<br/>
+res.render('file_name', {arg: 'value'});<br/>
+<br/>
+In Mustache:<br/>
+{{arg}}</body></html>
