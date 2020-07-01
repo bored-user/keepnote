@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>pop!()</title>
+</head><body>Removes a element (identified by the key) from a data structure. Returns the removed element.<br/>
+Takes, as 1st parameter, the data structure and, as (optional) 2nd, the key to remove.<br/>
+If there's no second parameter (key), it'll remove the last element.<br/>
+ATTENTION: it modifies the data structure.<br/>
+<br/>
+Example:<br/>
+dict1 = Dict("key1" =&gt; "value1", "key2" =&gt; "value2")<br/>
+println(dict1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # has both "key1" and "key2" as entries.<br/>
+pop!(dict1, "key2")<br/>
+println(dict1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # has only "key1"</body></html>

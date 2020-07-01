@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Declaration </title>
+</head><body>There are three main ways to declare a function:<br/>
+<br/>
+The first one is using the "function" and "end" keywords, like so:<br/>
+function sayHello(name)<ul><li style="list-style-type: none">return "Hello, $(name)!";</li>
+</ul>
+end&#09;&#09;&#09;&#09;&#09;&#09;&#09;# 'name!' is a valid variable name, so the parenthesis block are escaping it.<br/>
+<br/>
+The second one is an arrow function, just like in JavaScript:<br/>
+sayHello = name -&gt; "Hello, $(name)!"&#09;&#09;# it's really a "-&gt;", not a "=&gt;".<br/>
+<br/>
+The third one is just assigning a value to the function name, like declaring a variable:<br/>
+sayHello(name) = return "Hello, $(name)!"<br/>
+<br/>
+One can overwrite a function of the sime type by another of the same type ONLY. For instance, one can overwrite a arrow function with another arrow function with the same name, but not with a named function (type #1).</body></html>
