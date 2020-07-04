@@ -1,0 +1,11 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>read()</title>
+</head><body>Function that returns a promise. It can read a file on the hard disk, a string, a buffer, etc.<br/>
+Useful when using an async module.exports.resize function, to resize the file like so:<br/>
+<br/>
+module.exports.resize = async (req, res, next) =&gt; {<ul><li style="list-style-type: none">const photo = await jimp.read(req.file.buffer);&#09;&#09;// where req.file is the uploaded file</li>
+</ul>
+}</body></html>

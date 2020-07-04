@@ -2,13 +2,13 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><true/>
-  <key>title</key><string>Slug</string>
-  <key>nodeid</key><string>464b53ca-8c9e-493b-82ec-89e8832666a2</string>
-  <key>modified_time</key><integer>1593284902</integer>
+  <key>expanded</key><false/>
+  <key>title</key><string>Dependencies</string>
+  <key>nodeid</key><string>ba151ded-39be-40d3-8cfa-e06833b14791</string>
+  <key>modified_time</key><integer>1592478642</integer>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>application/x-notebook-dir</string>
-  <key>created_time</key><integer>1593284902</integer>
+  <key>created_time</key><integer>1592478642</integer>
   <key>info_sort_dir</key><integer>1</integer>
   <key>order</key><integer>4</integer>
   <key>info_sort</key><string>order</string>
