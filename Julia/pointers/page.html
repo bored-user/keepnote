@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pointers</title>
+</head><body>Just like on JavaScript, Julia stores, in a variable, a pointer to an object in memory.<br/>
+So, if one sets a variable "x" to &nbsp;variable "y" which has an object assign to it, Julia won't copy the whole object again. In fact, it'll only create another pointer to that object in memory.<br/>
+In order to really copy an object, one must use the copy() function.<br/>
+<br/>
+<br/>
+<br/>
+Example:<br/>
+a = [1, 2, 3]<br/>
+b = a<br/>
+c = copy(a)<br/>
+<br/>
+<br/>
+a[1] = 'a'<br/>
+println(a)&#09;&#09;# ['a', 2, 3]<br/>
+println(b)&#09;&#09;# ['a', 2, 3]&#09;it's only a pointer to the data in memory, so modifying 'a' modifies 'b' indirectly.<br/>
+<br/>
+println(c)&#09;&#09;# [1, 2, 3]&#09;it was copied using copy(), that's why it's unchanged.</body></html>

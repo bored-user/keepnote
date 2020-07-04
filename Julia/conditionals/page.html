@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Conditionals</title>
+</head><body>In Julia, one can make basic if statements and use the ternary operator.<br/>
+<br/>
+if x == 1<ul><li style="list-style-type: none">println("x == 1");</li>
+</ul>
+else&#09;&#09;&#09;&#09;&#09;# one can also use elseif to make else if blocks<ul><li style="list-style-type: none">println("x != 1");</li>
+</ul>
+end<br/>
+<br/>
+println(x == 1 ? "x == 1" : "x != 1");<br/>
+<br/>
+In Julia, however, one can also use the &amp;&amp; operator:<br/>
+x == 1 &amp;&amp; println("x == 1")&#09;&#09;# the &amp;&amp; will only execute the second instruction if the first one is true</body></html>
