@@ -3,14 +3,14 @@
 <version>6</version>
 <dict>
   <key>expanded</key><true/>
-  <key>title</key><string>Mongoose</string>
-  <key>nodeid</key><string>06228752-e008-4e4d-89ad-c0266c17f3a3</string>
-  <key>modified_time</key><integer>1592478650</integer>
+  <key>title</key><string>aggregate()</string>
+  <key>nodeid</key><string>c36db3b2-8a01-41ec-85ff-f907701b2c3f</string>
+  <key>modified_time</key><integer>1593978050</integer>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>application/x-notebook-dir</string>
-  <key>created_time</key><integer>1592478650</integer>
+  <key>created_time</key><integer>1593978050</integer>
   <key>info_sort_dir</key><integer>1</integer>
-  <key>order</key><integer>2</integer>
+  <key>order</key><integer>6</integer>
   <key>info_sort</key><string>order</string>
 </dict>
 </node>

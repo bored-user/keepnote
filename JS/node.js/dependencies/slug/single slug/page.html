@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Single slug</title>
+</head><body>In order to make a post link have a single slug, one can use mongoose and regex:<br/>
+Let's suppose there's a slug named "example-slug".<br/>
+When the user creates a post named Example Slug, the default behaviour would be to create another "example-slug" slug, which can't happen.<br/>
+To differentiate slugs, there's the need to append numbers to it, like so: "example-slug-1", "example-slug-2", etc.<br/>
+<br/>
+In order to program that, we can use:<br/>
+schema.pre('save', async function() {<ul><li style="list-style-type: none">const match = this.constructor.find({/[slug]/i}).length;&#09;// this.constructor because we haven't exported the model &#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;// yet. /[slug]/i is the RegExp to find every post.</li>
+<li style="list-style-type: none">if (match) {</li>
+<li style="list-style-type: none"><ul><li style="list-style-type: none">slug += match&#09;&#09;&#09;&#09;&#09;// concatenate the match number with the existing slug</li>
+</ul>
+</li>
+<li style="list-style-type: none">}</li>
+</ul>
+<br/>
+})</body></html>

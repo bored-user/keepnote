@@ -9,4 +9,10 @@ If no argument is given, it returns an array of objects where each object is an 
 If one chooses to pass in the argument, it should be an object where the key is a field on the database schema and the value is the searched value.<br/>
 <br/>
 Example:<br/>
-model.find({ field1: 'value1' });</body></html>
+model.find({ field1: 'value1' });<br/>
+<br/>
+Observation: one may use model.find() to search for an item in an array field:<br/>
+user_1 {&#09;&#09;// user_1 has friends 1, 2 and 3 in their friend list<ul><li style="list-style-type: none">friends: ['friend1', 'friend2', 'friend3'];</li>
+</ul>
+}<br/>
+model.find({ friends: 'friend1' })&#09;// will return user_1</body></html>
