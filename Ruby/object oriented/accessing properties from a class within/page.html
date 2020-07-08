@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Accessing properties from a class within it</title>
+</head><body>In order to access a property/ method of a class within itself, we use the self keyword:<br/>
+<br/>
+class MyClass<ul><li style="list-style-type: none">attr_accessor :a</li>
+</ul>
+<ul><li style="list-style-type: none">def myMethod()</li>
+<li style="list-style-type: none"><ul><li style="list-style-type: none">puts self.a</li>
+</ul>
+</li>
+<li style="list-style-type: none">end</li>
+</ul>
+end<br/>
+<br/>
+my_class = MyClass.new()<br/>
+my_class.a = 123<br/>
+my_class.myMethod()&#09;&#09;&#09;# 123<br/>
+<br/>
+<br/>
+One can also access inner properties of a class from within it using the @ symbol:<br/>
+<br/>
+class MyClass<ul><li style="list-style-type: none">attr_accessor :a</li>
+</ul>
+<ul><li style="list-style-type: none">def myMethod(a)</li>
+<li style="list-style-type: none"><ul><li style="list-style-type: none">@a = a</li>
+<li style="list-style-type: none">puts @a</li>
+</ul>
+</li>
+<li style="list-style-type: none">end</li>
+</ul>
+end<br/>
+<br/>
+my_class = MyClass.new()<br/>
+my_class.myMethod(123)&#09;&#09;&#09;# 123<br/>
+<br/>
+<br/>
+The difference between using @ and self is that @ can only be used to refer to properties &amp; @ will modify the value instead of executing a possible getter/ setter function for it; while self will execute the getter/ setter &amp; can be used with methods.</body></html>

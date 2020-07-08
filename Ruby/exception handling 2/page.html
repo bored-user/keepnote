@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Exception handling</title>
+</head><body>Exception handling can be done using the begin/ rescue blocks:<br/>
+<br/>
+begin<ul><li style="list-style-type: none">num = 10/0</li>
+</ul>
+rescue<ul><li style="list-style-type: none">puts "Some error occured"</li>
+<li style="list-style-type: none"></li>
+</ul>
+<br/>
+If one needs to catch an specific error:<br/>
+<br/>
+begin<ul><li style="list-style-type: none">num = 10/0</li>
+</ul>
+rescue ZeroDivisionError<ul><li style="list-style-type: none">puts "zero division error"</li>
+<li style="list-style-type: none"></li>
+<li style="list-style-type: none"></li>
+</ul>
+It's even possible to create multiple catch blocks for multiple exceptions:<br/>
+<br/>
+begin<ul><li style="list-style-type: none">num = 10/0</li>
+</ul>
+rescue ZeroDivisionError<ul><li style="list-style-type: none">puts "zero division error"</li>
+</ul>
+rescue<ul><li style="list-style-type: none">puts "some other random error"</li>
+<li style="list-style-type: none"></li>
+<li style="list-style-type: none"></li>
+</ul>
+Finally, one can also raise an error using the raise command:<br/>
+<br/>
+raise "My custom exception!"</body></html>

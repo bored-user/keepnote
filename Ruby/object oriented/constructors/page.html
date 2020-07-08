@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Constructors</title>
+</head><body>Constructors in Ruby can be done by creating an initialize() method inside a class:<br/>
+<br/>
+class MyClass<ul><li style="list-style-type: none">attr_accessor :n1, :n2</li>
+<li style="list-style-type: none">def initialize(n1, n2)</li>
+<li style="list-style-type: none"><ul><li style="list-style-type: none">@n1 = n1</li>
+<li style="list-style-type: none">@n2 = n2</li>
+</ul>
+</li>
+<li style="list-style-type: none">end</li>
+<li style="list-style-type: none"></li>
+<li style="list-style-type: none">def sum()</li>
+<li style="list-style-type: none"><ul><li style="list-style-type: none">return @n1 + @n2</li>
+</ul>
+</li>
+<li style="list-style-type: none">end</li>
+</ul>
+end<br/>
+<br/>
+my_class = MyClass.new(10, 20)<br/>
+puts my_class.sum()&#09;&#09;&#09;&#09;# 30</body></html>
