@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>What is it?</title>
+</head><body>Modules are something kind of like classes. However, they cannot be instantiated.<br/>
+Classes can include/ prepend/ extend modules.<br/>
+<br/>
+So, modules are basically like interfaces in the sense that it's possible to use the methods of a module inside multiple classes through the use of the include/ prepend/ extend keywords.<br/>
+<br/>
+However they're not like interfaces because interfaces cannot be instantiated nor have their methods used directly (without being 'interfaced' by a class).<br/>
+<br/>
+So, in summary: A module may contain only methods. It's possible to call module methods directly (outside of classes: MyModule.my_method()). It's not possible to instantiate a module (MyModule.new). It's possible to add a module to a class which may or may not override the classes' inner methods (name collision).</body></html>

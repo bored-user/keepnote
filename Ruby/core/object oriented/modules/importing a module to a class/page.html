@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Adding a module to a class</title>
+</head><body>There are some ways to add a module to a class: include, prepend and extend.<br/>
+The differences between them are:<br/>
+<br/>
+<br/>
+include: When using include, the module methods are imported as instance methods. Which means that one needs to instantiate the class (MyClass.new) before using them.<br/>
+<br/>
+extend: When using extend, module methods are imported as class methods. Therefore, there's no need to instantiate the class before using said methods (MyClass.MyModuleMethod).<br/>
+<br/>
+prepend: Prepend is a lot like include. The only difference is that prepend overwrites the class methods if a name collision happen. Example: there's a run method on MyClass and a run method on MyModule. If one uses include MyModule on MyClass and runs MyClass.new.run, the class run function will be executed. If they decide to use prepend instead, the module run function will be executed.</body></html>

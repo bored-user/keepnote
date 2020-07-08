@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Usage</title>
+</head><body>To use the custom created enumerable object, one uses the each method:<br/>
+<br/>
+class Friends<ul><li style="list-style-type: none">include Enumerable</li>
+<li style="list-style-type: none">def each</li>
+<li style="list-style-type: none"><ul><li style="list-style-type: none">yield 'Friend 1'</li>
+<li style="list-style-type: none">yield 'Friend 2'</li>
+<li style="list-style-type: none">yield 'Friend 3'</li>
+</ul>
+</li>
+<li style="list-style-type: none">end</li>
+</ul>
+end<br/>
+<br/>
+friends = Friends.new<br/>
+friends.each do |friend|<ul><li style="list-style-type: none">puts "Friend name: #{friend}"&#09;&#09;# =&gt; 'Friend 1' 'Friend 2' 'Friend 3'</li>
+</ul>
+end</body></html>
