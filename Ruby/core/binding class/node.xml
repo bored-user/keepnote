@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Binding class</string>
+  <key>nodeid</key><string>0917c389-e347-436d-8a0a-34fd147e9a3e</string>
+  <key>modified_time</key><integer>1594508302</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1594508302</integer>
+  <key>order</key><integer>19</integer>
+</dict>
+</node>
