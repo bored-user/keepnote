@@ -1,0 +1,249 @@
+{
+	"formatVersion": 1,
+	"appVersion": "0.43.2",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "IcNtGBPtj3Gz",
+			"notePath": [
+				"IcNtGBPtj3Gz"
+			],
+			"title": "Haskell",
+			"notePosition": 20,
+			"prefix": null,
+			"isExpanded": 0,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [],
+			"format": "html",
+			"dirFileName": "Haskell",
+			"children": [
+				{
+					"isClone": false,
+					"noteId": "kEbIZTTrwSxg",
+					"notePath": [
+						"IcNtGBPtj3Gz",
+						"kEbIZTTrwSxg"
+					],
+					"title": "Comments",
+					"notePosition": 0,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Comments.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "LZ2B4yAm7IuP",
+					"notePath": [
+						"IcNtGBPtj3Gz",
+						"LZ2B4yAm7IuP"
+					],
+					"title": "Importing modules",
+					"notePosition": 10,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Importing modules.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "jggVgw51JAXF",
+					"notePath": [
+						"IcNtGBPtj3Gz",
+						"jggVgw51JAXF"
+					],
+					"title": "Data types",
+					"notePosition": 20,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Data types",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "hdsgSeOwuvew",
+							"notePath": [
+								"IcNtGBPtj3Gz",
+								"jggVgw51JAXF",
+								"hdsgSeOwuvew"
+							],
+							"title": "Int",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Int.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "ux5nkJcOei4l",
+							"notePath": [
+								"IcNtGBPtj3Gz",
+								"jggVgw51JAXF",
+								"ux5nkJcOei4l"
+							],
+							"title": "Integer",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Integer.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "VUdSVz9zF37N",
+							"notePath": [
+								"IcNtGBPtj3Gz",
+								"jggVgw51JAXF",
+								"VUdSVz9zF37N"
+							],
+							"title": "Float",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Float.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "pXdNXWDU1RoU",
+							"notePath": [
+								"IcNtGBPtj3Gz",
+								"jggVgw51JAXF",
+								"pXdNXWDU1RoU"
+							],
+							"title": "Double",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Double.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "HYUtPOkp4kgD",
+							"notePath": [
+								"IcNtGBPtj3Gz",
+								"jggVgw51JAXF",
+								"HYUtPOkp4kgD"
+							],
+							"title": "Bool",
+							"notePosition": 40,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Bool.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "D704xWYmOt9L",
+							"notePath": [
+								"IcNtGBPtj3Gz",
+								"jggVgw51JAXF",
+								"D704xWYmOt9L"
+							],
+							"title": "Char",
+							"notePosition": 50,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Char.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "ea10G4lhM9Vz",
+							"notePath": [
+								"IcNtGBPtj3Gz",
+								"jggVgw51JAXF",
+								"ea10G4lhM9Vz"
+							],
+							"title": "Tuples",
+							"notePosition": 60,
+							"prefix": null,
+							"isExpanded": 1,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Tuples.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "A4xcLvx3qbCY",
+					"notePath": [
+						"IcNtGBPtj3Gz",
+						"A4xcLvx3qbCY"
+					],
+					"title": "Functions",
+					"notePosition": 30,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Functions.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "DIH2ObBMEKnf",
+					"notePath": [
+						"IcNtGBPtj3Gz",
+						"DIH2ObBMEKnf"
+					],
+					"title": "Math",
+					"notePosition": 40,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Math.html"
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}
