@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    enum Email : int
+    {
+        Slow = 0,
+        Default = 1,
+        Fast = 2
+    }
+
+    public static void Main()
+    {
+        Console.WriteLine(Email.Fast)
+    }
+}

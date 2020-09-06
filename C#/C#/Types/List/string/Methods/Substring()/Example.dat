@@ -1,0 +1,11 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        string str = "0123";
+        Console.WriteLine(str.Substring(1)); // #=> "123"
+        Console.WriteLine(str.Substring(0, 2)); // #=> "012"
+    }
+}

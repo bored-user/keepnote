@@ -1,0 +1,49 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../../style.css">
+  </head>
+  
+  <body>
+     <h1>Signed vs Unsigned</h1>
+
+    <p>There are two types of numeric primitive types: <code>uT</code> and <code>T</code> (where <code>u</code> stands
+      for unsigned).</p>
+    <p>All data types can hold up to a maximum value <code>n</code>. The difference
+      between a signed and unsigned is that signed data types can hold from <code>-(n/2 + 0.5)</code> to <code>(n/2 - 0.5)</code>,
+      while unsigned data types can only hold positive values, from 0 to the
+      limit, <code>n</code>.</p>
+    <figure class="table">
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:center;width:50%;"><u>Signed</u>
+            </th>
+            <th style="text-align:center;width:50%;"><u>Unsigned</u>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>sbyte (-128 to 127)</td>
+            <td>byte (0 to 255)</td>
+          </tr>
+          <tr>
+            <td>short (-32,768 to 32,767)</td>
+            <td>ushort (0 to 65,535)</td>
+          </tr>
+          <tr>
+            <td>int (-2B to 2B)</td>
+            <td>uint (0 to 4B)</td>
+          </tr>
+          <tr>
+            <td>long (-9Q to 9Q)</td>
+            <td>ulong (0 to 18Q)</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+  </body>
+
+</html>

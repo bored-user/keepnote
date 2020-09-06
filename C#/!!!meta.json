@@ -1,0 +1,4723 @@
+{
+	"formatVersion": 1,
+	"appVersion": "0.43.2",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "Fe0iR3hk8fAn",
+			"notePath": [
+				"Fe0iR3hk8fAn"
+			],
+			"title": "C#",
+			"notePosition": 50,
+			"prefix": null,
+			"isExpanded": 0,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [],
+			"format": "html",
+			"dirFileName": "C#",
+			"children": [
+				{
+					"isClone": false,
+					"noteId": "o8watLuM2Wbm",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"o8watLuM2Wbm"
+					],
+					"title": "Types",
+					"notePosition": 0,
+					"prefix": null,
+					"isExpanded": 1,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Types.html",
+					"dirFileName": "Types",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "IWpzV3SOko2w",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"o8watLuM2Wbm",
+								"IWpzV3SOko2w"
+							],
+							"title": "Reference vs value",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "internalLink",
+									"value": "6Jf9wXYs8d3D",
+									"isInheritable": false,
+									"position": 2
+								}
+							],
+							"format": "html",
+							"dataFileName": "Reference vs value.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "DkxS4pIhLGGG",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"o8watLuM2Wbm",
+								"DkxS4pIhLGGG"
+							],
+							"title": "Primitive types",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "internalLink",
+									"value": "HE7VMY2bCocG",
+									"isInheritable": false,
+									"position": 1
+								}
+							],
+							"format": "html",
+							"dataFileName": "Primitive types.html",
+							"dirFileName": "Primitive types",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "OyvwXa1SSOyu",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"DkxS4pIhLGGG",
+										"OyvwXa1SSOyu"
+									],
+									"title": "Signed vs Unsigned",
+									"notePosition": 0,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Signed vs Unsigned.html"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "n6nQbiB8lyyu",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"o8watLuM2Wbm",
+								"n6nQbiB8lyyu"
+							],
+							"title": "Non-Primitive types",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Non-Primitive types.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "K7NGTwo1iE8d",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"o8watLuM2Wbm",
+								"K7NGTwo1iE8d"
+							],
+							"title": "Default values",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Default values.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "KdILJxIzV8Ql",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"o8watLuM2Wbm",
+								"KdILJxIzV8Ql"
+							],
+							"title": "Overflow",
+							"notePosition": 50,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "internalLink",
+									"value": "6wIzJrDGPhin",
+									"isInheritable": false,
+									"position": 1
+								}
+							],
+							"format": "html",
+							"dataFileName": "Overflow.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "sR9aUWPxQA0e",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"o8watLuM2Wbm",
+								"sR9aUWPxQA0e"
+							],
+							"title": "Arithmetic",
+							"notePosition": 60,
+							"prefix": null,
+							"isExpanded": 1,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Arithmetic.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "uMQKSo8X9ApS",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"o8watLuM2Wbm",
+								"uMQKSo8X9ApS"
+							],
+							"title": "Nullable value types",
+							"notePosition": 70,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Nullable value types.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "nHDrDz9Cao7z",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"o8watLuM2Wbm",
+								"nHDrDz9Cao7z"
+							],
+							"title": "Structs and classes",
+							"notePosition": 80,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Structs and classes.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "Sgo6PIaRvWMU",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"o8watLuM2Wbm",
+								"Sgo6PIaRvWMU"
+							],
+							"title": "Conversion",
+							"notePosition": 100,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dirFileName": "Conversion",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "OTktwAHvHEKO",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"Sgo6PIaRvWMU",
+										"OTktwAHvHEKO"
+									],
+									"title": "Implicit",
+									"notePosition": 0,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Implicit.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "ULQV7pXgcBRD",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"Sgo6PIaRvWMU",
+										"ULQV7pXgcBRD"
+									],
+									"title": "Explicit (casting)",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Explicit (casting).html"
+								},
+								{
+									"isClone": false,
+									"noteId": "Zo1WHRWvrHR0",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"Sgo6PIaRvWMU",
+										"Zo1WHRWvrHR0"
+									],
+									"title": "Non-compatible conversion",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "XoGQhQKNZBMe",
+											"isInheritable": false,
+											"position": 1
+										},
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "hgZyEhfamLBK",
+											"isInheritable": false,
+											"position": 2
+										}
+									],
+									"format": "html",
+									"dataFileName": "Non-compatible conversion.html"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "3hIFc098uzkL",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"o8watLuM2Wbm",
+								"3hIFc098uzkL"
+							],
+							"title": "List",
+							"notePosition": 110,
+							"prefix": null,
+							"isExpanded": 1,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dirFileName": "List",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "l6siwE36r8nK",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"3hIFc098uzkL",
+										"l6siwE36r8nK"
+									],
+									"title": "int",
+									"notePosition": 0,
+									"prefix": null,
+									"isExpanded": 1,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dirFileName": "int",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "GxwA54ERBde9",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"l6siwE36r8nK",
+												"GxwA54ERBde9"
+											],
+											"title": "Methods",
+											"notePosition": 0,
+											"prefix": null,
+											"isExpanded": 1,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Methods",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "Gjbo9tRYfgAm",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"l6siwE36r8nK",
+														"GxwA54ERBde9",
+														"Gjbo9tRYfgAm"
+													],
+													"title": "ToString()",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "imageLink",
+															"value": "92NlR63GP6ns",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
+													"format": "html",
+													"dataFileName": "ToString().html",
+													"dirFileName": "ToString()",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "92NlR63GP6ns",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"o8watLuM2Wbm",
+																"3hIFc098uzkL",
+																"l6siwE36r8nK",
+																"GxwA54ERBde9",
+																"Gjbo9tRYfgAm",
+																"92NlR63GP6ns"
+															],
+															"title": "ToString() overloads",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "image",
+															"mime": "image/jpg",
+															"attributes": [
+																{
+																	"type": "label",
+																	"name": "originalFileName",
+																	"value": "Screenshot from 2020-09-03 08-25-34.png",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"dataFileName": "ToString() overloads.dat"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "i6le3Bii458A",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"3hIFc098uzkL",
+										"i6le3Bii458A"
+									],
+									"title": "Static methods",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": 1,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dirFileName": "Static methods",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "gI0b8J7p1ggb",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"i6le3Bii458A",
+												"gI0b8J7p1ggb"
+											],
+											"title": "Parse()",
+											"notePosition": 0,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "3mmsTUMc3s3P",
+													"isInheritable": false,
+													"position": 1
+												}
+											],
+											"format": "html",
+											"dataFileName": "Parse().html"
+										},
+										{
+											"isClone": false,
+											"noteId": "GOiS0sJfZ0Fg",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"i6le3Bii458A",
+												"GOiS0sJfZ0Fg"
+											],
+											"title": "TryParse()",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "TryParse().html"
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "3mmsTUMc3s3P",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"3hIFc098uzkL",
+										"3mmsTUMc3s3P"
+									],
+									"title": "string",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": 1,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "string.html",
+									"dirFileName": "string",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "V6d8LZ1eJZx5",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"3mmsTUMc3s3P",
+												"V6d8LZ1eJZx5"
+											],
+											"title": "Concatenation",
+											"notePosition": 0,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Concatenation.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "CBitkBzACTBZ",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"3mmsTUMc3s3P",
+												"CBitkBzACTBZ"
+											],
+											"title": "Indexing",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Indexing.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "vTiOUD4QTQFK",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"3mmsTUMc3s3P",
+												"vTiOUD4QTQFK"
+											],
+											"title": "Modifiers",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Modifiers",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "rAzKuey5JR1b",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"vTiOUD4QTQFK",
+														"rAzKuey5JR1b"
+													],
+													"title": "Verbatim",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Verbatim.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "ayR6IqM5o2wW",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"vTiOUD4QTQFK",
+														"ayR6IqM5o2wW"
+													],
+													"title": "Interpolation",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Interpolation.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "LmBh5uSgNJmm",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"vTiOUD4QTQFK",
+														"LmBh5uSgNJmm"
+													],
+													"title": "Both",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": 1,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Both.html"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "JnC0AFlzhj1b",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"3mmsTUMc3s3P",
+												"JnC0AFlzhj1b"
+											],
+											"title": "Methods",
+											"notePosition": 50,
+											"prefix": null,
+											"isExpanded": 1,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Methods",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "2qGtciy3EuBb",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"2qGtciy3EuBb"
+													],
+													"title": "ToLower()",
+													"notePosition": 40,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "ToLower().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "D94Ujkn0uzI8",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"D94Ujkn0uzI8"
+													],
+													"title": "ToUpper()",
+													"notePosition": 50,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "ToUpper().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "Fr3et71iDq10",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"Fr3et71iDq10"
+													],
+													"title": "IndexOf()",
+													"notePosition": 60,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "IndexOf().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "11CIKZn75qkK",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"11CIKZn75qkK"
+													],
+													"title": "LastIndexOf()",
+													"notePosition": 70,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "LastIndexOf().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "7j2t8nZllb2O",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"7j2t8nZllb2O"
+													],
+													"title": "Substring()",
+													"notePosition": 80,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "h9GgPcN5EBFn",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
+													"format": "html",
+													"dataFileName": "Substring().html",
+													"dirFileName": "Substring()",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "pVyAVFf0KstF",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"o8watLuM2Wbm",
+																"3hIFc098uzkL",
+																"3mmsTUMc3s3P",
+																"JnC0AFlzhj1b",
+																"7j2t8nZllb2O",
+																"pVyAVFf0KstF"
+															],
+															"title": "Example",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "code",
+															"mime": "text/x-csharp",
+															"attributes": [],
+															"dataFileName": "Example.dat"
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "VIgRxkFR750l",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"VIgRxkFR750l"
+													],
+													"title": "Replace()",
+													"notePosition": 90,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "9gU2E1ep7JXt",
+															"isInheritable": false,
+															"position": 1
+														},
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "h9GgPcN5EBFn",
+															"isInheritable": false,
+															"position": 2
+														}
+													],
+													"format": "html",
+													"dataFileName": "Replace().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "OucVVQYeyzra",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"OucVVQYeyzra"
+													],
+													"title": "Split()",
+													"notePosition": 100,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "h9GgPcN5EBFn",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
+													"format": "html",
+													"dataFileName": "Split().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "KgGbK9UvKvmn",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"KgGbK9UvKvmn"
+													],
+													"title": "Trim()",
+													"notePosition": 110,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Trim().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "1tYdVOj4GLUA",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"1tYdVOj4GLUA"
+													],
+													"title": "Contains()",
+													"notePosition": 120,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Contains().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "JREw76lJs3Vo",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"JREw76lJs3Vo"
+													],
+													"title": "StartsWith()",
+													"notePosition": 130,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "StartsWith().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "OxIqiy0Kbr72",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"OxIqiy0Kbr72"
+													],
+													"title": "PadLeft()",
+													"notePosition": 140,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "PadLeft().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "1nOXMge7Ez82",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"JnC0AFlzhj1b",
+														"1nOXMge7Ez82"
+													],
+													"title": "PadRight()",
+													"notePosition": 150,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "PadRight().html"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "aJrteUvaILa6",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"3mmsTUMc3s3P",
+												"aJrteUvaILa6"
+											],
+											"title": "Static methods",
+											"notePosition": 60,
+											"prefix": null,
+											"isExpanded": 1,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Static methods",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "Ze88Bu9zv23y",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"aJrteUvaILa6",
+														"Ze88Bu9zv23y"
+													],
+													"title": "Format()",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Format().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "2oKBv0A3GC6c",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"aJrteUvaILa6",
+														"2oKBv0A3GC6c"
+													],
+													"title": "Join()",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Join().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "gUPV826JxJya",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"aJrteUvaILa6",
+														"gUPV826JxJya"
+													],
+													"title": "IsNullOrWhiteSpace()",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "uMQKSo8X9ApS",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
+													"format": "html",
+													"dataFileName": "IsNullOrWhiteSpace().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "rRZZYPNYKviE",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"3mmsTUMc3s3P",
+														"aJrteUvaILa6",
+														"rRZZYPNYKviE"
+													],
+													"title": "IsNullOrEmpty()",
+													"notePosition": 30,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "uMQKSo8X9ApS",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
+													"format": "html",
+													"dataFileName": "IsNullOrEmpty().html"
+												}
+											]
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "6Jf9wXYs8d3D",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"3hIFc098uzkL",
+										"6Jf9wXYs8d3D"
+									],
+									"title": "class",
+									"notePosition": 40,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "class.html",
+									"dirFileName": "class",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "NzBLNgR8ZewZ",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"6Jf9wXYs8d3D",
+												"NzBLNgR8ZewZ"
+											],
+											"title": "Creating a class",
+											"notePosition": 0,
+											"prefix": null,
+											"isExpanded": 1,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Creating a class.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "TNzB8dJFUvGu",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"6Jf9wXYs8d3D",
+												"TNzB8dJFUvGu"
+											],
+											"title": "Instantiating a class",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "includeNoteLink",
+													"value": "Vy7YOTcRvXrJ",
+													"isInheritable": false,
+													"position": 1
+												}
+											],
+											"format": "html",
+											"dataFileName": "Instantiating a class.html",
+											"dirFileName": "Instantiating a class",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "Vy7YOTcRvXrJ",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"6Jf9wXYs8d3D",
+														"TNzB8dJFUvGu",
+														"Vy7YOTcRvXrJ"
+													],
+													"title": "Example",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "code",
+													"mime": "text/x-csharp",
+													"attributes": [],
+													"dataFileName": "Example.dat"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "lu15bELFrlSN",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"6Jf9wXYs8d3D",
+												"lu15bELFrlSN"
+											],
+											"title": "Static",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Static.html"
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "HE7VMY2bCocG",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"3hIFc098uzkL",
+										"HE7VMY2bCocG"
+									],
+									"title": "struct",
+									"notePosition": 50,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "struct.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "k2ZdoMMjw17V",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"3hIFc098uzkL",
+										"k2ZdoMMjw17V"
+									],
+									"title": "array",
+									"notePosition": 60,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "array.html",
+									"dirFileName": "array",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "txAfgMwklSPk",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"k2ZdoMMjw17V",
+												"txAfgMwklSPk"
+											],
+											"title": "Creating",
+											"notePosition": 0,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "uMQKSo8X9ApS",
+													"isInheritable": false,
+													"position": 1
+												}
+											],
+											"format": "html",
+											"dataFileName": "Creating.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "G4fQS3UkCvFA",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"k2ZdoMMjw17V",
+												"G4fQS3UkCvFA"
+											],
+											"title": "Setting elements",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Setting elements.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "oXUSPTqMz7bh",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"k2ZdoMMjw17V",
+												"oXUSPTqMz7bh"
+											],
+											"title": "Accessing elements",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Accessing elements.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "InGadU4pok0T",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"k2ZdoMMjw17V",
+												"InGadU4pok0T"
+											],
+											"title": "Multi-dimensional arrays",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Multi-dimensional arrays.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "ZrCHe0ORnmTw",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"k2ZdoMMjw17V",
+												"ZrCHe0ORnmTw"
+											],
+											"title": "Jagged arrays",
+											"notePosition": 40,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "InGadU4pok0T",
+													"isInheritable": false,
+													"position": 1
+												}
+											],
+											"format": "html",
+											"dataFileName": "Jagged arrays.html"
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "rZCZ7r70ZStN",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"3hIFc098uzkL",
+										"rZCZ7r70ZStN"
+									],
+									"title": "enum",
+									"notePosition": 70,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "OyvwXa1SSOyu",
+											"isInheritable": false,
+											"position": 1
+										},
+										{
+											"type": "relation",
+											"name": "includeNoteLink",
+											"value": "oCaIRvtMke0D",
+											"isInheritable": false,
+											"position": 2
+										}
+									],
+									"format": "html",
+									"dataFileName": "enum.html",
+									"dirFileName": "enum",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "oCaIRvtMke0D",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"rZCZ7r70ZStN",
+												"oCaIRvtMke0D"
+											],
+											"title": "Example",
+											"notePosition": 0,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "code",
+											"mime": "text/x-csharp",
+											"attributes": [],
+											"dataFileName": "Example.dat"
+										},
+										{
+											"isClone": false,
+											"noteId": "6RU0HLSKwkkY",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"rZCZ7r70ZStN",
+												"6RU0HLSKwkkY"
+											],
+											"title": "Casting",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": 1,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "ULQV7pXgcBRD",
+													"isInheritable": false,
+													"position": 3
+												}
+											],
+											"format": "html",
+											"dataFileName": "Casting.html"
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "QTSzuZ067Ixd",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"3hIFc098uzkL",
+										"QTSzuZ067Ixd"
+									],
+									"title": "object",
+									"notePosition": 80,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "object.html"
+								}
+							]
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "iC1w7rvzVVI4",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"iC1w7rvzVVI4"
+					],
+					"title": "Operations",
+					"notePosition": 10,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "sR9aUWPxQA0e",
+							"isInheritable": false,
+							"position": 1
+						}
+					],
+					"format": "html",
+					"dataFileName": "Operations.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "IjAu8TU5GBKz",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"IjAu8TU5GBKz"
+					],
+					"title": "Variables",
+					"notePosition": 20,
+					"prefix": null,
+					"isExpanded": 1,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Variables.html",
+					"dirFileName": "Variables",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "PINf7VcMkj93",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"IjAu8TU5GBKz",
+								"PINf7VcMkj93"
+							],
+							"title": "Declaration",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "internalLink",
+									"value": "o8watLuM2Wbm",
+									"isInheritable": false,
+									"position": 1
+								}
+							],
+							"format": "html",
+							"dataFileName": "Declaration.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "QFvhRMZPvQqA",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"IjAu8TU5GBKz",
+								"QFvhRMZPvQqA"
+							],
+							"title": "Type inference",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Type inference.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "0NFCluseCzki",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"0NFCluseCzki"
+					],
+					"title": "Constants",
+					"notePosition": 30,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Constants.html",
+					"dirFileName": "Constants",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "lO1FKPlO9PgT",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"0NFCluseCzki",
+								"lO1FKPlO9PgT"
+							],
+							"title": "Declaration",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "internalLink",
+									"value": "IjAu8TU5GBKz",
+									"isInheritable": false,
+									"position": 1
+								}
+							],
+							"format": "html",
+							"dataFileName": "Declaration.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "O6NteA3a8KiH",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"O6NteA3a8KiH"
+					],
+					"title": "Comments",
+					"notePosition": 40,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Comments.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "e6daqdWjC9FQ",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"e6daqdWjC9FQ"
+					],
+					"title": "Scope",
+					"notePosition": 50,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Scope.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "yKofPWldwbew",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"yKofPWldwbew"
+					],
+					"title": "Conditionals",
+					"notePosition": 60,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Conditionals",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "3IUOcezliiIo",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"yKofPWldwbew",
+								"3IUOcezliiIo"
+							],
+							"title": "If/ else",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "If else.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "3ReJTPCSg7JM",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"yKofPWldwbew",
+								"3ReJTPCSg7JM"
+							],
+							"title": "Switch",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "internalLink",
+									"value": "NrJtmIe7noMA",
+									"isInheritable": false,
+									"position": 2
+								}
+							],
+							"format": "html",
+							"dataFileName": "Switch.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "zbjixzix43q3",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"yKofPWldwbew",
+								"zbjixzix43q3"
+							],
+							"title": "Ternary",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Ternary.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "5nWekq9HP73r",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"5nWekq9HP73r"
+					],
+					"title": "Loops",
+					"notePosition": 80,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Loops",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "898r54xXxTUU",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"5nWekq9HP73r",
+								"898r54xXxTUU"
+							],
+							"title": "For",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "For.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "uisnAjyV4lmQ",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"5nWekq9HP73r",
+								"uisnAjyV4lmQ"
+							],
+							"title": "Foreach",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Foreach.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "nHQ9HQgXahDZ",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"5nWekq9HP73r",
+								"nHQ9HQgXahDZ"
+							],
+							"title": "While",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "While.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "Ec7eEZhfWuBI",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"5nWekq9HP73r",
+								"Ec7eEZhfWuBI"
+							],
+							"title": "Do while",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Do while.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "NrJtmIe7noMA",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"5nWekq9HP73r",
+								"NrJtmIe7noMA"
+							],
+							"title": "Premature ending",
+							"notePosition": 40,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Premature ending.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "6wIzJrDGPhin",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"6wIzJrDGPhin"
+					],
+					"title": "Error handling",
+					"notePosition": 100,
+					"prefix": null,
+					"isExpanded": 1,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Error handling.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "h9GgPcN5EBFn",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"h9GgPcN5EBFn"
+					],
+					"title": "Method overload",
+					"notePosition": 110,
+					"prefix": null,
+					"isExpanded": 1,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [
+						{
+							"type": "relation",
+							"name": "includeNoteLink",
+							"value": "3Iy3rHsL9yc4",
+							"isInheritable": false,
+							"position": 1
+						}
+					],
+					"format": "html",
+					"dataFileName": "Method overload.html",
+					"dirFileName": "Method overload",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "3Iy3rHsL9yc4",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"h9GgPcN5EBFn",
+								"3Iy3rHsL9yc4"
+							],
+							"title": "Example",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "code",
+							"mime": "text/x-csharp",
+							"attributes": [],
+							"dataFileName": "Example.dat"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "2Hjvk060EVzX",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"2Hjvk060EVzX"
+					],
+					"title": "Namespaces",
+					"notePosition": 140,
+					"prefix": null,
+					"isExpanded": 1,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Namespaces",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "DV4fO8eDcCaU",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"2Hjvk060EVzX",
+								"DV4fO8eDcCaU"
+							],
+							"title": "List",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 1,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dirFileName": "List",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "XoGQhQKNZBMe",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"2Hjvk060EVzX",
+										"DV4fO8eDcCaU",
+										"XoGQhQKNZBMe"
+									],
+									"title": "System",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": 1,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dirFileName": "System",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "iFZRfoslI50C",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"2Hjvk060EVzX",
+												"DV4fO8eDcCaU",
+												"XoGQhQKNZBMe",
+												"iFZRfoslI50C"
+											],
+											"title": "Console",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Console.html",
+											"dirFileName": "Console",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "ycP01bzh5IeV",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"iFZRfoslI50C",
+														"ycP01bzh5IeV"
+													],
+													"title": "Methods",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 1,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Methods",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "HoNGoWIEhwtu",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"iFZRfoslI50C",
+																"ycP01bzh5IeV",
+																"HoNGoWIEhwtu"
+															],
+															"title": "WriteLine()",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "TVaJ7Tqw4a3J",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"format": "html",
+															"dataFileName": "WriteLine().html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "ELwuL0eUMN3t",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"2Hjvk060EVzX",
+												"DV4fO8eDcCaU",
+												"XoGQhQKNZBMe",
+												"ELwuL0eUMN3t"
+											],
+											"title": "Object",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Object.html",
+											"dirFileName": "Object",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "jI3ZPHhObVVa",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"ELwuL0eUMN3t",
+														"jI3ZPHhObVVa"
+													],
+													"title": "Methods",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 1,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Methods",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "TVaJ7Tqw4a3J",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"ELwuL0eUMN3t",
+																"jI3ZPHhObVVa",
+																"TVaJ7Tqw4a3J"
+															],
+															"title": "ToString()",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "ToString().html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "Pc2H8XBYAA4y",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"2Hjvk060EVzX",
+												"DV4fO8eDcCaU",
+												"XoGQhQKNZBMe",
+												"Pc2H8XBYAA4y"
+											],
+											"title": "Enum",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Enum",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "WK5ypMl0GbXE",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"Pc2H8XBYAA4y",
+														"WK5ypMl0GbXE"
+													],
+													"title": "Methods",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Methods",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "O5mn6wvikc8c",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"Pc2H8XBYAA4y",
+																"WK5ypMl0GbXE",
+																"O5mn6wvikc8c"
+															],
+															"title": "Parse()",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "ULQV7pXgcBRD",
+																	"isInheritable": false,
+																	"position": 1
+																},
+																{
+																	"type": "relation",
+																	"name": "includeNoteLink",
+																	"value": "l3F0jY8nHRqZ",
+																	"isInheritable": false,
+																	"position": 2
+																}
+															],
+															"format": "html",
+															"dataFileName": "Parse().html",
+															"dirFileName": "Parse()",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "l3F0jY8nHRqZ",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"Pc2H8XBYAA4y",
+																		"WK5ypMl0GbXE",
+																		"O5mn6wvikc8c",
+																		"l3F0jY8nHRqZ"
+																	],
+																	"title": "Example",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "code",
+																	"mime": "text/x-csharp",
+																	"attributes": [],
+																	"dataFileName": "Example.dat"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "hgZyEhfamLBK",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"2Hjvk060EVzX",
+												"DV4fO8eDcCaU",
+												"XoGQhQKNZBMe",
+												"hgZyEhfamLBK"
+											],
+											"title": "Convert",
+											"notePosition": 40,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "Zo1WHRWvrHR0",
+													"isInheritable": false,
+													"position": 1
+												}
+											],
+											"format": "html",
+											"dataFileName": "Convert.html",
+											"dirFileName": "Convert",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "wHrhtVp08ZVi",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"hgZyEhfamLBK",
+														"wHrhtVp08ZVi"
+													],
+													"title": "Methods",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 1,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Methods",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "UBBU934hEUcw",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"hgZyEhfamLBK",
+																"wHrhtVp08ZVi",
+																"UBBU934hEUcw"
+															],
+															"title": "ToByte()",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "ToByte().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "XWrOj1reKpDb",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"hgZyEhfamLBK",
+																"wHrhtVp08ZVi",
+																"XWrOj1reKpDb"
+															],
+															"title": "ToInt16()",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "ToInt16().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "nXPSqBiaJi5t",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"hgZyEhfamLBK",
+																"wHrhtVp08ZVi",
+																"nXPSqBiaJi5t"
+															],
+															"title": "ToInt32()",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "ToInt32().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "PWN66x15cO0Z",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"hgZyEhfamLBK",
+																"wHrhtVp08ZVi",
+																"PWN66x15cO0Z"
+															],
+															"title": "ToInt64()",
+															"notePosition": 30,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "ToInt64().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "zvmCmxvaVen3",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"hgZyEhfamLBK",
+																"wHrhtVp08ZVi",
+																"zvmCmxvaVen3"
+															],
+															"title": "ToBoolean()",
+															"notePosition": 40,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "ToBoolean().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "IfgNTEfqlLfT",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"hgZyEhfamLBK",
+																"wHrhtVp08ZVi",
+																"IfgNTEfqlLfT"
+															],
+															"title": "ToString()",
+															"notePosition": 50,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "ToString().html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "TKxluHDb8SDe",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"2Hjvk060EVzX",
+												"DV4fO8eDcCaU",
+												"XoGQhQKNZBMe",
+												"TKxluHDb8SDe"
+											],
+											"title": "Collections",
+											"notePosition": 50,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Collections",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "w3nLfJP4OXgn",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"TKxluHDb8SDe",
+														"w3nLfJP4OXgn"
+													],
+													"title": "Generic",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 1,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Generic",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "zmwq9DNbDzmu",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"TKxluHDb8SDe",
+																"w3nLfJP4OXgn",
+																"zmwq9DNbDzmu"
+															],
+															"title": "List",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "k2ZdoMMjw17V",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"format": "html",
+															"dataFileName": "List.html",
+															"dirFileName": "List",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "CIQORm9ghedm",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"TKxluHDb8SDe",
+																		"w3nLfJP4OXgn",
+																		"zmwq9DNbDzmu",
+																		"CIQORm9ghedm"
+																	],
+																	"title": "Constructor",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [
+																		{
+																			"type": "relation",
+																			"name": "internalLink",
+																			"value": "QFvhRMZPvQqA",
+																			"isInheritable": false,
+																			"position": 1
+																		}
+																	],
+																	"format": "html",
+																	"dataFileName": "Constructor.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "Z3wNuSQHnnMV",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"TKxluHDb8SDe",
+																		"w3nLfJP4OXgn",
+																		"zmwq9DNbDzmu",
+																		"Z3wNuSQHnnMV"
+																	],
+																	"title": "Methods",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 1,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dirFileName": "Methods",
+																	"children": [
+																		{
+																			"isClone": false,
+																			"noteId": "cKVnfU8bcWnO",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"zmwq9DNbDzmu",
+																				"Z3wNuSQHnnMV",
+																				"cKVnfU8bcWnO"
+																			],
+																			"title": "Insert",
+																			"notePosition": 0,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "Insert.html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "qSBKzVzboQeb",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"zmwq9DNbDzmu",
+																				"Z3wNuSQHnnMV",
+																				"qSBKzVzboQeb"
+																			],
+																			"title": "Add",
+																			"notePosition": 10,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "Add.html"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "tzmjFvg9klmz",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"2Hjvk060EVzX",
+												"DV4fO8eDcCaU",
+												"XoGQhQKNZBMe",
+												"tzmjFvg9klmz"
+											],
+											"title": "Text",
+											"notePosition": 60,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Text",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "9gU2E1ep7JXt",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"tzmjFvg9klmz",
+														"9gU2E1ep7JXt"
+													],
+													"title": "RegularExpressions",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "RegularExpressions",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "hSre5fAJugCc",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"tzmjFvg9klmz",
+																"9gU2E1ep7JXt",
+																"hSre5fAJugCc"
+															],
+															"title": "Constructor",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Constructor.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "L4om1JYAqYOw",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"tzmjFvg9klmz",
+																"9gU2E1ep7JXt",
+																"L4om1JYAqYOw"
+															],
+															"title": "Static methods",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Static methods",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "yUuKTIms6Tif",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"tzmjFvg9klmz",
+																		"9gU2E1ep7JXt",
+																		"L4om1JYAqYOw",
+																		"yUuKTIms6Tif"
+																	],
+																	"title": "Matches",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Matches.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "wTLYXydF1JOK",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"tzmjFvg9klmz",
+																		"9gU2E1ep7JXt",
+																		"L4om1JYAqYOw",
+																		"wTLYXydF1JOK"
+																	],
+																	"title": "Match",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Match.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "u8qFjCeWWXlt",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"tzmjFvg9klmz",
+																"9gU2E1ep7JXt",
+																"u8qFjCeWWXlt"
+															],
+															"title": "Methods",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Methods",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "jej2xGIErzFs",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"tzmjFvg9klmz",
+																		"9gU2E1ep7JXt",
+																		"u8qFjCeWWXlt",
+																		"jej2xGIErzFs"
+																	],
+																	"title": "Matches",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Matches.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "VqieX1e1mqhB",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"tzmjFvg9klmz",
+																		"9gU2E1ep7JXt",
+																		"u8qFjCeWWXlt",
+																		"VqieX1e1mqhB"
+																	],
+																	"title": "Match",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Match.html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "I1clbDWcHvmv",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"tzmjFvg9klmz",
+														"I1clbDWcHvmv"
+													],
+													"title": "StringBuilder",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": 1,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "StringBuilder.html",
+													"dirFileName": "StringBuilder",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "yuU7HwwhkRF7",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"tzmjFvg9klmz",
+																"I1clbDWcHvmv",
+																"yuU7HwwhkRF7"
+															],
+															"title": "Methods",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Methods.html",
+															"dirFileName": "Methods",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "4t1P2ARUfSmd",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"tzmjFvg9klmz",
+																		"I1clbDWcHvmv",
+																		"yuU7HwwhkRF7",
+																		"4t1P2ARUfSmd"
+																	],
+																	"title": "Append()",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 1,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Append().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "GbY79tkwiaK0",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"tzmjFvg9klmz",
+																		"I1clbDWcHvmv",
+																		"yuU7HwwhkRF7",
+																		"GbY79tkwiaK0"
+																	],
+																	"title": "AppendLin",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "AppendLin.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "Dg1VOfnXbwKs",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"tzmjFvg9klmz",
+																		"I1clbDWcHvmv",
+																		"yuU7HwwhkRF7",
+																		"Dg1VOfnXbwKs"
+																	],
+																	"title": "Insert()",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Insert().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "L4hzTLS5zK8G",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"tzmjFvg9klmz",
+																		"I1clbDWcHvmv",
+																		"yuU7HwwhkRF7",
+																		"L4hzTLS5zK8G"
+																	],
+																	"title": "Remove()",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Remove().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "qWIbAa2IpkRH",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"tzmjFvg9klmz",
+																		"I1clbDWcHvmv",
+																		"yuU7HwwhkRF7",
+																		"qWIbAa2IpkRH"
+																	],
+																	"title": "Replace()",
+																	"notePosition": 40,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Replace().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "EPsIskglRTXn",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"tzmjFvg9klmz",
+																		"I1clbDWcHvmv",
+																		"yuU7HwwhkRF7",
+																		"EPsIskglRTXn"
+																	],
+																	"title": "Clear()",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Clear().html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "xj9ELZAqmO62",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"tzmjFvg9klmz",
+														"xj9ELZAqmO62"
+													],
+													"title": "Constructor",
+													"notePosition": 30,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Constructor.html"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "5oaIOdLoHpZI",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"2Hjvk060EVzX",
+												"DV4fO8eDcCaU",
+												"XoGQhQKNZBMe",
+												"5oaIOdLoHpZI"
+											],
+											"title": "DateTime",
+											"notePosition": 70,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "DateTime",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "gzRhEq8OW3eS",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"5oaIOdLoHpZI",
+														"gzRhEq8OW3eS"
+													],
+													"title": "Constructor",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "h9GgPcN5EBFn",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
+													"format": "html",
+													"dataFileName": "Constructor.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "lk6R4qUhlpio",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"5oaIOdLoHpZI",
+														"lk6R4qUhlpio"
+													],
+													"title": "Properties",
+													"notePosition": 30,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Properties",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "fndx5OKjA7rv",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"5oaIOdLoHpZI",
+																"lk6R4qUhlpio",
+																"fndx5OKjA7rv"
+															],
+															"title": "Now",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Now.html",
+															"dirFileName": "Now",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "021Yg9009TXw",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"5oaIOdLoHpZI",
+																		"lk6R4qUhlpio",
+																		"fndx5OKjA7rv",
+																		"021Yg9009TXw"
+																	],
+																	"title": "Hour",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Hour.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "gJxEFAncGkHr",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"5oaIOdLoHpZI",
+																		"lk6R4qUhlpio",
+																		"fndx5OKjA7rv",
+																		"gJxEFAncGkHr"
+																	],
+																	"title": "Minute",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Minute.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "wXAJMFcM3AGI",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"5oaIOdLoHpZI",
+																		"lk6R4qUhlpio",
+																		"fndx5OKjA7rv",
+																		"wXAJMFcM3AGI"
+																	],
+																	"title": "Second",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Second.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "W7J7GnEPBsz5",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"5oaIOdLoHpZI",
+																		"lk6R4qUhlpio",
+																		"fndx5OKjA7rv",
+																		"W7J7GnEPBsz5"
+																	],
+																	"title": "Methods",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dirFileName": "Methods",
+																	"children": [
+																		{
+																			"isClone": false,
+																			"noteId": "op8B9jhAu4LT",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"5oaIOdLoHpZI",
+																				"lk6R4qUhlpio",
+																				"fndx5OKjA7rv",
+																				"W7J7GnEPBsz5",
+																				"op8B9jhAu4LT"
+																			],
+																			"title": "AddDays",
+																			"notePosition": 0,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "AddDays.html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "apSjoxTLD4Am",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"5oaIOdLoHpZI",
+																				"lk6R4qUhlpio",
+																				"fndx5OKjA7rv",
+																				"W7J7GnEPBsz5",
+																				"apSjoxTLD4Am"
+																			],
+																			"title": "ToLongDateString()",
+																			"notePosition": 10,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "ToLongDateString().html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "uRMkd0PUZGl8",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"5oaIOdLoHpZI",
+																				"lk6R4qUhlpio",
+																				"fndx5OKjA7rv",
+																				"W7J7GnEPBsz5",
+																				"uRMkd0PUZGl8"
+																			],
+																			"title": "ToShortDateString()",
+																			"notePosition": 20,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "ToShortDateString().html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "Xop7QlfcSY1g",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"5oaIOdLoHpZI",
+																				"lk6R4qUhlpio",
+																				"fndx5OKjA7rv",
+																				"W7J7GnEPBsz5",
+																				"Xop7QlfcSY1g"
+																			],
+																			"title": "ToLongTimeString()",
+																			"notePosition": 30,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "ToLongTimeString().html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "9D6D21CvIYYm",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"5oaIOdLoHpZI",
+																				"lk6R4qUhlpio",
+																				"fndx5OKjA7rv",
+																				"W7J7GnEPBsz5",
+																				"9D6D21CvIYYm"
+																			],
+																			"title": "ToShortTimeString()",
+																			"notePosition": 40,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "ToShortTimeString().html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "yYfDcoj3jLkU",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"5oaIOdLoHpZI",
+																				"lk6R4qUhlpio",
+																				"fndx5OKjA7rv",
+																				"W7J7GnEPBsz5",
+																				"yYfDcoj3jLkU"
+																			],
+																			"title": "ToString()",
+																			"notePosition": 50,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "ToString().html"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "sGaHXPCzdMuT",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"5oaIOdLoHpZI",
+																"lk6R4qUhlpio",
+																"sGaHXPCzdMuT"
+															],
+															"title": "Today",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Today.html"
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "VtAclmp69i3h",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"5oaIOdLoHpZI",
+														"VtAclmp69i3h"
+													],
+													"title": "Subtracting DateTime objects",
+													"notePosition": 50,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "kyxySRxyMRR0",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
+													"format": "html",
+													"dataFileName": "Subtracting DateTime objects.html"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "kyxySRxyMRR0",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"2Hjvk060EVzX",
+												"DV4fO8eDcCaU",
+												"XoGQhQKNZBMe",
+												"kyxySRxyMRR0"
+											],
+											"title": "TimeSpan",
+											"notePosition": 80,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "TimeSpan.html",
+											"dirFileName": "TimeSpan",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "jKIjek3CQ6Nx",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"kyxySRxyMRR0",
+														"jKIjek3CQ6Nx"
+													],
+													"title": "Constructor",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Constructor.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "BplXpg8VVV15",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"kyxySRxyMRR0",
+														"BplXpg8VVV15"
+													],
+													"title": "Methods",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Methods",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "cXnqdeEWIDlS",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"BplXpg8VVV15",
+																"cXnqdeEWIDlS"
+															],
+															"title": "FromDays()",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "FromDays().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "7Qr9Vi8ianKE",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"BplXpg8VVV15",
+																"7Qr9Vi8ianKE"
+															],
+															"title": "FromHours()",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "FromHours().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "nO17Jb8uAyzx",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"BplXpg8VVV15",
+																"nO17Jb8uAyzx"
+															],
+															"title": "FromMinutes()",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "FromMinutes().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "Czh2X8kxSVz3",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"BplXpg8VVV15",
+																"Czh2X8kxSVz3"
+															],
+															"title": "FromSeconds()",
+															"notePosition": 50,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "FromSeconds().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "CFKXncbnwDjG",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"BplXpg8VVV15",
+																"CFKXncbnwDjG"
+															],
+															"title": "FromMilliseconds()",
+															"notePosition": 60,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "FromMilliseconds().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "T2ivcFjZNqJs",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"BplXpg8VVV15",
+																"T2ivcFjZNqJs"
+															],
+															"title": "FromTicks()",
+															"notePosition": 80,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "FromTicks().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "wOpNAF4sZV2V",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"BplXpg8VVV15",
+																"wOpNAF4sZV2V"
+															],
+															"title": "Add()",
+															"notePosition": 90,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Add().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "bou02z3TJuiM",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"BplXpg8VVV15",
+																"bou02z3TJuiM"
+															],
+															"title": "Subtract()",
+															"notePosition": 100,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Subtract().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "nVZQ6tNAzwzd",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"BplXpg8VVV15",
+																"nVZQ6tNAzwzd"
+															],
+															"title": "Parse()",
+															"notePosition": 110,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Parse().html"
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "MwoJ5PXLxckx",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"kyxySRxyMRR0",
+														"MwoJ5PXLxckx"
+													],
+													"title": "Properties",
+													"notePosition": 30,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Properties",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "YoXV3T2KPakE",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"MwoJ5PXLxckx",
+																"YoXV3T2KPakE"
+															],
+															"title": "Minutes",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Minutes.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "RrL5BpKewjr3",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"MwoJ5PXLxckx",
+																"RrL5BpKewjr3"
+															],
+															"title": "Hours",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Hours.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "b6sS8P2eBtqh",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"MwoJ5PXLxckx",
+																"b6sS8P2eBtqh"
+															],
+															"title": "Seconds",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Seconds.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "SnDpVDufTJ1G",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"MwoJ5PXLxckx",
+																"SnDpVDufTJ1G"
+															],
+															"title": "Milliseconds",
+															"notePosition": 30,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Milliseconds.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "svHnUu81yYKF",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"MwoJ5PXLxckx",
+																"svHnUu81yYKF"
+															],
+															"title": "TotalMinutes",
+															"notePosition": 40,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "TotalMinutes.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "a5bl7y3X1kB4",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"MwoJ5PXLxckx",
+																"a5bl7y3X1kB4"
+															],
+															"title": "TotalHours",
+															"notePosition": 50,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "TotalHours.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "SzqbgkZTRTSc",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"MwoJ5PXLxckx",
+																"SzqbgkZTRTSc"
+															],
+															"title": "TotalSeconds",
+															"notePosition": 60,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "TotalSeconds.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "2IvXqeCeIXQz",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"kyxySRxyMRR0",
+																"MwoJ5PXLxckx",
+																"2IvXqeCeIXQz"
+															],
+															"title": "TotalMilliseconds",
+															"notePosition": 70,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "TotalMilliseconds.html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "rqkOKsleQCBf",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"2Hjvk060EVzX",
+												"DV4fO8eDcCaU",
+												"XoGQhQKNZBMe",
+												"rqkOKsleQCBf"
+											],
+											"title": "IO",
+											"notePosition": 90,
+											"prefix": null,
+											"isExpanded": 1,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "IO.html",
+											"dirFileName": "IO",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "jZpRFDj5gKyK",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"rqkOKsleQCBf",
+														"jZpRFDj5gKyK"
+													],
+													"title": "File",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "83ZegfN5RpIC",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
+													"format": "html",
+													"dataFileName": "File.html",
+													"dirFileName": "File",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "Q28jroaFIuAX",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"rqkOKsleQCBf",
+																"jZpRFDj5gKyK",
+																"Q28jroaFIuAX"
+															],
+															"title": "Methods",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Methods",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "4tqvw9wx06SE",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"jZpRFDj5gKyK",
+																		"Q28jroaFIuAX",
+																		"4tqvw9wx06SE"
+																	],
+																	"title": "Create()",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Create().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "yPmPivhy6RZ2",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"jZpRFDj5gKyK",
+																		"Q28jroaFIuAX",
+																		"yPmPivhy6RZ2"
+																	],
+																	"title": "Copy()",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 1,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Copy().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "LnO0QxTMeB0W",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"jZpRFDj5gKyK",
+																		"Q28jroaFIuAX",
+																		"LnO0QxTMeB0W"
+																	],
+																	"title": "Move()",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Move().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "RLBcs7VkiLKq",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"jZpRFDj5gKyK",
+																		"Q28jroaFIuAX",
+																		"RLBcs7VkiLKq"
+																	],
+																	"title": "ReadAllText()",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "ReadAllText().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "dyUK26iZPYm5",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"jZpRFDj5gKyK",
+																		"Q28jroaFIuAX",
+																		"dyUK26iZPYm5"
+																	],
+																	"title": "Exists()",
+																	"notePosition": 40,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Exists().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "18roIttIsV1s",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"jZpRFDj5gKyK",
+																		"Q28jroaFIuAX",
+																		"18roIttIsV1s"
+																	],
+																	"title": "GetAttributes()",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [
+																		{
+																			"type": "relation",
+																			"name": "includeNoteLink",
+																			"value": "RPcWj1fZJO2l",
+																			"isInheritable": false,
+																			"position": 1
+																		}
+																	],
+																	"format": "html",
+																	"dataFileName": "GetAttributes().html",
+																	"dirFileName": "GetAttributes()",
+																	"children": [
+																		{
+																			"isClone": false,
+																			"noteId": "RPcWj1fZJO2l",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"rqkOKsleQCBf",
+																				"jZpRFDj5gKyK",
+																				"Q28jroaFIuAX",
+																				"18roIttIsV1s",
+																				"RPcWj1fZJO2l"
+																			],
+																			"title": "Example",
+																			"notePosition": 0,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "code",
+																			"mime": "text/x-csharp",
+																			"attributes": [],
+																			"dataFileName": "Example.dat"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "83ZegfN5RpIC",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"rqkOKsleQCBf",
+														"83ZegfN5RpIC"
+													],
+													"title": "FileInfo",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "jZpRFDj5gKyK",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
+													"format": "html",
+													"dataFileName": "FileInfo.html",
+													"dirFileName": "FileInfo",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "bsIwtFAsg8IA",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"rqkOKsleQCBf",
+																"83ZegfN5RpIC",
+																"bsIwtFAsg8IA"
+															],
+															"title": "Constructor",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Constructor.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "XwJk50diOPkz",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"rqkOKsleQCBf",
+																"83ZegfN5RpIC",
+																"XwJk50diOPkz"
+															],
+															"title": "Methods",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Methods",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "UFHvQSOHXZ0l",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"83ZegfN5RpIC",
+																		"XwJk50diOPkz",
+																		"UFHvQSOHXZ0l"
+																	],
+																	"title": "Create()",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Create().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "3EVBlDTmnA7G",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"83ZegfN5RpIC",
+																		"XwJk50diOPkz",
+																		"3EVBlDTmnA7G"
+																	],
+																	"title": "CopyTo()",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 1,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "CopyTo().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "PPldAWAEIFIh",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"83ZegfN5RpIC",
+																		"XwJk50diOPkz",
+																		"PPldAWAEIFIh"
+																	],
+																	"title": "MoveTo()",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "MoveTo().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "w4W2C8aYrAnr",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"83ZegfN5RpIC",
+																		"XwJk50diOPkz",
+																		"w4W2C8aYrAnr"
+																	],
+																	"title": "Delete()",
+																	"notePosition": 40,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Delete().html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "8JzRAu3WwXBT",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"rqkOKsleQCBf",
+																"83ZegfN5RpIC",
+																"8JzRAu3WwXBT"
+															],
+															"title": "Properties",
+															"notePosition": 30,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Properties",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "8Vm4gS2sFMfg",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"83ZegfN5RpIC",
+																		"8JzRAu3WwXBT",
+																		"8Vm4gS2sFMfg"
+																	],
+																	"title": "Exists",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Exists.html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "KIuJU5lEj4NT",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"rqkOKsleQCBf",
+														"KIuJU5lEj4NT"
+													],
+													"title": "Directory",
+													"notePosition": 50,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "NYp9P4Mp64kK",
+															"isInheritable": false,
+															"position": 2
+														}
+													],
+													"format": "html",
+													"dataFileName": "Directory.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "NYp9P4Mp64kK",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"rqkOKsleQCBf",
+														"NYp9P4Mp64kK"
+													],
+													"title": "DirectoryInfo",
+													"notePosition": 60,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "KIuJU5lEj4NT",
+															"isInheritable": false,
+															"position": 4
+														}
+													],
+													"format": "html",
+													"dataFileName": "DirectoryInfo.html",
+													"dirFileName": "DirectoryInfo",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "W8qmpxlzXStA",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"rqkOKsleQCBf",
+																"NYp9P4Mp64kK",
+																"W8qmpxlzXStA"
+															],
+															"title": "Methods",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Methods",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "wzibaKkebMh1",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"NYp9P4Mp64kK",
+																		"W8qmpxlzXStA",
+																		"wzibaKkebMh1"
+																	],
+																	"title": "CreateDirectory()",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 1,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "CreateDirectory().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "viUpavHSBQz7",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"NYp9P4Mp64kK",
+																		"W8qmpxlzXStA",
+																		"viUpavHSBQz7"
+																	],
+																	"title": "Exists()",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Exists().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "YIov2v1qybJo",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"NYp9P4Mp64kK",
+																		"W8qmpxlzXStA",
+																		"YIov2v1qybJo"
+																	],
+																	"title": "Delete()",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Delete().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "UoCzjUyvJ4OC",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"NYp9P4Mp64kK",
+																		"W8qmpxlzXStA",
+																		"UoCzjUyvJ4OC"
+																	],
+																	"title": "GetCurrentDirectory()",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetCurrentDirectory().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "u9a3XU7ytVTx",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"NYp9P4Mp64kK",
+																		"W8qmpxlzXStA",
+																		"u9a3XU7ytVTx"
+																	],
+																	"title": "GetFiles()",
+																	"notePosition": 40,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetFiles().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "zA8EGBwTUk6U",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"NYp9P4Mp64kK",
+																		"W8qmpxlzXStA",
+																		"zA8EGBwTUk6U"
+																	],
+																	"title": "Move()",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Move().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "cy4uh2gLiVqQ",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"NYp9P4Mp64kK",
+																		"W8qmpxlzXStA",
+																		"cy4uh2gLiVqQ"
+																	],
+																	"title": "GetLogicalDrivers()",
+																	"notePosition": 60,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetLogicalDrivers().html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "4iNC6zAfUkT0",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"2Hjvk060EVzX",
+														"DV4fO8eDcCaU",
+														"XoGQhQKNZBMe",
+														"rqkOKsleQCBf",
+														"4iNC6zAfUkT0"
+													],
+													"title": "Path",
+													"notePosition": 70,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Path.html",
+													"dirFileName": "Path",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "eP0tyn3JQ10r",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"rqkOKsleQCBf",
+																"4iNC6zAfUkT0",
+																"eP0tyn3JQ10r"
+															],
+															"title": "Methods",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Methods",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "vpvUNlnNlgJ6",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"4iNC6zAfUkT0",
+																		"eP0tyn3JQ10r",
+																		"vpvUNlnNlgJ6"
+																	],
+																	"title": "GetDirectoryName()",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetDirectoryName().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "rpKp8JHgxe8f",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"4iNC6zAfUkT0",
+																		"eP0tyn3JQ10r",
+																		"rpKp8JHgxe8f"
+																	],
+																	"title": "GetFileName()",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetFileName().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "n8pu94ODJomC",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"4iNC6zAfUkT0",
+																		"eP0tyn3JQ10r",
+																		"n8pu94ODJomC"
+																	],
+																	"title": "GetExtension()",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetExtension().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "JQAUoPgOYjRD",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"4iNC6zAfUkT0",
+																		"eP0tyn3JQ10r",
+																		"JQAUoPgOYjRD"
+																	],
+																	"title": "GetTempPath()",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetTempPath().html"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}

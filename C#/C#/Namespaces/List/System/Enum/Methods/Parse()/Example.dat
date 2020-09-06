@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    public enum MyEnum
+    {
+        MyProp = 1
+    }
+    
+    public static void Main()
+    {
+        string key = "MyProp";
+        enum type = typeof(MyEnum);
+        (MyEnum)Enum.parse(type, key);
+    }
+}
