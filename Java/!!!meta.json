@@ -1,0 +1,70 @@
+{
+	"formatVersion": 1,
+	"appVersion": "0.43.2",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "0Cd6k5phxRMC",
+			"notePath": [
+				"0Cd6k5phxRMC"
+			],
+			"title": "Java",
+			"notePosition": 70,
+			"prefix": null,
+			"isExpanded": 0,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [],
+			"format": "html",
+			"dirFileName": "Java",
+			"children": [
+				{
+					"isClone": false,
+					"noteId": "L6abH1hw4TcK",
+					"notePath": [
+						"0Cd6k5phxRMC",
+						"L6abH1hw4TcK"
+					],
+					"title": "Entry point",
+					"notePosition": 0,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Entry point.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "ZHHMJ8URd9XI",
+					"notePath": [
+						"0Cd6k5phxRMC",
+						"ZHHMJ8URd9XI"
+					],
+					"title": "Interpreted vs Compiled",
+					"notePosition": 10,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Interpreted vs Compiled.html"
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}
