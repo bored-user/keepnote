@@ -1,0 +1,30 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../../style.css">
+  </head>
+  
+  <body>
+     <h1>Prematurely ending loops </h1>
+
+    <p>It's also possible to exit loops before the specified condition is met
+      or even stop the current iteration and go to the next one using the <code>break</code> and <code>next</code> keywords.</p>
+    <p>The first will stop the loop completely and continue parsing the code
+      from bellow it. The second stops the current iteration and continue running
+      the loop (same effect as the <code>continue</code> keyword in most programming
+      languages).</p>
+    <p>&nbsp;</p><pre><code class="language-text-x-ruby">arr = %w[r u b y]
+for char in arr
+	next if char == 'b'
+	puts char #=&gt; 'r' 'u' 'y'
+end
+
+for char in arr
+	break if char == 'b'
+	puts char #=&gt; 'r' 'u'
+end</code></pre>
+
+  </body>
+
+</html>

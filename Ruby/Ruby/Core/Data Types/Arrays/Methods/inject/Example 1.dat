@@ -1,0 +1,6 @@
+arr = [1, 2, 3, 4, 5]
+sum = arr.inject(0) {|acc, n| acc += n}
+prod = arr.inject(0) {|acc, n| acc *= n}
+
+puts sum, prod
+#=> 15, 120

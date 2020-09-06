@@ -1,0 +1,20 @@
+a = 10
+a %= 2
+puts a #=> 0
+
+a = 10
+a **= 2
+puts a #=> 100
+
+a = 10
+a ||= 10
+puts a #=> 10
+
+a = 10
+a &&= 500
+puts a #=> 500
+
+=begin
+    -> ||= means: if `var` doesn't exist, is false or nil, assign `value` to it.
+    -> &&= means: if `var` exist and isn't false nor nil, assign `value` to it.
+=end

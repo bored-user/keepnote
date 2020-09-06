@@ -1,0 +1,14 @@
+str = 'a\n' # simulating user input
+puts str.chomp #=> 'a'
+
+str = 'a'
+puts str.chomp #=> 'a'
+
+str = 'joaoo'
+puts str.chomp('o') #=> 'joao'
+
+str = 'abc'
+puts str.chomp('b') #=> 'abc', because it didn't find 'b' at the end of the string
+
+str = 'abc'
+puts str.chomp('bc') #=> 'a'

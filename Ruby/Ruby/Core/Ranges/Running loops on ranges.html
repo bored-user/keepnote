@@ -1,0 +1,19 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../../style.css">
+  </head>
+  
+  <body>
+     <h1>Running loops on ranges</h1>
+
+    <p>When one's purpose is to run a <a href="../Loops">loop</a>, like <code>each</code> using
+      a range as ‘callee’ (or ‘receiver’), it's necessary to surround the range
+      in a parentheses block, to tell Ruby that said loop is being run on the
+      range itself, not on the final number/ character.</p><pre><code class="language-text-x-ruby">(0..5).each
+('a'..'z').each</code></pre>
+
+  </body>
+
+</html>

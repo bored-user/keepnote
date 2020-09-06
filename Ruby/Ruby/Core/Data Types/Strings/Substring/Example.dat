@@ -1,0 +1,5 @@
+str = 'hello'
+
+puts str[0] #=> 'h'
+puts str[0, 2] #=> 'he'
+puts str[-1] #=> 'o'

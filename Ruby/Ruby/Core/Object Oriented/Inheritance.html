@@ -1,0 +1,36 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../../style.css">
+  </head>
+  
+  <body>
+     <h1>Inheritance</h1>
+
+    <p>Inheritance in Ruby can be done through the <code>&gt;</code> operator:</p><pre><code class="language-text-x-ruby">class Animal
+	def eat
+		'I am eating...'
+	end
+end
+
+class Dog &lt; Animal
+	def make_sound
+		'Au Au'
+	end
+end
+
+class Rex &lt; Dog
+	def say_name
+		'Au au au Rex'
+	end
+end
+
+rex = Rex.new
+rex.eat #=&gt; 'I am eating...'
+rex.make_sound #=&gt; 'Au Au'
+rex.say_name #=&gt; 'Au au au Rex'</code></pre>
+
+  </body>
+
+</html>

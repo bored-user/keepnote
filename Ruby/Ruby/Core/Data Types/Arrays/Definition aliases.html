@@ -1,0 +1,27 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../../../style.css">
+  </head>
+  
+  <body>
+     <h1>Definition aliases</h1>
+
+    <p>There are two array definition aliases:</p>
+    <ol>
+      <li>%w</li>
+      <li>%W</li>
+    </ol>
+    <p>Both are used when an array contain only strings and are the correct way
+      (to define a word only array) according to conventions.</p>
+    <p>&nbsp;</p>
+    <p><code>%w</code> should be used when the array elements should be surrounded
+      in single quotes, while <code>%w</code>, when in double quotes.</p>
+    <p>&nbsp;</p><pre><code class="language-text-x-ruby">name = 'joao'
+interpol_arr = %W[#{name}] #=&gt; ['joao']
+non_interpol_arr = %w[a b c] #=&gt; ['a', 'b', 'c']</code></pre>
+
+  </body>
+
+</html>
