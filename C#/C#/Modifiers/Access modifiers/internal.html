@@ -1,0 +1,22 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../../style.css">
+  </head>
+  
+  <body>
+     <h1>internal</h1>
+
+    <p>Available only on the same assembly (namespace).</p>
+    <p>It's supposed to be used with <code>classes</code> as opposed to modifiers
+      like <code>public</code>, <code>private</code> and etc.</p>
+    <p>Its opposite is <code>public</code>.</p><pre><code class="language-text-x-csharp">public class Program // #=&gt; is available to every file that is compiled with the current
+{}
+
+internal class Clazz // #=&gt; available only on the same file
+{} </code></pre>
+
+  </body>
+
+</html>

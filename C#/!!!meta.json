@@ -1,6 +1,6 @@
 {
 	"formatVersion": 1,
-	"appVersion": "0.43.2",
+	"appVersion": "0.44.1-beta",
 	"files": [
 		{
 			"isClone": false,
@@ -28,7 +28,7 @@
 					"title": "Types",
 					"notePosition": 0,
 					"prefix": null,
-					"isExpanded": 1,
+					"isExpanded": 0,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [],
@@ -44,7 +44,7 @@
 								"o8watLuM2Wbm",
 								"IWpzV3SOko2w"
 							],
-							"title": "Reference vs value",
+							"title": "Reference vs value type",
 							"notePosition": 0,
 							"prefix": null,
 							"isExpanded": 0,
@@ -60,7 +60,7 @@
 								}
 							],
 							"format": "html",
-							"dataFileName": "Reference vs value.html"
+							"dataFileName": "Reference vs value type.html"
 						},
 						{
 							"isClone": false,
@@ -183,7 +183,7 @@
 							"title": "Arithmetic",
 							"notePosition": 60,
 							"prefix": null,
-							"isExpanded": 1,
+							"isExpanded": 0,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
@@ -329,7 +329,7 @@
 							"title": "List",
 							"notePosition": 110,
 							"prefix": null,
-							"isExpanded": 1,
+							"isExpanded": 0,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
@@ -348,7 +348,7 @@
 									"title": "int",
 									"notePosition": 0,
 									"prefix": null,
-									"isExpanded": 1,
+									"isExpanded": 0,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [],
@@ -368,7 +368,7 @@
 											"title": "Methods",
 											"notePosition": 0,
 											"prefix": null,
-											"isExpanded": 1,
+											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
@@ -437,67 +437,18 @@
 													]
 												}
 											]
-										}
-									]
-								},
-								{
-									"isClone": false,
-									"noteId": "i6le3Bii458A",
-									"notePath": [
-										"Fe0iR3hk8fAn",
-										"o8watLuM2Wbm",
-										"3hIFc098uzkL",
-										"i6le3Bii458A"
-									],
-									"title": "Static methods",
-									"notePosition": 10,
-									"prefix": null,
-									"isExpanded": 1,
-									"type": "text",
-									"mime": "text/html",
-									"attributes": [],
-									"format": "html",
-									"dirFileName": "Static methods",
-									"children": [
-										{
-											"isClone": false,
-											"noteId": "gI0b8J7p1ggb",
-											"notePath": [
-												"Fe0iR3hk8fAn",
-												"o8watLuM2Wbm",
-												"3hIFc098uzkL",
-												"i6le3Bii458A",
-												"gI0b8J7p1ggb"
-											],
-											"title": "Parse()",
-											"notePosition": 0,
-											"prefix": null,
-											"isExpanded": 0,
-											"type": "text",
-											"mime": "text/html",
-											"attributes": [
-												{
-													"type": "relation",
-													"name": "internalLink",
-													"value": "3mmsTUMc3s3P",
-													"isInheritable": false,
-													"position": 1
-												}
-											],
-											"format": "html",
-											"dataFileName": "Parse().html"
 										},
 										{
 											"isClone": false,
-											"noteId": "GOiS0sJfZ0Fg",
+											"noteId": "i6le3Bii458A",
 											"notePath": [
 												"Fe0iR3hk8fAn",
 												"o8watLuM2Wbm",
 												"3hIFc098uzkL",
-												"i6le3Bii458A",
-												"GOiS0sJfZ0Fg"
+												"l6siwE36r8nK",
+												"i6le3Bii458A"
 											],
-											"title": "TryParse()",
+											"title": "Static methods",
 											"notePosition": 10,
 											"prefix": null,
 											"isExpanded": 0,
@@ -505,7 +456,59 @@
 											"mime": "text/html",
 											"attributes": [],
 											"format": "html",
-											"dataFileName": "TryParse().html"
+											"dirFileName": "Static methods",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "gI0b8J7p1ggb",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"l6siwE36r8nK",
+														"i6le3Bii458A",
+														"gI0b8J7p1ggb"
+													],
+													"title": "Parse()",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "3mmsTUMc3s3P",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
+													"format": "html",
+													"dataFileName": "Parse().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "GOiS0sJfZ0Fg",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"l6siwE36r8nK",
+														"i6le3Bii458A",
+														"GOiS0sJfZ0Fg"
+													],
+													"title": "TryParse()",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "TryParse().html"
+												}
+											]
 										}
 									]
 								},
@@ -521,7 +524,7 @@
 									"title": "string",
 									"notePosition": 20,
 									"prefix": null,
-									"isExpanded": 1,
+									"isExpanded": 0,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [],
@@ -667,7 +670,7 @@
 											"title": "Methods",
 											"notePosition": 50,
 											"prefix": null,
-											"isExpanded": 1,
+											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
@@ -996,7 +999,7 @@
 											"title": "Static methods",
 											"notePosition": 60,
 											"prefix": null,
-											"isExpanded": 1,
+											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
@@ -1140,7 +1143,7 @@
 											"title": "Creating a class",
 											"notePosition": 0,
 											"prefix": null,
-											"isExpanded": 1,
+											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
@@ -1217,6 +1220,217 @@
 											"attributes": [],
 											"format": "html",
 											"dataFileName": "Static.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "4U8VCVkzZWqJ",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"6Jf9wXYs8d3D",
+												"4U8VCVkzZWqJ"
+											],
+											"title": "Constructors",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "h9GgPcN5EBFn",
+													"isInheritable": false,
+													"position": 1
+												},
+												{
+													"type": "relation",
+													"name": "includeNoteLink",
+													"value": "dofWfN8Ua4lT",
+													"isInheritable": false,
+													"position": 2
+												}
+											],
+											"format": "html",
+											"dataFileName": "Constructors.html",
+											"dirFileName": "Constructors",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "dofWfN8Ua4lT",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"6Jf9wXYs8d3D",
+														"4U8VCVkzZWqJ",
+														"dofWfN8Ua4lT"
+													],
+													"title": "Example",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "code",
+													"mime": "text/x-csharp",
+													"attributes": [],
+													"dataFileName": "Example.dat"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "hH9ZCp907BAA",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"6Jf9wXYs8d3D",
+												"hH9ZCp907BAA"
+											],
+											"title": "Inheritance",
+											"notePosition": 40,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Inheritance.html",
+											"dirFileName": "Inheritance",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "P8bSoTJFL4eZ",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"6Jf9wXYs8d3D",
+														"hH9ZCp907BAA",
+														"P8bSoTJFL4eZ"
+													],
+													"title": "Constructor inheritance",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "4U8VCVkzZWqJ",
+															"isInheritable": false,
+															"position": 2
+														}
+													],
+													"format": "html",
+													"dataFileName": "Constructor inheritance.html"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "cTE92jWAfX25",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"o8watLuM2Wbm",
+												"3hIFc098uzkL",
+												"6Jf9wXYs8d3D",
+												"cTE92jWAfX25"
+											],
+											"title": "Casting",
+											"notePosition": 50,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Casting.html",
+											"dirFileName": "Casting",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "IIuMMFHYQiMt",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"6Jf9wXYs8d3D",
+														"cTE92jWAfX25",
+														"IIuMMFHYQiMt"
+													],
+													"title": "Upcasting",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Upcasting.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "v8T7vm9GRMmJ",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"6Jf9wXYs8d3D",
+														"cTE92jWAfX25",
+														"v8T7vm9GRMmJ"
+													],
+													"title": "Downcasting",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Downcasting.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "gCFe0n1C7YaQ",
+													"notePath": [
+														"Fe0iR3hk8fAn",
+														"o8watLuM2Wbm",
+														"3hIFc098uzkL",
+														"6Jf9wXYs8d3D",
+														"cTE92jWAfX25",
+														"gCFe0n1C7YaQ"
+													],
+													"title": "Keywords",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "nu72ItKDHBHV",
+															"isInheritable": false,
+															"position": 1
+														},
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "Fzf2nz7Y6T53",
+															"isInheritable": false,
+															"position": 2
+														}
+													],
+													"format": "html",
+													"dataFileName": "Keywords.html"
+												}
+											]
 										}
 									]
 								},
@@ -1479,6 +1693,25 @@
 									"attributes": [],
 									"format": "html",
 									"dataFileName": "object.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "HT7Nu1nHKeOZ",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"o8watLuM2Wbm",
+										"3hIFc098uzkL",
+										"HT7Nu1nHKeOZ"
+									],
+									"title": "tuples",
+									"notePosition": 90,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "tuples.html"
 								}
 							]
 						}
@@ -1519,7 +1752,7 @@
 					"title": "Variables",
 					"notePosition": 20,
 					"prefix": null,
-					"isExpanded": 1,
+					"isExpanded": 0,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [],
@@ -1853,7 +2086,7 @@
 					"title": "Error handling",
 					"notePosition": 100,
 					"prefix": null,
-					"isExpanded": 1,
+					"isExpanded": 0,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [],
@@ -1868,9 +2101,9 @@
 						"h9GgPcN5EBFn"
 					],
 					"title": "Method overload",
-					"notePosition": 110,
+					"notePosition": 120,
 					"prefix": null,
-					"isExpanded": 1,
+					"isExpanded": 0,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [
@@ -1902,6 +2135,686 @@
 							"mime": "text/x-csharp",
 							"attributes": [],
 							"dataFileName": "Example.dat"
+						},
+						{
+							"isClone": false,
+							"noteId": "Q4LhcVgTnZPQ",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"h9GgPcN5EBFn",
+								"Q4LhcVgTnZPQ"
+							],
+							"title": "Method signature",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Method signature.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "Ym8FhvF86IGR",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"Ym8FhvF86IGR"
+					],
+					"title": "Property vs Field",
+					"notePosition": 130,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "oEPec3NrIzhs",
+							"isInheritable": false,
+							"position": 1
+						}
+					],
+					"format": "html",
+					"dataFileName": "Property vs Field.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "Xxne2jpqyxp3",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"Xxne2jpqyxp3"
+					],
+					"title": "Contextual keywords",
+					"notePosition": 140,
+					"prefix": null,
+					"isExpanded": 1,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Contextual keywords",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "ofLCxeKE58OR",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xxne2jpqyxp3",
+								"ofLCxeKE58OR"
+							],
+							"title": "value",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "internalLink",
+									"value": "Ym8FhvF86IGR",
+									"isInheritable": false,
+									"position": 1
+								}
+							],
+							"format": "html",
+							"dataFileName": "value.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "nu72ItKDHBHV",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xxne2jpqyxp3",
+								"nu72ItKDHBHV"
+							],
+							"title": "as",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "as.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "Fzf2nz7Y6T53",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xxne2jpqyxp3",
+								"Fzf2nz7Y6T53"
+							],
+							"title": "is",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "is.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "Xi0SnnucK9MB",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"Xi0SnnucK9MB"
+					],
+					"title": "Modifiers",
+					"notePosition": 160,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Modifiers",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "RjkXaau5mNpd",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xi0SnnucK9MB",
+								"RjkXaau5mNpd"
+							],
+							"title": "Methods",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dirFileName": "Methods",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "zAtSBOfoWIrO",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"Xi0SnnucK9MB",
+										"RjkXaau5mNpd",
+										"zAtSBOfoWIrO"
+									],
+									"title": "params",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "67FhXzRJApFE",
+											"isInheritable": false,
+											"position": 1
+										},
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "7JKnbxBCUdcQ",
+											"isInheritable": false,
+											"position": 2
+										}
+									],
+									"format": "html",
+									"dataFileName": "params.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "DI8AYqdtslad",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"Xi0SnnucK9MB",
+										"RjkXaau5mNpd",
+										"DI8AYqdtslad"
+									],
+									"title": "ref",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "IWpzV3SOko2w",
+											"isInheritable": false,
+											"position": 1
+										}
+									],
+									"format": "html",
+									"dataFileName": "ref.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "eSXbZlDn6Sn3",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"Xi0SnnucK9MB",
+										"RjkXaau5mNpd",
+										"eSXbZlDn6Sn3"
+									],
+									"title": "out",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "DI8AYqdtslad",
+											"isInheritable": false,
+											"position": 1
+										},
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "GOiS0sJfZ0Fg",
+											"isInheritable": false,
+											"position": 4
+										}
+									],
+									"format": "html",
+									"dataFileName": "out.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "oaldlDn65rfj",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"Xi0SnnucK9MB",
+										"RjkXaau5mNpd",
+										"oaldlDn65rfj"
+									],
+									"title": "Method reduced form",
+									"notePosition": 50,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Method reduced form.html"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "wBaq51OlTj9f",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xi0SnnucK9MB",
+								"wBaq51OlTj9f"
+							],
+							"title": "readonly",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "readonly.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "xSeakbjQtuhv",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xi0SnnucK9MB",
+								"xSeakbjQtuhv"
+							],
+							"title": "static",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "static.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "7daVHcHgFzoE",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xi0SnnucK9MB",
+								"7daVHcHgFzoE"
+							],
+							"title": "virtual",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "virtual.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "fSYxgrQtjBCa",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xi0SnnucK9MB",
+								"fSYxgrQtjBCa"
+							],
+							"title": "extern",
+							"notePosition": 40,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "extern.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "s1eHMdt5jCYt",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xi0SnnucK9MB",
+								"s1eHMdt5jCYt"
+							],
+							"title": "abstract",
+							"notePosition": 50,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "abstract.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "eThNeNYLhmbf",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xi0SnnucK9MB",
+								"eThNeNYLhmbf"
+							],
+							"title": "override",
+							"notePosition": 60,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "override.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "wNCrTYrj1Wgo",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"Xi0SnnucK9MB",
+								"wNCrTYrj1Wgo"
+							],
+							"title": "Access modifiers",
+							"notePosition": 70,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "internalLink",
+									"value": "oEPec3NrIzhs",
+									"isInheritable": false,
+									"position": 1
+								}
+							],
+							"format": "html",
+							"dataFileName": "Access modifiers.html",
+							"dirFileName": "Access modifiers",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "Tt9P7MvszSFi",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"Xi0SnnucK9MB",
+										"wNCrTYrj1Wgo",
+										"Tt9P7MvszSFi"
+									],
+									"title": "public",
+									"notePosition": 0,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "public.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "9CtOk1nXgse6",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"Xi0SnnucK9MB",
+										"wNCrTYrj1Wgo",
+										"9CtOk1nXgse6"
+									],
+									"title": "protected",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "protected.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "pjdEdRaZQj9f",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"Xi0SnnucK9MB",
+										"wNCrTYrj1Wgo",
+										"pjdEdRaZQj9f"
+									],
+									"title": "private",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "private.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "Du2pgrVjMsZ4",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"Xi0SnnucK9MB",
+										"wNCrTYrj1Wgo",
+										"Du2pgrVjMsZ4"
+									],
+									"title": "internal",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "internal.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "U9OSq4gDXUgO",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"Xi0SnnucK9MB",
+										"wNCrTYrj1Wgo",
+										"U9OSq4gDXUgO"
+									],
+									"title": "protected internal",
+									"notePosition": 40,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "protected internal.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "oEPec3NrIzhs",
+									"notePath": [
+										"Fe0iR3hk8fAn",
+										"Xi0SnnucK9MB",
+										"wNCrTYrj1Wgo",
+										"oEPec3NrIzhs"
+									],
+									"title": "Auto-implemented properties",
+									"notePosition": 50,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "Ym8FhvF86IGR",
+											"isInheritable": false,
+											"position": 1
+										}
+									],
+									"format": "html",
+									"dataFileName": "Auto-implemented properties.html"
+								}
+							]
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "7JKnbxBCUdcQ",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"7JKnbxBCUdcQ"
+					],
+					"title": "Object initialization",
+					"notePosition": 220,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "k2ZdoMMjw17V",
+							"isInheritable": false,
+							"position": 1
+						}
+					],
+					"format": "html",
+					"dataFileName": "Object initialization.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "67FhXzRJApFE",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"67FhXzRJApFE"
+					],
+					"title": "Generics",
+					"notePosition": 230,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "zmwq9DNbDzmu",
+							"isInheritable": false,
+							"position": 1
+						},
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "fA3bpOm4Qi9G",
+							"isInheritable": false,
+							"position": 2
+						}
+					],
+					"format": "html",
+					"dataFileName": "Generics.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "cgpQCdSREVua",
+					"notePath": [
+						"Fe0iR3hk8fAn",
+						"cgpQCdSREVua"
+					],
+					"title": "Indexers",
+					"notePosition": 240,
+					"prefix": null,
+					"isExpanded": 0,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "zmwq9DNbDzmu",
+							"isInheritable": false,
+							"position": 1
+						},
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "fA3bpOm4Qi9G",
+							"isInheritable": false,
+							"position": 2
+						},
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "Ym8FhvF86IGR",
+							"isInheritable": false,
+							"position": 3
+						},
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "oEPec3NrIzhs",
+							"isInheritable": false,
+							"position": 4
+						},
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "Tt9P7MvszSFi",
+							"isInheritable": false,
+							"position": 5
+						},
+						{
+							"type": "relation",
+							"name": "includeNoteLink",
+							"value": "Fgx5aNW3FCH7",
+							"isInheritable": false,
+							"position": 6
+						},
+						{
+							"type": "relation",
+							"name": "internalLink",
+							"value": "InGadU4pok0T",
+							"isInheritable": false,
+							"position": 7
+						}
+					],
+					"format": "html",
+					"dataFileName": "Indexers.html",
+					"dirFileName": "Indexers",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "Fgx5aNW3FCH7",
+							"notePath": [
+								"Fe0iR3hk8fAn",
+								"cgpQCdSREVua",
+								"Fgx5aNW3FCH7"
+							],
+							"title": "Example",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": 0,
+							"type": "code",
+							"mime": "text/x-csharp",
+							"attributes": [],
+							"dataFileName": "Example.dat"
 						}
 					]
 				},
@@ -1913,9 +2826,9 @@
 						"2Hjvk060EVzX"
 					],
 					"title": "Namespaces",
-					"notePosition": 140,
+					"notePosition": 300,
 					"prefix": null,
-					"isExpanded": 1,
+					"isExpanded": 0,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [],
@@ -1933,7 +2846,7 @@
 							"title": "List",
 							"notePosition": 0,
 							"prefix": null,
-							"isExpanded": 1,
+							"isExpanded": 0,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
@@ -1952,7 +2865,7 @@
 									"title": "System",
 									"notePosition": 10,
 									"prefix": null,
-									"isExpanded": 1,
+									"isExpanded": 0,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [],
@@ -2430,7 +3343,7 @@
 													"title": "Generic",
 													"notePosition": 0,
 													"prefix": null,
-													"isExpanded": 1,
+													"isExpanded": 0,
 													"type": "text",
 													"mime": "text/html",
 													"attributes": [],
@@ -2452,7 +3365,7 @@
 															"title": "List",
 															"notePosition": 0,
 															"prefix": null,
-															"isExpanded": 1,
+															"isExpanded": 0,
 															"type": "text",
 															"mime": "text/html",
 															"attributes": [
@@ -2515,7 +3428,7 @@
 																	"title": "Methods",
 																	"notePosition": 10,
 																	"prefix": null,
-																	"isExpanded": 1,
+																	"isExpanded": 0,
 																	"type": "text",
 																	"mime": "text/html",
 																	"attributes": [],
@@ -2536,7 +3449,7 @@
 																				"Z3wNuSQHnnMV",
 																				"cKVnfU8bcWnO"
 																			],
-																			"title": "Insert",
+																			"title": "Insert()",
 																			"notePosition": 0,
 																			"prefix": null,
 																			"isExpanded": 0,
@@ -2544,7 +3457,7 @@
 																			"mime": "text/html",
 																			"attributes": [],
 																			"format": "html",
-																			"dataFileName": "Insert.html"
+																			"dataFileName": "Insert().html"
 																		},
 																		{
 																			"isClone": false,
@@ -2560,7 +3473,7 @@
 																				"Z3wNuSQHnnMV",
 																				"qSBKzVzboQeb"
 																			],
-																			"title": "Add",
+																			"title": "Add()",
 																			"notePosition": 10,
 																			"prefix": null,
 																			"isExpanded": 0,
@@ -2568,7 +3481,368 @@
 																			"mime": "text/html",
 																			"attributes": [],
 																			"format": "html",
-																			"dataFileName": "Add.html"
+																			"dataFileName": "Add().html"
+																		}
+																	]
+																},
+																{
+																	"isClone": false,
+																	"noteId": "TrfFqJyOCYEy",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"TKxluHDb8SDe",
+																		"w3nLfJP4OXgn",
+																		"zmwq9DNbDzmu",
+																		"TrfFqJyOCYEy"
+																	],
+																	"title": "Properties",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dirFileName": "Properties",
+																	"children": [
+																		{
+																			"isClone": false,
+																			"noteId": "w0iYOaIOGBY5",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"zmwq9DNbDzmu",
+																				"TrfFqJyOCYEy",
+																				"w0iYOaIOGBY5"
+																			],
+																			"title": "Count",
+																			"notePosition": 0,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "Count.html"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "fA3bpOm4Qi9G",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"TKxluHDb8SDe",
+																"w3nLfJP4OXgn",
+																"fA3bpOm4Qi9G"
+															],
+															"title": "Dictionary",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Dictionary",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "oK3lYzqVo0JL",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"TKxluHDb8SDe",
+																		"w3nLfJP4OXgn",
+																		"fA3bpOm4Qi9G",
+																		"oK3lYzqVo0JL"
+																	],
+																	"title": "Constructor",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Constructor.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "gopvRgqwDWdy",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"TKxluHDb8SDe",
+																		"w3nLfJP4OXgn",
+																		"fA3bpOm4Qi9G",
+																		"gopvRgqwDWdy"
+																	],
+																	"title": "Accessing values",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Accessing values.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "kiL3ODIA9Na1",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"TKxluHDb8SDe",
+																		"w3nLfJP4OXgn",
+																		"fA3bpOm4Qi9G",
+																		"kiL3ODIA9Na1"
+																	],
+																	"title": "Methods",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dirFileName": "Methods",
+																	"children": [
+																		{
+																			"isClone": false,
+																			"noteId": "RsoJ2L03KAaf",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"fA3bpOm4Qi9G",
+																				"kiL3ODIA9Na1",
+																				"RsoJ2L03KAaf"
+																			],
+																			"title": "Add()",
+																			"notePosition": 0,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "Add().html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "cKBmG8rElZRQ",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"fA3bpOm4Qi9G",
+																				"kiL3ODIA9Na1",
+																				"cKBmG8rElZRQ"
+																			],
+																			"title": "ContainsKey()",
+																			"notePosition": 10,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "ContainsKey().html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "mr8z1yV2KB71",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"fA3bpOm4Qi9G",
+																				"kiL3ODIA9Na1",
+																				"mr8z1yV2KB71"
+																			],
+																			"title": "ContainsValue()",
+																			"notePosition": 20,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "ContainsValue().html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "WBU9qhmL046b",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"fA3bpOm4Qi9G",
+																				"kiL3ODIA9Na1",
+																				"WBU9qhmL046b"
+																			],
+																			"title": "Clear()",
+																			"notePosition": 30,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "Clear().html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "OyJXD0eCwNvn",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"fA3bpOm4Qi9G",
+																				"kiL3ODIA9Na1",
+																				"OyJXD0eCwNvn"
+																			],
+																			"title": "Remove()",
+																			"notePosition": 40,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "Remove().html"
+																		}
+																	]
+																},
+																{
+																	"isClone": false,
+																	"noteId": "sVoYDYCjcH2f",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"TKxluHDb8SDe",
+																		"w3nLfJP4OXgn",
+																		"fA3bpOm4Qi9G",
+																		"sVoYDYCjcH2f"
+																	],
+																	"title": "Properties",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dirFileName": "Properties",
+																	"children": [
+																		{
+																			"isClone": false,
+																			"noteId": "3zw6EalB6jBV",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"fA3bpOm4Qi9G",
+																				"sVoYDYCjcH2f",
+																				"3zw6EalB6jBV"
+																			],
+																			"title": "Keys",
+																			"notePosition": 0,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "Keys.html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "EtNWqXSEITme",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"fA3bpOm4Qi9G",
+																				"sVoYDYCjcH2f",
+																				"EtNWqXSEITme"
+																			],
+																			"title": "Values",
+																			"notePosition": 10,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "Values.html"
+																		},
+																		{
+																			"isClone": false,
+																			"noteId": "TUhuo81yYX2z",
+																			"notePath": [
+																				"Fe0iR3hk8fAn",
+																				"2Hjvk060EVzX",
+																				"DV4fO8eDcCaU",
+																				"XoGQhQKNZBMe",
+																				"TKxluHDb8SDe",
+																				"w3nLfJP4OXgn",
+																				"fA3bpOm4Qi9G",
+																				"sVoYDYCjcH2f",
+																				"TUhuo81yYX2z"
+																			],
+																			"title": "Count",
+																			"notePosition": 20,
+																			"prefix": null,
+																			"isExpanded": 0,
+																			"type": "text",
+																			"mime": "text/html",
+																			"attributes": [],
+																			"format": "html",
+																			"dataFileName": "Count.html"
 																		}
 																	]
 																}
@@ -3858,7 +5132,7 @@
 											"title": "IO",
 											"notePosition": 90,
 											"prefix": null,
-											"isExpanded": 1,
+											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
@@ -4338,7 +5612,180 @@
 														}
 													],
 													"format": "html",
-													"dataFileName": "Directory.html"
+													"dataFileName": "Directory.html",
+													"dirFileName": "Directory",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "l09vvwyZGNbX",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"rqkOKsleQCBf",
+																"KIuJU5lEj4NT",
+																"l09vvwyZGNbX"
+															],
+															"title": "Methods",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Methods",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "05O868sEy18d",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"KIuJU5lEj4NT",
+																		"l09vvwyZGNbX",
+																		"05O868sEy18d"
+																	],
+																	"title": "CreateDirectory()",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "CreateDirectory().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "ifETpZLnHskz",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"KIuJU5lEj4NT",
+																		"l09vvwyZGNbX",
+																		"ifETpZLnHskz"
+																	],
+																	"title": "GetFiles()",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetFiles().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "vzYzA2FGHnDo",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"KIuJU5lEj4NT",
+																		"l09vvwyZGNbX",
+																		"vzYzA2FGHnDo"
+																	],
+																	"title": "GetDirectories()",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [
+																		{
+																			"type": "relation",
+																			"name": "internalLink",
+																			"value": "ifETpZLnHskz",
+																			"isInheritable": false,
+																			"position": 1
+																		}
+																	],
+																	"format": "html",
+																	"dataFileName": "GetDirectories().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "N1OyjGXDrTSY",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"KIuJU5lEj4NT",
+																		"l09vvwyZGNbX",
+																		"N1OyjGXDrTSY"
+																	],
+																	"title": "Exists()",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Exists().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "UoCzjUyvJ4OC",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"KIuJU5lEj4NT",
+																		"l09vvwyZGNbX",
+																		"UoCzjUyvJ4OC"
+																	],
+																	"title": "GetCurrentDirectory()",
+																	"notePosition": 60,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetCurrentDirectory().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "cy4uh2gLiVqQ",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"KIuJU5lEj4NT",
+																		"l09vvwyZGNbX",
+																		"cy4uh2gLiVqQ"
+																	],
+																	"title": "GetLogicalDrivers()",
+																	"notePosition": 70,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetLogicalDrivers().html"
+																}
+															]
+														}
+													]
 												},
 												{
 													"isClone": false,
@@ -4372,6 +5819,53 @@
 													"children": [
 														{
 															"isClone": false,
+															"noteId": "LhGeFcJNPWZQ",
+															"notePath": [
+																"Fe0iR3hk8fAn",
+																"2Hjvk060EVzX",
+																"DV4fO8eDcCaU",
+																"XoGQhQKNZBMe",
+																"rqkOKsleQCBf",
+																"NYp9P4Mp64kK",
+																"LhGeFcJNPWZQ"
+															],
+															"title": "Properties",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Properties",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "viUpavHSBQz7",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"NYp9P4Mp64kK",
+																		"LhGeFcJNPWZQ",
+																		"viUpavHSBQz7"
+																	],
+																	"title": "Exists",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Exists.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
 															"noteId": "W8qmpxlzXStA",
 															"notePath": [
 																"Fe0iR3hk8fAn",
@@ -4383,9 +5877,9 @@
 																"W8qmpxlzXStA"
 															],
 															"title": "Methods",
-															"notePosition": 0,
+															"notePosition": 10,
 															"prefix": null,
-															"isExpanded": 1,
+															"isExpanded": 0,
 															"type": "text",
 															"mime": "text/html",
 															"attributes": [],
@@ -4408,35 +5902,12 @@
 																	"title": "CreateDirectory()",
 																	"notePosition": 0,
 																	"prefix": null,
-																	"isExpanded": 1,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "CreateDirectory().html"
-																},
-																{
-																	"isClone": false,
-																	"noteId": "viUpavHSBQz7",
-																	"notePath": [
-																		"Fe0iR3hk8fAn",
-																		"2Hjvk060EVzX",
-																		"DV4fO8eDcCaU",
-																		"XoGQhQKNZBMe",
-																		"rqkOKsleQCBf",
-																		"NYp9P4Mp64kK",
-																		"W8qmpxlzXStA",
-																		"viUpavHSBQz7"
-																	],
-																	"title": "Exists()",
-																	"notePosition": 10,
-																	"prefix": null,
 																	"isExpanded": 0,
 																	"type": "text",
 																	"mime": "text/html",
 																	"attributes": [],
 																	"format": "html",
-																	"dataFileName": "Exists().html"
+																	"dataFileName": "CreateDirectory().html"
 																},
 																{
 																	"isClone": false,
@@ -4463,29 +5934,6 @@
 																},
 																{
 																	"isClone": false,
-																	"noteId": "UoCzjUyvJ4OC",
-																	"notePath": [
-																		"Fe0iR3hk8fAn",
-																		"2Hjvk060EVzX",
-																		"DV4fO8eDcCaU",
-																		"XoGQhQKNZBMe",
-																		"rqkOKsleQCBf",
-																		"NYp9P4Mp64kK",
-																		"W8qmpxlzXStA",
-																		"UoCzjUyvJ4OC"
-																	],
-																	"title": "GetCurrentDirectory()",
-																	"notePosition": 30,
-																	"prefix": null,
-																	"isExpanded": 0,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "GetCurrentDirectory().html"
-																},
-																{
-																	"isClone": false,
 																	"noteId": "u9a3XU7ytVTx",
 																	"notePath": [
 																		"Fe0iR3hk8fAn",
@@ -4509,6 +5957,37 @@
 																},
 																{
 																	"isClone": false,
+																	"noteId": "dQUIlkrIiJ41",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"NYp9P4Mp64kK",
+																		"W8qmpxlzXStA",
+																		"dQUIlkrIiJ41"
+																	],
+																	"title": "GetDirectories()",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [
+																		{
+																			"type": "relation",
+																			"name": "internalLink",
+																			"value": "u9a3XU7ytVTx",
+																			"isInheritable": false,
+																			"position": 2
+																		}
+																	],
+																	"format": "html",
+																	"dataFileName": "GetDirectories().html"
+																},
+																{
+																	"isClone": false,
 																	"noteId": "zA8EGBwTUk6U",
 																	"notePath": [
 																		"Fe0iR3hk8fAn",
@@ -4520,30 +5999,7 @@
 																		"W8qmpxlzXStA",
 																		"zA8EGBwTUk6U"
 																	],
-																	"title": "Move()",
-																	"notePosition": 50,
-																	"prefix": null,
-																	"isExpanded": 0,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "Move().html"
-																},
-																{
-																	"isClone": false,
-																	"noteId": "cy4uh2gLiVqQ",
-																	"notePath": [
-																		"Fe0iR3hk8fAn",
-																		"2Hjvk060EVzX",
-																		"DV4fO8eDcCaU",
-																		"XoGQhQKNZBMe",
-																		"rqkOKsleQCBf",
-																		"NYp9P4Mp64kK",
-																		"W8qmpxlzXStA",
-																		"cy4uh2gLiVqQ"
-																	],
-																	"title": "GetLogicalDrivers()",
+																	"title": "MoveTo()",
 																	"notePosition": 60,
 																	"prefix": null,
 																	"isExpanded": 0,
@@ -4551,7 +6007,7 @@
 																	"mime": "text/html",
 																	"attributes": [],
 																	"format": "html",
-																	"dataFileName": "GetLogicalDrivers().html"
+																	"dataFileName": "MoveTo().html"
 																}
 															]
 														}
@@ -4569,9 +6025,9 @@
 														"4iNC6zAfUkT0"
 													],
 													"title": "Path",
-													"notePosition": 70,
+													"notePosition": 80,
 													"prefix": null,
-													"isExpanded": 0,
+													"isExpanded": 1,
 													"type": "text",
 													"mime": "text/html",
 													"attributes": [],
@@ -4591,7 +6047,7 @@
 																"4iNC6zAfUkT0",
 																"eP0tyn3JQ10r"
 															],
-															"title": "Methods",
+															"title": "Static methods",
 															"notePosition": 0,
 															"prefix": null,
 															"isExpanded": 1,
@@ -4599,7 +6055,7 @@
 															"mime": "text/html",
 															"attributes": [],
 															"format": "html",
-															"dirFileName": "Methods",
+															"dirFileName": "Static methods",
 															"children": [
 																{
 																	"isClone": false,
@@ -4672,6 +6128,29 @@
 																},
 																{
 																	"isClone": false,
+																	"noteId": "lANzRqjogQFH",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"4iNC6zAfUkT0",
+																		"eP0tyn3JQ10r",
+																		"lANzRqjogQFH"
+																	],
+																	"title": "GetFileNameWithoutExtension",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "GetFileNameWithoutExtension.html"
+																},
+																{
+																	"isClone": false,
 																	"noteId": "JQAUoPgOYjRD",
 																	"notePath": [
 																		"Fe0iR3hk8fAn",
@@ -4684,7 +6163,7 @@
 																		"JQAUoPgOYjRD"
 																	],
 																	"title": "GetTempPath()",
-																	"notePosition": 30,
+																	"notePosition": 40,
 																	"prefix": null,
 																	"isExpanded": 0,
 																	"type": "text",
@@ -4692,12 +6171,54 @@
 																	"attributes": [],
 																	"format": "html",
 																	"dataFileName": "GetTempPath().html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "52OE52fjzXKu",
+																	"notePath": [
+																		"Fe0iR3hk8fAn",
+																		"2Hjvk060EVzX",
+																		"DV4fO8eDcCaU",
+																		"XoGQhQKNZBMe",
+																		"rqkOKsleQCBf",
+																		"4iNC6zAfUkT0",
+																		"eP0tyn3JQ10r",
+																		"52OE52fjzXKu"
+																	],
+																	"title": "Example",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "code",
+																	"mime": "text/x-csharp",
+																	"attributes": [],
+																	"dataFileName": "Example.dat"
 																}
 															]
 														}
 													]
 												}
 											]
+										},
+										{
+											"isClone": false,
+											"noteId": "pu0veQMNi8zB",
+											"notePath": [
+												"Fe0iR3hk8fAn",
+												"2Hjvk060EVzX",
+												"DV4fO8eDcCaU",
+												"XoGQhQKNZBMe",
+												"pu0veQMNi8zB"
+											],
+											"title": "ValueTuple",
+											"notePosition": 100,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "ValueTuple.html"
 										}
 									]
 								}
