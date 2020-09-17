@@ -43,6 +43,9 @@ static int Sum(params int[] nums)
     <p>&nbsp;</p>
     <p>The second version is better since it's not necessary to create a new
       array in memory for every method call.</p>
+    <p>Note that, when using the <code>params</code> modifier, the method argument
+      must be an array. Therefore, if the method used to receive argument <code>DataType dt</code>,
+      one must adapt it to <code>DataType[] dt</code>.</p>
   </body>
 
 </html>

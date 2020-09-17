@@ -1,0 +1,23 @@
+using System;
+
+interface IMyInterface
+{
+    void SayHello();
+}
+
+class Implementor : IMyInterface
+{
+    void SayHello()
+    {
+        Console.WriteLine("hello");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        IMyInterface impl = new Implementor();
+        impl.SayHello(); // #=> "hello"
+    }
+}

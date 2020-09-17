@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-    enum Email : int
+    private enum Mail : int
     {
         Slow = 0,
         Default = 1,

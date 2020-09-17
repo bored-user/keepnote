@@ -1,0 +1,28 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../style.css">
+  </head>
+  
+  <body>
+     <h1>Constraints</h1>
+
+    <p>It's possible to constrain the generic type using the <code>where</code> clause:</p><pre><code class="language-text-x-csharp">class CustomList&lt;T&gt; where T : IComparable
+// That means "&lt;T&gt; may be any value [that is] that implements IComparable interface"
+{
+	public void Add(T value)
+	{}
+	
+	public T this[int idx]
+	{
+		get
+		{}
+	}
+}</code></pre>
+    <p>Note that in the example above, an interface was used as constraint. It's
+      also possible to use a [class] (meaning “where &lt;T&gt; is of type [class]”),
+      struct ("where &lt;T&gt; is a struct") and even the class keyword&nbsp;</p>
+  </body>
+
+</h
