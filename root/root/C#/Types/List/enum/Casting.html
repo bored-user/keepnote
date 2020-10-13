@@ -1,0 +1,34 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Casting</h1>
+
+    <p>It's also possible to cast the enum value using <a href="../../Conversion/Explicit%20(casting).html">explicit conversion</a> (and
+      cast the values back to the enum key, using casting as well).</p><pre><code class="language-text-x-csharp">enum Email
+{
+	Slow = 0,
+	Default = 1,
+	Fast = 2
+}
+
+public static void Main()
+{
+	Console.WriteLine((int)Email.Fast);
+	// #=&gt; 2
+	
+	Console.WriteLine((Email)2);
+	// #=&gt; Fast	
+}</code></pre>
+    <p>&nbsp;</p>
+    <p>Finally, it's also possible to parse a key name string to fetch the value
+      it represents, using <code>Enum.Parse()</code>.</p>
+  </body>
+
+</html>

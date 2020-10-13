@@ -1,0 +1,36 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Inherited constructors</h1>
+
+    <p>When working with inheritance, one will realize that a class automatically
+      inherits the constructor class from the super (or parent) class. It's,
+      however, possible to overwrite the constructor and even <a href="../Global%20Methods/super.html">call the super class constructor</a> from
+      within the child class, like so:</p>
+    <p>&nbsp;</p><pre><code class="language-text-x-ruby">class SuperClass
+	def initialize
+		puts 'Initializing super class'
+	end
+end
+
+class ChildClass &lt; SuperClass
+	# if no constructor is set, it'll use the parent's
+	def initialize
+		super # calling parent's constructor
+		puts 'Initializing child class'
+	end
+end
+
+child_class = ChildClass.new
+#=&gt; 'Initializing super class' 'Initializing child class'</code></pre>
+
+  </body>
+
+</html>

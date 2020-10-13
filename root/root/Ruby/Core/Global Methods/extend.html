@@ -1,0 +1,29 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>extend</h1>
+
+    <p><code>extend</code> module methods are imported as class methods. Therefore,
+      there's no need to instantiate the class before using said methods:</p>
+    <p>&nbsp;</p><pre><code class="language-text-x-ruby">module MyModule
+	def say_hi
+		'hi'
+	end
+end
+
+class MyClass
+	extend MyModule
+end
+
+puts MyClass.say_hi #=&gt; 'hi'</code></pre>
+
+  </body>
+
+</html>

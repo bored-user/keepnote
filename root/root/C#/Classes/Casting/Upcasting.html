@@ -1,0 +1,33 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Upcasting</h1>
+
+    <p>Upcasting is the process of casting an object of a child class (derived
+      class) into a parent/ base class.</p>
+    <p>One can easily done this like:</p><pre><code class="language-text-x-csharp">class ParentClass
+{}
+
+class ChildClass : ParentClass
+{}
+
+class Program
+{
+	static void Main()
+	{
+		ChildClass cc = new ChildClass();
+		ParentClass pc = cc;
+		// `pc` is now a casted ParentClass
+	}
+}</code></pre>
+
+  </body>
+
+</html>

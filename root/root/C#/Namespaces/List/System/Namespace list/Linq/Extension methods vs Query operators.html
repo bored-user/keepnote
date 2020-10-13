@@ -1,0 +1,52 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Extension methods vs Query operators</h1>
+
+    <p>LINQ's extension methods are the default of method calling in C#. The
+      methods are called on the collections, and receive a lambda expression.
+      They can be chained.</p>
+    <p>Query operators, on the other hand, are a little bit like SQL. They all
+      start with the <code>from</code> statement and end with <code>select</code>.
+      For instance:</p><pre><code class="language-text-x-csharp">using System.Collections.Generic;
+using System.Linq;
+using System;
+
+class Book
+{
+	public string Title { get; set; }
+	public double Price { get; set; }
+}
+
+class Program
+{
+	static List&lt;Book&gt; GetBookList() =&gt; new List&lt;Book&gt;() { { Title = "C# Guide", Price = 10.5 }, { Title = "Java Guide", Price = 10 }, { Title = "Python Guide", Price = 12 } };
+
+	static void Main()
+	{
+		var books = GetBookList();
+		
+		var ExtMethBooks = books
+					.Where(b =&gt; b.Price &lt; 11)
+					.OrderBy(b =&gt; b.Title)
+					.Select(b =&gt; b.Title)
+		var QueryOpBooks = 
+					from b in books
+					where b.Price &lt; 11
+					orderby b.Title
+					select b.Title
+					
+		// ExtMethBooks and QueryOpBooks are the same thing
+	}
+}</code></pre>
+
+  </body>
+
+</html>

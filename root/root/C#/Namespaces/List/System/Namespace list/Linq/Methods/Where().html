@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Where()</h1>
+
+    <p><code>Where()</code> is a method that takes a <a href="../../../../../../Delegates.html">delegate</a> (a
+      <a
+      href="../../../../../../Delegates/Built-in/Predicate.html"><code>Predicate</code>
+        </a>) and returns a new collection formed by the items where the given <code>Predicate</code> returned <code>true</code>.
+        It's like JavaScript's or Ruby's <code>filter()</code>.</p><pre><code class="language-text-x-csharp">using System;
+using System.Linq;
+
+class Program
+{
+	static void Main()
+	{
+		int[] nums = new int[] { 1, 2, 3 };
+		Console.WriteLine(nums.Where(n =&gt; n % 2 == 0).ToArray()[0]); // #=&gt; 2
+	}
+}</code></pre>
+
+  </body>
+
+</html>

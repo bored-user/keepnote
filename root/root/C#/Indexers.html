@@ -1,0 +1,33 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Indexers</h1>
+
+    <p>Indexers are a way to access <code>this</code> as if it was a <a href="Namespaces/List/System/Namespace%20list/Collections/Generic/Dictionary">Dictionary</a> or
+      a <a href="Namespaces/List/System/Namespace%20list/Collections/Generic/List.html">List</a>.</p>
+    <p>For instance, in my <a href="https://github.com/bored-user/MatrixMath/tree/a4e5ed29eb5ae0bea8b6509da2b35cd655a5ed8b">MatrixMath</a> project,
+      I had to use a property inside <code>this</code> called <code>matrix</code>,
+      while I could just have used an indexer, since the object itself was the
+      matrix.</p>
+    <p>Indexers are, in their essence, a very customized version of a getter
+      and setter properties (read <a href="Property%20vs%20Field.html">here</a> and
+      <a
+      href="Modifiers/Access%20modifiers/Auto-implemented%20properties.html">here</a>for more info).</p>
+    <p>The key here is to create a <a href="Modifiers/Access%20modifiers/public.html"><code>public</code></a> property
+      named <code>this</code>:</p>
+    <section class="include-note" data-note-id="Fgx5aNW3FCH7"
+    data-box-size="full">&nbsp;</section>
+    <p>&nbsp;</p>
+    <p>In that example, I've used a <a href="Types/List/array/Multi-dimensional%20arrays.html">multi-dimensional array</a> as
+      indexer; however, it's also possible to use strings, ints, etc. Note that
+      an auto-implemented property cannot be used in this case.</p>
+  </body>
+
+</html>

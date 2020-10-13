@@ -1,0 +1,39 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Action</h1>
+
+    <p>An <code>Action</code> is built-in <a href="../../Delegates.html"><code>delegate</code></a>.
+      It's very similar to <a href="Func.html"><code>System.Func</code></a>. The
+      only difference is the fact that <code>Action</code> returns void while <code>System.Func</code> has
+      a return value.</p>
+    <p>Finally, an <code>Action</code> may or may not use <a href="../../Generics.html"><code>generics</code></a> to
+      define arguments.</p>
+    <p>&nbsp;</p>
+    <p>General syntax:</p><pre><code class="language-text-x-csharp">class Program
+{
+	static void Main()
+	{
+		Action a = delegate() { Console.WriteLine("no args"); };
+		Action&lt;string&gt; b = delegate(string s) { Console.WriteLine(s); };
+		
+		a();
+		b("with args as well!");
+		
+		/*
+			#=&gt; "no args"
+			#=&gt; "with args as well!"
+		*/
+	}
+}</code></pre>
+
+  </body>
+
+</html>

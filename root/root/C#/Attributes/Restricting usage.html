@@ -1,0 +1,52 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Restricting usage</h1>
+
+    <p>One can restrict the usage of attributes using the <code>AttributeUsage</code> attribute
+      on the attribute class.</p>
+    <p>It's possible to use attributes on:</p>
+    <ul>
+      <li>Assembly (namespace)</li>
+      <li>Class</li>
+      <li>Constructor</li>
+      <li>Delegate</li>
+      <li>Enum</li>
+      <li>Event</li>
+      <li>Field</li>
+      <li>GenericParameter</li>
+      <li>Interface</li>
+      <li>Method</li>
+      <li>Module</li>
+      <li>Parameter</li>
+      <li>Property</li>
+      <li>ReturnValue</li>
+      <li>Struct</li>
+    </ul>
+    <p>&nbsp;</p>
+    <p>The syntax for restricting the use of attributes is as follows:</p><pre><code class="language-text-x-csharp">// the CoolAttribute can only be used on classes and structs
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
+class CoolAttribute : Attribute
+{}</code></pre>
+    <p>&nbsp;</p>
+    <p>Finally, notice that attributes are inherited by default. One can change
+      this by adding the <code>Inherited</code> argument on the <code>AttributeUsage</code> attribute,
+      using <a href="../Methods/Named%20arguments.html">named arguments</a>, like
+      so:</p><pre><code class="language-text-x-csharp">[AttributeUsage(Inherited = false)]
+class CoolAttribute : Attribute
+{}</code></pre>
+    <p>Also, be aware that it's possible to limit the usage of attributes to,
+      for instance, only once, using:</p><pre><code class="language-text-x-csharp">[AttributeUsage(AllowMultiple = false)]
+class CoolAttribute : Attribute
+{}</code></pre>
+
+  </body>
+
+</html>

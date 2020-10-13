@@ -1,0 +1,45 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Defining</h1>
+
+    <p>Conventions state that an extension method should follow some naming and
+      structural rules:</p>
+    <ol>
+      <li>it should be on a <a href="../Modifiers/Access%20modifiers/public.html"><code>public</code></a> 
+        <a
+        href="../Classes/Static.html"><code>static</code>
+          </a>class with the <code>Extensions</code> suffix (like <code>StringExtensions</code>)</li>
+      <li>it should be a <a href="../Modifiers/static.html"><code>static</code></a> method
+        with at least one argument: <code>this [data type] [argument name]</code>.</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>For example:</p><pre><code class="language-text-x-csharp">public static class StringExtensions
+{
+	public static string Concat(this string str, string add) =&gt; str + add;
+}
+
+public static class Int32Extensions
+{
+	public static int Add(this int n1, int n2) =&gt; n1 + n2;
+}
+
+class Program
+{
+	static void Main()
+	{
+		Console.WriteLine("hello, ".Concat("world!")) // #=&gt; "hello, world!"
+		Console.WriteLine(1.Add(10)) // #=&gt; 11
+	}
+}</code></pre>
+
+  </body>
+
+</html>

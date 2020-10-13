@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Implicit vs Explicit</h1>
+
+    <p>The implicit block usage is the default one: passing the block outside
+      the function's argument parentheses and using <code>yield</code>.</p>
+    <p>But there's also the explicit version: listing the block in the function's
+      argument list through the <code>&amp;</code> symbol and the <code>block.call</code> method.</p>
+    <p>&nbsp;</p><pre><code class="language-text-x-ruby">def implicit
+	yield 'inside implicit!'
+end
+
+def explicit(&amp;block) # note the &amp; sign
+	block.call 'inside explicit!' # same as yield
+end
+
+
+implicit { |s| puts s } # 'inside implicit!'
+explicit { |s| puts s } # 'inside explicit!'</code></pre>
+
+  </body>
+
+</html>

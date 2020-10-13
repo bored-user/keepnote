@@ -1,0 +1,32 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Variables</h1>
+
+    <p>It's a good practice to declare variables using its type, but it isn't
+      necessary. The <code>var</code> keyword is used to declare variables for
+      the first time (from the 2nd on, its not necessary).</p>
+    <p>When one doesn't assign a value to a variable at initialisation time,
+      a “default” is declared depending on said variable type.</p>
+    <p>A variable can change both value and type on new assignment.</p>
+    <p>&nbsp;</p><pre><code class="language-text-x-swift">var isMale : Bool // Declared with `false` value.
+var age : Int // 0
+var error_var // Error: no type &amp; no value.
+
+var str = "String"
+str = "Other string"
+
+uninit_var = 123 // Error: unresolved identifier
+
+var type_value : String = "this var has type &amp; value"</code></pre>
+
+  </body>
+
+</h

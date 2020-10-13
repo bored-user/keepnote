@@ -1,0 +1,24 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Verbatim</h1>
+
+    <p>Verbatim strings are useful when one needs to use special characters,
+      like backslashes. Usually, <code>\n</code> would be interpreted as a new
+      line. On a verbatim string, however, it isn't.</p>
+    <p>Verbatim strings are prefixed with an <code>@</code> sign:</p><pre><code class="language-text-x-csharp">string path = "c:\\\Users";
+string path_verb = @"c:\\Users";
+
+// Note that the first string needs an extra backslash as an escape character.</code></pre>
+    <p>&nbsp;</p>
+    <p>One can create new lines on verbatim strings by literally skipping a line.</p>
+  </body>
+
+</html>

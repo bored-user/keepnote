@@ -1,0 +1,37 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Named arguments</h1>
+
+    <p>In C#, method arguments can be sent in two ways: positional and named.</p>
+    <p>Positional arguments are the default way for most programming languages:
+      method <code>A</code> gets <code>string a, int b, string c</code> and, when
+      called, receives, for instance <code>"hello, ", 2, “world!”</code>.</p>
+    <p>Named arguments allows one to pass in methods in any order - using their
+      labels, like so:</p><pre><code class="language-text-x-csharp">using System;
+
+public void A(string a, int b, string c)
+{
+	for(int i = 0; i &lt; b; i++)
+		Console.WriteLine($"{a}{b}");
+}
+
+static void Main()
+{
+	A(c: "hello, ", b: 2, a: "world!");
+	/*
+		#=&gt; "hello, world!"
+		#=&gt; "hello, world!"
+	*/
+}</code></pre>
+
+  </body>
+
+</h

@@ -1,0 +1,30 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Nullable value types</h1>
+
+    <p>If one needs to set a value to <code>null</code>, they can declare it using <code>T?</code> or <code>Nullable&lt;T&gt;</code> -
+      both using <a href="../Generics.html"><code>generics</code></a>.</p>
+    <p>&nbsp;</p>
+    <p><code>T?</code> can be set to everything <code>T</code> can plus the <code>null</code> value,
+      like so:</p><pre><code class="language-text-x-csharp">bool normal = true;
+bool? nullable = null;
+
+// `bool boolean = null` throws an exception</code></pre>
+    <p>One can identify a value as null using the <code>value == null</code> comparison
+      or checking the <code>HasValue</code> property:</p><pre><code class="language-text-x-csharp">bool normal = false;
+bool? nullable = null;
+
+System.Console.WriteLine(normal.HasValue) // exception
+System.Console.WriteLine(nullable.HasValue) // false</code></pre>
+
+  </body>
+
+</html>
