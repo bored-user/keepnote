@@ -1,0 +1,27 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Exported vs Unexported identifiers</h1>
+
+    <p>Every identifier in a package that starts with a capital letter is exported
+      - meaning that it's available outside of that package; while every identifier
+      starting with a lower case is local to that package.</p>
+    <p>Be aware that, by convention, every exported method must contain a comment
+      right above it (starting with the method name) stating what it does, like
+      so:</p><pre><code class="language-text-x-go">package pkg1
+
+// Sum() gets two integers and returns their sum
+func Sum(n1 int, n2 int) int {
+	return n1 + n2
+}</code></pre>
+
+  </body>
+
+</html>

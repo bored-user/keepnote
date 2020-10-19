@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Value omission</h1>
+
+    <p>One can set the value only once and the compiler will automatically know
+      what to do:</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func main() {
+	const (
+		a = iota * 2
+		b
+		c
+	)
+	
+	fmt.Println(a, b, c)
+	//#=&gt; 0 2 4
+}</code></pre>
+
+  </body>
+
+</html>

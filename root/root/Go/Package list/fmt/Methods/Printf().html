@@ -1,0 +1,35 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Printf()</h1>
+
+    <p>Used to get information on the given value.</p>
+    <p>For instance, <code>%T</code> returns the value type, <code>%v</code> returns
+      the value itself.</p>
+    <p>Example:</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func main() {
+	x := 1
+	y := "hello"
+	
+	fmt.Printf("%v\t%T", x, x)
+	fmt.Printf("%v\t%T", y, y)
+	
+	//#=&gt; 1 int
+	//#=&gt; hello string	
+}</code></pre>
+    <p>&nbsp;</p>
+    <p>Each other argument will be used as base for a formatter parameter.</p>
+    <p>&nbsp;</p>
+  </body>
+
+</html>

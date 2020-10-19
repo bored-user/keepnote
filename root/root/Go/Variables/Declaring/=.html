@@ -1,0 +1,30 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>:=</h1>
+
+    <p>The gopher (aka short variable declaration operator) operator can only
+      be used inside a closure. It cannot be used to declare global variables.
+      It should always (when possible) be used. Has type-inference &amp; must
+      declare, at least, one variable.</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func main() {
+	x := 10
+	x, y := 20, 10
+	
+	fmt.Println(x, y)
+	// 20 10
+}</code></pre>
+
+  </body>
+
+</html>

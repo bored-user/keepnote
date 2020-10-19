@@ -1,0 +1,30 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Linear sequences</h1>
+
+    <p>One can easily generate a linear sequence using iota like so:</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func main() {
+	const (
+		a = iota * 2
+		b = iota * 2
+		c = iota * 2
+	)
+	
+	fmt.Println(a, b, c)
+	//#=&gt; 0 2 4
+}</code></pre>
+
+  </body>
+
+</html>
