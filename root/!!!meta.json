@@ -19440,7 +19440,7 @@
 											"title": "array",
 											"notePosition": 10,
 											"prefix": null,
-											"isExpanded": 0,
+											"isExpanded": 1,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [
@@ -19492,7 +19492,7 @@
 											"title": "slice",
 											"notePosition": 20,
 											"prefix": null,
-											"isExpanded": 1,
+											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
@@ -19537,6 +19537,107 @@
 													"attributes": [],
 													"format": "html",
 													"dataFileName": "Slicing a slice.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "PVesbHZKClNS",
+													"notePath": [
+														"root",
+														"2fEGn4yP67J9",
+														"lyjQoUjNC0Fm",
+														"ctmZb1eAuber",
+														"cr38BsrMUIqK",
+														"PVesbHZKClNS"
+													],
+													"title": "Multi-dimensional slices",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Multi-dimensional slices.html"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "QdBgGBSpedk5",
+											"notePath": [
+												"root",
+												"2fEGn4yP67J9",
+												"lyjQoUjNC0Fm",
+												"ctmZb1eAuber",
+												"QdBgGBSpedk5"
+											],
+											"title": "map",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "map.html",
+											"dirFileName": "map",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "8dVaON4H31P0",
+													"notePath": [
+														"root",
+														"2fEGn4yP67J9",
+														"lyjQoUjNC0Fm",
+														"ctmZb1eAuber",
+														"QdBgGBSpedk5",
+														"8dVaON4H31P0"
+													],
+													"title": "Defining other entries",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Defining other entries.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "wQjLV91vgnJV",
+													"notePath": [
+														"root",
+														"2fEGn4yP67J9",
+														"lyjQoUjNC0Fm",
+														"ctmZb1eAuber",
+														"QdBgGBSpedk5",
+														"wQjLV91vgnJV"
+													],
+													"title": "Check existance of entries",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "U4yc7YbPCIat",
+															"isInheritable": false,
+															"position": 1
+														},
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "2o3Sw9p1ZKih",
+															"isInheritable": false,
+															"position": 2
+														}
+													],
+													"format": "html",
+													"dataFileName": "Check existance of entries.html"
 												}
 											]
 										}
@@ -19555,7 +19656,7 @@
 							"title": "Control flow",
 							"notePosition": 40,
 							"prefix": null,
-							"isExpanded": 1,
+							"isExpanded": 0,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
@@ -19593,7 +19694,7 @@
 									"title": "Loops",
 									"notePosition": 10,
 									"prefix": null,
-									"isExpanded": 1,
+									"isExpanded": 0,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [],
@@ -19852,6 +19953,26 @@
 											"attributes": [],
 											"format": "html",
 											"dataFileName": "Ternary operator.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "2o3Sw9p1ZKih",
+											"notePath": [
+												"root",
+												"2fEGn4yP67J9",
+												"XWD3R3ui7VN9",
+												"goI7nvkrOE0O",
+												"2o3Sw9p1ZKih"
+											],
+											"title": "Comma ok idiom",
+											"notePosition": 60,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Comma ok idiom.html"
 										}
 									]
 								}
@@ -19868,7 +19989,7 @@
 							"title": "Functions",
 							"notePosition": 50,
 							"prefix": null,
-							"isExpanded": 1,
+							"isExpanded": 0,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
@@ -19934,7 +20055,7 @@
 									"title": "Arguments",
 									"notePosition": 20,
 									"prefix": null,
-									"isExpanded": 1,
+									"isExpanded": 0,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [
@@ -19963,7 +20084,7 @@
 											"title": "Variadic functions",
 											"notePosition": 0,
 											"prefix": null,
-											"isExpanded": 1,
+											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [
@@ -20173,6 +20294,34 @@
 											"attributes": [],
 											"format": "html",
 											"dataFileName": "Joining slices.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "BllWJ8nmQbha",
+											"notePath": [
+												"root",
+												"2fEGn4yP67J9",
+												"ZUiVSraXc2m0",
+												"dzGoExdbglcF",
+												"BllWJ8nmQbha"
+											],
+											"title": "Underlying array nuance",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "KuZphnCcWmQb",
+													"isInheritable": false,
+													"position": 1
+												}
+											],
+											"format": "html",
+											"dataFileName": "Underlying array nuance.html"
 										}
 									]
 								},
@@ -20243,6 +20392,40 @@
 									],
 									"format": "html",
 									"dataFileName": "make().html"
+								},
+								{
+									"isClone": false,
+									"noteId": "btCqgLIegWPP",
+									"notePath": [
+										"root",
+										"2fEGn4yP67J9",
+										"ZUiVSraXc2m0",
+										"btCqgLIegWPP"
+									],
+									"title": "delete()",
+									"notePosition": 40,
+									"prefix": null,
+									"isExpanded": 0,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "QdBgGBSpedk5",
+											"isInheritable": false,
+											"position": 1
+										},
+										{
+											"type": "relation",
+											"name": "internalLink",
+											"value": "dzGoExdbglcF",
+											"isInheritable": false,
+											"position": 2
+										}
+									],
+									"format": "html",
+									"dataFileName": "delete().html"
 								}
 							]
 						},
