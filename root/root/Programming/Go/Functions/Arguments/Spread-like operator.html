@@ -1,0 +1,27 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Spread-like operator</h1>
+
+    <p>Just like in Julia or JavaScript, it's possible to use a spread-like operator
+      in Go.</p>
+    <p>The spread operator is used to spread the contents of an <a href="../../Types/Data%20types%20list/array.html"><code>array</code></a>/
+      <a
+      href="../../Types/Data%20types%20list/slice.html"><code>slice</code>
+        </a>as individual arguments to a function.</p>
+    <p>Taking the previous note <a href="Variadic%20functions/Example.dat"><code>sum</code></a> function
+      example, one could do:</p><pre><code class="language-text-x-go">slice := []int { 1, 2, 3, 4, 5 }
+sum(slice...)	// 15</code></pre>
+    <p>&nbsp;</p>
+    <p>This is also useful to <a href="../../Built-in%20functions/append()/Joining%20slices.html">join <code>slice</code>s together</a>.</p>
+    <p>&nbsp;</p>
+  </body>
+
+</html>

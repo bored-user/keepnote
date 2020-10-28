@@ -1,0 +1,24 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Auto-implemented properties</h1>
+
+    <p>Auto-implemented properties are an easier way to write getters and setters.
+      Instead of doing <code>GetX</code> and <code>SetX</code> for a <code>X</code> properties
+      defined, one can simply use <code>public int X { get; set; }</code> and voila.
+      C# compiler automatically defines the private field and the (public) property.</p>
+    <p>Every (private) field should have a (public) property that modify/ read
+      it. As mentioned <a href="../../Property%20vs%20Field.html">here</a>, when
+      no further validation will take place, auto-implemented properties are
+      more than welcome.</p>
+    <p>Finally, one can implement access modifiers on getters and setters.</p>
+  </body>
+
+</html>

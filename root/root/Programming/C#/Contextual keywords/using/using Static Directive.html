@@ -1,0 +1,30 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>using Static Directive</h1>
+
+    <p>The <code>using</code> static directive works much like the <a href="using%20Directive.html"><code>using</code> ("dynamic", I suppose) directive</a>.</p>
+    <p>The only difference is that the <code>using</code> directive only supports
+      namespaces - while the <code>using</code> static directive supports classes
+      &amp; namespaces.</p>
+    <p>An example:</p><pre><code class="language-text-x-csharp">using static System.Console;
+using static System.Math;
+
+class Program
+{
+	static void Main()
+	{
+		WriteLine(Sqrt(4)); // #=&gt; 2
+	}
+}</code></pre>
+
+  </body>
+
+</html>

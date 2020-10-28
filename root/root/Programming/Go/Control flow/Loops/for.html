@@ -1,0 +1,56 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>for</h1>
+
+    <p>In Go, the <code>for</code> loop is the only existent loop. It syntax follows
+      every other <code>for</code> loop syntax:</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func main() {
+	for x := 1; x &lt; 3; x++ {
+		fmt.print(x, " ")
+		// 1 2
+	}
+	
+	// It's also possible to loop using `var`
+	for var x uint64 = 0; x &lt; 999999999; x++ {
+		fmt.printLn(x)
+	}
+	
+	// Also, note that one can also provide only the condition:
+	x := 0
+	for x &lt; 10 {
+		fmt.printLn(x)
+		// Without changing `x`, this would be an infinite loop
+		x++
+	}
+}</code></pre>
+    <p>&nbsp;</p>
+    <p>Since there's no <code>while</code> loop, the only way to make an infinite
+      loop is by omitting the <code>for</code>'s operators:</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func main() {
+	for {
+		fmt.printLn("infinite loop here!")	
+	}
+	
+	// This also works:
+	for true {
+		fmt.printLn("infinite loop!")	
+	}
+}</code></pre>
+
+  </body>
+
+</html>

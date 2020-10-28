@@ -1,0 +1,29 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Joining slices</h1>
+
+    <p>One can join <code>slice</code>s together using the <code>append()</code> function
+      and the <code>spread-like operator</code>, like so:</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func main() {
+	slice1 := []int { 1, 2, 3, 4, 5 }
+	slice2 := []int { 6, 7, 8, 9, 10 }
+	
+	slice3 := append(slice1, slice2...)
+	fmt.Println(slice3)	// [ 1 2 3 4 5 6 7 8 9 10 ]
+}</code></pre>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </body>
+
+</html>

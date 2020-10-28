@@ -1,0 +1,32 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>iota</h1>
+
+    <p><code>iota</code> is a special constant used to define sequential values.
+      The starting <code>iota</code> value is zero, and it is reset to zero on
+      every constant declaration.</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func main() {
+	const (
+		a = iota
+		b = iota
+		c = iota
+	)
+	
+	fmt.Println(a, b, c)
+	//#=&gt; 0 1 2
+}</code></pre>
+    <p>&nbsp;</p>
+  </body>
+
+</html>

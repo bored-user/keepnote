@@ -1,0 +1,32 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>prepend</h1>
+
+    <p><code>prepend</code> acts exactly like <code>include</code>. The only difference
+      is that it overwrites class methods in case of name collision:</p><pre><code class="language-text-x-ruby">module MyModule
+	def greet
+		'hi'
+	end
+end
+
+class MyClass
+	prepend MyModule
+	
+	def greet
+		'hello'
+	end
+end
+
+puts MyClass.new.greet #=&gt; 'hi'</code></pre>
+
+  </body>
+
+</html>

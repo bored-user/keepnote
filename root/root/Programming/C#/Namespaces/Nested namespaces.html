@@ -1,0 +1,32 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Nested namespaces</h1>
+
+    <p>Finally, note that it's possible to have namespaces inside namespaces,
+      like <a href="List/System/Namespace%20list/Threading/Class%20list/Thread"><code>System.Threading.Thread</code></a>.
+      The syntax is as follows: <code>namespace MyParentNamespace.MyChildNamespace {}</code> or
+      like so:</p><pre><code class="language-text-x-csharp">namespace MyParentNamespace
+{
+	namespace MyChildNamespace
+	{
+		class Program
+		{
+			static void Main()
+			{
+				Console.WriteLine("hello, world!");
+			}
+		}
+	}
+}</code></pre>
+
+  </body>
+
+</html>

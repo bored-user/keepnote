@@ -1,0 +1,38 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>readonly</h1>
+
+    <p>The <code>readonly</code> modifier ensures that the property won't be overwritten
+      (except for the method's constructor). If a method tries to change it,
+      an exception will be thrown.</p><pre><code class="language-text-x-csharp">class Program
+{
+	private readonly int _id;
+	
+	public Program(int id)
+	{
+		this._id = id;
+	}
+
+	public ChangeID(int id)
+	{
+		this._id = id; // Exception here
+	}
+
+	static void Main()
+	{
+		Program program = new Program(1);
+		program.ChangeID(2);
+	}
+}</code></pre>
+
+  </body>
+
+</html>

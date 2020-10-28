@@ -1,0 +1,10 @@
+class MyClass
+	def initialize(n1, n2)
+		@n1 = n1
+		@n2 = n2
+	end
+end
+
+my_class = MyClass.new(20, 50)
+puts my_class.n1 #=> tries to call `n1` method inside MyClass object, which fails because there's no said method.
+my_class.n2 = 123 #=> also fails, because it tries to call (unexistant) `n2=` method inside the my_class class.

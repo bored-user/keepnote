@@ -1,0 +1,40 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Underlying array nuance</h1>
+
+    <p>Note that when assigning the result of <code>append()</code> to a new array,
+      the underlying type of the old array is modified, meaning that the old
+      array is modified (illustrated below). Therefore, it's a best practice
+      to use other methods to expand an array (when dealing with +1 array), like
+      a <a href="../../Control%20flow/Loops/for.html"><code>for</code> loop</a>.</p><pre><code class="language-text-x-go">package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	slice1 := []int{1, 2, 3, 4, 5}
+	fmt.Println(slice1)
+	// [ 1 2 3 4 5 ]
+	
+	slice2 := append(primeiroslice[:2], primeiroslice[4:]...)
+	fmt.Println(slice2)
+	// [ 1 2 5 ]
+
+	fmt.Println(slice1)
+	// [ 1 2 5 4 5 ]
+	// Note how `slice1` was modified even though nothing changed its value directly
+}
+</code></pre>
+
+  </body>
+
+</html>

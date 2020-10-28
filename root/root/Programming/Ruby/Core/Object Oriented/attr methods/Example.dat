@@ -1,0 +1,24 @@
+class MyClass
+	attr_reader :reading
+	attr_writer :writting
+	attr_accessor :both
+	
+	def initialize(r, w, b)
+		@reading = r
+		@writting = w
+		@both = b
+	end
+end
+
+
+my_class = MyClass.new('you can only read me!', '', 'try reading/ writting me!')
+
+puts my_class.reading #=> 'you can only read me!'
+my_class.reading = 'a' #=> No Method ERROR
+
+puts my_class.writting #=> No Method Error
+my_class.writting = 'writting...'
+
+puts my_class.both #=> 'try reading/ writting me!'
+my_class.both = 'hello, world!'
+puts my_class.both #=> 'hello, world!'

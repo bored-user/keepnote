@@ -1,0 +1,27 @@
+using System;
+
+class ParentClass
+{
+	public virtual void SayHello()
+	{
+		Console.WriteLine("hello from parent");
+	}
+}
+
+class ChildClass : ParentClass
+{
+	public override void SayHello()
+	{
+		Console.WriteLine("hello from child");
+		base.SayHello();
+	}
+}
+
+class Program
+{
+	public static void Main()
+	{
+		var cc = new ChildClass();
+		cc.SayHello();
+	}
+}

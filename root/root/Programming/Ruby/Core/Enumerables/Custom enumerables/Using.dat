@@ -1,0 +1,22 @@
+=begin
+    After defining a custom enumerable, one needs to use the each method, giving a block as argument:
+=end
+
+class MyEnumerable
+	include Enumerable
+	def each
+		yield 'Item 01'
+		yield 'Item 02'
+		yield 'Item 03'
+	end
+end
+
+enum = MyEnumerable.new
+enum.each { |item| puts item } #=> 'Item 01' 'Item 02' 'Item 03'
+
+# or
+
+enum.each do |item|
+    puts item
+    #=> 'Item 01' 'Item 02' 'Item 03'
+end

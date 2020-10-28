@@ -1,0 +1,25 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Generic methods</h1>
+
+    <p>It's possible to create a generic method on a non-generic class, like
+      so:</p><pre><code class="language-text-x-csharp">class NonGenericClass
+{
+	public T Largest&lt;T&gt;(T n1, T n2) where T : IComparable
+	{
+		return n1.CompareTo(n2) &gt; 0 ? n1 : n2;
+		// Compare the sizes of n1 and n2 and return the largest
+	}
+}</code></pre>
+
+  </body>
+
+</html>

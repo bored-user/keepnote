@@ -1,0 +1,4 @@
+arr = %w[a b c]
+puts arr.each #=> #<Enumerator: ["a", "b", "c"]:each>
+
+arr.each {|n| puts n} #=> 'a' 'b' 'c'

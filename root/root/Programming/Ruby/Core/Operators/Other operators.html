@@ -1,0 +1,47 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Other operators</h1>
+
+    <ul>
+      <li>Unary operators
+        <ul>
+          <li>Unary operators take only one input</li>
+          <li><code>+'my_string'</code> (creates a mutable copy of string. Same as
+            <a
+            href="../Global%20Methods/dup.html">dup method</a>on frozen stings)</li>
+          <li><code>!</code> (inverts the boolean value of an object)</li>
+        </ul>
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+    <ul>
+      <li><code>*</code> (<a href="../Functions/Splat%20operator.html">splat operator</a>)</li>
+      <li><code>=~</code> (<a href="../Regular%20expressions/Matching.html">regex operator</a>)</li>
+      <li><code>?:</code> (<a href="../Conditionals/Ternary%20operator.html">ternary operator</a>)</li>
+      <li><code>&lt;&lt;</code> (shovel/ push operator - on <a href="../Data%20Types/Strings/Append.html">Strings</a> and
+        <a
+        href="../Data%20Types/Arrays/Add%20elements%20to%20array.html">Arrays</a>)</li>
+      <li><code>::</code> (<a href="../Object%20Oriented/Modules/Namespace%20resolution%20operator.html">namespace resolution operator</a>)</li>
+      <li><code>&amp;.</code> (safe navigator - or optional chaining, in JavaScript) <strong>[Ruby 2.3+]</strong>
+      </li>
+    </ul>
+    <p>&nbsp;</p><pre><code class="language-text-x-ruby"># Safe navigator example
+
+# Without it
+puts "User #{user.name} is online!" if user &amp;&amp; user.online?
+
+# With it
+puts "User #{user.name} is online!" if user&amp;.online
+#=&gt; Will stop chaining if the object is nil.</code></pre>
+
+  </body>
+
+</html>

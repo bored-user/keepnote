@@ -1,0 +1,27 @@
+class MyClass
+	def intialize(n1, n2)
+		@n1 = n1
+		@n2 = n2
+	end
+	
+	def n1
+		@n1
+	end
+	
+	def n2
+		@n2
+	end
+	
+	def n1=(n1)
+		@n1 = n1
+	end
+	
+	def n2=(n2)
+		@n2 = n2
+	end
+end
+
+my_class = MyClass.new(20, 50)
+puts my_class.n1 #=> 20 - calls n1 method which returns instance variable n1
+my_class.n1 = 30 #=> calls n1= method which takes the "new n1" (30) as argument
+puts my_class.n1 #=> 30

@@ -1,0 +1,43 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Functions</h1>
+
+    <p>The return type is specified &nbsp;It can take any number of arguments
+      (which are also type-defined by a space character). If a function returns <code>void</code>,
+      one only need to set no return type (like the <code>main</code> function).</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func sum(n1 int, n2 int) int {
+	return n1 + n2
+}
+
+func fact(n int) int {
+	if n == 1 {
+		return 1
+	} else {
+		return fact(n - 1) * n
+	}
+}
+
+func greet(name string) string {
+	return fmt.Sprintf("Hello, %v", name)
+}
+
+func main() {
+	fmt.Println(sum(10, 40))	// 50
+	fmt.Println(fact(5))		// 120
+	fmt.Println(greet("John"))	// "Hello, John"
+}</code></pre>
+
+  </body>
+
+</html>

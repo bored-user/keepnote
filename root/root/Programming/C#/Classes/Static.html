@@ -1,0 +1,30 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Static</h1>
+
+    <p>Static methods are a way of executing class methods without having to
+      instantiate them. It also allows the system to store that method in only
+      one place (because the class objects will only have a pointer to the method,
+      not the method itself).</p>
+    <p>They're useful when the method doesn't depend on the object (roughly speaking,
+      it doesn't modify <code>this</code> variables).</p>
+    <p>Note that properties can also be static (<code>private static int _id</code> -
+      for example).</p>
+    <p>Finally, it's possible - although not considered a best practice - to
+      declare a static class. All methods and properties from a static class
+      must also be static.</p>
+    <p>It's useful to reference a value that will change. For instance, one can
+      set the title of a window to a property of a static class and later change
+      the value of the said property of said static class - there's no need to
+      also change the title of the window.</p>
+  </body>
+
+</html>

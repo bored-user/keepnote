@@ -1,0 +1,40 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Constructor inheritance</h1>
+
+    <p>Constructors are inherited by default. Well, not exactly inherited. They
+      are executed by default before all the code of the child class. If a parent
+      class and the child class constructor takes one argument, the argument
+      given to the child class will be automatically given to the parent class.
+      However, if the number of argument is different, one must use the <code>base</code> methods,
+      passing arguments onto the parent class.</p>
+    <p>The <code>base</code> method has a similar syntax to <a href="../Constructors.html">constructor overloading</a>:</p><pre><code class="language-text-x-csharp">using System;
+
+class ChildClass : ParentClass
+{
+	// The base invocation bellow calls the constructor of the parent class.
+	public ChildClass() : base()
+	{}
+}
+
+class ChildClass2 : ParentClass
+{
+	/*
+		It's also possible to pass in arguments given to the child class
+		up to the base one.
+	*/
+	public ChildClass2(string arg1) : base(arg1)
+	{}
+}</code></pre>
+
+  </body>
+
+</html>

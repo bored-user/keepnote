@@ -1,0 +1,38 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Parse()</h1>
+
+    <p>The <code>Enum.Parse()</code> method takes a <code>typeof()</code> output
+      (representing the reference to the enum), a string as the enum's key and
+      a optional boolean indicating if the method is supposed to ignore case
+      (defaults to <code>false</code>). Returns the value of the given key.</p><pre><code class="language-text-x-csharp">class Program
+{
+	enum Colors
+	{
+		Red = 255,
+		Green = 255,
+		Blue = 255
+	}
+	
+	static void Main()
+	{
+		Console.WriteLine(Enum.Parse(typeof(Colors), "rEd", true));
+		Console.WriteLine(Enum.Parse(typeof(Colors), "Red", false));
+		/*
+			#=&gt; 255
+			#=&gt; 255
+		*/
+	}
+}</code></pre>
+
+  </body>
+
+</html>

@@ -1,0 +1,46 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Declaring</h1>
+
+    <p>All lambda functions follow a basic declaration path: the argument list,
+      the arrow sign (<code>=&gt;</code>) and the implicit return statement.</p>
+    <p>However, when a lambda function is more than one line long, it's possible
+      to open a curly braces block after the arrow sign - but the <code>return</code> statement
+      needs to be implicit.</p>
+    <p>Here's an example:</p><pre><code class="language-text-x-csharp">class Program
+{
+	static void Main()
+	{
+		Func&lt;ulong, ulong&gt; fact1 = n =&gt; n &lt;= 1 ? 1 : n * fact1(n - 1);
+		Func&lt;ulong, ulong&gt; fact2 = n =&gt;
+		{
+			if (n &lt;= 1)
+				return 1;
+			else
+				return n * fact2(n - 1);
+		}
+		
+		Console.WriteLine($"Fact1: {fact1(5)}\nFact2: {fact2(5)}");
+		
+		/*
+			In this example 1, I've used a ternary statement to decide what to return, with an implicit return statement.
+			
+			It's, however, possible to explict that return statement and use a curly brace block, like shown in example 2.
+			
+			Note that both output 120.
+		*/
+		
+	}
+}</code></pre>
+
+  </body>
+
+</html>

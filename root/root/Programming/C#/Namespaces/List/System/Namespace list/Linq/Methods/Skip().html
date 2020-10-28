@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Skip()</h1>
+
+    <p>Takes an integer as argument indicating how many numbers to skip. Will
+      return a collection starting from item <code>n</code> - where <code>n</code> is
+      the given argument.</p>
+    <p>If <code>n</code> is greater than the size of the collection, an empty collection
+      is returned. If it's 0 or smaller, the whole collection will be returned.</p><pre><code class="language-text-x-csharp">using System;
+
+class Program
+{
+	static void Main()
+	{
+		int[] nums = new int[] { 1, 2, 3 };
+		Console.WriteLine(nums.Length); // 3
+		Console.WriteLine(nums.Skip(2).ToArray().Lenght); // 1
+	}
+}</code></pre>
+
+  </body>
+
+</html>

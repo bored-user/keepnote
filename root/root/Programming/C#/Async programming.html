@@ -1,0 +1,40 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Async programming</h1>
+
+    <p>C# is a synchronous programming language by default. Meaning that it stops
+      at execution of processes that take time (a web request, for instance).
+      It's possible to program asynchronously using <code>async</code> methods
+      and the <code>await</code> keyword - just like in JavaScript:</p><pre><code class="language-text-x-csharp">class Program
+{
+	static async Task AsyncTask()
+	{
+		// something that takes time to execute
+	}
+	
+	static async void Main()
+	{
+		var res = await AsyncTask();
+	}
+}</code></pre>
+    <p>&nbsp;</p>
+    <p>Note that all synchronous methods have an <code>async</code> version, which
+      <a
+      href="Methods/Overloading/Method%20signature.html">signature</a>is <code>MethodAsyncTask</code>. The method can return either <code>void</code> or
+        a <a href="Namespaces/List/System/Namespace%20list/Threading/Class%20list/Tasks/Class%20list/Task.html"><code>System.Threading.Tasks.Task</code></a> object
+        - for which there's a <a href="Generics.html"><code>generics</code></a> version.
+        Finally, note that only <code>async</code> methods can use the <code>await</code> keyword.</p>
+    <p>Be aware that it's also possible to execute a <code>TaskAsync</code> function,
+      store its result on a variable and only later use <code>await</code> on it.
+      The <code>System.Threading.Tasks.Task</code> object is essentially a JavaScript's <code>Promise</code> object.</p>
+  </body>
+
+</html>

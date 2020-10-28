@@ -1,0 +1,24 @@
+name = 'Joao'
+age = 123
+male = true
+money = nil
+friends = [
+    {
+        'name' => 'Friend_1',
+        'age' => 321
+        'male' => true
+        'money' => 232
+    },
+    {
+        'name' => 'Friend_2',
+        'age' => 213
+        'male' => false
+        'money' => 1
+    },
+    {
+        'name' => 'Friend_3',
+        'age' => 234
+        'male' => false
+        'money' => 999
+    }
+]

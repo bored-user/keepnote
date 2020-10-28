@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+	public delegate void MyDelegate(string s);
+	
+	public void WriteOnConsole(string s) => Console.WriteLine(s);
+	
+	static void Main()
+	{
+		MyDelegate md = WriteOnConsole;
+		md("hello, world!");
+		// #=> "hello, world!"
+	}
+}

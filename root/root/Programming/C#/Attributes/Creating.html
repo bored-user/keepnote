@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Creating</h1>
+
+    <p>One can create a custom attribute simply by creating a class that derives
+      from <code>Attribute</code> base class. Its nomenclature must be <code>NameAttribute</code> -
+      like <code>CoolAttribute</code> (which can then be used as <code>[Cool]</code> or <code>[CoolAttribute]</code>).</p>
+    <p>In order to make the attribute able to receive arguments, one must create
+      a constructor on the attribute derived class, like so:</p><pre><code class="language-text-x-csharp">using System;
+
+class CoolAttribute : Attribute
+{
+	public CoolAttribute(string str)
+	{
+		// when calling the attribute: [CoolAttribute("Argument string!")]
+	}
+}</code></pre>
+    <p>&nbsp;</p>
+    <p>Note that an attribute accepts only simple data types, such as <code>string</code>, <code>int</code>, <code>bool</code>, <code>double</code>, <code>enum</code>,
+      etc.</p>
+  </body>
+
+</html>

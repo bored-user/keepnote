@@ -1,0 +1,38 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Sum()</h1>
+
+    <p>Sums all the numbers on a collection and returns the result. Takes an
+      optional <a href="../../../../../../Delegates.html"><code>delegate</code></a> indicating
+      which property of the objects inside the collection should be summed up.</p><pre><code class="language-text-x-csharp">using System.Collections.Generic;
+using System.Linq;
+using System;
+
+class Book
+{
+	public string Title { get; set; }
+	public double Price { get; set; }
+}
+
+class Program
+{
+	static List&lt;Book&gt; GetBookList() =&gt; new List&lt;Book&gt;() { new Book() { Title = "C# Guide", Price = 10.5 }, new Book() { Title = "Java Guide", Price = 10 }, new Book() { Title = "Python Guide", Price = 12 } };
+
+	static void Main()
+	{
+		Console.WriteLine(GetBookList().Sum(b =&gt; b.Price))
+		// Sorts by price. Prints "32.5"
+	}
+}</code></pre>
+
+  </body>
+
+</html>

@@ -1,0 +1,33 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Slicing a slice</h1>
+
+    <p>One can slice a slice using a like-Python notation, using square brackets
+      and colons: <code>slice[x:y]</code>. The <code>x</code> index is included
+      but the <code>y</code> is excluded.</p>
+    <p>Note that this will return another <code>slice</code> with the proper elements
+      (even if there's only one element).</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func main() {
+	slice := []int { 0, 1, 2, 3, 4 }
+	
+	fmt.Pritnln(slice[:])		// same as fmt.Println(slice)
+	fmt.Println(slice[0:2])		// [0 1]
+	fmt.Println(slice[:3])		// [0 1 2]
+	fmt.Println(slice[3:])		// [3 4]
+	
+}</code></pre>
+
+  </body>
+
+</html>

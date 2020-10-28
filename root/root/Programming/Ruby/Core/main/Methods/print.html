@@ -1,0 +1,28 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>print</h1>
+
+    <p><code>print</code> also logs to the console. It doesn't add a line break
+      after the printed data &amp; renders <code>nil</code> to blank space (since
+      it's absence of value).</p><pre><code class="language-text-x-ruby">print 'hello, '
+print 'world'
+#=&gt; 'hello, ' 'world'
+
+print nil #=&gt;
+
+=begin
+    Using `puts 'hello', 'world'` is the same as
+    `print "hello\n", 'world'`.
+=end</code></pre>
+
+  </body>
+
+</html>

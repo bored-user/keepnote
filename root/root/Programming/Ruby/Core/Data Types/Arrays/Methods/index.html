@@ -1,0 +1,29 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>index</h1>
+
+    <p>Returns the starting index of the given argument on the caller (String
+      or Array).</p><pre><code class="language-text-x-ruby">str = 'joao'
+puts str.index('j') #=&gt; 0
+puts str.index('o') #=&gt; 1
+
+arr = [1, 2, 3]
+puts arr.index(2) #=&gt; 1</code></pre>
+    <p>&nbsp;</p>
+    <p>It can also take an optional second parameter indicating the <code>nth</code> index
+      that should be returned (-1 for last). Defaults to 1.</p><pre><code class="language-text-x-ruby">str = 'joao'
+puts str.index('o', 2) #=&gt; 3
+puts str.index('o', 1) #=&gt; 2
+puts str.index('o', -1) #=&gt; 3</code></pre>
+
+  </body>
+
+</html>

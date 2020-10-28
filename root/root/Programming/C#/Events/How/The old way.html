@@ -1,0 +1,90 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>The old way</h1>
+
+    <p>Firstly, one needs to define a <code>delegate</code>. The <a href="../../Methods/Overloading/Method%20signature.html">signature</a> convention
+      for the <code>delegate</code> method is: its name should be the action that
+      will call the delegate on the correct verb tense + <code>EventHandler</code>.
+      For instance:</p>
+    <figure class="table">
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:center;width:50%;"><u>Action</u>
+            </th>
+            <th style="text-align:center;"><u>Delegate name</u>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Do something after a message is sent</td>
+            <td>MessageSentEventHandler</td>
+          </tr>
+          <tr>
+            <td>Do something while playing a song</td>
+            <td>SongPlayingEventHandler</td>
+          </tr>
+          <tr>
+            <td>Do something before a video is encoded</td>
+            <td>BeforeVideoEncodeEventHandler</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p>The delegate should take an object called <code>source</code> and an <a href="../../Namespaces/List/System/Class%20list/EventArgs.html"><code>EventArgs</code></a>  <code>args</code> object.</p>
+    <p>Nomenclature examples:</p>
+    <ul>
+      <li><code>public delegate void MessageSentEventHandler(object source, EventArgs args);</code>
+      </li>
+      <li><code>public delegate void SongPlayingEventHandler(object source, EventArgs args);</code>
+      </li>
+      <li><code>public delegate void BeforeVideoEncodeEventHandler(object source, EventArgs args);</code>
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+    <p>After that, one needs to create the <code>event</code> itself based on the
+      delegate created before. The default naming convention is: the same name
+      as the <code>delegate</code> created before without the <code>EventHandler</code> suffix.
+      Note that it should return an object of type [created <code>delegate</code>].</p>
+    <p>Nomenclature examples:</p>
+    <ul>
+      <li><code>public event MessageSentEventHandler MessageSent;</code>
+      </li>
+      <li><code>public event SongPlayingEventHandler SongPlaying;</code>
+      </li>
+      <li><code>public event BeforeVideoEncodeEventHandler BeforeVideoEncode;</code>
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+    <p>Finally, one should create a method to actually call the event handler.
+      It <code>signature</code> should look more or less like this: it should be
+      a <code>protected virtual void</code> which name is the same as the event
+      created before with the <code>On</code> suffix. That method calls the created <code>event</code>,
+      sending the <code>source</code> and the <code>EventArgs</code> object. Note
+      that the <code>event</code> method defined above is only a <code>delegate</code>.
+      It isn't a method, only a pointer to one. Therefore, it's a best practice
+      to check if the <code>event</code> delegate isn't <code>null</code> before
+      calling it, avoiding an exception.</p>
+    <p>Nomenclature examples:</p>
+    <ul>
+      <li><code>protected virtual void OnMessageSent;</code>
+      </li>
+      <li><code>protected virtual void OnSongPlaying;</code>
+      </li>
+      <li><code>protected virtual void OnBeforeVideoEncode;</code>
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+    <p>Take a look at a source code example <a href="The%20old%20way/Example.dat">here</a>.</p>
+  </body>
+
+</html>

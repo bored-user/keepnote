@@ -1,0 +1,9 @@
+=begin
+    RESULT      | MEANING
+    -1          | greater than
+    0           | equal to
+    1           | less than
+=end
+
+puts 10 <=> 20 #=> -1
+puts 40 * 2 <=> 50 * 0.5 #=> 1

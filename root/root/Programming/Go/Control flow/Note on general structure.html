@@ -1,0 +1,50 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+     <h1>Note on general structure</h1>
+
+    <p>Usually, in programming languages like JavaScript, Java, C#, C++, etc, <code>if</code>, <code>for</code>, <code>while</code>,
+      etc blocks' conditions are written enclosed in parentheses, like so:</p><pre><code class="language-text-plain">// C#
+for(int i = 1; i &lt;= 5; i++)
+	System.Console.WriteLine(i);
+	
+// JS
+for(let i = 1; i &lt;= 5; i++)
+	console.log(i);
+	
+// Java
+if(i &lt;= 5)
+	System.out.printLn("i is less than or equal to 5");</code></pre>
+    <p>&nbsp;</p>
+    <p>In Go, however, there's no parentheses! One simply writes the conditions
+      of the loop or <code>if</code> block:</p><pre><code class="language-text-x-go">package main
+
+import "fmt"
+
+func main() {
+	for i := 1; i &lt;= 5; i++ {
+		if i == 1 {
+			fmt.Println("Starting the loop...")
+		}
+	
+		fmt.printLn(i)
+	
+		if i == 5 {
+			fmt.Println("Ending the loop...")
+		}
+	}
+}</code></pre>
+    <p>&nbsp;</p>
+    <p>Also, note that, in the languages mentioned above, when there's only one
+      instruction on the conditional or loop structure, one can omit the curly
+      braces. In Go, however, there always has to be a set of curly braces.</p>
+  </body>
+
+</html>
