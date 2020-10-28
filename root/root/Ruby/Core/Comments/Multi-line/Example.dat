@@ -1,9 +1,0 @@
-=begin
-    this is a multi line comment. it won't be read by Ruby parser! it's kind of the default way of doing multi line comments.
-=end
-
-"this is a comment string. it's bad because it generates a string instance in memory"
-
-__END__
-
-this won't be parsed

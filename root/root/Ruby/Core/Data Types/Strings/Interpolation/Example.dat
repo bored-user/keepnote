@@ -1,3 +1,0 @@
-age = 30
-puts "I'm #{age} years old."
-#=> "I'm 30 years old."
