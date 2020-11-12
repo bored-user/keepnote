@@ -21597,7 +21597,7 @@
 					"title": "Languages",
 					"notePosition": 70,
 					"prefix": null,
-					"isExpanded": 0,
+					"isExpanded": 1,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [],
@@ -21616,7 +21616,7 @@
 							"title": "Norwegian (Bokmål)",
 							"notePosition": 0,
 							"prefix": null,
-							"isExpanded": 0,
+							"isExpanded": 1,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
@@ -21635,7 +21635,7 @@
 									"title": "Artikler (Articles)",
 									"notePosition": 0,
 									"prefix": null,
-									"isExpanded": 1,
+									"isExpanded": 0,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [
@@ -21685,7 +21685,7 @@
 											"title": "List",
 											"notePosition": 30,
 											"prefix": null,
-											"isExpanded": 1,
+											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
@@ -32548,6 +32548,305 @@
 										},
 										{
 											"isClone": false,
+											"noteId": "eV9sZN2ZVc3C",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"zgPpmdtKoiwe",
+												"eV9sZN2ZVc3C"
+											],
+											"title": "å lytte (to listen)",
+											"notePosition": 360,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "å lytte (to listen)",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "j0TTqH8V8kj2",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"zgPpmdtKoiwe",
+														"eV9sZN2ZVc3C",
+														"j0TTqH8V8kj2"
+													],
+													"title": "Verb tenses",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Verb tenses",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "TnExYwbLZCnH",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"eV9sZN2ZVc3C",
+																"j0TTqH8V8kj2",
+																"TnExYwbLZCnH"
+															],
+															"title": "Indicative",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Indicative",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "cTnWE5CaZj4V",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"eV9sZN2ZVc3C",
+																		"j0TTqH8V8kj2",
+																		"TnExYwbLZCnH",
+																		"cTnWE5CaZj4V"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "570C4SuWIssJ",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"eV9sZN2ZVc3C",
+																		"j0TTqH8V8kj2",
+																		"TnExYwbLZCnH",
+																		"570C4SuWIssJ"
+																	],
+																	"title": "Present perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "CNOmnyGmsyJe",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"eV9sZN2ZVc3C",
+																		"j0TTqH8V8kj2",
+																		"TnExYwbLZCnH",
+																		"CNOmnyGmsyJe"
+																	],
+																	"title": "Past",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "mI0TUXvH9vux",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"eV9sZN2ZVc3C",
+																		"j0TTqH8V8kj2",
+																		"TnExYwbLZCnH",
+																		"mI0TUXvH9vux"
+																	],
+																	"title": "Past perfect",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "D8MtgvqsPnBj",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"eV9sZN2ZVc3C",
+																		"j0TTqH8V8kj2",
+																		"TnExYwbLZCnH",
+																		"D8MtgvqsPnBj"
+																	],
+																	"title": "Future",
+																	"notePosition": 40,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "5rhbc7GEP3Nk",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"eV9sZN2ZVc3C",
+																		"j0TTqH8V8kj2",
+																		"TnExYwbLZCnH",
+																		"5rhbc7GEP3Nk"
+																	],
+																	"title": "Future perfect",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "IsnXherTE29R",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"eV9sZN2ZVc3C",
+																"j0TTqH8V8kj2",
+																"IsnXherTE29R"
+															],
+															"title": "Conditional",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Conditional",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "va0iisSRuW7Y",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"eV9sZN2ZVc3C",
+																		"j0TTqH8V8kj2",
+																		"IsnXherTE29R",
+																		"va0iisSRuW7Y"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "WeGDSf4eIUUc",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"eV9sZN2ZVc3C",
+																		"j0TTqH8V8kj2",
+																		"IsnXherTE29R",
+																		"WeGDSf4eIUUc"
+																	],
+																	"title": "Perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "4gelSgVqv3dT",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"eV9sZN2ZVc3C",
+																"j0TTqH8V8kj2",
+																"4gelSgVqv3dT"
+															],
+															"title": "Imperative",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Imperative.html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
 											"noteId": "wSdwbpfX1bUt",
 											"notePath": [
 												"root",
@@ -32557,7 +32856,7 @@
 												"wSdwbpfX1bUt"
 											],
 											"title": "å arbeide (to work)",
-											"notePosition": 360,
+											"notePosition": 370,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -32877,7 +33176,7 @@
 												"6xcRPJy67Oej"
 											],
 											"title": "å jobbe (to work)",
-											"notePosition": 370,
+											"notePosition": 390,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -33193,7 +33492,7 @@
 												"MTyzLaAIZI7x"
 											],
 											"title": "å vente (to wait)",
-											"notePosition": 380,
+											"notePosition": 410,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -33492,7 +33791,7 @@
 												"Uaj7kCOke0fZ"
 											],
 											"title": "å stå (to stand)",
-											"notePosition": 390,
+											"notePosition": 430,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -33791,7 +34090,7 @@
 												"vBM5EXWEuPVQ"
 											],
 											"title": "å bestille (to order)",
-											"notePosition": 400,
+											"notePosition": 450,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -34090,7 +34389,7 @@
 												"Ia0WK1s6EQZD"
 											],
 											"title": "å leke (to play)",
-											"notePosition": 410,
+											"notePosition": 470,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -34425,7 +34724,7 @@
 												"wyrlfNKvxguG"
 											],
 											"title": "å spille (to play)",
-											"notePosition": 420,
+											"notePosition": 490,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -34741,7 +35040,7 @@
 												"6N6QiCvopgmi"
 											],
 											"title": "å gå (to go/ to walk)",
-											"notePosition": 430,
+											"notePosition": 510,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -35158,7 +35457,7 @@
 												"ath3oNWQ8Git"
 											],
 											"title": "å skje (to happen)",
-											"notePosition": 440,
+											"notePosition": 530,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -35260,15 +35559,15 @@
 												"zgPpmdtKoiwe",
 												"hpvasJy8Seq1"
 											],
-											"title": "å komme",
-											"notePosition": 450,
+											"title": "å komme (to come)",
+											"notePosition": 550,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
 											"format": "html",
-											"dirFileName": "å komme",
+											"dirFileName": "å komme (to come)",
 											"children": [
 												{
 													"isClone": false,
@@ -35621,7 +35920,7 @@
 												"tRfDFPs6XJsH"
 											],
 											"title": "å ta (to touch)",
-											"notePosition": 460,
+											"notePosition": 570,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -35908,6 +36207,1501 @@
 													]
 												}
 											]
+										},
+										{
+											"isClone": false,
+											"noteId": "RZB8SihWrEZ8",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"zgPpmdtKoiwe",
+												"RZB8SihWrEZ8"
+											],
+											"title": "å tro (to believe)",
+											"notePosition": 590,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "å tro (to believe)",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "nJDAU4PCGSET",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"zgPpmdtKoiwe",
+														"RZB8SihWrEZ8",
+														"nJDAU4PCGSET"
+													],
+													"title": "Verb tenses",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Verb tenses",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "qg9GlP5o7CYr",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"RZB8SihWrEZ8",
+																"nJDAU4PCGSET",
+																"qg9GlP5o7CYr"
+															],
+															"title": "Indicative",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Indicative",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "WYOepTdoaSdK",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"RZB8SihWrEZ8",
+																		"nJDAU4PCGSET",
+																		"qg9GlP5o7CYr",
+																		"WYOepTdoaSdK"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "tjSSZMrOih9E",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"RZB8SihWrEZ8",
+																		"nJDAU4PCGSET",
+																		"qg9GlP5o7CYr",
+																		"tjSSZMrOih9E"
+																	],
+																	"title": "Present perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "Frvpj8H5d4Zg",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"RZB8SihWrEZ8",
+																		"nJDAU4PCGSET",
+																		"qg9GlP5o7CYr",
+																		"Frvpj8H5d4Zg"
+																	],
+																	"title": "Past",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "0xQ86FEH46eU",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"RZB8SihWrEZ8",
+																		"nJDAU4PCGSET",
+																		"qg9GlP5o7CYr",
+																		"0xQ86FEH46eU"
+																	],
+																	"title": "Past perfect",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "6uJXcLDInpt9",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"RZB8SihWrEZ8",
+																		"nJDAU4PCGSET",
+																		"qg9GlP5o7CYr",
+																		"6uJXcLDInpt9"
+																	],
+																	"title": "Future",
+																	"notePosition": 40,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "SlGNqJnjZasv",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"RZB8SihWrEZ8",
+																		"nJDAU4PCGSET",
+																		"qg9GlP5o7CYr",
+																		"SlGNqJnjZasv"
+																	],
+																	"title": "Future perfect",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "dFbItULa95uA",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"RZB8SihWrEZ8",
+																"nJDAU4PCGSET",
+																"dFbItULa95uA"
+															],
+															"title": "Conditional",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Conditional",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "AObFy8gDglkH",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"RZB8SihWrEZ8",
+																		"nJDAU4PCGSET",
+																		"dFbItULa95uA",
+																		"AObFy8gDglkH"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "R77DH9OKlJjv",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"RZB8SihWrEZ8",
+																		"nJDAU4PCGSET",
+																		"dFbItULa95uA",
+																		"R77DH9OKlJjv"
+																	],
+																	"title": "Perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "d8Dvfy5GQU88",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"RZB8SihWrEZ8",
+																"nJDAU4PCGSET",
+																"d8Dvfy5GQU88"
+															],
+															"title": "Imperative",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Imperative.html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "VtlnHyHl7zwj",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"zgPpmdtKoiwe",
+												"VtlnHyHl7zwj"
+											],
+											"title": "å si (to say)",
+											"notePosition": 610,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "å si (to say)",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "QQZaU76CS356",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"zgPpmdtKoiwe",
+														"VtlnHyHl7zwj",
+														"QQZaU76CS356"
+													],
+													"title": "Verb tenses",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Verb tenses",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "ihMNdGY2D09R",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"VtlnHyHl7zwj",
+																"QQZaU76CS356",
+																"ihMNdGY2D09R"
+															],
+															"title": "Indicative",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Indicative",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "szdpcw9hdqyM",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"VtlnHyHl7zwj",
+																		"QQZaU76CS356",
+																		"ihMNdGY2D09R",
+																		"szdpcw9hdqyM"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "eP93ugiaTm2G",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"VtlnHyHl7zwj",
+																		"QQZaU76CS356",
+																		"ihMNdGY2D09R",
+																		"eP93ugiaTm2G"
+																	],
+																	"title": "Present perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "FdXzmkLBzsHw",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"VtlnHyHl7zwj",
+																		"QQZaU76CS356",
+																		"ihMNdGY2D09R",
+																		"FdXzmkLBzsHw"
+																	],
+																	"title": "Past",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "aqY0Lr0yMfaj",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"VtlnHyHl7zwj",
+																		"QQZaU76CS356",
+																		"ihMNdGY2D09R",
+																		"aqY0Lr0yMfaj"
+																	],
+																	"title": "Past perfect",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "dxYeZBP8hZo5",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"VtlnHyHl7zwj",
+																		"QQZaU76CS356",
+																		"ihMNdGY2D09R",
+																		"dxYeZBP8hZo5"
+																	],
+																	"title": "Future",
+																	"notePosition": 40,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "JbzHTz1r5Hbc",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"VtlnHyHl7zwj",
+																		"QQZaU76CS356",
+																		"ihMNdGY2D09R",
+																		"JbzHTz1r5Hbc"
+																	],
+																	"title": "Future perfect",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "VFBxx6PsjZKk",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"VtlnHyHl7zwj",
+																"QQZaU76CS356",
+																"VFBxx6PsjZKk"
+															],
+															"title": "Conditional",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Conditional",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "rjTOyEndbyTh",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"VtlnHyHl7zwj",
+																		"QQZaU76CS356",
+																		"VFBxx6PsjZKk",
+																		"rjTOyEndbyTh"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "phqo9nJVoGMc",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"VtlnHyHl7zwj",
+																		"QQZaU76CS356",
+																		"VFBxx6PsjZKk",
+																		"phqo9nJVoGMc"
+																	],
+																	"title": "Perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "aarySO10tEVl",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"VtlnHyHl7zwj",
+																"QQZaU76CS356",
+																"aarySO10tEVl"
+															],
+															"title": "Imperative",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Imperative.html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "9S1y269ZHBrL",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"zgPpmdtKoiwe",
+												"9S1y269ZHBrL"
+											],
+											"title": "å ringe (to call)",
+											"notePosition": 620,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "å ringe (to call)",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "kzyaHxvd0HJ8",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"zgPpmdtKoiwe",
+														"9S1y269ZHBrL",
+														"kzyaHxvd0HJ8"
+													],
+													"title": "Verb tenses",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Verb tenses",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "hHxuwjXupsFp",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"9S1y269ZHBrL",
+																"kzyaHxvd0HJ8",
+																"hHxuwjXupsFp"
+															],
+															"title": "Indicative",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Indicative",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "W22S6iKS7wnC",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"9S1y269ZHBrL",
+																		"kzyaHxvd0HJ8",
+																		"hHxuwjXupsFp",
+																		"W22S6iKS7wnC"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "ALuq5VvxEaag",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"9S1y269ZHBrL",
+																		"kzyaHxvd0HJ8",
+																		"hHxuwjXupsFp",
+																		"ALuq5VvxEaag"
+																	],
+																	"title": "Present perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "HnVhzys4m0bN",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"9S1y269ZHBrL",
+																		"kzyaHxvd0HJ8",
+																		"hHxuwjXupsFp",
+																		"HnVhzys4m0bN"
+																	],
+																	"title": "Past",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "xeqJEo1RK1hx",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"9S1y269ZHBrL",
+																		"kzyaHxvd0HJ8",
+																		"hHxuwjXupsFp",
+																		"xeqJEo1RK1hx"
+																	],
+																	"title": "Past perfect",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "VEFhsFOrsZYZ",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"9S1y269ZHBrL",
+																		"kzyaHxvd0HJ8",
+																		"hHxuwjXupsFp",
+																		"VEFhsFOrsZYZ"
+																	],
+																	"title": "Future",
+																	"notePosition": 40,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "9exSzZ5y0o1z",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"9S1y269ZHBrL",
+																		"kzyaHxvd0HJ8",
+																		"hHxuwjXupsFp",
+																		"9exSzZ5y0o1z"
+																	],
+																	"title": "Future perfect",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "8GMsuwY4GDsi",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"9S1y269ZHBrL",
+																"kzyaHxvd0HJ8",
+																"8GMsuwY4GDsi"
+															],
+															"title": "Conditional",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Conditional",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "YoI3q61L4iOx",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"9S1y269ZHBrL",
+																		"kzyaHxvd0HJ8",
+																		"8GMsuwY4GDsi",
+																		"YoI3q61L4iOx"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "HwWWO578kdCQ",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"9S1y269ZHBrL",
+																		"kzyaHxvd0HJ8",
+																		"8GMsuwY4GDsi",
+																		"HwWWO578kdCQ"
+																	],
+																	"title": "Perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "C5dAC6imp0aD",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"9S1y269ZHBrL",
+																"kzyaHxvd0HJ8",
+																"C5dAC6imp0aD"
+															],
+															"title": "Imperative",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Imperative.html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "kmJPS9WS09Xu",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"zgPpmdtKoiwe",
+												"kmJPS9WS09Xu"
+											],
+											"title": "å eie (to own)",
+											"notePosition": 630,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "å eie (to own)",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "xupBa9OgVh9K",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"zgPpmdtKoiwe",
+														"kmJPS9WS09Xu",
+														"xupBa9OgVh9K"
+													],
+													"title": "Verb tenses",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 1,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Verb tenses",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "usBVbQI5bLxv",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"kmJPS9WS09Xu",
+																"xupBa9OgVh9K",
+																"usBVbQI5bLxv"
+															],
+															"title": "Indicative",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Indicative",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "mgT5uWrfmD4k",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"kmJPS9WS09Xu",
+																		"xupBa9OgVh9K",
+																		"usBVbQI5bLxv",
+																		"mgT5uWrfmD4k"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "fNgS6JnPH3zb",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"kmJPS9WS09Xu",
+																		"xupBa9OgVh9K",
+																		"usBVbQI5bLxv",
+																		"fNgS6JnPH3zb"
+																	],
+																	"title": "Present perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "G0NuLndDM5K1",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"kmJPS9WS09Xu",
+																		"xupBa9OgVh9K",
+																		"usBVbQI5bLxv",
+																		"G0NuLndDM5K1"
+																	],
+																	"title": "Past",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "HrP7bXzBuhWm",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"kmJPS9WS09Xu",
+																		"xupBa9OgVh9K",
+																		"usBVbQI5bLxv",
+																		"HrP7bXzBuhWm"
+																	],
+																	"title": "Past perfect",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "1AB6gj3ZX4GQ",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"kmJPS9WS09Xu",
+																		"xupBa9OgVh9K",
+																		"usBVbQI5bLxv",
+																		"1AB6gj3ZX4GQ"
+																	],
+																	"title": "Future",
+																	"notePosition": 40,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "h11Lfdczy9J7",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"kmJPS9WS09Xu",
+																		"xupBa9OgVh9K",
+																		"usBVbQI5bLxv",
+																		"h11Lfdczy9J7"
+																	],
+																	"title": "Future perfect",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "zLRktnFLZ7Mt",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"kmJPS9WS09Xu",
+																"xupBa9OgVh9K",
+																"zLRktnFLZ7Mt"
+															],
+															"title": "Conditional",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Conditional",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "2BHUHkNKwzo6",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"kmJPS9WS09Xu",
+																		"xupBa9OgVh9K",
+																		"zLRktnFLZ7Mt",
+																		"2BHUHkNKwzo6"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "244lyQLMtFyw",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"kmJPS9WS09Xu",
+																		"xupBa9OgVh9K",
+																		"zLRktnFLZ7Mt",
+																		"244lyQLMtFyw"
+																	],
+																	"title": "Perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "qpybWZ5ufgUU",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"kmJPS9WS09Xu",
+																"xupBa9OgVh9K",
+																"qpybWZ5ufgUU"
+															],
+															"title": "Imperative",
+															"notePosition": 30,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Imperative.html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "C28Tvr6ev9EN",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"zgPpmdtKoiwe",
+												"C28Tvr6ev9EN"
+											],
+											"title": "å tilhøre (to belong)",
+											"notePosition": 640,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "å tilhøre (to belong)",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "Tybe2cbTlGk8",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"zgPpmdtKoiwe",
+														"C28Tvr6ev9EN",
+														"Tybe2cbTlGk8"
+													],
+													"title": "Verb tenses",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": 1,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Verb tenses",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "4S2pcamvMgUo",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"C28Tvr6ev9EN",
+																"Tybe2cbTlGk8",
+																"4S2pcamvMgUo"
+															],
+															"title": "Indicative",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Indicative",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "nIlO9Ma5sf8N",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"C28Tvr6ev9EN",
+																		"Tybe2cbTlGk8",
+																		"4S2pcamvMgUo",
+																		"nIlO9Ma5sf8N"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "q0qNRtm7In1Q",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"C28Tvr6ev9EN",
+																		"Tybe2cbTlGk8",
+																		"4S2pcamvMgUo",
+																		"q0qNRtm7In1Q"
+																	],
+																	"title": "Present perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "qiAk5e7BK5KS",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"C28Tvr6ev9EN",
+																		"Tybe2cbTlGk8",
+																		"4S2pcamvMgUo",
+																		"qiAk5e7BK5KS"
+																	],
+																	"title": "Past",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "7WcvdcgceYLa",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"C28Tvr6ev9EN",
+																		"Tybe2cbTlGk8",
+																		"4S2pcamvMgUo",
+																		"7WcvdcgceYLa"
+																	],
+																	"title": "Past perfect",
+																	"notePosition": 30,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Past perfect.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "64T85Tmt6CJT",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"C28Tvr6ev9EN",
+																		"Tybe2cbTlGk8",
+																		"4S2pcamvMgUo",
+																		"64T85Tmt6CJT"
+																	],
+																	"title": "Future",
+																	"notePosition": 40,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "DLzgBAkxNWAk",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"C28Tvr6ev9EN",
+																		"Tybe2cbTlGk8",
+																		"4S2pcamvMgUo",
+																		"DLzgBAkxNWAk"
+																	],
+																	"title": "Future perfect",
+																	"notePosition": 50,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Future perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "uglziQmYSDHK",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"C28Tvr6ev9EN",
+																"Tybe2cbTlGk8",
+																"uglziQmYSDHK"
+															],
+															"title": "Conditional",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 1,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Conditional",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "eqMnMikoWOjk",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"C28Tvr6ev9EN",
+																		"Tybe2cbTlGk8",
+																		"uglziQmYSDHK",
+																		"eqMnMikoWOjk"
+																	],
+																	"title": "Present",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Present.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "GtYE0ofgLCyb",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"zgPpmdtKoiwe",
+																		"C28Tvr6ev9EN",
+																		"Tybe2cbTlGk8",
+																		"uglziQmYSDHK",
+																		"GtYE0ofgLCyb"
+																	],
+																	"title": "Perfect",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Perfect.html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "sY4M0ap61aZx",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"zgPpmdtKoiwe",
+																"C28Tvr6ev9EN",
+																"Tybe2cbTlGk8",
+																"sY4M0ap61aZx"
+															],
+															"title": "Imperative",
+															"notePosition": 30,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Imperative.html"
+														}
+													]
+												}
+											]
 										}
 									]
 								},
@@ -35921,9 +37715,9 @@
 										"JV5KGyYUpfHL"
 									],
 									"title": "Pronomen (Pronouns)",
-									"notePosition": 30,
+									"notePosition": 40,
 									"prefix": null,
-									"isExpanded": 0,
+									"isExpanded": 1,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [],
@@ -35943,7 +37737,7 @@
 											"title": "Subjective pronouns",
 											"notePosition": 80,
 											"prefix": null,
-											"isExpanded": 1,
+											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
@@ -36571,7 +38365,7 @@
 														"ImHFlMP9TX9r",
 														"F73fr7brYxcq"
 													],
-													"title": "Det/ Den",
+													"title": "Den/ Det",
 													"notePosition": 40,
 													"prefix": null,
 													"isExpanded": 0,
@@ -36579,8 +38373,8 @@
 													"mime": "text/html",
 													"attributes": [],
 													"format": "html",
-													"dataFileName": "Det Den.html",
-													"dirFileName": "Det Den",
+													"dataFileName": "Den Det.html",
+													"dirFileName": "Den Det",
 													"children": [
 														{
 															"isClone": false,
@@ -36918,10 +38712,10 @@
 														"LV9Yz8HAu1Nw",
 														"JnQgQmqq04JJ"
 													],
-													"title": "Det/ Den",
+													"title": "Den/ Det",
 													"notePosition": 40,
 													"prefix": null,
-													"isExpanded": 1,
+													"isExpanded": 0,
 													"type": "text",
 													"mime": "text/html",
 													"attributes": [
@@ -36934,8 +38728,8 @@
 														}
 													],
 													"format": "html",
-													"dataFileName": "Det Den.html",
-													"dirFileName": "Det Den",
+													"dataFileName": "Den Det.html",
+													"dirFileName": "Den Det",
 													"children": [
 														{
 															"isClone": false,
@@ -36952,7 +38746,7 @@
 															"title": "Sentences",
 															"notePosition": 0,
 															"prefix": null,
-															"isExpanded": 1,
+															"isExpanded": 0,
 															"type": "text",
 															"mime": "text/html",
 															"attributes": [],
@@ -37087,78 +38881,280 @@
 										},
 										{
 											"isClone": false,
-											"noteId": "SKbBwBL1JaIA",
+											"noteId": "AljSsBlHZkgA",
 											"notePath": [
 												"root",
 												"ZjU0jW4l200v",
 												"KejyS5ZwWWYE",
 												"JV5KGyYUpfHL",
-												"SKbBwBL1JaIA"
+												"AljSsBlHZkgA"
 											],
 											"title": "Posessive pronouns",
-											"notePosition": 100,
+											"notePosition": 120,
 											"prefix": null,
-											"isExpanded": 0,
+											"isExpanded": 1,
 											"type": "text",
 											"mime": "text/html",
-											"attributes": [],
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "urrJE8N1wkeq",
+													"isInheritable": false,
+													"position": 1
+												},
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "C06kNZU1okm6",
+													"isInheritable": false,
+													"position": 2
+												},
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "gEfgTVjVlqwu",
+													"isInheritable": false,
+													"position": 3
+												},
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "hKanWmNcC6WI",
+													"isInheritable": false,
+													"position": 4
+												},
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "X3br6Uykns6U",
+													"isInheritable": false,
+													"position": 5
+												}
+											],
 											"format": "html",
+											"dataFileName": "Posessive pronouns.html",
 											"dirFileName": "Posessive pronouns",
 											"children": [
 												{
 													"isClone": false,
-													"noteId": "ifP97PslH9Rc",
+													"noteId": "dy48t7pxaiUq",
 													"notePath": [
 														"root",
 														"ZjU0jW4l200v",
 														"KejyS5ZwWWYE",
 														"JV5KGyYUpfHL",
-														"SKbBwBL1JaIA",
-														"ifP97PslH9Rc"
+														"AljSsBlHZkgA",
+														"dy48t7pxaiUq"
 													],
-													"title": "Min",
+													"title": "Genetiv",
 													"notePosition": 0,
 													"prefix": null,
 													"isExpanded": 0,
 													"type": "text",
 													"mime": "text/html",
-													"attributes": [],
+													"attributes": [
+														{
+															"type": "relation",
+															"name": "internalLink",
+															"value": "NU8rcslJGh0d",
+															"isInheritable": false,
+															"position": 1
+														}
+													],
 													"format": "html",
-													"dataFileName": "Min.html"
+													"dataFileName": "Genetiv.html"
 												},
 												{
 													"isClone": false,
-													"noteId": "bm5bRZMoniYI",
+													"noteId": "urrJE8N1wkeq",
 													"notePath": [
 														"root",
 														"ZjU0jW4l200v",
 														"KejyS5ZwWWYE",
 														"JV5KGyYUpfHL",
-														"SKbBwBL1JaIA",
-														"bm5bRZMoniYI"
+														"AljSsBlHZkgA",
+														"urrJE8N1wkeq"
 													],
-													"title": "Din",
+													"title": "Possessiver (Eiendomsor)",
 													"notePosition": 10,
 													"prefix": null,
-													"isExpanded": 0,
+													"isExpanded": 1,
 													"type": "text",
 													"mime": "text/html",
 													"attributes": [],
 													"format": "html",
-													"dataFileName": "Din.html"
+													"dataFileName": "Possessiver (Eiendomsor).html",
+													"dirFileName": "Possessiver (Eiendomsor)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "wwdfk6F3rf2o",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"JV5KGyYUpfHL",
+																"AljSsBlHZkgA",
+																"urrJE8N1wkeq",
+																"wwdfk6F3rf2o"
+															],
+															"title": "Min/ Mi/ Mitt/ Mine (My, Mine)",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Min Mi Mitt Mine (My, Mine).html"
+														},
+														{
+															"isClone": false,
+															"noteId": "3I8PtMWSUV8b",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"JV5KGyYUpfHL",
+																"AljSsBlHZkgA",
+																"urrJE8N1wkeq",
+																"3I8PtMWSUV8b"
+															],
+															"title": "Din/ Di/ Ditt/ Dine (Your - singular)",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Din Di Ditt Dine (Your - singular).html"
+														},
+														{
+															"isClone": false,
+															"noteId": "ix9dWvbGTFyb",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"JV5KGyYUpfHL",
+																"AljSsBlHZkgA",
+																"urrJE8N1wkeq",
+																"ix9dWvbGTFyb"
+															],
+															"title": "Hans (His)",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Hans (His).html"
+														},
+														{
+															"isClone": false,
+															"noteId": "Db7ZmiYb3TCd",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"JV5KGyYUpfHL",
+																"AljSsBlHZkgA",
+																"urrJE8N1wkeq",
+																"Db7ZmiYb3TCd"
+															],
+															"title": "Hennes (Her)",
+															"notePosition": 30,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Hennes (Her).html"
+														},
+														{
+															"isClone": false,
+															"noteId": "xClQCuQTF6Yd",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"JV5KGyYUpfHL",
+																"AljSsBlHZkgA",
+																"urrJE8N1wkeq",
+																"xClQCuQTF6Yd"
+															],
+															"title": "Vår/ Vår/ Vårt/ Våre (Our)",
+															"notePosition": 40,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Vår Vår Vårt Våre (Our).html"
+														},
+														{
+															"isClone": false,
+															"noteId": "G3Ki19s7CAHd",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"JV5KGyYUpfHL",
+																"AljSsBlHZkgA",
+																"urrJE8N1wkeq",
+																"G3Ki19s7CAHd"
+															],
+															"title": "Deres (Your - plural)",
+															"notePosition": 50,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Deres (Your - plural).html"
+														},
+														{
+															"isClone": false,
+															"noteId": "mytoA81Iw6xA",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"JV5KGyYUpfHL",
+																"AljSsBlHZkgA",
+																"urrJE8N1wkeq",
+																"mytoA81Iw6xA"
+															],
+															"title": "Deres (Their)",
+															"notePosition": 60,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Deres (Their).html"
+														}
+													]
 												},
 												{
 													"isClone": false,
-													"noteId": "dKGtptuL6oHK",
+													"noteId": "EVFrHsS6C6Jt",
 													"notePath": [
 														"root",
 														"ZjU0jW4l200v",
 														"KejyS5ZwWWYE",
 														"JV5KGyYUpfHL",
-														"SKbBwBL1JaIA",
-														"dKGtptuL6oHK"
+														"AljSsBlHZkgA",
+														"EVFrHsS6C6Jt"
 													],
-													"title": "Hans",
+													"title": "Refleksive possessiver",
 													"notePosition": 20,
 													"prefix": null,
 													"isExpanded": 0,
@@ -37166,107 +39162,7 @@
 													"mime": "text/html",
 													"attributes": [],
 													"format": "html",
-													"dataFileName": "Hans.html"
-												},
-												{
-													"isClone": false,
-													"noteId": "gprN1tZwRpYu",
-													"notePath": [
-														"root",
-														"ZjU0jW4l200v",
-														"KejyS5ZwWWYE",
-														"JV5KGyYUpfHL",
-														"SKbBwBL1JaIA",
-														"gprN1tZwRpYu"
-													],
-													"title": "Hennes",
-													"notePosition": 30,
-													"prefix": null,
-													"isExpanded": 0,
-													"type": "text",
-													"mime": "text/html",
-													"attributes": [],
-													"format": "html",
-													"dataFileName": "Hennes.html"
-												},
-												{
-													"isClone": false,
-													"noteId": "9BClL2ynO0vm",
-													"notePath": [
-														"root",
-														"ZjU0jW4l200v",
-														"KejyS5ZwWWYE",
-														"JV5KGyYUpfHL",
-														"SKbBwBL1JaIA",
-														"9BClL2ynO0vm"
-													],
-													"title": "Vår",
-													"notePosition": 40,
-													"prefix": null,
-													"isExpanded": 0,
-													"type": "text",
-													"mime": "text/html",
-													"attributes": [],
-													"format": "html",
-													"dataFileName": "Vår.html"
-												},
-												{
-													"isClone": false,
-													"noteId": "rVEbFPTgevoE",
-													"notePath": [
-														"root",
-														"ZjU0jW4l200v",
-														"KejyS5ZwWWYE",
-														"JV5KGyYUpfHL",
-														"SKbBwBL1JaIA",
-														"rVEbFPTgevoE"
-													],
-													"title": "Deres",
-													"notePosition": 50,
-													"prefix": null,
-													"isExpanded": 0,
-													"type": "text",
-													"mime": "text/html",
-													"attributes": [
-														{
-															"type": "relation",
-															"name": "internalLink",
-															"value": "LfCigQNOb3o2",
-															"isInheritable": false,
-															"position": 1
-														}
-													],
-													"format": "html",
-													"dataFileName": "Deres.html"
-												},
-												{
-													"isClone": false,
-													"noteId": "LfCigQNOb3o2",
-													"notePath": [
-														"root",
-														"ZjU0jW4l200v",
-														"KejyS5ZwWWYE",
-														"JV5KGyYUpfHL",
-														"SKbBwBL1JaIA",
-														"LfCigQNOb3o2"
-													],
-													"title": "Deres",
-													"notePosition": 60,
-													"prefix": null,
-													"isExpanded": 0,
-													"type": "text",
-													"mime": "text/html",
-													"attributes": [
-														{
-															"type": "relation",
-															"name": "internalLink",
-															"value": "rVEbFPTgevoE",
-															"isInheritable": false,
-															"position": 1
-														}
-													],
-													"format": "html",
-													"dataFileName": "1_Deres.html"
+													"dataFileName": "Refleksive possessiver.html"
 												}
 											]
 										},
@@ -37281,7 +39177,7 @@
 												"xX1bX8oPiks7"
 											],
 											"title": "Relative pronouns",
-											"notePosition": 110,
+											"notePosition": 150,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -37301,7 +39197,7 @@
 														"xX1bX8oPiks7",
 														"NmstPSJdcjsB"
 													],
-													"title": "Hvem",
+													"title": "Hvem (Who)",
 													"notePosition": 10,
 													"prefix": null,
 													"isExpanded": 0,
@@ -37309,8 +39205,7 @@
 													"mime": "text/html",
 													"attributes": [],
 													"format": "html",
-													"dataFileName": "Hvem.html",
-													"dirFileName": "Hvem",
+													"dirFileName": "Hvem (Who)",
 													"children": [
 														{
 															"isClone": false,
@@ -37387,16 +39282,15 @@
 														"xX1bX8oPiks7",
 														"bnsDBEvoxtIi"
 													],
-													"title": "Hva",
+													"title": "Hva (What)",
 													"notePosition": 20,
 													"prefix": null,
-													"isExpanded": 1,
+													"isExpanded": 0,
 													"type": "text",
 													"mime": "text/html",
 													"attributes": [],
 													"format": "html",
-													"dataFileName": "Hva.html",
-													"dirFileName": "Hva",
+													"dirFileName": "Hva (What)",
 													"children": [
 														{
 															"isClone": false,
@@ -37413,7 +39307,7 @@
 															"title": "Sentences",
 															"notePosition": 30,
 															"prefix": null,
-															"isExpanded": 1,
+															"isExpanded": 0,
 															"type": "text",
 															"mime": "text/html",
 															"attributes": [],
@@ -37513,7 +39407,7 @@
 												"uOCcAYoxEMqv"
 											],
 											"title": "Indefinite pronouns",
-											"notePosition": 120,
+											"notePosition": 160,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -37533,7 +39427,7 @@
 														"uOCcAYoxEMqv",
 														"6whaW48VjSIv"
 													],
-													"title": "Noen",
+													"title": "Noen (Some/ Any)",
 													"notePosition": 0,
 													"prefix": null,
 													"isExpanded": 0,
@@ -37541,7 +39435,7 @@
 													"mime": "text/html",
 													"attributes": [],
 													"format": "html",
-													"dataFileName": "Noen.html"
+													"dataFileName": "Noen (Some Any).html"
 												},
 												{
 													"isClone": false,
@@ -37554,7 +39448,7 @@
 														"uOCcAYoxEMqv",
 														"ajy0vRAvMlMw"
 													],
-													"title": "Mange",
+													"title": "Mange (Many)",
 													"notePosition": 10,
 													"prefix": null,
 													"isExpanded": 0,
@@ -37562,7 +39456,7 @@
 													"mime": "text/html",
 													"attributes": [],
 													"format": "html",
-													"dataFileName": "Mange.html"
+													"dataFileName": "Mange (Many).html"
 												}
 											]
 										}
@@ -37578,7 +39472,7 @@
 										"MU1oGsbzvPEP"
 									],
 									"title": "Subsantiver (Nouns)",
-									"notePosition": 40,
+									"notePosition": 50,
 									"prefix": null,
 									"isExpanded": 1,
 									"type": "text",
@@ -44324,68 +46218,6 @@
 													"children": [
 														{
 															"isClone": false,
-															"noteId": "ptvIMepDCMIo",
-															"notePath": [
-																"root",
-																"ZjU0jW4l200v",
-																"KejyS5ZwWWYE",
-																"MU1oGsbzvPEP",
-																"pUZpJhpS9uKA",
-																"eTF6JxV3x0wv",
-																"ptvIMepDCMIo"
-															],
-															"title": "Sentences",
-															"notePosition": 20,
-															"prefix": null,
-															"isExpanded": 0,
-															"type": "text",
-															"mime": "text/html",
-															"attributes": [],
-															"format": "html",
-															"dirFileName": "Sentences",
-															"children": [
-																{
-																	"isClone": true,
-																	"noteId": "2TgLbYHrrG60",
-																	"notePath": [
-																		"root",
-																		"ZjU0jW4l200v",
-																		"KejyS5ZwWWYE",
-																		"MU1oGsbzvPEP",
-																		"pUZpJhpS9uKA",
-																		"eTF6JxV3x0wv",
-																		"ptvIMepDCMIo",
-																		"2TgLbYHrrG60"
-																	],
-																	"title": "En kvinne er ikke en jente",
-																	"prefix": null,
-																	"dataFileName": "En kvinne er ikke en jente.clone.html",
-																	"type": "text",
-																	"format": "html"
-																},
-																{
-																	"isClone": true,
-																	"noteId": "y8dDkpMyadu7",
-																	"notePath": [
-																		"root",
-																		"ZjU0jW4l200v",
-																		"KejyS5ZwWWYE",
-																		"MU1oGsbzvPEP",
-																		"pUZpJhpS9uKA",
-																		"eTF6JxV3x0wv",
-																		"ptvIMepDCMIo",
-																		"y8dDkpMyadu7"
-																	],
-																	"title": "Hun er en kvinne",
-																	"prefix": null,
-																	"dataFileName": "Hun er en kvinne.clone.html",
-																	"type": "text",
-																	"format": "html"
-																}
-															]
-														},
-														{
-															"isClone": false,
 															"noteId": "y2nIj5Z5vtrT",
 															"notePath": [
 																"root",
@@ -44427,7 +46259,7 @@
 																"qa9JDRrdFQi1"
 															],
 															"title": "Forms",
-															"notePosition": 70,
+															"notePosition": 80,
 															"prefix": null,
 															"isExpanded": 0,
 															"type": "text",
@@ -44490,6 +46322,68 @@
 																	"title": "Definite plural",
 																	"prefix": null,
 																	"dataFileName": "Definite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														},
+														{
+															"isClone": false,
+															"noteId": "ptvIMepDCMIo",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"eTF6JxV3x0wv",
+																"ptvIMepDCMIo"
+															],
+															"title": "Sentences",
+															"notePosition": 90,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Sentences",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "2TgLbYHrrG60",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"eTF6JxV3x0wv",
+																		"ptvIMepDCMIo",
+																		"2TgLbYHrrG60"
+																	],
+																	"title": "En kvinne er ikke en jente",
+																	"prefix": null,
+																	"dataFileName": "En kvinne er ikke en jente.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "y8dDkpMyadu7",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"eTF6JxV3x0wv",
+																		"ptvIMepDCMIo",
+																		"y8dDkpMyadu7"
+																	],
+																	"title": "Hun er en kvinne",
+																	"prefix": null,
+																	"dataFileName": "Hun er en kvinne.clone.html",
 																	"type": "text",
 																	"format": "html"
 																}
@@ -44563,7 +46457,7 @@
 															"title": "Forms",
 															"notePosition": 90,
 															"prefix": null,
-															"isExpanded": 1,
+															"isExpanded": 0,
 															"type": "text",
 															"mime": "text/html",
 															"attributes": [],
@@ -44778,7 +46672,7 @@
 															"title": "Forms",
 															"notePosition": 10,
 															"prefix": null,
-															"isExpanded": 1,
+															"isExpanded": 0,
 															"type": "text",
 															"mime": "text/html",
 															"attributes": [],
@@ -44834,6 +46728,664 @@
 																		"pUZpJhpS9uKA",
 																		"cNBjKlTw3EBC",
 																		"TerXmhy7qFSr",
+																		"bNRlnHZzqBvO"
+																	],
+																	"title": "Definite plural",
+																	"prefix": null,
+																	"dataFileName": "Definite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "bWjkK0VitUtw",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"MU1oGsbzvPEP",
+														"pUZpJhpS9uKA",
+														"bWjkK0VitUtw"
+													],
+													"title": "Mamma (Mom)",
+													"notePosition": 60,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Mamma (Mom)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "NJinPqtw3Up6",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"bWjkK0VitUtw",
+																"NJinPqtw3Up6"
+															],
+															"title": "Article",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "7JAkUgyaccik",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"format": "html",
+															"dataFileName": "Article.html"
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "bClqYHao5rTv",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"MU1oGsbzvPEP",
+														"pUZpJhpS9uKA",
+														"bClqYHao5rTv"
+													],
+													"title": "Pappa (Dad)",
+													"notePosition": 70,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Pappa (Dad)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "RZwdnhj9uL3v",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"bClqYHao5rTv",
+																"RZwdnhj9uL3v"
+															],
+															"title": "Article",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "7JAkUgyaccik",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"format": "html",
+															"dataFileName": "Article.html"
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "gEfgTVjVlqwu",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"MU1oGsbzvPEP",
+														"pUZpJhpS9uKA",
+														"gEfgTVjVlqwu"
+													],
+													"title": "Mor (Mother)",
+													"notePosition": 80,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Mor (Mother)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "on7Zn3mRYJMp",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"gEfgTVjVlqwu",
+																"on7Zn3mRYJMp"
+															],
+															"title": "Article",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "7JAkUgyaccik",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"format": "html",
+															"dataFileName": "Article.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "XDhTFIj0TQcw",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"gEfgTVjVlqwu",
+																"XDhTFIj0TQcw"
+															],
+															"title": "Forms",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "6zBvhQ0US6Hg",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"gEfgTVjVlqwu",
+																		"XDhTFIj0TQcw",
+																		"6zBvhQ0US6Hg"
+																	],
+																	"title": "Definite singular",
+																	"prefix": null,
+																	"dataFileName": "Definite singular.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "uEhwoyt1KKVq",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"gEfgTVjVlqwu",
+																		"XDhTFIj0TQcw",
+																		"uEhwoyt1KKVq"
+																	],
+																	"title": "Indefinite plural",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [
+																		{
+																			"type": "relation",
+																			"name": "internalLink",
+																			"value": "gEfgTVjVlqwu",
+																			"isInheritable": false,
+																			"position": 2
+																		}
+																	],
+																	"format": "html",
+																	"dataFileName": "Indefinite plural.html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "bNRlnHZzqBvO",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"gEfgTVjVlqwu",
+																		"XDhTFIj0TQcw",
+																		"bNRlnHZzqBvO"
+																	],
+																	"title": "Definite plural",
+																	"prefix": null,
+																	"dataFileName": "Definite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "C06kNZU1okm6",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"MU1oGsbzvPEP",
+														"pUZpJhpS9uKA",
+														"C06kNZU1okm6"
+													],
+													"title": "Far (Father)",
+													"notePosition": 90,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Far (Father)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "KyQKuVC3wZ42",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"C06kNZU1okm6",
+																"KyQKuVC3wZ42"
+															],
+															"title": "Article",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "7JAkUgyaccik",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"format": "html",
+															"dataFileName": "Article.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "wIMZRQGwuaPo",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"C06kNZU1okm6",
+																"wIMZRQGwuaPo"
+															],
+															"title": "Forms",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "6zBvhQ0US6Hg",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"C06kNZU1okm6",
+																		"wIMZRQGwuaPo",
+																		"6zBvhQ0US6Hg"
+																	],
+																	"title": "Definite singular",
+																	"prefix": null,
+																	"dataFileName": "Definite singular.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "AjtBhUEee38y",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"C06kNZU1okm6",
+																		"wIMZRQGwuaPo",
+																		"AjtBhUEee38y"
+																	],
+																	"title": "Indefinite plural",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [
+																		{
+																			"type": "relation",
+																			"name": "internalLink",
+																			"value": "C06kNZU1okm6",
+																			"isInheritable": false,
+																			"position": 2
+																		}
+																	],
+																	"format": "html",
+																	"dataFileName": "Indefinite plural.html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "bNRlnHZzqBvO",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"C06kNZU1okm6",
+																		"wIMZRQGwuaPo",
+																		"bNRlnHZzqBvO"
+																	],
+																	"title": "Definite plural",
+																	"prefix": null,
+																	"dataFileName": "Definite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "GYp1qlwYgGs4",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"MU1oGsbzvPEP",
+														"pUZpJhpS9uKA",
+														"GYp1qlwYgGs4"
+													],
+													"title": "Nabo (Neighbor)",
+													"notePosition": 100,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Nabo (Neighbor)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "NsofF1WpeX4v",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"GYp1qlwYgGs4",
+																"NsofF1WpeX4v"
+															],
+															"title": "Article",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Article.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "gwu5Ss8Oj37P",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"GYp1qlwYgGs4",
+																"gwu5Ss8Oj37P"
+															],
+															"title": "Forms",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "6zBvhQ0US6Hg",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"GYp1qlwYgGs4",
+																		"gwu5Ss8Oj37P",
+																		"6zBvhQ0US6Hg"
+																	],
+																	"title": "Definite singular",
+																	"prefix": null,
+																	"dataFileName": "Definite singular.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "IuNibYiMDlze",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"GYp1qlwYgGs4",
+																		"gwu5Ss8Oj37P",
+																		"IuNibYiMDlze"
+																	],
+																	"title": "Indefinite plural",
+																	"prefix": null,
+																	"dataFileName": "Indefinite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "bNRlnHZzqBvO",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"GYp1qlwYgGs4",
+																		"gwu5Ss8Oj37P",
+																		"bNRlnHZzqBvO"
+																	],
+																	"title": "Definite plural",
+																	"prefix": null,
+																	"dataFileName": "Definite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "AgtjsQDt49iC",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"MU1oGsbzvPEP",
+														"pUZpJhpS9uKA",
+														"AgtjsQDt49iC"
+													],
+													"title": "Gjest (Guest/ Visitor)",
+													"notePosition": 110,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Gjest (Guest Visitor)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "kjBF1URuQwcv",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"AgtjsQDt49iC",
+																"kjBF1URuQwcv"
+															],
+															"title": "Article",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "7JAkUgyaccik",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"format": "html",
+															"dataFileName": "Article.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "8kevUPkwKqKx",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"pUZpJhpS9uKA",
+																"AgtjsQDt49iC",
+																"8kevUPkwKqKx"
+															],
+															"title": "Forms",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "6zBvhQ0US6Hg",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"AgtjsQDt49iC",
+																		"8kevUPkwKqKx",
+																		"6zBvhQ0US6Hg"
+																	],
+																	"title": "Definite singular",
+																	"prefix": null,
+																	"dataFileName": "Definite singular.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "IuNibYiMDlze",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"AgtjsQDt49iC",
+																		"8kevUPkwKqKx",
+																		"IuNibYiMDlze"
+																	],
+																	"title": "Indefinite plural",
+																	"prefix": null,
+																	"dataFileName": "Indefinite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "bNRlnHZzqBvO",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"pUZpJhpS9uKA",
+																		"AgtjsQDt49iC",
+																		"8kevUPkwKqKx",
 																		"bNRlnHZzqBvO"
 																	],
 																	"title": "Definite plural",
@@ -47189,9 +49741,9 @@
 																{
 																	"type": "relation",
 																	"name": "internalLink",
-																	"value": "7JAkUgyaccik",
+																	"value": "obR3GA9rmWrg",
 																	"isInheritable": false,
-																	"position": 1
+																	"position": 2
 																}
 															],
 															"format": "html",
@@ -47239,8 +49791,8 @@
 																	"format": "html"
 																},
 																{
-																	"isClone": false,
-																	"noteId": "Oc32ebzGhfzA",
+																	"isClone": true,
+																	"noteId": "IuNibYiMDlze",
 																	"notePath": [
 																		"root",
 																		"ZjU0jW4l200v",
@@ -47249,25 +49801,13 @@
 																		"LqdyjZYB3iWN",
 																		"VyKIfQxgkn3X",
 																		"XHVFGEkhnfDm",
-																		"Oc32ebzGhfzA"
+																		"IuNibYiMDlze"
 																	],
 																	"title": "Indefinite plural",
-																	"notePosition": 10,
 																	"prefix": null,
-																	"isExpanded": 0,
+																	"dataFileName": "Indefinite plural.clone.html",
 																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [
-																		{
-																			"type": "relation",
-																			"name": "internalLink",
-																			"value": "VyKIfQxgkn3X",
-																			"isInheritable": false,
-																			"position": 2
-																		}
-																	],
-																	"format": "html",
-																	"dataFileName": "Indefinite plural.html"
+																	"format": "html"
 																},
 																{
 																	"isClone": true,
@@ -47548,6 +50088,420 @@
 																		"LqdyjZYB3iWN",
 																		"865ARbmO1vQX",
 																		"qbrpCBkjt7Tq",
+																		"bNRlnHZzqBvO"
+																	],
+																	"title": "Definite plural",
+																	"prefix": null,
+																	"dataFileName": "Definite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "VxENv9EPhkVg",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"MU1oGsbzvPEP",
+														"LqdyjZYB3iWN",
+														"VxENv9EPhkVg"
+													],
+													"title": "Rom (Room)",
+													"notePosition": 110,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Rom (Room)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "HwkefWd4Nb7l",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"LqdyjZYB3iWN",
+																"VxENv9EPhkVg",
+																"HwkefWd4Nb7l"
+															],
+															"title": "Article",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "obR3GA9rmWrg",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"format": "html",
+															"dataFileName": "Article.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "LzNrrPhP63LI",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"LqdyjZYB3iWN",
+																"VxENv9EPhkVg",
+																"LzNrrPhP63LI"
+															],
+															"title": "Forms",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "LsC1xbCqylwc",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"LqdyjZYB3iWN",
+																		"VxENv9EPhkVg",
+																		"LzNrrPhP63LI",
+																		"LsC1xbCqylwc"
+																	],
+																	"title": "Definite singular",
+																	"notePosition": 0,
+																	"prefix": null,
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [
+																		{
+																			"type": "relation",
+																			"name": "internalLink",
+																			"value": "VxENv9EPhkVg",
+																			"isInheritable": false,
+																			"position": 3
+																		}
+																	],
+																	"format": "html",
+																	"dataFileName": "Definite singular.html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "IuNibYiMDlze",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"LqdyjZYB3iWN",
+																		"VxENv9EPhkVg",
+																		"LzNrrPhP63LI",
+																		"IuNibYiMDlze"
+																	],
+																	"title": "Indefinite plural",
+																	"prefix": null,
+																	"dataFileName": "Indefinite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "bNRlnHZzqBvO",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"LqdyjZYB3iWN",
+																		"VxENv9EPhkVg",
+																		"LzNrrPhP63LI",
+																		"bNRlnHZzqBvO"
+																	],
+																	"title": "Definite plural",
+																	"prefix": null,
+																	"dataFileName": "Definite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "lrNv4vuVz32V",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"MU1oGsbzvPEP",
+														"LqdyjZYB3iWN",
+														"lrNv4vuVz32V"
+													],
+													"title": "Navn (Name)",
+													"notePosition": 120,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Navn (Name)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "b9bZvT7L0Uxo",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"LqdyjZYB3iWN",
+																"lrNv4vuVz32V",
+																"b9bZvT7L0Uxo"
+															],
+															"title": "Article",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "obR3GA9rmWrg",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"format": "html",
+															"dataFileName": "Article.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "1Sak0lp3guaB",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"LqdyjZYB3iWN",
+																"lrNv4vuVz32V",
+																"1Sak0lp3guaB"
+															],
+															"title": "Forms",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "6zBvhQ0US6Hg",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"LqdyjZYB3iWN",
+																		"lrNv4vuVz32V",
+																		"1Sak0lp3guaB",
+																		"6zBvhQ0US6Hg"
+																	],
+																	"title": "Definite singular",
+																	"prefix": null,
+																	"dataFileName": "Definite singular.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "IuNibYiMDlze",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"LqdyjZYB3iWN",
+																		"lrNv4vuVz32V",
+																		"1Sak0lp3guaB",
+																		"IuNibYiMDlze"
+																	],
+																	"title": "Indefinite plural",
+																	"prefix": null,
+																	"dataFileName": "Indefinite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "bNRlnHZzqBvO",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"LqdyjZYB3iWN",
+																		"lrNv4vuVz32V",
+																		"1Sak0lp3guaB",
+																		"bNRlnHZzqBvO"
+																	],
+																	"title": "Definite plural",
+																	"prefix": null,
+																	"dataFileName": "Definite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "8aFKDvbmzMTk",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"MU1oGsbzvPEP",
+														"LqdyjZYB3iWN",
+														"8aFKDvbmzMTk"
+													],
+													"title": "Telefon (Telephone)",
+													"notePosition": 130,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Telefon (Telephone)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "sfpspPXRUSA9",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"LqdyjZYB3iWN",
+																"8aFKDvbmzMTk",
+																"sfpspPXRUSA9"
+															],
+															"title": "Article",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [
+																{
+																	"type": "relation",
+																	"name": "internalLink",
+																	"value": "7JAkUgyaccik",
+																	"isInheritable": false,
+																	"position": 1
+																}
+															],
+															"format": "html",
+															"dataFileName": "Article.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "rcmc98S1OzIs",
+															"notePath": [
+																"root",
+																"ZjU0jW4l200v",
+																"KejyS5ZwWWYE",
+																"MU1oGsbzvPEP",
+																"LqdyjZYB3iWN",
+																"8aFKDvbmzMTk",
+																"rcmc98S1OzIs"
+															],
+															"title": "Forms",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "6zBvhQ0US6Hg",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"LqdyjZYB3iWN",
+																		"8aFKDvbmzMTk",
+																		"rcmc98S1OzIs",
+																		"6zBvhQ0US6Hg"
+																	],
+																	"title": "Definite singular",
+																	"prefix": null,
+																	"dataFileName": "Definite singular.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "IuNibYiMDlze",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"LqdyjZYB3iWN",
+																		"8aFKDvbmzMTk",
+																		"rcmc98S1OzIs",
+																		"IuNibYiMDlze"
+																	],
+																	"title": "Indefinite plural",
+																	"prefix": null,
+																	"dataFileName": "Indefinite plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "bNRlnHZzqBvO",
+																	"notePath": [
+																		"root",
+																		"ZjU0jW4l200v",
+																		"KejyS5ZwWWYE",
+																		"MU1oGsbzvPEP",
+																		"LqdyjZYB3iWN",
+																		"8aFKDvbmzMTk",
+																		"rcmc98S1OzIs",
 																		"bNRlnHZzqBvO"
 																	],
 																	"title": "Definite plural",
@@ -48772,7 +51726,7 @@
 										"mVyqIb2gUaTw"
 									],
 									"title": "Adjektiver (Adjectives)",
-									"notePosition": 60,
+									"notePosition": 70,
 									"prefix": null,
 									"isExpanded": 0,
 									"type": "text",
@@ -49428,9 +52382,9 @@
 										"mOptQRuK6A61"
 									],
 									"title": "Adverb (Adverbs)",
-									"notePosition": 80,
+									"notePosition": 90,
 									"prefix": null,
-									"isExpanded": 1,
+									"isExpanded": 0,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [],
@@ -50219,6 +53173,26 @@
 										},
 										{
 											"isClone": false,
+											"noteId": "eDgNiCVoWaOm",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"mOptQRuK6A61",
+												"eDgNiCVoWaOm"
+											],
+											"title": "Hvorfor (Why)",
+											"notePosition": 120,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Hvorfor (Why).html"
+										},
+										{
+											"isClone": false,
 											"noteId": "S7DteEpNGF9G",
 											"notePath": [
 												"root",
@@ -50228,7 +53202,7 @@
 												"S7DteEpNGF9G"
 											],
 											"title": "Der (There/ Where)",
-											"notePosition": 120,
+											"notePosition": 130,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -50309,7 +53283,7 @@
 												"VTFkryVO7LEG"
 											],
 											"title": "Om (About)",
-											"notePosition": 130,
+											"notePosition": 140,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -50329,7 +53303,7 @@
 												"E3zLd0xjbuUP"
 											],
 											"title": "Utenfor (Outside of)",
-											"notePosition": 140,
+											"notePosition": 150,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -50349,7 +53323,7 @@
 												"YVUwe32qgFit"
 											],
 											"title": "Når (When)",
-											"notePosition": 150,
+											"notePosition": 160,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -50369,7 +53343,7 @@
 												"ECWrztChhh3e"
 											],
 											"title": "Med (With)",
-											"notePosition": 160,
+											"notePosition": 170,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -50389,7 +53363,7 @@
 												"HC5TWfjeULFD"
 											],
 											"title": "Igjen (Again)",
-											"notePosition": 170,
+											"notePosition": 180,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -50468,7 +53442,7 @@
 												"OxXjReLnmKdM"
 											],
 											"title": "Til (More)",
-											"notePosition": 190,
+											"notePosition": 200,
 											"prefix": null,
 											"isExpanded": 0,
 											"type": "text",
@@ -50491,6 +53465,134 @@
 											],
 											"format": "html",
 											"dataFileName": "Til (More).html"
+										},
+										{
+											"isClone": false,
+											"noteId": "p24CiYNablXz",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"mOptQRuK6A61",
+												"p24CiYNablXz"
+											],
+											"title": "Til (To)",
+											"notePosition": 210,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Til (To).html"
+										},
+										{
+											"isClone": false,
+											"noteId": "VZSHoPE95L3i",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"mOptQRuK6A61",
+												"VZSHoPE95L3i"
+											],
+											"title": "Fra (From)",
+											"notePosition": 220,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Fra (From).html"
+										},
+										{
+											"isClone": false,
+											"noteId": "kVJUS2T90tvF",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"mOptQRuK6A61",
+												"kVJUS2T90tvF"
+											],
+											"title": "Nå (Now)",
+											"notePosition": 230,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "internalLink",
+													"value": "YVUwe32qgFit",
+													"isInheritable": false,
+													"position": 1
+												}
+											],
+											"format": "html",
+											"dataFileName": "Nå (Now).html"
+										},
+										{
+											"isClone": false,
+											"noteId": "JBgVF2xfQ80N",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"mOptQRuK6A61",
+												"JBgVF2xfQ80N"
+											],
+											"title": "Snart (Soon/ Shortly)",
+											"notePosition": 240,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Snart (Soon Shortly).html"
+										},
+										{
+											"isClone": false,
+											"noteId": "8NRATWKz5ogi",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"mOptQRuK6A61",
+												"8NRATWKz5ogi"
+											],
+											"title": "Ofte (Often)",
+											"notePosition": 250,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Ofte (Often).html"
+										},
+										{
+											"isClone": false,
+											"noteId": "k0woDThRm0cu",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"mOptQRuK6A61",
+												"k0woDThRm0cu"
+											],
+											"title": "Aldri (Never)",
+											"notePosition": 260,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Aldri (Never).html"
 										}
 									]
 								},
@@ -50504,7 +53606,7 @@
 										"kDSeo5EQSY9E"
 									],
 									"title": "Preposisjoner (Prepositions)",
-									"notePosition": 90,
+									"notePosition": 100,
 									"prefix": null,
 									"isExpanded": 0,
 									"type": "text",
@@ -50592,6 +53694,38 @@
 											"dataFileName": "Med (With).clone.html",
 											"type": "text",
 											"format": "html"
+										},
+										{
+											"isClone": true,
+											"noteId": "p24CiYNablXz",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"kDSeo5EQSY9E",
+												"p24CiYNablXz"
+											],
+											"title": "Til (To)",
+											"prefix": null,
+											"dataFileName": "Til (To).clone.html",
+											"type": "text",
+											"format": "html"
+										},
+										{
+											"isClone": true,
+											"noteId": "VZSHoPE95L3i",
+											"notePath": [
+												"root",
+												"ZjU0jW4l200v",
+												"KejyS5ZwWWYE",
+												"kDSeo5EQSY9E",
+												"VZSHoPE95L3i"
+											],
+											"title": "Fra (From)",
+											"prefix": null,
+											"dataFileName": "Fra (From).clone.html",
+											"type": "text",
+											"format": "html"
 										}
 									]
 								},
@@ -50605,7 +53739,7 @@
 										"meJmSaigLgNf"
 									],
 									"title": "Konjunksjoner (Conjunctions)",
-									"notePosition": 100,
+									"notePosition": 110,
 									"prefix": null,
 									"isExpanded": 0,
 									"type": "text",
@@ -50662,7 +53796,7 @@
 										"PjBr9m2g4Azn"
 									],
 									"title": "Interjeksjoner (Interjections)",
-									"notePosition": 110,
+									"notePosition": 120,
 									"prefix": null,
 									"isExpanded": 0,
 									"type": "text",
@@ -50751,7 +53885,7 @@
 										"WSua5foK40or"
 									],
 									"title": "Uttrykkene (Expressions)",
-									"notePosition": 120,
+									"notePosition": 130,
 									"prefix": null,
 									"isExpanded": 0,
 									"type": "text",
@@ -50773,7 +53907,7 @@
 											"title": "__Greetings_Goodbyes__",
 											"notePosition": 50,
 											"prefix": null,
-											"isExpanded": 1,
+											"isExpanded": 0,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
@@ -50821,6 +53955,27 @@
 													"attributes": [],
 													"format": "html",
 													"dataFileName": "Hei (Hey Hi).html"
+												},
+												{
+													"isClone": false,
+													"noteId": "vzQoR1SkgeXn",
+													"notePath": [
+														"root",
+														"ZjU0jW4l200v",
+														"KejyS5ZwWWYE",
+														"WSua5foK40or",
+														"WCvJRo1Cb5ph",
+														"vzQoR1SkgeXn"
+													],
+													"title": "Hallo (Hello)",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Hallo (Hello).html"
 												},
 												{
 													"isClone": true,
