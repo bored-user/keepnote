@@ -7,14 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Inherited constructors</h1>
 
     <p>When working with inheritance, one will realize that a class automatically
       inherits the constructor class from the super (or parent) class. It's,
       however, possible to overwrite the constructor and even <a href="../Global%20Methods/super.html">call the super class constructor</a> from
       within the child class, like so:</p>
-    <p>&nbsp;</p><pre><code class="language-text-x-ruby">class SuperClass
+    <p> </p><pre><code class="language-text-x-ruby">class SuperClass
 	def initialize
 		puts 'Initializing super class'
 	end

@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Defining</h1>
 
     <p>Conventions state that an extension method should follow some naming and
@@ -16,11 +16,12 @@
       <li>it should be on a <a href="../Modifiers/Access%20modifiers/public.html"><code>public</code></a> 
         <a
         href="../Classes/Static.html"><code>static</code>
+
           </a>class with the <code>Extensions</code> suffix (like <code>StringExtensions</code>)</li>
       <li>it should be a <a href="../Modifiers/static.html"><code>static</code></a> method
         with at least one argument: <code>this [data type] [argument name]</code>.</li>
     </ol>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>For example:</p><pre><code class="language-text-x-csharp">public static class StringExtensions
 {
 	public static string Concat(this string str, string add) =&gt; str + add;

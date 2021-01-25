@@ -1,0 +1,35 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Predicate</h1>
+
+    <p>A <code>Predicate</code> is a special type of <a href="../../../../Delegates.html"><code>delegate</code></a>,
+      just like <a href="Action.html"><code>Action</code></a> and <a href="Func.html"><code>Func</code></a> -
+      which returns a boolean. Note that, usually, a <code>Predicate</code> is
+      defined as a lambda expression since it's easier to access local scope
+      variables.</p>
+    <p>See the example below:</p><pre><code class="language-text-x-csharp">class Program
+{
+	static void Main()
+	{
+		int[] nums = new int[] { 1, 2, 3, 4, 5 };
+		Predicate&lt;int&gt; IsEven = n =&gt; n % 2 == 0;
+		
+		Array.ForEach(Array.FindAll(nums, IsEven), n =&gt; Console.WriteLine(n));
+		/*
+			#=&gt; 2
+			#=&gt; 4
+		*/
+	}
+}</code></pre>
+
+  </body>
+
+</html>

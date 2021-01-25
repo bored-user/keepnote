@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Property vs Field</h1>
 
     <p>There are basically two types of class-defined variables: properties and
@@ -31,12 +31,14 @@
 		}
 	}
 }</code></pre>
+
     <p>while, using auto-implemented properties, one can reduce it to:</p><pre><code class="language-text-x-csharp">class Person
 {
 	public string Name { get; set; }
 }</code></pre>
+
     <p>because C# compiler will automatically create the private field.</p>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>In this sense, a auto-implemented property is useful when there'll be
       no custom actions - the getter will only return the result and the setter
       will only set it, without any further validation. But when some sort of

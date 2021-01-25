@@ -7,12 +7,12 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Return behavior</h1>
 
     <p>The return behavior of a lambda is exactly what one would expect: the
       lambda stop running but the local context keeps going.</p>
-    <p>&nbsp;</p><pre><code class="language-text-x-ruby">def lam_ex
+    <p> </p><pre><code class="language-text-x-ruby">def lam_ex
 	puts 'before'
 	-&gt; { return }.call
 	puts 'after'

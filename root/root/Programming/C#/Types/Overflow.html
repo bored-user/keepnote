@@ -7,13 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Overflow</h1>
 
     <p>By default, C# won't check for data overflows. Which means that this happens:</p><pre><code class="language-text-x-csharp">byte num = 255;
 num = num + 1;
 System.Console.WriteLine(byte); // 0</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>To prevent this kind of behaviour, one can enclose that dangerous code
       on a <code>checked</code> block:</p><pre><code class="language-text-x-csharp">checked
 {
@@ -21,7 +22,8 @@ System.Console.WriteLine(byte); // 0</code></pre>
 	num = num + 1;
 	System.Console.WriteLine(byte); // Exception
 }</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>Using <a href="../Exception%20handling.html"><code>try/catch</code></a>:</p><pre><code class="language-text-x-csharp">try
 {
 	checked

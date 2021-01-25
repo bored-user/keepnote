@@ -7,54 +7,69 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Restricting usage</h1>
 
     <p>One can restrict the usage of attributes using the <code>AttributeUsage</code> attribute
       on the attribute class.</p>
     <p>It's possible to use attributes on:</p>
     <ul>
-      <li><a href="#root/9axONGNUuPiH/YH6k6rZWAeZz">Assembly (namespace)</a>
+      <li><a href="#root/mckEHCo9LoJo">Assembly (namespace)</a>
+
       </li>
-      <li><a href="#root/9axONGNUuPiH/MIm5LkAlXZO8">Class</a>
+      <li><a href="#root/3WMO8b9zvw4y">Class</a>
+
       </li>
-      <li><a href="#root/9axONGNUuPiH/MIm5LkAlXZO8/9V2LydNohCJy">Constructor</a>
+      <li><a href="#root/1nrXULR3yGG4">Constructor</a>
+
       </li>
-      <li><a href="#root/9axONGNUuPiH/ANZlapC4nz0u">Delegate</a>
+      <li><a href="#root/iSSamD5LIwvz">Delegate</a>
+
       </li>
-      <li><a href="#root/9axONGNUuPiH/2D2WI0p7LfDL/dkKUY4wqIyU5/M3SqaerpUsM5">Enum</a>
+      <li><a href="#root/AL9ER4VhbIF2">Enum</a>
+
       </li>
-      <li><a href="#root/9axONGNUuPiH/RV0liqAQeUwz">Event</a>
+      <li><a href="#root/IHB5XKLBpJmv">Event</a>
+
       </li>
-      <li><a href="#root/9axONGNUuPiH/sWKW18ADSShH">Field</a>
+      <li><a href="#root/28fSxEv7Cseo">Field</a>
+
       </li>
-      <li><a href="#root/9axONGNUuPiH/8B847QU4Ef4T">GenericParameter</a>
+      <li><a href="#root/y7P9cj7RMLcN">GenericParameter</a>
+
       </li>
-      <li><a href="#root/9axONGNUuPiH/7Y6oAj5TkOex">Interface</a>
+      <li><a href="#root/craDwH07POZa">Interface</a>
+
       </li>
-      <li><a href="#root/9axONGNUuPiH/tIfnNTwWT20s">Method</a>
+      <li><a href="#root/bjtk0dC7hMph">Method</a>
+
       </li>
       <li>Module</li>
-      <li><a href="#root/9axONGNUuPiH/tIfnNTwWT20s/QqI5J0JkMkdh">Parameter</a>
+      <li><a href="#root/sXinEzrO5Pll">Parameter</a>
+
       </li>
-      <li><a href="#root/9axONGNUuPiH/sWKW18ADSShH">Property</a>
+      <li><a href="#root/28fSxEv7Cseo">Property</a>
+
       </li>
       <li>ReturnValue</li>
-      <li><a href="#root/9axONGNUuPiH/2D2WI0p7LfDL/H5h224B2wifN">Struct</a>
+      <li><a href="#root/NV4oIOFYkcgM">Struct</a>
+
       </li>
     </ul>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>The syntax for restricting the use of attributes is as follows:</p><pre><code class="language-text-x-csharp">// the CoolAttribute can only be used on classes and structs
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
 class CoolAttribute : Attribute
 {}</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>Finally, notice that attributes are inherited by default. One can change
       this by adding the <code>Inherited</code> argument on the <code>AttributeUsage</code> attribute,
       using <a href="../Methods/Named%20arguments.html">named arguments</a>, like
       so:</p><pre><code class="language-text-x-csharp">[AttributeUsage(Inherited = false)]
 class CoolAttribute : Attribute
 {}</code></pre>
+
     <p>Also, be aware that it's possible to limit the usage of attributes to,
       for instance, only once, using:</p><pre><code class="language-text-x-csharp">[AttributeUsage(AllowMultiple = false)]
 class CoolAttribute : Attribute

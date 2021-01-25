@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>params</h1>
 
     <p>The <code>params</code> keyword act much like the <code>rest operator</code> in
@@ -29,6 +29,7 @@ static int Sum(int[] nums)
 		
 	return res;
 }</code></pre>
+
     <p>could be converted to this</p><pre><code class="language-text-x-csharp">static void Main()
 {
 	Console.WriteLine(Sum(1, 2, 3, 4, 5));
@@ -42,7 +43,8 @@ static int Sum(params int[] nums)
 		
 	return res;
 }</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>The second version is better since it's not necessary to create a new
       array in memory for every method call.</p>
     <p>Note that, when using the <code>params</code> modifier, the method argument

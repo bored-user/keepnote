@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>switch</h1>
 
     <p>The <code>switch</code> statement, in Go, is a little different than on
@@ -70,23 +70,29 @@ func main() {
 			fmt.Println("`a` isn't a string nor an int")
 	}
 }</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>A few things to note:</p>
     <ul>
       <li><code>switch {}</code> is the same as <code>switch true {}</code>
+
       </li>
       <li>Cases are indicated by <code>case [condition]:</code>
+
       </li>
       <li>There's no need for a <code>break</code> statement, because Go, by default,
         executes only one <code>case</code>
+
       </li>
       <li>One can use the <code>default</code> statement</li>
       <li>One can use the <code>fallthrough</code> statement to make Go evaluate the
         next <code>case</code>
+
       </li>
       <li>One can use a comma character to indicate an <code>or</code> relation</li>
       <li>One can evaluate types using <code>variable.(type)</code> if <code>variable</code> is
         of type <code>interface{}</code>
+
       </li>
     </ul>
   </body>

@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>tuples</h1>
 
     <p>Tuples are defined using the parentheses notation.</p>
@@ -18,17 +18,20 @@
 	var tuple1 = (1, "string here", 435.54);
 	(int, string, double) tuple2 = (1, "string here", 435.54);
 };</code></pre>
+
     <p>One can, then, access the tuple's members using <code>tuple1.Item1</code>, <code>tuple1.Item2</code>,
       etc.</p>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>Note that all of those examples above were made using what I call associative
       tuples. One can create named tuples, so to speak, using this syntax:</p><pre><code class="language-text-x-csharp">static void Main()
 {
 	(int Member1, string Member2) tuple1 = (1, "string here");
 }</code></pre>
+
     <p>and access them using <code>tuple1.Member1</code> and <code>tuple1.Member2</code>.</p>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>Finally, be aware that method may return tuples: <code>public (int, string) Meth() =&gt; (1, “string here”);</code>
+
     </p>
   </body>
 

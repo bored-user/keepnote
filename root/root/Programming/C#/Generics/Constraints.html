@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Constraints</h1>
 
     <p>It's possible to constrain the generic type using the <code>where</code> clause:</p><pre><code class="language-text-x-csharp">class CustomList&lt;T&gt; where T : IComparable
@@ -22,6 +22,7 @@
 		{}
 	}
 }</code></pre>
+
     <p>Note that in the example above, an interface was used as constraint. It's
       also possible to use a [class] (meaning “where &lt;T&gt; is of type [class]”),
       struct ("where &lt;T&gt; is a struct") and even the class keyword.</p>

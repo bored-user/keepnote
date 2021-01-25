@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>include</h1>
 
     <p><code>include</code> is used to add a module to a class. It turns the module's
@@ -29,6 +29,7 @@ class MyClass
 end
 
 cl = MyClass.new #=&gt; 'hi'</code></pre>
+
     <p>However, if there's a class method with the same name as the module method,
       the class method prevails. This can be changed using <a href="prepend.html"><code>prepend</code></a>.</p>
   </body>

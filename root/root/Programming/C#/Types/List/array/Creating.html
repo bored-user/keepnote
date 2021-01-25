@@ -7,17 +7,19 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Creating</h1>
 
     <p>To create an array, one can use the <code>T[] = new T[n]</code> syntax,
       where <code>T</code> is the data type and <code>n</code> is the array length.
       If not specified, the array will be created with default values.</p><pre><code class="language-text-x-csharp">int[] ages = new int[5];
 // [0, 0, 0, 0, 0]</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>It's also possible to pass in a block with values, and even omit the <code>n</code>:</p><pre><code class="language-text-x-csharp">int[] ages = new int[5] { 1, 2, 3, 4, 5 };
 int[] @ages = new int[] { 1, 2, 3, 4, 5 };</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>Finally, one can also use the <a href="../../Nullable%20value%20types.html">nullable value types</a> on
       an array:</p><pre><code class="language-text-x-csharp">using System;
 

@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>The old way</h1>
 
     <p>Firstly, one needs to define a <code>delegate</code>. The <a href="../../Methods/Overloading/Method%20signature.html">signature</a> convention
@@ -18,10 +18,8 @@
       <table>
         <thead>
           <tr>
-            <th style="text-align:center;width:50%;"><u>Action</u>
-            </th>
-            <th style="text-align:center;"><u>Delegate name</u>
-            </th>
+            <th>Action</th>
+            <th>Delegate name</th>
           </tr>
         </thead>
         <tbody>
@@ -44,13 +42,16 @@
     <p>Nomenclature examples:</p>
     <ul>
       <li><code>public delegate void MessageSentEventHandler(object source, EventArgs args);</code>
+
       </li>
       <li><code>public delegate void SongPlayingEventHandler(object source, EventArgs args);</code>
+
       </li>
       <li><code>public delegate void BeforeVideoEncodeEventHandler(object source, EventArgs args);</code>
+
       </li>
     </ul>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>After that, one needs to create the <code>event</code> itself based on the
       delegate created before. The default naming convention is: the same name
       as the <code>delegate</code> created before without the <code>EventHandler</code> suffix.
@@ -58,13 +59,16 @@
     <p>Nomenclature examples:</p>
     <ul>
       <li><code>public event MessageSentEventHandler MessageSent;</code>
+
       </li>
       <li><code>public event SongPlayingEventHandler SongPlaying;</code>
+
       </li>
       <li><code>public event BeforeVideoEncodeEventHandler BeforeVideoEncode;</code>
+
       </li>
     </ul>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>Finally, one should create a method to actually call the event handler.
       It <code>signature</code> should look more or less like this: it should be
       a <code>protected virtual void</code> which name is the same as the event
@@ -77,13 +81,16 @@
     <p>Nomenclature examples:</p>
     <ul>
       <li><code>protected virtual void OnMessageSent;</code>
+
       </li>
       <li><code>protected virtual void OnSongPlaying;</code>
+
       </li>
       <li><code>protected virtual void OnBeforeVideoEncode;</code>
+
       </li>
     </ul>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>Take a look at a source code example <a href="The%20old%20way/Example.dat">here</a>.</p>
   </body>
 

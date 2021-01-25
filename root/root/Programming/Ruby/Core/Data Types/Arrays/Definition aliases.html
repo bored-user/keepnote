@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Definition aliases</h1>
 
     <p>There are two array definition aliases:</p>
@@ -17,10 +17,10 @@
     </ol>
     <p>Both are used when an array contain only strings and are the correct way
       (to define a word only array) according to conventions.</p>
-    <p>&nbsp;</p>
+    <p> </p>
     <p><code>%w</code> should be used when the array elements should be surrounded
       in single quotes, while <code>%w</code>, when in double quotes.</p>
-    <p>&nbsp;</p><pre><code class="language-text-x-ruby">name = 'joao'
+    <p> </p><pre><code class="language-text-x-ruby">name = 'joao'
 interpol_arr = %W[#{name}] #=&gt; ['joao']
 non_interpol_arr = %w[a b c] #=&gt; ['a', 'b', 'c']</code></pre>
 

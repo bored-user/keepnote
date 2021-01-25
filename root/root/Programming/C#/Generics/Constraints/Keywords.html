@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Keywords</h1>
 
     <p>Here's the list of constraint keywords:</p><pre><code class="language-text-x-csharp">class MyCustomType
@@ -15,16 +15,19 @@
 
 interface IMyCustomInterface
 {}</code></pre>
+
     <ul>
       <li><code>where T : IMyCustomInterface</code> - where the type implements <code>IMyCustomInterface</code>
+
       </li>
       <li><code>where T : MyCustomType</code> - where type is a <code>MyCustomType</code>
+
       </li>
-      <li><code>where T : class</code> &nbsp;- where the type is a reference type</li>
+      <li><code>where T : class</code>  - where the type is a reference type</li>
       <li><code>where T : struct</code> - where the type is a value type</li>
       <li><code>where T : new()</code> - where the type has a constructor</li>
     </ul>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>The final syntax is, for instance:</p><pre><code class="language-text-x-csharp">class GenericClass&lt;T&gt; where T : class
 {}</code></pre>
 

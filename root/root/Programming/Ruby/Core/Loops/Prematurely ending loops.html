@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Prematurely ending loops </h1>
 
     <p>It's also possible to exit loops before the specified condition is met
@@ -16,7 +16,7 @@
       from bellow it. The second stops the current iteration and continue running
       the loop (same effect as the <code>continue</code> keyword in most programming
       languages).</p>
-    <p>&nbsp;</p><pre><code class="language-text-x-ruby">arr = %w[r u b y]
+    <p> </p><pre><code class="language-text-x-ruby">arr = %w[r u b y]
 for char in arr
 	next if char == 'b'
 	puts char #=&gt; 'r' 'u' 'y'

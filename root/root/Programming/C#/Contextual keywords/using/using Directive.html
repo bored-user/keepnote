@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>using Directive</h1>
 
     <p>The <code>using</code> keyword as a directive is used to shorten the hierarchy
@@ -26,6 +26,7 @@ class Program
 		Console.WriteLine(dict["entry1"]);
 	}
 }</code></pre>
+
     <p>is the same as</p><pre><code class="language-text-x-csharp">class Program
 {
 	static void Main()
@@ -35,9 +36,10 @@ class Program
 		System.Console.WriteLine(dict["entry1"]);
 	}
 }</code></pre>
+
     <p>but the first one is far more concise than the last.
-      <br>
-      <br>Note that it's not possible to use <code>using</code> directives as shortcuts
+      <br />
+      <br />Note that it's not possible to use <code>using</code> directives as shortcuts
       to other <code>using</code> directives. For instance, one cannot make <code>using System;</code> and <code>using Collections.Generic;</code> -
       because <code>using</code> directives must contain the full path to the assembly
       reference.</p>

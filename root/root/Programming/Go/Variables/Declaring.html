@@ -7,17 +7,17 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Declaring</h1>
 
     <p>One can declare a variable using the <code>var</code> keyword or the gopher
       operator (<code>:=</code>). The basic differences are:</p>
     <ol>
-      <li>&nbsp;</li>
+      <li> </li>
       <li>The gopher operator must declare at least one variable.</li>
       <li>The gopher variable has type inference.</li>
     </ol>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>Explanation of number 2 is illustrated bellow:</p><pre><code class="language-text-x-go">package main
 
 import "fmt"
@@ -31,13 +31,14 @@ func main() {
 	
 	fmt.Println(x, y)
 }</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>Explaining number 3: the <code>var</code> operator also has type inference
-      but it's less common. For instance,&nbsp;</p>
-    <p>&nbsp;</p>
+      but it's less common. For instance, </p>
+    <p> </p>
     <p>Summarizing: the gopher should be used when the type can be inferred and
       one isn't in the global scope. Otherwise, use <code>var</code>.</p>
-    <p>&nbsp;</p>
+    <p> </p>
   </body>
 
 </html>

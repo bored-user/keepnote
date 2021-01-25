@@ -7,19 +7,20 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Other definition methods</h1>
 
     <p>There's also another way to define a Hash: using the <code>Hash.new</code> constructor.</p>
     <p>It can take one or no arguments.</p>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>If it takes an argument, it'll default all keys to that given value.</p>
     <p>Meaning:</p><pre><code class="language-text-x-ruby">hash = {}
 puts hash['a'] #=&gt; ERROR
 
 hash = Hash.new(1)
 puts hash['a'], hash['random_string'] #=&gt; 1 1</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>One can also use the <code>Hash</code> class directly:</p><pre><code class="language-text-x-ruby">puts Hash['a', 100, 'b', 200] 
 puts Hash[['a', 100], ['b', 200]]
 puts Hash['a' =&gt; 100, 'b' =&gt; 200]

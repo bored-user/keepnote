@@ -7,15 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Object pointers</h1>
 
     <p>Considering that everything is an object in Ruby, doing</p><pre><code class="language-text-x-ruby">a = 'abc'
 b = a
 a[0] = 'z'</code></pre>
+
     <p>will also modify the <code>b</code> variable (because a string is also an
       object).</p>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>If one wants to avoid such behavior, it's possible to use the <a href="../../Global%20Methods/dup.html"><code>dup</code></a> method
       to duplicate a string: <code>b = a.dup</code>.</p>
   </body>

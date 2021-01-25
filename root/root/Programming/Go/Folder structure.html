@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Folder structure</h1>
 
     <p>Go programs follow a particular folder structure. It all depends on the <code>$GOPATH</code> environment
@@ -33,7 +33,8 @@
 					pkg2/
 	bin/							// binaries
 	pkg/							// external pkgs</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>Note, however, that it's possible to build and compile projects outside
       of the illustrated folder structure. For instance, one may have a <code>script.go</code> file
       on the Desktop and run it using <code>go run script.go</code> or build it

@@ -7,12 +7,13 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Implicit</h1>
 
     <p>To implicitly convert a data type, one can use the following syntax:</p><pre><code class="language-text-x-csharp">int i = 1;
 float f = i;</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>Note: the code won't be compiled if there's data loss:</p><pre><code class="language-text-x-csharp">int i = 300;
 byte b = i; // 300 cannot be stored in a byte</code></pre>
 

@@ -7,7 +7,7 @@
     <base target="_parent">
   </head>
   
-  <body>
+  <body class="ck-content">
      <h1>Using</h1>
 
     <p>An attribute can be stated on a line above a field or at the same line
@@ -18,16 +18,18 @@ class MyObsoleteClass1
 
 [Obsolete] class MyObsoleteClass2
 {}</code></pre>
+
     <p>Even though, as mentioned above, it's syntactically allowed to state the
       attribute at the same line as the field declaration, best practices state
       that it's better to use the inline version only on properties.</p>
-    <p>&nbsp;</p>
+    <p> </p>
     <p>Be aware that it's also possible to give arguments to a attribute, calling
       it just like a function:</p><pre><code class="language-text-x-csharp">[Obsolete("Reason why it's obsolete")]
 class MyObsoleteClass3
 {}</code></pre>
-    <p>&nbsp;</p>
-    <p style="margin-left:40px;">Finally, notice that, by convention, the C# language allows one to shorten
+
+    <p> </p>
+    <p>Finally, notice that, by convention, the C# language allows one to shorten
       its syntax, writing <code>Name</code> instead of <code>NameAttribute</code> (for
       instance, <code>Obsolete</code> instead of <code>ObsoleteAttribute</code> -
       which is the actual name of the <code>Obsolete</code> attribute class).</p>
