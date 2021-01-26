@@ -1,16 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <title>Options argument object</title>
 </head><body>The argument which is given to the constructor function should be an object with the following properties:<br/>
 <br/>
 const multer = require('multer');<br/>
-module.exports.upload = multer({<ul><li style="list-style-type: none">storage: multer.memoryStorage()&#09;&#09;// keep uploaded files temporarily stored on memory</li>
+module.exports.upload = multer({<ul><li style="list-style-type: none">storage: multer.memoryStorage()		// keep uploaded files temporarily stored on memory</li>
 <li style="list-style-type: none">fileFilter = (req, file, next) =&gt; {</li>
 <li style="list-style-type: none"><ul><li style="list-style-type: none">/*</li>
 <li style="list-style-type: none"><ul><li style="list-style-type: none">file.mimetype = the file's mime type. One can use it to check extensions</li>
-<li style="list-style-type: none">the 'next' argument is actually a function that takes an object with the error (null, in case there's no error) &#09;and true/ false as second argument, specifying whether to upload or not the file. In said error object, one &#09; &nbsp;can specify a message to be displayed later - next({message: 'message'}, false).</li>
+<li style="list-style-type: none">the 'next' argument is actually a function that takes an object with the error (null, in case there's no error) 	and true/ false as second argument, specifying whether to upload or not the file. In said error object, one 	 can specify a message to be displayed later - next({message: 'message'}, false).</li>
 </ul>
 </li>
 <li style="list-style-type: none">*/</li>

@@ -1,7 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <title>session</title>
 </head><body>A session is used to store data.<br/>
 It ends as soon as the user closes the browser (wiping all information).<br/>
@@ -10,7 +9,7 @@ start_session() is used to start a session.<br/>
 session_unset() is used to unset session data, clearing all variables.<br/>
 session_destroy() is used to destroy the data, deleting all data, including possible files.<br/>
 <br/>
-To store data in a session it's used $_SESSION["key"] = "value".<br/>
+To store data in a session it's used $_SESSION[&quot;key&quot;] = &quot;value&quot;.<br/>
 <br/>
 In order to share session data among multiple pages on your website, one must use session_start() in each page.<br/>
 <br/>

@@ -1,9 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <title>Mutating vs non Mutating</title>
-</head><body>Mutation functions are the ones which changes (or alters) &nbsp;their arguments.<br/>
+</head><body>Mutation functions are the ones which changes (or alters) their arguments.<br/>
 By convention they're written using an exclamation mark at the end.<br/>
 <br/>
 Examples of that are push!() and pop!().<br/>
@@ -11,7 +10,7 @@ There are many functions in Julia which have both a mutating and a non mutating 
 <br/>
 For example, the sort() function:<br/>
 arr = [3, 2, 1];<br/>
-println(sort(arr))&#09;&#09;# [1, 2, 3]<br/>
-println(arr)&#09;&#09;&#09;# [3, 2, 1]<br/>
+println(sort(arr))		# [1, 2, 3]<br/>
+println(arr)			# [3, 2, 1]<br/>
 sort!(arr)<br/>
-println(arr)&#09;&#09;&#09;# [1, 2, 3]</body></html>
+println(arr)			# [1, 2, 3]</body></html>

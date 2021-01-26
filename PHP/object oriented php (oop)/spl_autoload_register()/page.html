@@ -1,7 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <title>spl_autoload_register()</title>
 </head><body>It is used to load class files automatically on demand.<br/>
 There must be a pattern on class paths (like class/className.class.php) in order to load it.<br/>
@@ -9,10 +8,10 @@ There must be a pattern on class paths (like class/className.class.php) in order
 Takes a function as parameter.<br/>
 This child function takes a parameter (the class name) and must have an include (or include_once) command in order to load the class file.<br/>
 <br/>
-Also, for error handling, it is possible to add a "if (!file_exists(classFile)) { return false; }" before the include_once command.<br/>
+Also, for error handling, it is possible to add a &quot;if (!file_exists(classFile)) { return false; }&quot; before the include_once command.<br/>
 <br/>
-The loading (child) function will also work for namespaces if the class is instanciated using "new NamespaceName\ClassName()". There must also be a folder inside the class folder which has the same name as the namespace.<br/>
+The loading (child) function will also work for namespaces if the class is instanciated using &quot;new NamespaceName\ClassName()&quot;. There must also be a folder inside the class folder which has the same name as the namespace.<br/>
 <br/>
-In order to detect whether or not the function (child) is being executed from a file on the root folder or the includes folder, one must check if the $_SERVER["HTTP_HOST"] and $_SERVER["REQUEST_URI"] doesn't contain the keyword "includes". If it does, the script must add "../" accordingly.<br/>
+In order to detect whether or not the function (child) is being executed from a file on the root folder or the includes folder, one must check if the $_SERVER[&quot;HTTP_HOST&quot;] and $_SERVER[&quot;REQUEST_URI&quot;] doesn't contain the keyword &quot;includes&quot;. If it does, the script must add &quot;../&quot; accordingly.<br/>
 <br/>
-Finally, one can use the "bruteforce method": scan files inside class directory, using scandir and run a for loop on those files, loading 'em all.</body></html>
+Finally, one can use the &quot;bruteforce method&quot;: scan files inside class directory, using scandir and run a for loop on those files, loading 'em all.</body></html>

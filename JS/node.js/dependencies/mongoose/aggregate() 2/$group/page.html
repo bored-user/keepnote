@@ -1,10 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <title>$group</title>
 </head><body>$group: group results according to specified parameters. Needs to take an accumulator (_id) and any other optional parameter that can be, for example, incremented.<br/>
 <br/>
-Syntax: { $group: { _id: '$tags', count: { $sum: 1 } } } &#09;// _id = accumulator and count is opt (will be incremented at &#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;// each loop)<br/>
+Syntax: { $group: { _id: '$tags', count: { $sum: 1 } } } 	// _id = accumulator and count is opt (will be incremented at 												// each loop)<br/>
 <br/>
 Result: [ { '_id': 'tag_1', count: 1 }, { _id: 'tag_2', count: 2 } ]</body></html>

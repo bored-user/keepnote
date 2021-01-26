@@ -1,7 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <title>cookie</title>
 </head><body>Cookies are another way of storing information.<br/>
 They are stored on the user's computer (not on server).<br/>
@@ -9,15 +8,15 @@ They are stored on the user's computer (not on server).<br/>
 setcookie() function is used in order to set a cookie.<br/>
 It takes 2 mandatory parameters: name and value. Sometimes the expiration time parameter is also used (if neeeded).<br/>
 <br/>
-setcookie("myCookie", "myValue")&#09;&#09;&#09;&#09;&#09;// the cookie is named myCookie and has myValue value. It'll expire at the end of session (if expiration time is omited).<br/>
-setcookie("myCookie", "myValue", time()+3600)&#09;&#09;// will expire in an hour (time() function return's in seconds).<br/>
+setcookie(&quot;myCookie&quot;, &quot;myValue&quot;)					// the cookie is named myCookie and has myValue value. It'll expire at the end of session (if expiration time is omited).<br/>
+setcookie(&quot;myCookie&quot;, &quot;myValue&quot;, time()+3600)		// will expire in an hour (time() function return's in seconds).<br/>
 <br/>
 In order to delete a cookie, set the expiration time to time() - anything (as the time value is already gone).<br/>
 <br/>
-To access a cookie just use the $_COOKIE["cookiename"] superglobal (built-in) variable.<br/>
+To access a cookie just use the $_COOKIE[&quot;cookiename&quot;] superglobal (built-in) variable.<br/>
 <br/>
-<img src="screenshot_2020-01-09_124641.png" /><br/>
+<img src="screenshot_2020-01-09_124641.png"/><br/>
 <br/>
-<img src="screenshot_2020-01-09_124703.png" /><br/>
+<img src="screenshot_2020-01-09_124703.png"/><br/>
 <br/>
-<img src="screenshot_2020-01-09_124728.png" /></body></html>
+<img src="screenshot_2020-01-09_124728.png"/></body></html>

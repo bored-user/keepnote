@@ -1,0 +1,165 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<style>
+.node
+{
+    padding-left: 20px;
+    display: block;
+}
+
+.node_collapsed
+{
+    padding-left: 20px;
+    display: none;
+
+    
+    visibility: hidden;
+    display: none;
+}
+
+
+
+a:active
+{
+text-decoration:none;
+color: #0000FF;
+font-weight: bold;
+}
+
+a:visited
+{
+text-decoration:none;
+color: #000;
+font-weight: bold;
+}
+
+a:link
+{
+text-decoration:none;
+color: #000;
+font-weight: bold;
+}
+
+a:hover
+{
+text-decoration: underline;
+color: #500;
+font-weight: bold;
+}
+
+</style>
+
+
+<script language="javascript">
+  
+    var displayStates = [];
+
+    function showDiv(div)
+    {    
+        div.style.height     = "";
+        div.style.display    = "block";
+        div.style.visibility = "visible";
+    }
+
+    function hideDiv(div)
+    {
+        div.style.height     = "0px";
+        div.style.display    = "none";      
+        div.style.visibility = "hidden";
+    }
+
+    function toggleDiv(div, defaultState)
+    {
+
+        // set default on first use
+        if (displayStates[div] == undefined)
+            displayStates[div] = defaultState;
+
+        // toggle state
+        displayStates[div] = !displayStates[div];       
+
+        // hide / show
+        if (displayStates[div])
+            showDiv(div);
+        else {
+            hideDiv(div);
+        }
+    }
+
+    function toggleDivName(divname, defaultState)
+    {
+        toggleDiv(document.getElementById(divname), defaultState);
+    }
+
+</script>
+
+<nobr><tt><a href='javascript: toggleDivName("d0b571d5-0eba-49da-97cd-8ba6e0c3e9af", false)'>+</a>&nbsp;</tt>Python</nobr><br/>
+<div id='d0b571d5-0eba-49da-97cd-8ba6e0c3e9af' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='shebang/page.html' target='viewer'>Shebang</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='concatenation/page.html' target='viewer'>Concatenation</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='note%20about%20objects/page.html' target='viewer'>Note about objects</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("8910b34e-9e8f-42ff-ab23-afbd77e2640a", false)'>+</a>&nbsp;</tt>Built-in Functions</nobr><br/>
+<div id='8910b34e-9e8f-42ff-ab23-afbd77e2640a' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/type%28%29/page.html' target='viewer'>type()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/print%28%29/page.html' target='viewer'>print()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/return/page.html' target='viewer'>return</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/split%28%29/page.html' target='viewer'>split()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/isinstance%28%29/page.html' target='viewer'>isinstance()</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("3e15b86b-b520-4fe5-8fd0-5782f7fa32da", false)'>+</a>&nbsp;</tt>Arrays</nobr><br/>
+<div id='3e15b86b-b520-4fe5-8fd0-5782f7fa32da' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/arrays/array.append%28%29/page.html' target='viewer'>array.append()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/arrays/del%20array%5Bindex%5D/page.html' target='viewer'>del array[index]</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/arrays/array.remove%28%29/page.html' target='viewer'>array.remove()</a></nobr><br/>
+</div>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("4be579e1-2bdc-4935-a44a-f3961cc21af0", true)'>+</a>&nbsp;</tt>Variables</nobr><br/>
+<div id='4be579e1-2bdc-4935-a44a-f3961cc21af0' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='variables%202/variable%20operations/page.html' target='viewer'>Variable operations</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='variables%202/variables/page.html' target='viewer'>Variables</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("58266996-41c6-44bf-8873-5a4ec1fabada", false)'>+</a>&nbsp;</tt>Data types</nobr><br/>
+<div id='58266996-41c6-44bf-8873-5a4ec1fabada' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='data%20types%202/dictionaries/page.html' target='viewer'>Dictionaries</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20types%202/tuples/page.html' target='viewer'>Tuples</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20types%202/list/page.html' target='viewer'>List</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20types%202/booleans/page.html' target='viewer'>Booleans</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20types%202/complex%20number/page.html' target='viewer'>Complex number</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20types%202/string/page.html' target='viewer'>String</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20types%202/integer/page.html' target='viewer'>Integer</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20types%202/float/page.html' target='viewer'>Float</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20types%202/comments/page.html' target='viewer'>Comments</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("f3e940b8-d46e-4234-8f0d-841e6e5b4029", false)'>+</a>&nbsp;</tt>Math</nobr><br/>
+<div id='f3e940b8-d46e-4234-8f0d-841e6e5b4029' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='math%202/ordinary%20operators/page.html' target='viewer'>Ordinary operators</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='math%202/exponentiation/page.html' target='viewer'>Exponentiation</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='math%202/%22round%20division%22/page.html' target='viewer'>"Round Division"</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("ffd534ab-915e-464b-8591-5651359a4a13", false)'>+</a>&nbsp;</tt>Functions</nobr><br/>
+<div id='ffd534ab-915e-464b-8591-5651359a4a13' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='functions/defining/page.html' target='viewer'>Defining</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='functions/parameters/page.html' target='viewer'>Parameters</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("903ccd17-64d9-4bd8-8e16-1313c2f43bd8", false)'>+</a>&nbsp;</tt>Conditionals</nobr><br/>
+<div id='903ccd17-64d9-4bd8-8e16-1313c2f43bd8' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='conditionals/if/page.html' target='viewer'>If</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("3b2daab7-ce7f-4386-bebf-08b33a97b33e", false)'>+</a>&nbsp;</tt>Try / Except / Finally / Raise</nobr><br/>
+<div id='3b2daab7-ce7f-4386-bebf-08b33a97b33e' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='try%20-%20except%20-%20finally%20-%20raise/try%20%7B%7D/page.html' target='viewer'>try {}</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='try%20-%20except%20-%20finally%20-%20raise/except%20%7B%7D/page.html' target='viewer'>except {}</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='try%20-%20except%20-%20finally%20-%20raise/finally%20%7B%7D/page.html' target='viewer'>finally {}</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='try%20-%20except%20-%20finally%20-%20raise/raise%20%7B%7D/page.html' target='viewer'>raise {}</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("13585c84-514c-4149-b3a0-db52537ecb62", false)'>+</a>&nbsp;</tt>Modules</nobr><br/>
+<div id='13585c84-514c-4149-b3a0-db52537ecb62' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='modules/importing%20modules/page.html' target='viewer'>Importing modules</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("be345229-4294-4968-9516-246882aa08c4", false)'>+</a>&nbsp;</tt>os</nobr><br/>
+<div id='be345229-4294-4968-9516-246882aa08c4' class='node_collapsed'><nobr><tt><a href='javascript: toggleDivName("ed909944-9ddb-41a5-9228-d4ee175f7ae8", false)'>+</a>&nbsp;</tt>path</nobr><br/>
+<div id='ed909944-9ddb-41a5-9228-d4ee175f7ae8' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='modules/os/path/isfile/page.html' target='viewer'>isfile</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='modules/os/path/isdir/page.html' target='viewer'>isdir</a></nobr><br/>
+</div>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("0d61538b-8235-4c6b-8bb0-6fdab76bd721", false)'>+</a>&nbsp;</tt>sys</nobr><br/>
+<div id='0d61538b-8235-4c6b-8bb0-6fdab76bd721' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='modules/sys/sys.argv/page.html' target='viewer'>sys.argv</a></nobr><br/>
+</div>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("b257ffcc-78f5-482e-9df2-10cc1efd7846", false)'>+</a>&nbsp;</tt><a href='trash' target='viewer'>Trash</a></nobr><br/>
+<div id='b257ffcc-78f5-482e-9df2-10cc1efd7846' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt>Built-in Functions</nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash/new%20page/page.html' target='viewer'>New Page</a></nobr><br/>
+</div>
+</div>
+</body></html>

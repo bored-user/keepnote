@@ -1,0 +1,160 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<style>
+.node
+{
+    padding-left: 20px;
+    display: block;
+}
+
+.node_collapsed
+{
+    padding-left: 20px;
+    display: none;
+
+    
+    visibility: hidden;
+    display: none;
+}
+
+
+
+a:active
+{
+text-decoration:none;
+color: #0000FF;
+font-weight: bold;
+}
+
+a:visited
+{
+text-decoration:none;
+color: #000;
+font-weight: bold;
+}
+
+a:link
+{
+text-decoration:none;
+color: #000;
+font-weight: bold;
+}
+
+a:hover
+{
+text-decoration: underline;
+color: #500;
+font-weight: bold;
+}
+
+</style>
+
+
+<script language="javascript">
+  
+    var displayStates = [];
+
+    function showDiv(div)
+    {    
+        div.style.height     = "";
+        div.style.display    = "block";
+        div.style.visibility = "visible";
+    }
+
+    function hideDiv(div)
+    {
+        div.style.height     = "0px";
+        div.style.display    = "none";      
+        div.style.visibility = "hidden";
+    }
+
+    function toggleDiv(div, defaultState)
+    {
+
+        // set default on first use
+        if (displayStates[div] == undefined)
+            displayStates[div] = defaultState;
+
+        // toggle state
+        displayStates[div] = !displayStates[div];       
+
+        // hide / show
+        if (displayStates[div])
+            showDiv(div);
+        else {
+            hideDiv(div);
+        }
+    }
+
+    function toggleDivName(divname, defaultState)
+    {
+        toggleDiv(document.getElementById(divname), defaultState);
+    }
+
+</script>
+
+<nobr><tt><a href='javascript: toggleDivName("346029b9-08f2-4ffa-a73b-251cac9d05c0", true)'>+</a>&nbsp;</tt>Julia</nobr><br/>
+<div id='346029b9-08f2-4ffa-a73b-251cac9d05c0' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='general%20notes/page.html' target='viewer'>General Notes</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='notes%20on%20math/page.html' target='viewer'>Notes on math</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='note%20on%20indexes/page.html' target='viewer'>Note on indexes</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("69574576-7915-470b-b13c-70ad14a7e0a2", false)'>+</a>&nbsp;</tt>Strings</nobr><br/>
+<div id='69574576-7915-470b-b13c-70ad14a7e0a2' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='strings/quotes/page.html' target='viewer'>Quotes</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='strings/concatenation/page.html' target='viewer'>Concatenation</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='strings/interpolation/page.html' target='viewer'>Interpolation</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("5db35d0f-735e-415e-9078-1bb96ef0b87f", false)'>+</a>&nbsp;</tt>Variables</nobr><br/>
+<div id='5db35d0f-735e-415e-9078-1bb96ef0b87f' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='variables/declaring/page.html' target='viewer'>Declaring</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='variables/using/page.html' target='viewer'>Using</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("fa3f05c8-a471-4475-b68d-0a96f57ff49a", true)'>+</a>&nbsp;</tt>Built-in Functions</nobr><br/>
+<div id='fa3f05c8-a471-4475-b68d-0a96f57ff49a' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/println%28%29/page.html' target='viewer'>println()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/typeof%28%29/page.html' target='viewer'>typeof()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/string%28%29/page.html' target='viewer'>string()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/length%28%29/page.html' target='viewer'>length()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/dict%28%29/page.html' target='viewer'>Dict()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/pop%21%28%29/page.html' target='viewer'>pop!()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/push%21%28%29/page.html' target='viewer'>push!()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/rand%28%29/page.html' target='viewer'>rand()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/methods%28%29/page.html' target='viewer'>methods()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/copy%28%29/page.html' target='viewer'>copy()</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("c9c6f195-9aaf-4667-9dfb-38e78e0dd640", false)'>+</a>&nbsp;</tt>Data Structures</nobr><br/>
+<div id='c9c6f195-9aaf-4667-9dfb-38e78e0dd640' class='node_collapsed'><nobr><tt><a href='javascript: toggleDivName("e6619234-d69d-4877-b1bb-16025afb3946", true)'>+</a>&nbsp;</tt>Dictionaries</nobr><br/>
+<div id='e6619234-d69d-4877-b1bb-16025afb3946' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='data%20structures/dictionaries/creation/page.html' target='viewer'>Creation</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20structures/dictionaries/removing%20from%20dict/page.html' target='viewer'>Removing from dict</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20structures/dictionaries/adding%20elements%20to%20the%20dict/page.html' target='viewer'>Adding elements to the dict</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("35381aa7-3080-4207-86bd-953c90ff6608", false)'>+</a>&nbsp;</tt>Tuples</nobr><br/>
+<div id='35381aa7-3080-4207-86bd-953c90ff6608' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='data%20structures/tuples/creation/page.html' target='viewer'>Creation</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("f33ea50a-87fb-44a5-898b-94ba8c491bd7", true)'>+</a>&nbsp;</tt>Arrays</nobr><br/>
+<div id='f33ea50a-87fb-44a5-898b-94ba8c491bd7' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='data%20structures/arrays/creation/page.html' target='viewer'>Creation</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20structures/arrays/removing%20items%20from%20array/page.html' target='viewer'>Removing items from array</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='data%20structures/arrays/adding%20elements%20to%20array/page.html' target='viewer'>Adding elements to array</a></nobr><br/>
+</div>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("a2109be8-3d6b-46eb-adfc-efa92c1577a6", false)'>+</a>&nbsp;</tt>Loops</nobr><br/>
+<div id='a2109be8-3d6b-46eb-adfc-efa92c1577a6' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='loops/while/page.html' target='viewer'>while</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='loops/for/page.html' target='viewer'>for</a></nobr><br/>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='conditionals/page.html' target='viewer'>Conditionals</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("622b1563-7511-4329-82cd-c2cbab341c2d", true)'>+</a>&nbsp;</tt>Functions</nobr><br/>
+<div id='622b1563-7511-4329-82cd-c2cbab341c2d' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='functions/declaration/page.html' target='viewer'>Declaration </a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='functions/calling/page.html' target='viewer'>Calling</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='functions/mutating%20vs%20non%20mutating/page.html' target='viewer'>Mutating vs non Mutating</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='functions/broadcasting/page.html' target='viewer'>Broadcasting</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='functions/multiple%20dispatch/page.html' target='viewer'>Multiple Dispatch</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("d17a94d3-25c4-4512-aac2-0fa5ef6a3577", false)'>+</a>&nbsp;</tt>Packages</nobr><br/>
+<div id='d17a94d3-25c4-4512-aac2-0fa5ef6a3577' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='packages/note/page.html' target='viewer'>Note</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='packages/using%20packages/page.html' target='viewer'>Using packages</a></nobr><br/>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='pointers/page.html' target='viewer'>Pointers</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("235bb783-19c1-45c1-ba77-9502bff3f040", false)'>+</a>&nbsp;</tt><a href='trash' target='viewer'>Trash</a></nobr><br/>
+<div id='235bb783-19c1-45c1-ba77-9502bff3f040' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='trash/quotes/page.html' target='viewer'>Quotes</a></nobr><br/>
+</div>
+</div>
+</body></html>

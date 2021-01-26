@@ -1,9 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <title>Note on working method</title>
 </head><body>p5.js works in a very specific way: it sets the style of a shape BEFORE drawing it.<br/>
-That means that if one wants to draw a green rectangle, they should use the fill("green") function before the actual rect() function.<br/>
+That means that if one wants to draw a green rectangle, they should use the fill(&quot;green&quot;) function before the actual rect() function.<br/>
 <br/>
 This means that every style function (such as fill(), noFill(), stroke(), strokeWeight(), etc) should be placed before the actual drawing functions (such as rect(), triangle(), arc(), ellipse(), quad(), etc).</body></html>

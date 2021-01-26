@@ -1,13 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <title>Strict</title>
 </head><body>One can specify the type of data which a function will recieve as argument, using the typename keyword, just like in C#.<br/>
-For instance, if a function can only get an integer as parameter, one may use "function myFunction(int $myArg) {}". That means that PHP will throw an error if the data given isn't the specified one.<br/>
+For instance, if a function can only get an integer as parameter, one may use &quot;function myFunction(int $myArg) {}&quot;. That means that PHP will throw an error if the data given isn't the specified one.<br/>
 <br/>
-Actually, there's something called strict declaration which will FORCE PHP to throw the error. In that integer example above, one may give "2" (which is technically a string) but PHP will convert it to an integer and won't throw any error.<br/>
+Actually, there's something called strict declaration which will FORCE PHP to throw the error. In that integer example above, one may give &quot;2&quot; (which is technically a string) but PHP will convert it to an integer and won't throw any error.<br/>
 <br/>
-The same problem may also happen in the wanted data is a string but the user passes the number 4 as an argument. PHP will convert the integer "4" to the string "4".<br/>
+The same problem may also happen in the wanted data is a string but the user passes the number 4 as an argument. PHP will convert the integer &quot;4&quot; to the string &quot;4&quot;.<br/>
 <br/>
-The programmer may avoid this by declaring strict_types predefined constant to 1, using "declare(strict_types = 1)". This will not allow PHP to automatically convert data types (like the ones on the examples above).</body></html>
+The programmer may avoid this by declaring strict_types predefined constant to 1, using &quot;declare(strict_types = 1)&quot;. This will not allow PHP to automatically convert data types (like the ones on the examples above).</body></html>

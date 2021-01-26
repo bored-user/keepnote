@@ -1,0 +1,151 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<style>
+.node
+{
+    padding-left: 20px;
+    display: block;
+}
+
+.node_collapsed
+{
+    padding-left: 20px;
+    display: none;
+
+    
+    visibility: hidden;
+    display: none;
+}
+
+
+
+a:active
+{
+text-decoration:none;
+color: #0000FF;
+font-weight: bold;
+}
+
+a:visited
+{
+text-decoration:none;
+color: #000;
+font-weight: bold;
+}
+
+a:link
+{
+text-decoration:none;
+color: #000;
+font-weight: bold;
+}
+
+a:hover
+{
+text-decoration: underline;
+color: #500;
+font-weight: bold;
+}
+
+</style>
+
+
+<script language="javascript">
+  
+    var displayStates = [];
+
+    function showDiv(div)
+    {    
+        div.style.height     = "";
+        div.style.display    = "block";
+        div.style.visibility = "visible";
+    }
+
+    function hideDiv(div)
+    {
+        div.style.height     = "0px";
+        div.style.display    = "none";      
+        div.style.visibility = "hidden";
+    }
+
+    function toggleDiv(div, defaultState)
+    {
+
+        // set default on first use
+        if (displayStates[div] == undefined)
+            displayStates[div] = defaultState;
+
+        // toggle state
+        displayStates[div] = !displayStates[div];       
+
+        // hide / show
+        if (displayStates[div])
+            showDiv(div);
+        else {
+            hideDiv(div);
+        }
+    }
+
+    function toggleDivName(divname, defaultState)
+    {
+        toggleDiv(document.getElementById(divname), defaultState);
+    }
+
+</script>
+
+<nobr><tt><a href='javascript: toggleDivName("4d79af53-ffb0-43a5-a8c6-c9c74b7cef00", false)'>+</a>&nbsp;</tt>Processing</nobr><br/>
+<div id='4d79af53-ffb0-43a5-a8c6-c9c74b7cef00' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='what%20is%20it/page.html' target='viewer'>What is it</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='note%20on%20working%20method/page.html' target='viewer'>Note on working method</a></nobr><br/>
+<nobr><tt><a href='javascript: toggleDivName("b632becc-0f82-4503-8ab4-4d5d4f816276", true)'>+</a>&nbsp;</tt>Built-in Functions</nobr><br/>
+<div id='b632becc-0f82-4503-8ab4-4d5d4f816276' class='node'><nobr><tt><a href='javascript: toggleDivName("f5ed918d-9ca1-4ee9-8cae-a10e97fe33e1", true)'>+</a>&nbsp;</tt>Main</nobr><br/>
+<div id='f5ed918d-9ca1-4ee9-8cae-a10e97fe33e1' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/main/setup%28%29/page.html' target='viewer'>setup()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/main/draw%28%29/page.html' target='viewer'>draw()</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("949ce718-6503-4b15-9c59-7ab83774a16f", true)'>+</a>&nbsp;</tt>Canvas</nobr><br/>
+<div id='949ce718-6503-4b15-9c59-7ab83774a16f' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/canvas/createcanvas%28%29/page.html' target='viewer'>createCanvas()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/canvas/background%28%29/page.html' target='viewer'>background()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/canvas/creategraph%28%29/page.html' target='viewer'>createGraph()</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("7c38d69e-516e-4ba1-9658-99ec3095cdf7", true)'>+</a>&nbsp;</tt>Color</nobr><br/>
+<div id='7c38d69e-516e-4ba1-9658-99ec3095cdf7' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/color/colormode%28%29/page.html' target='viewer'>colorMode()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/color/fill%28%29/page.html' target='viewer'>fill()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/color/stroke%28%29/page.html' target='viewer'>stroke()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/color/nofill%28%29/page.html' target='viewer'>noFill()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/color/nostroke%28%29/page.html' target='viewer'>noStroke()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/color/note/page.html' target='viewer'>Note</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("988afd51-cf40-4c78-94d7-0e62a77d4c72", false)'>+</a>&nbsp;</tt>Shapes</nobr><br/>
+<div id='988afd51-cf40-4c78-94d7-0e62a77d4c72' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/shapes/rect%28%29/page.html' target='viewer'>rect()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/shapes/line%28%29/page.html' target='viewer'>line()</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("94a37067-7af0-455d-8016-97b7a4f1c6f8", true)'>+</a>&nbsp;</tt>Attributes</nobr><br/>
+<div id='94a37067-7af0-455d-8016-97b7a4f1c6f8' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/attributes/rectmode%28%29/page.html' target='viewer'>rectMode()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/attributes/strokeweight%28%29/page.html' target='viewer'>strokeWeight()</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("3a956c7f-63a7-4b0a-a90d-eaa0fadaed7c", true)'>+</a>&nbsp;</tt>Events</nobr><br/>
+<div id='3a956c7f-63a7-4b0a-a90d-eaa0fadaed7c' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/events/mousepressed/page.html' target='viewer'>mousePressed</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/events/keypressed/page.html' target='viewer'>keyPressed</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("25c53757-fa92-4bf3-9d1e-a1758e18f0ae", true)'>+</a>&nbsp;</tt>Math</nobr><br/>
+<div id='25c53757-fa92-4bf3-9d1e-a1758e18f0ae' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/math/map%28%29/page.html' target='viewer'>map()</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20functions/math/random%28%29/page.html' target='viewer'>random()</a></nobr><br/>
+</div>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("3f3de408-cd80-41d4-b1c3-3f1f7c804854", true)'>+</a>&nbsp;</tt>Built-in Variables</nobr><br/>
+<div id='3f3de408-cd80-41d4-b1c3-3f1f7c804854' class='node'><nobr><tt><a href='javascript: toggleDivName("8ea7a946-01ec-4d67-9006-2c9a64f9f9b4", true)'>+</a>&nbsp;</tt>Mouse</nobr><br/>
+<div id='8ea7a946-01ec-4d67-9006-2c9a64f9f9b4' class='node'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20variables/mouse/mousex/page.html' target='viewer'>mouseX</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20variables/mouse/mousey/page.html' target='viewer'>mouseY</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20variables/mouse/pmousex/page.html' target='viewer'>pmouseX</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20variables/mouse/pmousey/page.html' target='viewer'>pmouseY</a></nobr><br/>
+</div>
+<nobr><tt><a href='javascript: toggleDivName("5abd486f-ec3c-475c-bff3-e671af9620b4", false)'>+</a>&nbsp;</tt>Sizes</nobr><br/>
+<div id='5abd486f-ec3c-475c-bff3-e671af9620b4' class='node_collapsed'><nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20variables/sizes/width/page.html' target='viewer'>width</a></nobr><br/>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='built-in%20variables/sizes/height/page.html' target='viewer'>height</a></nobr><br/>
+</div>
+</div>
+<nobr><tt>&nbsp;&nbsp;</tt><a href='trash%202' target='viewer'>Trash</a></nobr><br/>
+</div>
+</body></html>

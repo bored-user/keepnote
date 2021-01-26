@@ -1,7 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <title>find()</title>
 </head><body>find() is a function that can either take one or no arguments.<br/>
 If no argument is given, it returns an array of objects where each object is an item on the connected database.<br/>
@@ -12,7 +11,7 @@ Example:<br/>
 model.find({ field1: 'value1' });<br/>
 <br/>
 Observation: one may use model.find() to search for an item in an array field:<br/>
-user_1 {&#09;&#09;// user_1 has friends 1, 2 and 3 in their friend list<ul><li style="list-style-type: none">friends: ['friend1', 'friend2', 'friend3'];</li>
+user_1 {		// user_1 has friends 1, 2 and 3 in their friend list<ul><li style="list-style-type: none">friends: ['friend1', 'friend2', 'friend3'];</li>
 </ul>
 }<br/>
-model.find({ friends: 'friend1' })&#09;// will return user_1</body></html>
+model.find({ friends: 'friend1' })	// will return user_1</body></html>
