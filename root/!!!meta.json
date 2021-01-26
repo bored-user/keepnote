@@ -26289,6 +26289,26 @@
 													"dataFileName": "noe (something).html"
 												}
 											]
+										},
+										{
+											"isClone": false,
+											"noteId": "RUulERYQJpp4",
+											"notePath": [
+												"root",
+												"8a69OPRBsRKV",
+												"lJIQqhlFsfvX",
+												"1UUPquAPpNkj",
+												"RUulERYQJpp4"
+											],
+											"title": "Demonstrative pronouns",
+											"notePosition": 50,
+											"prefix": null,
+											"isExpanded": 0,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Demonstrative pronouns.html"
 										}
 									]
 								},
@@ -41490,7 +41510,7 @@
 													"title": "en tur (a trip)",
 													"notePosition": 20,
 													"prefix": null,
-													"isExpanded": 0,
+													"isExpanded": 1,
 													"type": "text",
 													"mime": "text/html",
 													"attributes": [],
@@ -50047,7 +50067,7 @@
 													"title": "en pappa (a dad)",
 													"notePosition": 40,
 													"prefix": null,
-													"isExpanded": 1,
+													"isExpanded": 0,
 													"type": "text",
 													"mime": "text/html",
 													"attributes": [],
@@ -50740,7 +50760,7 @@
 														"PV6UVGELFv0F",
 														"umEp6x0Rrre1"
 													],
-													"title": "ei/ en kvinne (a woman)",
+													"title": "en/ ei kvinne (a woman)",
 													"notePosition": 100,
 													"prefix": null,
 													"isExpanded": 0,
@@ -50748,7 +50768,7 @@
 													"mime": "text/html",
 													"attributes": [],
 													"format": "html",
-													"dirFileName": "ei en kvinne (a woman)",
+													"dirFileName": "en ei kvinne (a woman)",
 													"children": [
 														{
 															"isClone": false,
@@ -50909,7 +50929,7 @@
 													"title": "en mamma (a mom)",
 													"notePosition": 110,
 													"prefix": null,
-													"isExpanded": 1,
+													"isExpanded": 0,
 													"type": "text",
 													"mime": "text/html",
 													"attributes": [],
@@ -50927,7 +50947,7 @@
 														"PV6UVGELFv0F",
 														"l1V8GIxraqas"
 													],
-													"title": "new note",
+													"title": "en baby (a baby)",
 													"notePosition": 120,
 													"prefix": null,
 													"isExpanded": 0,
@@ -50935,7 +50955,946 @@
 													"mime": "text/html",
 													"attributes": [],
 													"format": "html",
-													"dataFileName": "new note.html"
+													"dirFileName": "en baby (a baby)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "kCQpWlhYZHQN",
+															"notePath": [
+																"root",
+																"8a69OPRBsRKV",
+																"lJIQqhlFsfvX",
+																"3xkOAnfWfCan",
+																"PV6UVGELFv0F",
+																"l1V8GIxraqas",
+																"kCQpWlhYZHQN"
+															],
+															"title": "Forms",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "l08kRUxToJk3",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"l1V8GIxraqas",
+																		"kCQpWlhYZHQN",
+																		"l08kRUxToJk3"
+																	],
+																	"title": "Def. plural",
+																	"prefix": "babyene (the babies)",
+																	"dataFileName": "babyene (the babies) - Def. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "lWSxhIuMXvhz",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"l1V8GIxraqas",
+																		"kCQpWlhYZHQN",
+																		"lWSxhIuMXvhz"
+																	],
+																	"title": "Indef. plural",
+																	"prefix": "babyer (babies)",
+																	"dataFileName": "babyer (babies) - Indef. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "KSgRWmQPgV3L",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"l1V8GIxraqas",
+																		"kCQpWlhYZHQN",
+																		"KSgRWmQPgV3L"
+																	],
+																	"title": "Def. sing.",
+																	"prefix": "babyen (the baby)",
+																	"dataFileName": "babyen (the baby) - Def. sing.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "jlCq6ZyuNJ0j",
+													"notePath": [
+														"root",
+														"8a69OPRBsRKV",
+														"lJIQqhlFsfvX",
+														"3xkOAnfWfCan",
+														"PV6UVGELFv0F",
+														"jlCq6ZyuNJ0j"
+													],
+													"title": "en sønn (a son)",
+													"notePosition": 130,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "en sønn (a son)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "1KB3A55ltfru",
+															"notePath": [
+																"root",
+																"8a69OPRBsRKV",
+																"lJIQqhlFsfvX",
+																"3xkOAnfWfCan",
+																"PV6UVGELFv0F",
+																"jlCq6ZyuNJ0j",
+																"1KB3A55ltfru"
+															],
+															"title": "Forms",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "l08kRUxToJk3",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"jlCq6ZyuNJ0j",
+																		"1KB3A55ltfru",
+																		"l08kRUxToJk3"
+																	],
+																	"title": "Def. plural",
+																	"prefix": "sønnene (the sons)",
+																	"dataFileName": "sønnene (the sons) - Def. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "lWSxhIuMXvhz",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"jlCq6ZyuNJ0j",
+																		"1KB3A55ltfru",
+																		"lWSxhIuMXvhz"
+																	],
+																	"title": "Indef. plural",
+																	"prefix": "sønner (sons)",
+																	"dataFileName": "sønner (sons) - Indef. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "KSgRWmQPgV3L",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"jlCq6ZyuNJ0j",
+																		"1KB3A55ltfru",
+																		"KSgRWmQPgV3L"
+																	],
+																	"title": "Def. sing.",
+																	"prefix": "sønnen (the son)",
+																	"dataFileName": "sønnen (the son) - Def. sing.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "dO83STxdSNeF",
+													"notePath": [
+														"root",
+														"8a69OPRBsRKV",
+														"lJIQqhlFsfvX",
+														"3xkOAnfWfCan",
+														"PV6UVGELFv0F",
+														"dO83STxdSNeF"
+													],
+													"title": "en/ ei datter (a daughter)",
+													"notePosition": 140,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "en ei datter (a daughter)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "DU9aDGpaY0zE",
+															"notePath": [
+																"root",
+																"8a69OPRBsRKV",
+																"lJIQqhlFsfvX",
+																"3xkOAnfWfCan",
+																"PV6UVGELFv0F",
+																"dO83STxdSNeF",
+																"DU9aDGpaY0zE"
+															],
+															"title": "Forms",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "l08kRUxToJk3",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"dO83STxdSNeF",
+																		"DU9aDGpaY0zE",
+																		"l08kRUxToJk3"
+																	],
+																	"title": "Def. plural",
+																	"prefix": "døtrene (the daughters)",
+																	"dataFileName": "døtrene (the daughters) - Def. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "ztVhhRJRMObR",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"dO83STxdSNeF",
+																		"DU9aDGpaY0zE",
+																		"ztVhhRJRMObR"
+																	],
+																	"title": "Indef. plural",
+																	"notePosition": 10,
+																	"prefix": "døtre (daughters)",
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "døtre (daughters) - Indef. plural.html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "KSgRWmQPgV3L",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"dO83STxdSNeF",
+																		"DU9aDGpaY0zE",
+																		"KSgRWmQPgV3L"
+																	],
+																	"title": "Def. sing.",
+																	"prefix": "datteren (the daughter)",
+																	"dataFileName": "datteren (the daughter) - Def. sing.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "cptBipGuAdY0",
+													"notePath": [
+														"root",
+														"8a69OPRBsRKV",
+														"lJIQqhlFsfvX",
+														"3xkOAnfWfCan",
+														"PV6UVGELFv0F",
+														"cptBipGuAdY0"
+													],
+													"title": "et søsken (a sibling)",
+													"notePosition": 150,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "et søsken (a sibling)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "sw2z9DH9nrS6",
+															"notePath": [
+																"root",
+																"8a69OPRBsRKV",
+																"lJIQqhlFsfvX",
+																"3xkOAnfWfCan",
+																"PV6UVGELFv0F",
+																"cptBipGuAdY0",
+																"sw2z9DH9nrS6"
+															],
+															"title": "Forms",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "XvJT71j3w3oS",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"cptBipGuAdY0",
+																		"sw2z9DH9nrS6",
+																		"XvJT71j3w3oS"
+																	],
+																	"title": "Def. plural",
+																	"notePosition": 10,
+																	"prefix": "søskene (the siblings)",
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "søskene (the siblings) - Def. plural.html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "lWSxhIuMXvhz",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"cptBipGuAdY0",
+																		"sw2z9DH9nrS6",
+																		"lWSxhIuMXvhz"
+																	],
+																	"title": "Indef. plural",
+																	"prefix": "søsken (siblings)",
+																	"dataFileName": "søsken (siblings) - Indef. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "sE30RhU3X2EP",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"cptBipGuAdY0",
+																		"sw2z9DH9nrS6",
+																		"sE30RhU3X2EP"
+																	],
+																	"title": "Def. sing.",
+																	"notePosition": 30,
+																	"prefix": "søsken (the sibling)",
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "søsken (the sibling) - Def. sing.html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "MHXP9ml4HwWb",
+													"notePath": [
+														"root",
+														"8a69OPRBsRKV",
+														"lJIQqhlFsfvX",
+														"3xkOAnfWfCan",
+														"PV6UVGELFv0F",
+														"MHXP9ml4HwWb"
+													],
+													"title": "en tvilling (a twin)",
+													"notePosition": 160,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "en tvilling (a twin)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "adRgpyokXdrQ",
+															"notePath": [
+																"root",
+																"8a69OPRBsRKV",
+																"lJIQqhlFsfvX",
+																"3xkOAnfWfCan",
+																"PV6UVGELFv0F",
+																"MHXP9ml4HwWb",
+																"adRgpyokXdrQ"
+															],
+															"title": "Forms",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "l08kRUxToJk3",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"MHXP9ml4HwWb",
+																		"adRgpyokXdrQ",
+																		"l08kRUxToJk3"
+																	],
+																	"title": "Def. plural",
+																	"prefix": "tvillingene (the twins)",
+																	"dataFileName": "tvillingene (the twins) - Def. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "lWSxhIuMXvhz",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"MHXP9ml4HwWb",
+																		"adRgpyokXdrQ",
+																		"lWSxhIuMXvhz"
+																	],
+																	"title": "Indef. plural",
+																	"prefix": "tvillinger (twins)",
+																	"dataFileName": "tvillinger (twins) - Indef. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "KSgRWmQPgV3L",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"MHXP9ml4HwWb",
+																		"adRgpyokXdrQ",
+																		"KSgRWmQPgV3L"
+																	],
+																	"title": "Def. sing.",
+																	"prefix": "tvillingen (the twin)",
+																	"dataFileName": "tvillingen (the twin) - Def. sing.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "2cjzMppLubQg",
+													"notePath": [
+														"root",
+														"8a69OPRBsRKV",
+														"lJIQqhlFsfvX",
+														"3xkOAnfWfCan",
+														"PV6UVGELFv0F",
+														"2cjzMppLubQg"
+													],
+													"title": "en/ ei soster (a sister)",
+													"notePosition": 170,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "en ei soster (a sister)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "UWCJsFEWBaWy",
+															"notePath": [
+																"root",
+																"8a69OPRBsRKV",
+																"lJIQqhlFsfvX",
+																"3xkOAnfWfCan",
+																"PV6UVGELFv0F",
+																"2cjzMppLubQg",
+																"UWCJsFEWBaWy"
+															],
+															"title": "Forms",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "l08kRUxToJk3",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"2cjzMppLubQg",
+																		"UWCJsFEWBaWy",
+																		"l08kRUxToJk3"
+																	],
+																	"title": "Def. plural",
+																	"prefix": "søstrene (the sisters)",
+																	"dataFileName": "søstrene (the sisters) - Def. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "Q9uEEqBs6GFt",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"2cjzMppLubQg",
+																		"UWCJsFEWBaWy",
+																		"Q9uEEqBs6GFt"
+																	],
+																	"title": "Indef. plural",
+																	"notePosition": 10,
+																	"prefix": "søstre (sisters)",
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "søstre (sisters) - Indef. plural.html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "KSgRWmQPgV3L",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"2cjzMppLubQg",
+																		"UWCJsFEWBaWy",
+																		"KSgRWmQPgV3L"
+																	],
+																	"title": "Def. sing.",
+																	"prefix": "søsteren (the sister)",
+																	"dataFileName": "søsteren (the sister) - Def. sing.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "gqT400PMqNCP",
+													"notePath": [
+														"root",
+														"8a69OPRBsRKV",
+														"lJIQqhlFsfvX",
+														"3xkOAnfWfCan",
+														"PV6UVGELFv0F",
+														"gqT400PMqNCP"
+													],
+													"title": "en bror (a brother)",
+													"notePosition": 180,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "en bror (a brother)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "esAcS9RaQXSg",
+															"notePath": [
+																"root",
+																"8a69OPRBsRKV",
+																"lJIQqhlFsfvX",
+																"3xkOAnfWfCan",
+																"PV6UVGELFv0F",
+																"gqT400PMqNCP",
+																"esAcS9RaQXSg"
+															],
+															"title": "Forms",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "l08kRUxToJk3",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"gqT400PMqNCP",
+																		"esAcS9RaQXSg",
+																		"l08kRUxToJk3"
+																	],
+																	"title": "Def. plural",
+																	"prefix": "brødrene (the brothers)",
+																	"dataFileName": "brødrene (the brothers) - Def. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "leJFg3LP55cj",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"gqT400PMqNCP",
+																		"esAcS9RaQXSg",
+																		"leJFg3LP55cj"
+																	],
+																	"title": "Indef. plural",
+																	"notePosition": 10,
+																	"prefix": "brødre (brothers)",
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "brødre (brothers) - Indef. plural.html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "KSgRWmQPgV3L",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"gqT400PMqNCP",
+																		"esAcS9RaQXSg",
+																		"KSgRWmQPgV3L"
+																	],
+																	"title": "Def. sing.",
+																	"prefix": "broren (the brother)",
+																	"dataFileName": "broren (the brother) - Def. sing.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "4A0UBlTtLNrG",
+													"notePath": [
+														"root",
+														"8a69OPRBsRKV",
+														"lJIQqhlFsfvX",
+														"3xkOAnfWfCan",
+														"PV6UVGELFv0F",
+														"4A0UBlTtLNrG"
+													],
+													"title": "en familie (a family)",
+													"notePosition": 190,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "en familie (a family)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "ZXOq9Ne0OZYj",
+															"notePath": [
+																"root",
+																"8a69OPRBsRKV",
+																"lJIQqhlFsfvX",
+																"3xkOAnfWfCan",
+																"PV6UVGELFv0F",
+																"4A0UBlTtLNrG",
+																"ZXOq9Ne0OZYj"
+															],
+															"title": "Forms",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "l08kRUxToJk3",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"4A0UBlTtLNrG",
+																		"ZXOq9Ne0OZYj",
+																		"l08kRUxToJk3"
+																	],
+																	"title": "Def. plural",
+																	"prefix": "familiene (the families)",
+																	"dataFileName": "familiene (the families) - Def. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "lWSxhIuMXvhz",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"4A0UBlTtLNrG",
+																		"ZXOq9Ne0OZYj",
+																		"lWSxhIuMXvhz"
+																	],
+																	"title": "Indef. plural",
+																	"prefix": "familier (families)",
+																	"dataFileName": "familier (families) - Indef. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "KSgRWmQPgV3L",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"4A0UBlTtLNrG",
+																		"ZXOq9Ne0OZYj",
+																		"KSgRWmQPgV3L"
+																	],
+																	"title": "Def. sing.",
+																	"prefix": "familien (the family)",
+																	"dataFileName": "familien (the family) - Def. sing.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
+												},
+												{
+													"isClone": false,
+													"noteId": "xRqm4hxvknxs",
+													"notePath": [
+														"root",
+														"8a69OPRBsRKV",
+														"lJIQqhlFsfvX",
+														"3xkOAnfWfCan",
+														"PV6UVGELFv0F",
+														"xRqm4hxvknxs"
+													],
+													"title": "en forelder (a parent)",
+													"notePosition": 200,
+													"prefix": null,
+													"isExpanded": 0,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "en forelder (a parent)",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "mWo8V91LZUjf",
+															"notePath": [
+																"root",
+																"8a69OPRBsRKV",
+																"lJIQqhlFsfvX",
+																"3xkOAnfWfCan",
+																"PV6UVGELFv0F",
+																"xRqm4hxvknxs",
+																"mWo8V91LZUjf"
+															],
+															"title": "Forms",
+															"notePosition": 0,
+															"prefix": null,
+															"isExpanded": 0,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dirFileName": "Forms",
+															"children": [
+																{
+																	"isClone": true,
+																	"noteId": "l08kRUxToJk3",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"xRqm4hxvknxs",
+																		"mWo8V91LZUjf",
+																		"l08kRUxToJk3"
+																	],
+																	"title": "Def. plural",
+																	"prefix": "foreldrene (the parents)",
+																	"dataFileName": "foreldrene (the parents) - Def. plural.clone.html",
+																	"type": "text",
+																	"format": "html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "PIVALwW74I5W",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"xRqm4hxvknxs",
+																		"mWo8V91LZUjf",
+																		"PIVALwW74I5W"
+																	],
+																	"title": "Indef. plural",
+																	"notePosition": 10,
+																	"prefix": "foreldre (parents)",
+																	"isExpanded": 0,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "foreldre (parents) - Indef. plural.html"
+																},
+																{
+																	"isClone": true,
+																	"noteId": "KSgRWmQPgV3L",
+																	"notePath": [
+																		"root",
+																		"8a69OPRBsRKV",
+																		"lJIQqhlFsfvX",
+																		"3xkOAnfWfCan",
+																		"PV6UVGELFv0F",
+																		"xRqm4hxvknxs",
+																		"mWo8V91LZUjf",
+																		"KSgRWmQPgV3L"
+																	],
+																	"title": "Def. sing.",
+																	"prefix": "forelderen (the parent)",
+																	"dataFileName": "forelderen (the parent) - Def. sing.clone.html",
+																	"type": "text",
+																	"format": "html"
+																}
+															]
+														}
+													]
 												}
 											]
 										}
