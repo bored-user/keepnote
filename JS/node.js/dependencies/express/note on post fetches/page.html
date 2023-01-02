@@ -1,8 +1,0 @@
-<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
-<title>Note on POST fetches</title>
-</head><body>In order to send data from client to server as a POST call, one must specifiy<br/>
-express().use(express.json()) and express().use(express.urlencoded({ extended: true }));<br/>
-<br/>
-Also, on the fetch/ XMLHttpRequest, one must specify the header 'Content-Type' (to 'application/json').</body></html>
