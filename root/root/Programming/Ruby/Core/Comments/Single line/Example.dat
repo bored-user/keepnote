@@ -1,2 +1,0 @@
-# this won't be interpreted by Ruby parser.
-puts 'hello, world!'

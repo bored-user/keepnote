@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Pointers</h1>
+
+    <p>Just like on JavaScript, Julia stores, in a variable, a pointer to an
+      object in memory. So, if one sets a variable "x" to variable "y" which
+      has an object assign to it, Julia won't copy the whole object again. In
+      fact, it'll only create another pointer to that object in memory. In order
+      to really copy an object, one must use the copy() function.
+      <br>
+      <br>&nbsp;</p><pre><code class="language-text-plain">a = [1, 2, 3]
+b = a
+c = copy(a)
+
+
+a[1] = 'a'
+println(a) # ['a', 2, 3]
+println(b) # ['a', 2, 3]
+println(c) # [1, 2, 3] it was copied using copy()</code></pre>
+
+  </body>
+
+</html>

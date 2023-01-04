@@ -20,16 +20,47 @@
       means that you're calling a function named <code>some_attr=</code> (Ruby
       automatically removes the space after "attr") from the <code>my_class</code> object.</p>
     <p>That's why, in order to have access to the attributes of a class outside
-      said class, one needs to create (basically) getters and setters methods:</p>
-    <section
-    class="include-note" data-note-id="KvERCfxgEIPR"> </section>
-      <p>To solve that, one needs to create said getters and setters:</p>
-      <section
-      class="include-note" data-note-id="O5RDBFzXAgLH"> </section>
-        <p>But having to write two methods per attribute is a little too much, isn't
-          it? Think about the Big O Notation of this. It would be <code>n*2</code>,
-          which is a lot.</p>
-        <p>That's because Ruby has the <a href="attr%20methods.html"><code>attr</code> methods</a>!</p>
+      said class, one needs to create (basically) getters and setters methods:</p><pre><code class="language-text-plain">&nbsp;class MyClass
+	def initialize(n1, n2)
+		@n1 = n1
+		@n2 = n2
+	end
+end
+
+my_class = MyClass.new(20, 50)
+puts my_class.n1 #=&gt; tries to call `n1` method inside MyClass object, which fails because there's no said method.
+my_class.n2 = 123 #=&gt; also fails, because it tries to call (unexistant) `n2=` method inside the my_class class.</code></pre>
+    <p>To solve that, one needs to create said getters and setters:</p><pre><code class="language-text-plain">class MyClass
+	def intialize(n1, n2)
+		@n1 = n1
+		@n2 = n2
+	end
+	
+	def n1
+		@n1
+	end
+	
+	def n2
+		@n2
+	end
+	
+	def n1=(n1)
+		@n1 = n1
+	end
+	
+	def n2=(n2)
+		@n2 = n2
+	end
+end
+
+my_class = MyClass.new(20, 50)
+puts my_class.n1 #=&gt; 20 - calls n1 method which returns instance variable n1
+my_class.n1 = 30 #=&gt; calls n1= method which takes the "new n1" (30) as argument
+puts my_class.n1 #=&gt; 30</code></pre>
+    <p>But having to write two methods per attribute is a little too much, isn't
+      it? Think about the Big O Notation of this. It would be <code>n*2</code>,
+      which is a lot.</p>
+    <p>That's because Ruby has the <a href="attr%20methods.html"><code>attr</code> methods</a>!</p>
   </body>
 
 </html>

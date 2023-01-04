@@ -12,7 +12,34 @@
 
     <p>Hashes, also known as dictionaries, are key-value pairs, just like <a href="Arrays">Arrays</a>.
       A hash key, however, can contain any character, not only numbers.</p>
-    <p>Therefore, hashes are like associative arrays.</p>
+    <p>Therefore, hashes are like associative arrays.</p><pre><code class="language-text-plain"># defining a hash
+hash = {'key' =&gt; 'value'}
+puts hash['key'] #=&gt; 'value'
+
+# hashes also can be multi-dimensional:
+hash = {
+    'hash' =&gt; {
+        'hash' =&gt; 'Example of a 2D hash'
+    }
+}
+puts hash['hash']['hash'] #=&gt; 'Example of a 2D hash'
+
+# hashes have no limitation with data types:
+hash = {
+    'nil' =&gt; nil,
+    'true' =&gt; true,
+    :symbol =&gt; 'symbol',
+    'number' =&gt; 1
+}
+
+# it's also possible to set hash values using
+hash['float'] = 0.1
+
+# finally, there's a shortcut to set hashes where the key's symbol:
+hash = {
+    symbol: 'value' #=&gt; same as :symbol =&gt; 'value'
+}</code></pre>
+
   </body>
 
 </html>

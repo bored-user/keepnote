@@ -10,10 +10,24 @@
   <body class="ck-content">
      <h1>chomp</h1>
 
-    <p>Remove new lines from the end of the string.</p>
-    <p>Takes an optional parameter: specific character(s) to remove from the
-      end of the string. If the string has no new lines &amp; no parameter was
-      given, the method returns the string unchanged.</p>
+    <p>Remove new lines from the end of the string. Takes an optional parameter:
+      specific character(s) to remove from the end of the string. If the string
+      has no new lines &amp; no parameter was given, the method returns the string
+      unchanged.</p><pre><code class="language-text-x-ruby">str = 'a\n' # simulating user input
+puts str.chomp #=&gt; 'a'
+
+str = 'a'
+puts str.chomp #=&gt; 'a'
+
+str = 'joaoo'
+puts str.chomp('o') #=&gt; 'joao'
+
+str = 'abc'
+puts str.chomp('b') #=&gt; 'abc', because it didn't find 'b' at the end of the string
+
+str = 'abc'
+puts str.chomp('bc') #=&gt; 'a'</code></pre>
+
   </body>
 
 </html>

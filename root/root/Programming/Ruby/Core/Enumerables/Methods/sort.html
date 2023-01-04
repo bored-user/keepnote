@@ -10,7 +10,16 @@
   <body class="ck-content">
      <h1>sort</h1>
 
-    <p>The <code>sort</code> method can be used to sort Arrays, Hashes and Enumerables.</p>
+    <p>The <code>sort</code> method can be used to sort Arrays, Hashes and Enumerables.
+      When sorting string (or number) Arrays or string (or number) key Hashes,
+      the result is pretty obvious: alphabetical order and increasing one. However,
+      when sorting multi-dimensional Arrays/ Hashes, things might get a little
+      complicated.</p><pre><code class="language-text-x-ruby">arr = ['f', 'w', 'l', 'g']
+p arr.sort #=&gt; ['f', 'g', 'l', 'w']
+
+hash = {'f' =&gt; 1, 'w' =&gt; 1, 'l' =&gt; 1, 'g' =&gt; 1}
+p hash.sort #=&gt; [['f', 1], ['g', 1], ['l', 1], ['w', 1]]</code></pre>
+
   </body>
 
 </html>

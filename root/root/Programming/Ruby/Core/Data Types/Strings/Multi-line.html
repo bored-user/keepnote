@@ -11,7 +11,22 @@
      <h1>Multi-line</h1>
 
     <p>To build a multi-line string, one can use the <code>&lt;&lt;EOM</code> operator
-      or using a double quote block, indicating line breaks with <code>\n</code> sequences.</p>
+      or using a double quote block, indicating line breaks with <code>\n</code> sequences.</p><pre><code class="language-text-plain">default_multiline = "Hello,\nWorld!"
+eom_multiline = &lt;&lt;EOM
+    my very
+    long
+    string
+EOM
+
+puts default_multiline
+#=&gt; 'Hello,
+#   World!'
+
+puts eom_multiline
+#=&gt; 'my very
+#   long
+#   string'</code></pre>
+
   </body>
 
 </html>

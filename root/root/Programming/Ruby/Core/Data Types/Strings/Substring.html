@@ -14,11 +14,15 @@
       one can use the square brackets notation, just like when dealing with
       <a
       href="../Arrays">Arrays</a>.</p>
-    <p> </p>
     <p>When counting from left to right, one use positive indexes. If there's
       need to start from the end of the string, one can use negative indexes.</p>
     <p>The indexes are separated by a comma character &amp; if a second index
-      is omitted, Ruby uses 1 be default.</p>
+      is omitted, Ruby uses 1 be default.</p><pre><code class="language-text-plain">str = 'hello'
+
+puts str[0] #=&gt; 'h'
+puts str[0, 2] #=&gt; 'he'
+puts str[-1] #=&gt; 'o'</code></pre>
+
   </body>
 
 </html>

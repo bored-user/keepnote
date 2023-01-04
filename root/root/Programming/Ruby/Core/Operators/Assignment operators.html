@@ -20,9 +20,27 @@
       <li><code>%=</code> (modulo equal)</li>
       <li><code>||=</code> (or equal)</li>
       <li><code>&amp;&amp;=</code> (and equal)</li>
-    </ul>
-    <p> </p>
-    <section class="include-note" data-note-id="IapTiHMo5sbT"> </section>
+    </ul><pre><code class="language-text-plain">a = 10
+a %= 2
+puts a #=&gt; 0
+
+a = 10
+a **= 2
+puts a #=&gt; 100
+
+a = 10
+a ||= 10
+puts a #=&gt; 10
+
+a = 10
+a &amp;&amp;= 500
+puts a #=&gt; 500
+
+=begin
+    -&gt; ||= means: if `var` doesn't exist, is false or nil, assign `value` to it.
+    -&gt; &amp;&amp;= means: if `var` exist and isn't false nor nil, assign `value` to it.
+=end</code></pre>
+
   </body>
 
 </html>

@@ -1,0 +1,30 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Functions</h1>
+
+    <p>There are three main ways to declare a function:
+      <br>
+      <br>The first one is using the "function" and "end" keywords, like so:</p><pre><code class="language-text-plain">function sayHello(name)
+	return "Hello, $(name)!";
+end</code></pre>
+    <p>
+      <br>The second one is an arrow function, just like in JavaScript: <code>sayHello = name -&gt; “Hello, $(name)!”</code>
+      <br>
+      <br>The third one is just assigning a value to the function name, like declaring
+      a variable: <code>sayHello(name) = return "Hello, $(name)!"</code>
+      <br>
+      <br>One can overwrite a function of the same type by another of the same type
+      ONLY. For instance, one can overwrite a arrow function with another arrow
+      function with the same name, but not with a named function (type #1).</p>
+    <p>Functions can be called normally: <code>fn('a', ‘b’, ‘c’…)</code>.</p>
+  </body>
+
+</html>

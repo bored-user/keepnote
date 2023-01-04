@@ -18,9 +18,16 @@
       <li><code>==</code> (equal to)</li>
       <li><code>≠</code> (not equal to)</li>
       <li><code>≤&gt;</code> (greater, equal or less - aka 'spaceship operator')</li>
-    </ul>
-    <p> </p>
-    <section class="include-note" data-note-id="b6JjaxLQOhuV"> </section>
+    </ul><pre><code class="language-text-plain">=begin
+    RESULT      | MEANING
+    -1          | greater than
+    0           | equal to
+    1           | less than
+=end
+
+puts 10 &lt;=&gt; 20 #=&gt; -1
+puts 40 * 2 &lt;=&gt; 50 * 0.5 #=&gt; 1</code></pre>
+
   </body>
 
 </html>

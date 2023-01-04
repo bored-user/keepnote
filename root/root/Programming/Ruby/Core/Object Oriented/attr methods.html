@@ -15,13 +15,10 @@
     <p>There are three different types:</p>
     <ul>
       <li><code>attr_reader</code>
-
       </li>
       <li><code>attr_writer</code>
-
       </li>
       <li><code>attr_accessor</code>
-
       </li>
     </ul>
     <p>The first one is used when one wants to create only the method which returns
@@ -33,7 +30,31 @@
       and write the attribute value.</p>
     <p>The syntax is the same for all three: one calls the method giving a Symbol
       with the attribute name as argument. It's possible to give more than one
-      argument.</p>
+      argument.</p><pre><code class="language-text-plain">class MyClass
+	attr_reader :reading
+	attr_writer :writting
+	attr_accessor :both
+	
+	def initialize(r, w, b)
+		@reading = r
+		@writting = w
+		@both = b
+	end
+end
+
+
+my_class = MyClass.new('you can only read me!', '', 'try reading/ writting me!')
+
+puts my_class.reading #=&gt; 'you can only read me!'
+my_class.reading = 'a' #=&gt; No Method ERROR
+
+puts my_class.writting #=&gt; No Method Error
+my_class.writting = 'writting...'
+
+puts my_class.both #=&gt; 'try reading/ writting me!'
+my_class.both = 'hello, world!'
+puts my_class.both #=&gt; 'hello, world!'</code></pre>
+
   </body>
 
 </html>

@@ -1,5 +1,0 @@
-str = 'hello'
-puts str #=> 'hello'
-
-str >> ', world!'
-puts str #=> 'hello, world!'

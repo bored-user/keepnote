@@ -14,7 +14,24 @@
       It creates an anchor on the code, allowing one to access the variables
       later on.</p>
     <p>After the binding method is used, the <a href="Functions/Methods/class.html">function's class</a> (where
-      said binding method was called) turns to <code>BindingClass</code>.</p>
+      said binding method was called) turns to <code>BindingClass</code>.</p><pre><code class="language-text-plain">def normal_meth
+    a = 123
+    'my normal return'
+end
+
+puts normal_meth.class #=&gt; 'String'
+
+
+def binding_meth
+    a = 123
+    binding
+    'my normal return'
+end
+
+puts normal_meth.class #=&gt; 'BindingClass'
+puts binding_meth.eval('a') #=&gt; 123
+puts a #=&gt; ERROR</code></pre>
+
   </body>
 
 </html>

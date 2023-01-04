@@ -11,19 +11,30 @@
      <h1>inject</h1>
 
     <p>Acts like JavaScript <code>map</code>: takes an accumulator as first argument
-      and a block as “second”.</p>
-    <section class="include-note" data-note-id="x4tmcRnOXgN1"> </section>
-    <p> </p>
+      and a block as “second”.</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
+sum = arr.inject(0) {|acc, n| acc += n}
+prod = arr.inject(0) {|acc, n| acc *= n}
+
+puts sum, prod
+#=&gt; 15, 120</code></pre>
+    <p>&nbsp;</p>
     <p>When no argument is given as accumulator, the method starts at array index
-      1 and the accumulator turns to the 1st array element (index 0).</p>
-    <section
-    class="include-note" data-note-id="9e69BjZsxgbo"> </section>
-      <p> </p>
-      <p>Because Ruby uses <code>:+</code> and <code>:*</code> as the symbols for the
-        addition and multiplication operations, it's possible to dry that code
-        a little:</p>
-      <section class="include-note" data-note-id="koArJbj652JJ"> </section>
-      <p> </p>
+      1 and the accumulator turns to the 1st array element (index 0).</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
+sum = arr.inject {|acc, n| acc += n}
+prod = arr.inject {|acc, n| acc *= n}
+
+puts sum, prod
+#=&gt; 15, 120</code></pre>
+    <p>&nbsp;</p>
+    <p>Because Ruby uses <code>:+</code> and <code>:*</code> as the symbols for the
+      addition and multiplication operations, it's possible to dry that code
+      a little:</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
+sum = arr.inject(:+)
+prod = arr.inject(:*)
+
+puts sum, prod
+#=&gt; 15, 120</code></pre>
+    <p>&nbsp;</p>
   </body>
 
 </html>

@@ -1,6 +1,0 @@
-arr = [1, 2, 3, 4, 5]
-sum = arr.inject(:+)
-prod = arr.inject(:*)
-
-puts sum, prod
-#=> 15, 120

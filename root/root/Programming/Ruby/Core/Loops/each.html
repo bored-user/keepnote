@@ -12,18 +12,30 @@
 
     <p>Ruby also has a method named <code>each</code>, which acts like a <code>forEach</code> loop
       in JavaScript. It can be run on <a href="../Enumerables.html"><code>Enumerables</code></a> &amp;
-      parses its code from a given <a href="../Blocks.html"><code>Block</code></a>.</p>
-    <section
-    class="include-note" data-note-id="X3JsYFHsYxsj"> </section>
-      <p> </p>
-      <p>Returns an <a href="../Enumerators">Enumerator</a> object.</p>
-      <section class="include-note"
-      data-note-id="vIGswh9yZ1i9"> </section>
-      <p> </p>
-      <p>Note that it's also possible to give an explicit block-symbol-method when
-        calling <code>each</code> on an Enumerator:</p>
-      <section class="include-note"
-      data-note-id="yVhlXaDIr61F"> </section>
+      parses its code from a given <a href="../Blocks.html"><code>Block</code></a>.</p><pre><code class="language-text-plain">arr = [0, 1, 2, 3, 4, 5]
+arr.each { |i| puts i } #=&gt; 0 1 2 3 4 5
+arr.each do |i|
+	puts i #=&gt; 0 1 2 3 4 5
+end</code></pre>
+    <p>&nbsp;</p>
+    <p>Returns an <a href="../Enumerators">Enumerator</a> object.</p><pre><code class="language-text-plain">&nbsp;arr = %w[a b c]
+puts arr.each #=&gt; #&lt;Enumerator: ["a", "b", "c"]:each&gt;
+
+arr.each {|n| puts n} #=&gt; 'a' 'b' 'c'</code></pre>
+    <p>&nbsp;</p>
+    <p>Note that it's also possible to give an explicit block-symbol-method when
+      calling <code>each</code> on an Enumerator:</p><pre><code class="language-text-plain">&nbsp;arr = %w[q w e r t]
+puts arr.map.each(&amp;:upcase)
+#=&gt; ["Q", "W", "E", "R", "T", "Y"]
+
+arr = [1, 2, 3]
+puts arr.map.each(&amp;:next)
+
+=begin
+    `map` could be replaced by `to_enum`.
+    One needs to convert the array into an Enumerator to be able to use the block-symbol-method thingy.
+=end</code></pre>
+
   </body>
 
 </html>

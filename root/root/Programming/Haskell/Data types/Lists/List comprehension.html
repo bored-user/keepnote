@@ -1,0 +1,21 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>List comprehension</h1>
+
+    <p>The basic syntax of a list comprehension is: <code>[x * 2 | x ← [1..10]]</code> -
+      which means: for every <code>x</code> from 1 to 10, double it and store it
+      on the list.</p>
+    <p>One may add a predicate using a comma: <code>[x * 2 | x ← [1..10], x*2 ≥ 12]</code> takes
+      only numbers which, when doubled, are greater than or equal to 12. It is
+      possible to add more than one predicate - they are separated using commas.</p>
+  </body>
+
+</html>

@@ -1,0 +1,26 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>pop!()</h1>
+
+    <p>Removes a element (identified by the key) from a data structure. Returns
+      the removed element. Takes, as 1st parameter, the data structure and, as
+      (optional) 2nd, the key to remove. If there's no second parameter (key),
+      it'll remove the last element.
+      <br><strong>ATTENTION</strong>: it modifies the data structure.
+      <br>
+      <br><code>dict1 = Dict("key1" =&gt; "value1", "key2" =&gt; "value2")</code>
+      <br><code>println(dict1) # has both "key1" and "key2" as entries.</code>
+      <br><code>pop!(dict1, "key2")</code>
+      <br><code>println(dict1) # has only "key1"</code>
+    </p>
+  </body>
+
+</html>
