@@ -1,0 +1,29 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Express</h1>
+
+    <p>Express is the "most have" dependency used to create the server, routes,
+      etc.</p>
+    <p>&nbsp;</p>
+    <p>In order to send data from client to server as a POST call, one must specifiy
+      <br><code>express().use(express.json())</code> and <code>express().use(express.urlencoded({ extended: true }));</code>
+      <br>
+      <br>Also, on the fetch/ XMLHttpRequest, one must specify the header <code>'Content-Type'</code> (to <code>'application/json'</code>).</p>
+    <p>&nbsp;</p>
+    <p>Static directories are directories treated as normal directories: the
+      user can access the files in it, without the need to specify routes.
+      <br>One naming convention of static directories is the use of the <code>'public'</code> folder
+      name.
+      <br>In order to set it up, one must use <code>express().use(express.static('dir_name'))</code>.
+      Then, the files inside it can be accessed like normal files.</p>
+  </body>
+
+</html>

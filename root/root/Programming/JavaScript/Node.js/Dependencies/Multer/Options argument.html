@@ -1,0 +1,29 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Options argument</h1>
+
+    <p>The argument which is given to the constructor function should be an object
+      with the following properties:
+      <br>&nbsp;</p><pre><code class="language-application-javascript-env-backend">const multer = require('multer');
+module.exports.upload = multer({
+
+	storage: multer.memoryStorage() // keep uploaded files temporarily stored on memory
+	fileFilter = (req, file, next) =&gt; {
+/*
+		file.mimetype = the file's mime type. One can use it to check extensions. The 'next' argument is actually a function that takes an object with the error (null, in case there's no error) and true/ false as second argument, specifying whether to upload or not the file. In said error object, one can specify a message to be displayed later - next({message: 'message'}, false).
+*/
+	}
+});
+</code></pre>
+
+  </body>
+
+</html>

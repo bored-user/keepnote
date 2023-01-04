@@ -1,0 +1,23 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>engine()</h1>
+
+    <p>Sets a new engine. Takes the file extension as the first parameter and
+      the imported engine function as the second.
+      <br>Example: <code>app.engine('mst', mustache());</code>
+      <br>
+      <br>That <code>mustache()</code> function above takes an optional argument:
+      the location (folder) of partial files (like headers or footers).
+      <br>Example: <code>app.engine('mst', mustache(`${__dirname}/views/partials`));</code>
+    </p>
+  </body>
+
+</html>

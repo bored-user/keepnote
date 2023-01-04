@@ -1,0 +1,28 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>block given</h1>
+
+     <h2>block_given?</h2>
+
+    <p>Returns a boolean indicating if a block was or wasn't given.</p><pre><code class="language-text-x-ruby">def block_method
+	if block_given?
+		yield 'inside block'
+	else
+		'no block given'
+	end
+end
+
+block_method { |txt| puts txt } #=&gt; 'insde block'
+puts block_method #=&gt; 'no block given'</code></pre>
+
+  </body>
+
+</html>
