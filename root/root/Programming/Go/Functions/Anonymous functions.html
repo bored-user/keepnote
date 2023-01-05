@@ -1,0 +1,30 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Anonymous functions</h1>
+
+    <p>An anonymous function may be assigned to a variable or just called immediately:</p><pre><code class="language-text-x-go">x := func() string { return "aa" }
+x()		// aa
+
+y := func(a int, b int) int { return a + b }(10, 20)
+// y == 30</code></pre>
+    <p>&nbsp;</p>
+    <p>Therefore, functions that return functions are also allowed - as well
+      as closures:</p><pre><code class="language-text-x-go">func a() (func() int) {
+	return func() {
+		return 1 + 2
+	}
+}
+
+a()()	// 3</code></pre>
+
+  </body>
+
+</html>

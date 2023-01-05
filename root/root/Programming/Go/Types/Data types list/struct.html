@@ -8,10 +8,17 @@
   </head>
   
   <body class="ck-content">
-     <h1>interface{}</h1>
+     <h1>struct</h1>
 
-    <p>The <code>interface{}</code> type is the default type, from which all other
-      types inherit. It's like <code>object</code> (in JS, Ruby, C#, etc).</p>
+    <p>A struct in Go works basically like a class.</p><pre><code class="language-text-x-go">type structname struct {
+	a string
+	b int
+	c bool
+}
+
+d := structname{ a: "a", b: 1, c: true, }
+d.b == 1</code></pre>
+
   </body>
 
 </html>

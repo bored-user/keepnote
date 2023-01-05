@@ -1,0 +1,27 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Compound structs</h1>
+
+    <p>Structs can be inside other structs:</p><pre><code class="language-text-x-go">type struct1 struct {}
+
+type structname struct {
+	a string
+	b int
+	c bool
+	d struct1
+}
+
+e := structname{ a: "a", b: 1, c: true, d: struct1{}, }
+e.b == 1</code></pre>
+
+  </body>
+
+</html>
