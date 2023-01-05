@@ -17,14 +17,16 @@ arr.each { |i| puts i } #=&gt; 0 1 2 3 4 5
 arr.each do |i|
 	puts i #=&gt; 0 1 2 3 4 5
 end</code></pre>
-    <p>&nbsp;</p>
-    <p>Returns an <a href="../Enumerators">Enumerator</a> object.</p><pre><code class="language-text-plain">&nbsp;arr = %w[a b c]
+
+    <p> </p>
+    <p>Returns an <a href="../Enumerators">Enumerator</a> object.</p><pre><code class="language-text-plain"> arr = %w[a b c]
 puts arr.each #=&gt; #&lt;Enumerator: ["a", "b", "c"]:each&gt;
 
 arr.each {|n| puts n} #=&gt; 'a' 'b' 'c'</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>Note that it's also possible to give an explicit block-symbol-method when
-      calling <code>each</code> on an Enumerator:</p><pre><code class="language-text-plain">&nbsp;arr = %w[q w e r t]
+      calling <code>each</code> on an Enumerator:</p><pre><code class="language-text-plain"> arr = %w[q w e r t]
 puts arr.map.each(&amp;:upcase)
 #=&gt; ["Q", "W", "E", "R", "T", "Y"]
 

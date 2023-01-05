@@ -12,9 +12,9 @@
 
     <p>Function that returns a promise. It can read a file on the hard disk,
       a string, a buffer, etc.
-      <br>Useful when using an async module.exports.resize function, to resize the
+      <br />Useful when using an async module.exports.resize function, to resize the
       file like so:
-      <br>&nbsp;</p><pre><code class="language-application-javascript-env-backend">module.exports.resize = async (req, res, next) =&gt; {
+      <br /> </p><pre><code class="language-application-javascript-env-backend">module.exports.resize = async (req, res, next) =&gt; {
 	const photo = await jimp.read(req.file.buffer);
 }</code></pre>
 

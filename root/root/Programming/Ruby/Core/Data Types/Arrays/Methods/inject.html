@@ -17,7 +17,8 @@ prod = arr.inject(0) {|acc, n| acc *= n}
 
 puts sum, prod
 #=&gt; 15, 120</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>When no argument is given as accumulator, the method starts at array index
       1 and the accumulator turns to the 1st array element (index 0).</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
 sum = arr.inject {|acc, n| acc += n}
@@ -25,7 +26,8 @@ prod = arr.inject {|acc, n| acc *= n}
 
 puts sum, prod
 #=&gt; 15, 120</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
     <p>Because Ruby uses <code>:+</code> and <code>:*</code> as the symbols for the
       addition and multiplication operations, it's possible to dry that code
       a little:</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
@@ -34,7 +36,8 @@ prod = arr.inject(:*)
 
 puts sum, prod
 #=&gt; 15, 120</code></pre>
-    <p>&nbsp;</p>
+
+    <p> </p>
   </body>
 
 </html>

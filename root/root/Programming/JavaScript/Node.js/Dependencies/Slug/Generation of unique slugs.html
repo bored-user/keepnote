@@ -12,13 +12,14 @@
 
     <p>In order to make a post link have a unique slug, one can use mongoose
       and regex:
-      <br>Let's suppose there's a slug named "example-slug".
-      <br>When the user creates a post named Example Slug, the default behaviour
+      <br />Let's suppose there's a slug named "example-slug".
+      <br />When the user creates a post named Example Slug, the default behaviour
       would be to create another "example-slug" slug, which can't happen.
-      <br>To differentiate slugs, there's the need to append numbers to it, like
+      <br
+      />To differentiate slugs, there's the need to append numbers to it, like
       so: "example-slug-1", "example-slug-2", etc.
-      <br>
-      <br>In order to program that, we can use:</p><pre><code class="language-application-javascript-env-backend">schema.pre('save', async function() {
+      <br />
+      <br />In order to program that, we can use:</p><pre><code class="language-application-javascript-env-backend">schema.pre('save', async function() {
 	const match = this.constructor.find({/[slug]/i}).length;
 // this.constructor because we haven't exported the model yet. /[slug]/i is the RegExp to find every post.
 

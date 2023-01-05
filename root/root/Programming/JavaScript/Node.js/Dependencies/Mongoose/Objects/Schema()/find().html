@@ -11,22 +11,25 @@
      <h1>find()</h1>
 
     <p>find() is a function that can either take one or no arguments.
-      <br>If no argument is given, it returns an array of objects where each object
+      <br />If no argument is given, it returns an array of objects where each object
       is an item on the connected database.
-      <br>
-      <br>If one chooses to pass in the argument, it should be an object where the
+      <br />
+      <br />If one chooses to pass in the argument, it should be an object where the
       key is a field on the database schema and the value is the searched value.
-      <br>
-      <br>Example:
-      <br>model.find({ field1: 'value1' });
-      <br>
-      <br>Observation: one may use model.find() to search for an item in an array
+      <br
+      />
+      <br />Example:
+      <br />model.find({ field1: 'value1' });
+      <br />
+      <br />Observation: one may use model.find() to search for an item in an array
       field:</p><pre><code class="language-application-javascript-env-backend">user_1 {
 	friends: ['friend1', 'friend2', 'friend3'];
 }</code></pre>
+
     <p>
-      <br>
-      <br><code>mongoose.Schema({}).find({ friends: 'friend1' }) // will return user_1</code>
+      <br />
+      <br /><code>mongoose.Schema({}).find({ friends: 'friend1' }) // will return user_1</code>
+
     </p>
   </body>
 
