@@ -28,7 +28,7 @@
 					"title": "Languages",
 					"notePosition": 30,
 					"prefix": "",
-					"isExpanded": false,
+					"isExpanded": true,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [],
@@ -47,7 +47,7 @@
 							"title": "Norwegian (Bokmål)",
 							"notePosition": 10,
 							"prefix": "",
-							"isExpanded": false,
+							"isExpanded": true,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
@@ -6545,7 +6545,7 @@
 									"title": "Verb (Verbs)",
 									"notePosition": 100,
 									"prefix": "",
-									"isExpanded": false,
+									"isExpanded": true,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [],
@@ -8957,291 +8957,12 @@
 											"title": "å arbeide (to work)",
 											"notePosition": 10,
 											"prefix": "",
-											"isExpanded": false,
+											"isExpanded": true,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
 											"format": "html",
-											"dirFileName": "å arbeide (to work)",
-											"children": [
-												{
-													"isClone": false,
-													"noteId": "n2KvsWH9TUif",
-													"notePath": [
-														"root",
-														"ij1b93xqh1ef",
-														"GL8STe6DzOwe",
-														"NMuyR8kwOSi8",
-														"8bBvkHR4YyLc",
-														"n2KvsWH9TUif"
-													],
-													"title": "Verb tenses",
-													"notePosition": 10,
-													"prefix": "",
-													"isExpanded": false,
-													"type": "text",
-													"mime": "text/html",
-													"attributes": [],
-													"format": "html",
-													"dirFileName": "Verb tenses",
-													"children": [
-														{
-															"isClone": false,
-															"noteId": "hHVi2iMLMNyg",
-															"notePath": [
-																"root",
-																"ij1b93xqh1ef",
-																"GL8STe6DzOwe",
-																"NMuyR8kwOSi8",
-																"8bBvkHR4YyLc",
-																"n2KvsWH9TUif",
-																"hHVi2iMLMNyg"
-															],
-															"title": "Imperative",
-															"notePosition": 30,
-															"prefix": "",
-															"isExpanded": false,
-															"type": "text",
-															"mime": "text/html",
-															"attributes": [],
-															"format": "html",
-															"dataFileName": "Imperative.html"
-														},
-														{
-															"isClone": false,
-															"noteId": "K1QvBkPBK1J0",
-															"notePath": [
-																"root",
-																"ij1b93xqh1ef",
-																"GL8STe6DzOwe",
-																"NMuyR8kwOSi8",
-																"8bBvkHR4YyLc",
-																"n2KvsWH9TUif",
-																"K1QvBkPBK1J0"
-															],
-															"title": "Indicative",
-															"notePosition": 20,
-															"prefix": "",
-															"isExpanded": false,
-															"type": "text",
-															"mime": "text/html",
-															"attributes": [],
-															"format": "html",
-															"dirFileName": "Indicative",
-															"children": [
-																{
-																	"isClone": false,
-																	"noteId": "c5p4bdzcIzsQ",
-																	"notePath": [
-																		"root",
-																		"ij1b93xqh1ef",
-																		"GL8STe6DzOwe",
-																		"NMuyR8kwOSi8",
-																		"8bBvkHR4YyLc",
-																		"n2KvsWH9TUif",
-																		"K1QvBkPBK1J0",
-																		"c5p4bdzcIzsQ"
-																	],
-																	"title": "Present",
-																	"notePosition": 50,
-																	"prefix": "",
-																	"isExpanded": false,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "Present.html"
-																},
-																{
-																	"isClone": false,
-																	"noteId": "MGGYGncO2jJg",
-																	"notePath": [
-																		"root",
-																		"ij1b93xqh1ef",
-																		"GL8STe6DzOwe",
-																		"NMuyR8kwOSi8",
-																		"8bBvkHR4YyLc",
-																		"n2KvsWH9TUif",
-																		"K1QvBkPBK1J0",
-																		"MGGYGncO2jJg"
-																	],
-																	"title": "Past perfect",
-																	"notePosition": 40,
-																	"prefix": "",
-																	"isExpanded": false,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "Past perfect.html"
-																},
-																{
-																	"isClone": false,
-																	"noteId": "XdoPmPGG5CxA",
-																	"notePath": [
-																		"root",
-																		"ij1b93xqh1ef",
-																		"GL8STe6DzOwe",
-																		"NMuyR8kwOSi8",
-																		"8bBvkHR4YyLc",
-																		"n2KvsWH9TUif",
-																		"K1QvBkPBK1J0",
-																		"XdoPmPGG5CxA"
-																	],
-																	"title": "Future perfect",
-																	"notePosition": 20,
-																	"prefix": "",
-																	"isExpanded": false,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "Future perfect.html"
-																},
-																{
-																	"isClone": false,
-																	"noteId": "qscLHXWqg2L4",
-																	"notePath": [
-																		"root",
-																		"ij1b93xqh1ef",
-																		"GL8STe6DzOwe",
-																		"NMuyR8kwOSi8",
-																		"8bBvkHR4YyLc",
-																		"n2KvsWH9TUif",
-																		"K1QvBkPBK1J0",
-																		"qscLHXWqg2L4"
-																	],
-																	"title": "Present perfect",
-																	"notePosition": 60,
-																	"prefix": "",
-																	"isExpanded": false,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "Present perfect.html"
-																},
-																{
-																	"isClone": false,
-																	"noteId": "xMdbociu2mME",
-																	"notePath": [
-																		"root",
-																		"ij1b93xqh1ef",
-																		"GL8STe6DzOwe",
-																		"NMuyR8kwOSi8",
-																		"8bBvkHR4YyLc",
-																		"n2KvsWH9TUif",
-																		"K1QvBkPBK1J0",
-																		"xMdbociu2mME"
-																	],
-																	"title": "Past",
-																	"notePosition": 30,
-																	"prefix": "",
-																	"isExpanded": false,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "Past.html"
-																},
-																{
-																	"isClone": false,
-																	"noteId": "AAf1Vbwz0KMD",
-																	"notePath": [
-																		"root",
-																		"ij1b93xqh1ef",
-																		"GL8STe6DzOwe",
-																		"NMuyR8kwOSi8",
-																		"8bBvkHR4YyLc",
-																		"n2KvsWH9TUif",
-																		"K1QvBkPBK1J0",
-																		"AAf1Vbwz0KMD"
-																	],
-																	"title": "Future",
-																	"notePosition": 10,
-																	"prefix": "",
-																	"isExpanded": false,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "Future.html"
-																}
-															]
-														},
-														{
-															"isClone": false,
-															"noteId": "cfsn5yeMGupT",
-															"notePath": [
-																"root",
-																"ij1b93xqh1ef",
-																"GL8STe6DzOwe",
-																"NMuyR8kwOSi8",
-																"8bBvkHR4YyLc",
-																"n2KvsWH9TUif",
-																"cfsn5yeMGupT"
-															],
-															"title": "Conditional",
-															"notePosition": 10,
-															"prefix": "",
-															"isExpanded": false,
-															"type": "text",
-															"mime": "text/html",
-															"attributes": [],
-															"format": "html",
-															"dirFileName": "Conditional",
-															"children": [
-																{
-																	"isClone": false,
-																	"noteId": "eVt3b3xJJpVz",
-																	"notePath": [
-																		"root",
-																		"ij1b93xqh1ef",
-																		"GL8STe6DzOwe",
-																		"NMuyR8kwOSi8",
-																		"8bBvkHR4YyLc",
-																		"n2KvsWH9TUif",
-																		"cfsn5yeMGupT",
-																		"eVt3b3xJJpVz"
-																	],
-																	"title": "Present",
-																	"notePosition": 20,
-																	"prefix": "",
-																	"isExpanded": false,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "Present.html"
-																},
-																{
-																	"isClone": false,
-																	"noteId": "qwwyFP9nUP6c",
-																	"notePath": [
-																		"root",
-																		"ij1b93xqh1ef",
-																		"GL8STe6DzOwe",
-																		"NMuyR8kwOSi8",
-																		"8bBvkHR4YyLc",
-																		"n2KvsWH9TUif",
-																		"cfsn5yeMGupT",
-																		"qwwyFP9nUP6c"
-																	],
-																	"title": "Perfect",
-																	"notePosition": 10,
-																	"prefix": "",
-																	"isExpanded": false,
-																	"type": "text",
-																	"mime": "text/html",
-																	"attributes": [],
-																	"format": "html",
-																	"dataFileName": "Perfect.html"
-																}
-															]
-														}
-													]
-												}
-											]
+											"dataFileName": "å arbeide (to work).html"
 										},
 										{
 											"isClone": false,
@@ -23051,7 +22772,7 @@
 														"sN7A1rckjKF5",
 														"vKveMWzqUeqA"
 													],
-													"title": "interface{}",
+													"title": "interface",
 													"notePosition": 40,
 													"prefix": "",
 													"isExpanded": false,
@@ -23059,7 +22780,114 @@
 													"mime": "text/html",
 													"attributes": [],
 													"format": "html",
-													"dataFileName": "interface{}.html"
+													"dataFileName": "interface.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "AIM9flzEFTdh",
+													"notePath": [
+														"root",
+														"yD55JE5ESimp",
+														"7yIG3iqNt8wN",
+														"eB0vYpfRvgJO",
+														"sN7A1rckjKF5",
+														"AIM9flzEFTdh"
+													],
+													"title": "struct",
+													"notePosition": 50,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "struct.html",
+													"dirFileName": "struct",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "NoHcIqvfYtkY",
+															"notePath": [
+																"root",
+																"yD55JE5ESimp",
+																"7yIG3iqNt8wN",
+																"eB0vYpfRvgJO",
+																"sN7A1rckjKF5",
+																"AIM9flzEFTdh",
+																"NoHcIqvfYtkY"
+															],
+															"title": "Compound structs",
+															"notePosition": 10,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Compound structs.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "OcB2z5ZPlfrd",
+															"notePath": [
+																"root",
+																"yD55JE5ESimp",
+																"7yIG3iqNt8wN",
+																"eB0vYpfRvgJO",
+																"sN7A1rckjKF5",
+																"AIM9flzEFTdh",
+																"OcB2z5ZPlfrd"
+															],
+															"title": "Anonymous structs",
+															"notePosition": 20,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Anonymous structs.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "uIFuoB4jdyku",
+															"notePath": [
+																"root",
+																"yD55JE5ESimp",
+																"7yIG3iqNt8wN",
+																"eB0vYpfRvgJO",
+																"sN7A1rckjKF5",
+																"AIM9flzEFTdh",
+																"uIFuoB4jdyku"
+															],
+															"title": "Methods",
+															"notePosition": 30,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Methods.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "lGWL10wHmowI",
+															"notePath": [
+																"root",
+																"yD55JE5ESimp",
+																"7yIG3iqNt8wN",
+																"eB0vYpfRvgJO",
+																"sN7A1rckjKF5",
+																"AIM9flzEFTdh",
+																"lGWL10wHmowI"
+															],
+															"title": "Visibility",
+															"notePosition": 40,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Visibility.html"
+														}
+													]
 												}
 											]
 										}
@@ -23287,6 +23115,78 @@
 											"attributes": [],
 											"format": "html",
 											"dataFileName": "Defining.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "3ZBh21CQlBCr",
+											"notePath": [
+												"root",
+												"yD55JE5ESimp",
+												"7yIG3iqNt8wN",
+												"rNjzOMfoiAtS",
+												"3ZBh21CQlBCr"
+											],
+											"title": "Variadic parameters",
+											"notePosition": 40,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Variadic parameters.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "X5gBPXkhZLxP",
+											"notePath": [
+												"root",
+												"yD55JE5ESimp",
+												"7yIG3iqNt8wN",
+												"rNjzOMfoiAtS",
+												"X5gBPXkhZLxP"
+											],
+											"title": "defer",
+											"notePosition": 50,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "defer.html"
+										},
+										{
+											"isClone": true,
+											"noteId": "uIFuoB4jdyku",
+											"notePath": [
+												"root",
+												"yD55JE5ESimp",
+												"7yIG3iqNt8wN",
+												"rNjzOMfoiAtS",
+												"uIFuoB4jdyku"
+											],
+											"title": "Methods",
+											"dataFileName": "Methods.clone.html",
+											"type": "text",
+											"format": "html"
+										},
+										{
+											"isClone": false,
+											"noteId": "m27avE4I3Cjp",
+											"notePath": [
+												"root",
+												"yD55JE5ESimp",
+												"7yIG3iqNt8wN",
+												"rNjzOMfoiAtS",
+												"m27avE4I3Cjp"
+											],
+											"title": "Anonymous functions",
+											"notePosition": 70,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Anonymous functions.html"
 										}
 									]
 								},
@@ -24575,6 +24475,24 @@
 											"dataFileName": "Note on general structure.html"
 										}
 									]
+								},
+								{
+									"isClone": false,
+									"noteId": "HEeBsp8rc2W9",
+									"notePath": [
+										"root",
+										"yD55JE5ESimp",
+										"7yIG3iqNt8wN",
+										"HEeBsp8rc2W9"
+									],
+									"title": "Pointers",
+									"notePosition": 80,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Pointers.html"
 								}
 							]
 						},
@@ -38072,6 +37990,7 @@
 															],
 															"title": "read",
 															"notePosition": 40,
+															"prefix": null,
 															"isExpanded": false,
 															"type": "text",
 															"mime": "text/html",
@@ -38093,6 +38012,7 @@
 															],
 															"title": "write",
 															"notePosition": 50,
+															"prefix": null,
 															"isExpanded": false,
 															"type": "text",
 															"mime": "text/html",
@@ -38204,6 +38124,7 @@
 															],
 															"title": "puts",
 															"notePosition": 50,
+															"prefix": null,
 															"isExpanded": false,
 															"type": "text",
 															"mime": "text/html",
@@ -39714,6 +39635,7 @@
 																		"rLYmYNHmeCoz"
 																	],
 																	"title": "delete",
+																	"prefix": null,
 																	"dataFileName": "delete.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -39733,6 +39655,7 @@
 																	],
 																	"title": "include?",
 																	"notePosition": 70,
+																	"prefix": null,
 																	"isExpanded": false,
 																	"type": "text",
 																	"mime": "text/html",
@@ -39755,6 +39678,7 @@
 																	],
 																	"title": "length",
 																	"notePosition": 80,
+																	"prefix": null,
 																	"isExpanded": false,
 																	"type": "text",
 																	"mime": "text/html",
@@ -39776,6 +39700,7 @@
 																		"kE99FqW0DaXM"
 																	],
 																	"title": "sort",
+																	"prefix": null,
 																	"dataFileName": "sort.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -39795,6 +39720,7 @@
 																	],
 																	"title": "to_s",
 																	"notePosition": 100,
+																	"prefix": null,
 																	"isExpanded": false,
 																	"type": "text",
 																	"mime": "text/html",
@@ -40039,6 +39965,7 @@
 																		"cZza38R0phh9"
 																	],
 																	"title": "to_s",
+																	"prefix": null,
 																	"dataFileName": "to_s.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -40059,6 +39986,7 @@
 															],
 															"title": "Rational",
 															"notePosition": 20,
+															"prefix": null,
 															"isExpanded": false,
 															"type": "text",
 															"mime": "text/html",
@@ -40080,6 +40008,7 @@
 															],
 															"title": "Complex",
 															"notePosition": 30,
+															"prefix": null,
 															"isExpanded": false,
 															"type": "text",
 															"mime": "text/html",
@@ -40755,6 +40684,7 @@
 																		"kE99FqW0DaXM"
 																	],
 																	"title": "sort",
+																	"prefix": null,
 																	"dataFileName": "sort.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41359,6 +41289,7 @@
 																	],
 																	"title": "capitalize",
 																	"notePosition": 220,
+																	"prefix": null,
 																	"isExpanded": false,
 																	"type": "text",
 																	"mime": "text/html",
@@ -41380,6 +41311,7 @@
 																		"rLYmYNHmeCoz"
 																	],
 																	"title": "delete",
+																	"prefix": null,
 																	"dataFileName": "delete.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41399,6 +41331,7 @@
 																	],
 																	"title": "downcase",
 																	"notePosition": 240,
+																	"prefix": null,
 																	"isExpanded": false,
 																	"type": "text",
 																	"mime": "text/html",
@@ -41420,6 +41353,7 @@
 																		"8GITguXfloRz"
 																	],
 																	"title": "include?",
+																	"prefix": null,
 																	"dataFileName": "include.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41438,6 +41372,7 @@
 																		"DaXuqR9yb3DS"
 																	],
 																	"title": "index",
+																	"prefix": null,
 																	"dataFileName": "index.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41456,6 +41391,7 @@
 																		"ghL71t93xziJ"
 																	],
 																	"title": "length",
+																	"prefix": null,
 																	"dataFileName": "length.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41474,6 +41410,7 @@
 																		"lGjJ3Xh9LYus"
 																	],
 																	"title": "reverse",
+																	"prefix": null,
 																	"dataFileName": "reverse.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41492,6 +41429,7 @@
 																		"VtxwW1Ucjc0H"
 																	],
 																	"title": "succ",
+																	"prefix": null,
 																	"dataFileName": "succ.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41510,6 +41448,7 @@
 																		"F6lSKzy3mOY1"
 																	],
 																	"title": "to_f",
+																	"prefix": null,
 																	"dataFileName": "to_f.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41528,6 +41467,7 @@
 																		"5IxZV4NGCJbc"
 																	],
 																	"title": "to_i",
+																	"prefix": null,
 																	"dataFileName": "to_i.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41546,6 +41486,7 @@
 																		"cZza38R0phh9"
 																	],
 																	"title": "to_s",
+																	"prefix": null,
 																	"dataFileName": "to_s.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41564,6 +41505,7 @@
 																		"axvHQRS11nnx"
 																	],
 																	"title": "upto",
+																	"prefix": null,
 																	"dataFileName": "upto.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -41583,6 +41525,7 @@
 																	],
 																	"title": "upcase",
 																	"notePosition": 340,
+																	"prefix": null,
 																	"isExpanded": false,
 																	"type": "text",
 																	"mime": "text/html",
@@ -41605,6 +41548,7 @@
 																	],
 																	"title": "to_sym",
 																	"notePosition": 350,
+																	"prefix": null,
 																	"isExpanded": false,
 																	"type": "text",
 																	"mime": "text/html",
@@ -41912,6 +41856,7 @@
 																		"cZza38R0phh9"
 																	],
 																	"title": "to_s",
+																	"prefix": null,
 																	"dataFileName": "to_s.clone.html",
 																	"type": "text",
 																	"format": "html"
@@ -43348,6 +43293,7 @@
 														"cYfL5kWXqLUP"
 													],
 													"title": "Arithmetic operators",
+													"prefix": null,
 													"dataFileName": "Arithmetic operators.clone.html",
 													"type": "text",
 													"format": "html"
@@ -45089,6 +45035,7 @@
 							],
 							"title": "Julia",
 							"notePosition": 110,
+							"prefix": null,
 							"isExpanded": false,
 							"type": "text",
 							"mime": "text/html",
@@ -45108,6 +45055,7 @@
 									],
 									"title": "Arithmetic",
 									"notePosition": 10,
+									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
@@ -45126,6 +45074,7 @@
 									],
 									"title": "Indexing",
 									"notePosition": 20,
+									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
@@ -45144,6 +45093,7 @@
 									],
 									"title": "Strings",
 									"notePosition": 30,
+									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
@@ -45164,6 +45114,7 @@
 											],
 											"title": "Concatenation",
 											"notePosition": 10,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45183,6 +45134,7 @@
 											],
 											"title": "Interpolation",
 											"notePosition": 20,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45203,6 +45155,7 @@
 									],
 									"title": "Variables",
 									"notePosition": 40,
+									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
@@ -45221,6 +45174,7 @@
 									],
 									"title": "Built-in functions",
 									"notePosition": 50,
+									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
@@ -45240,6 +45194,7 @@
 											],
 											"title": "println()",
 											"notePosition": 10,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45259,6 +45214,7 @@
 											],
 											"title": "typeof()",
 											"notePosition": 20,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45278,6 +45234,7 @@
 											],
 											"title": "string()",
 											"notePosition": 30,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45297,6 +45254,7 @@
 											],
 											"title": "length()",
 											"notePosition": 40,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45316,6 +45274,7 @@
 											],
 											"title": "Dict()",
 											"notePosition": 50,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45335,6 +45294,7 @@
 											],
 											"title": "pop!()",
 											"notePosition": 60,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45354,6 +45314,7 @@
 											],
 											"title": "push!()",
 											"notePosition": 70,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45373,6 +45334,7 @@
 											],
 											"title": "rand()",
 											"notePosition": 80,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45392,6 +45354,7 @@
 											],
 											"title": "methods()",
 											"notePosition": 90,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45411,6 +45374,7 @@
 											],
 											"title": "copy()",
 											"notePosition": 100,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45431,6 +45395,7 @@
 									],
 									"title": "Data structures",
 									"notePosition": 60,
+									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
@@ -45450,6 +45415,7 @@
 											],
 											"title": "Dictionaries",
 											"notePosition": 10,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45469,6 +45435,7 @@
 											],
 											"title": "Tuples",
 											"notePosition": 20,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45488,6 +45455,7 @@
 											],
 											"title": "Arrays",
 											"notePosition": 30,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45508,6 +45476,7 @@
 									],
 									"title": "Control flow",
 									"notePosition": 70,
+									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
@@ -45527,6 +45496,7 @@
 											],
 											"title": "Loops",
 											"notePosition": 0,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45547,6 +45517,7 @@
 													],
 													"title": "while",
 													"notePosition": 10,
+													"prefix": null,
 													"isExpanded": false,
 													"type": "text",
 													"mime": "text/html",
@@ -45567,6 +45538,7 @@
 													],
 													"title": "for",
 													"notePosition": 20,
+													"prefix": null,
 													"isExpanded": false,
 													"type": "text",
 													"mime": "text/html",
@@ -45588,6 +45560,7 @@
 											],
 											"title": "Conditionals",
 											"notePosition": 10,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45608,6 +45581,7 @@
 									],
 									"title": "Functions",
 									"notePosition": 80,
+									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
@@ -45628,6 +45602,7 @@
 											],
 											"title": "Mutating vs non-mutating",
 											"notePosition": 10,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45647,6 +45622,7 @@
 											],
 											"title": "Broadcasting",
 											"notePosition": 20,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45666,6 +45642,7 @@
 											],
 											"title": "Multiple dispatch (overloading)",
 											"notePosition": 30,
+											"prefix": null,
 											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
@@ -45686,6 +45663,7 @@
 									],
 									"title": "Packages",
 									"notePosition": 90,
+									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
@@ -45704,6 +45682,7 @@
 									],
 									"title": "Pointers",
 									"notePosition": 100,
+									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
