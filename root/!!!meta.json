@@ -8744,7 +8744,7 @@
 					"title": "Programming",
 					"notePosition": 40,
 					"prefix": "",
-					"isExpanded": false,
+					"isExpanded": true,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [],
@@ -8768,7 +8768,6 @@
 							"mime": "text/html",
 							"attributes": [],
 							"format": "html",
-							"dataFileName": "Julia.html",
 							"dirFileName": "Julia",
 							"children": [
 								{
@@ -8781,7 +8780,7 @@
 										"BeWcWBTj91lm"
 									],
 									"title": "Functions",
-									"notePosition": 80,
+									"notePosition": 110,
 									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
@@ -8863,7 +8862,7 @@
 										"MX2BenEEmgMc"
 									],
 									"title": "Packages",
-									"notePosition": 90,
+									"notePosition": 120,
 									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
@@ -8882,7 +8881,7 @@
 										"Fxa4A3qt91G5"
 									],
 									"title": "Data structures",
-									"notePosition": 60,
+									"notePosition": 90,
 									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
@@ -8963,7 +8962,7 @@
 										"OGsJlHxWGx6e"
 									],
 									"title": "Arithmetic",
-									"notePosition": 10,
+									"notePosition": 40,
 									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
@@ -8982,7 +8981,7 @@
 										"QK9UMYm8BVL0"
 									],
 									"title": "Built-in functions",
-									"notePosition": 50,
+									"notePosition": 80,
 									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
@@ -9203,7 +9202,7 @@
 										"SbFGQHRZc957"
 									],
 									"title": "Strings",
-									"notePosition": 30,
+									"notePosition": 60,
 									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
@@ -9265,7 +9264,7 @@
 										"8BEqywpxhS39"
 									],
 									"title": "Variables",
-									"notePosition": 40,
+									"notePosition": 70,
 									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
@@ -9284,7 +9283,7 @@
 										"Quh81OK8PoIZ"
 									],
 									"title": "Pointers",
-									"notePosition": 100,
+									"notePosition": 130,
 									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
@@ -9303,7 +9302,7 @@
 										"JG7NDPpXWG2p"
 									],
 									"title": "Control flow",
-									"notePosition": 70,
+									"notePosition": 100,
 									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
@@ -9408,7 +9407,7 @@
 										"l2cIFfId1noO"
 									],
 									"title": "Indexing",
-									"notePosition": 20,
+									"notePosition": 50,
 									"prefix": null,
 									"isExpanded": false,
 									"type": "text",
@@ -9416,6 +9415,44 @@
 									"attributes": [],
 									"format": "html",
 									"dataFileName": "Indexing.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "hPDYfFDNt3iJ",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"DKceKXGdRw4t",
+										"hPDYfFDNt3iJ"
+									],
+									"title": "Comments",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Comments.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "7wIgQjhveFk1",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"DKceKXGdRw4t",
+										"7wIgQjhveFk1"
+									],
+									"title": "Semicolon",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Semicolon.html"
 								}
 							]
 						},
@@ -12291,7 +12328,7 @@
 								"GzuPdx5ljqnA",
 								"MxVmtdmSKbYN"
 							],
-							"title": "Go",
+							"title": "Golang",
 							"notePosition": 40,
 							"prefix": "",
 							"isExpanded": false,
@@ -12299,7 +12336,7 @@
 							"mime": "text/html",
 							"attributes": [],
 							"format": "html",
-							"dirFileName": "Go",
+							"dirFileName": "Golang",
 							"children": [
 								{
 									"isClone": false,
@@ -33572,6 +33609,1532 @@
 													"dataFileName": "Single line.html"
 												}
 											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "vldPuU65gqa8",
+							"notePath": [
+								"root",
+								"GzuPdx5ljqnA",
+								"vldPuU65gqa8"
+							],
+							"title": "C++",
+							"notePosition": 120,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dirFileName": "C++",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "GGuDPkldYMn9",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"vldPuU65gqa8",
+										"GGuDPkldYMn9"
+									],
+									"title": "Comments",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Comments.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "kW6OWdCViuHa",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"vldPuU65gqa8",
+										"kW6OWdCViuHa"
+									],
+									"title": "Semicolon",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Semicolon.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "wkY4oOvHXdox",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"vldPuU65gqa8",
+										"wkY4oOvHXdox"
+									],
+									"title": "Functions",
+									"notePosition": 80,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Functions.html",
+									"dirFileName": "Functions",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "23coru1ewQb6",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"wkY4oOvHXdox",
+												"23coru1ewQb6"
+											],
+											"title": "Built-in functions",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Built-in functions",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "ugw0daIcUL3t",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"wkY4oOvHXdox",
+														"23coru1ewQb6",
+														"ugw0daIcUL3t"
+													],
+													"title": "sizeof()",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "sizeof().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "0CqEAM1hjIJZ",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"wkY4oOvHXdox",
+														"23coru1ewQb6",
+														"0CqEAM1hjIJZ"
+													],
+													"title": "static_cast<T>()",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "static_castT().html"
+												}
+											]
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "6932KL313FlV",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"vldPuU65gqa8",
+										"6932KL313FlV"
+									],
+									"title": "#include directive",
+									"notePosition": 40,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "#include directive.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "6rWEcaXQ6HeY",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"vldPuU65gqa8",
+										"6rWEcaXQ6HeY"
+									],
+									"title": "Variables",
+									"notePosition": 70,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Variables.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "G9Omc7DxfgVH",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"vldPuU65gqa8",
+										"G9Omc7DxfgVH"
+									],
+									"title": "Data types",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dirFileName": "Data types",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "pZ3oxISzPLbw",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"G9Omc7DxfgVH",
+												"pZ3oxISzPLbw"
+											],
+											"title": "Numeric",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Numeric.html",
+											"dirFileName": "Numeric",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "p8wGYoMfDWKy",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"G9Omc7DxfgVH",
+														"pZ3oxISzPLbw",
+														"p8wGYoMfDWKy"
+													],
+													"title": "signed vs unsigned",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "signed vs unsigned.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "JegL1s2CHLje",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"G9Omc7DxfgVH",
+														"pZ3oxISzPLbw",
+														"JegL1s2CHLje"
+													],
+													"title": "Scientific notation",
+													"notePosition": 30,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Scientific notation.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "zgUAh6jKhT9k",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"G9Omc7DxfgVH",
+														"pZ3oxISzPLbw",
+														"zgUAh6jKhT9k"
+													],
+													"title": "Initializing floating-point numbers",
+													"notePosition": 40,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Initializing floating-point nu.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "39PgxB4Ly5FI",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"G9Omc7DxfgVH",
+														"pZ3oxISzPLbw",
+														"39PgxB4Ly5FI"
+													],
+													"title": "Numeric bases",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Numeric bases.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "0npmZpBZzkG3",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"G9Omc7DxfgVH",
+														"pZ3oxISzPLbw",
+														"0npmZpBZzkG3"
+													],
+													"title": "Implicit conversion",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Implicit conversion.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "L1bGTAsEdU71",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"G9Omc7DxfgVH",
+														"pZ3oxISzPLbw",
+														"L1bGTAsEdU71"
+													],
+													"title": "size_t",
+													"notePosition": 50,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "size_t.html"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "zWfBPM7J9LFB",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"G9Omc7DxfgVH",
+												"zWfBPM7J9LFB"
+											],
+											"title": "Text",
+											"notePosition": 40,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Text.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "ufaNHKF3UxkH",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"G9Omc7DxfgVH",
+												"ufaNHKF3UxkH"
+											],
+											"title": "auto",
+											"notePosition": 50,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "auto.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "RY0X88z3Kd6w",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"G9Omc7DxfgVH",
+												"RY0X88z3Kd6w"
+											],
+											"title": "const",
+											"notePosition": 60,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "const.html"
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "hMAPRgchLViD",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"vldPuU65gqa8",
+										"hMAPRgchLViD"
+									],
+									"title": "Headers",
+									"notePosition": 60,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Headers.html",
+									"dirFileName": "Headers",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "CohtwhvQa17s",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"hMAPRgchLViD",
+												"CohtwhvQa17s"
+											],
+											"title": "<iostream>",
+											"notePosition": 0,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "iostream.html",
+											"dirFileName": "iostream",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "uU9IU6paCaOX",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"uU9IU6paCaOX"
+													],
+													"title": "std::cout",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdcout.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "QpZcN6FvChSt",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"QpZcN6FvChSt"
+													],
+													"title": "std::cin",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdcin.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "fgh5yxJUUWGT",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"fgh5yxJUUWGT"
+													],
+													"title": "std::cerr",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdcerr.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "0GzEOcPTw0ly",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"0GzEOcPTw0ly"
+													],
+													"title": "std::clog",
+													"notePosition": 30,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdclog.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "pSlLKzTySkzR",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"pSlLKzTySkzR"
+													],
+													"title": "std::endl",
+													"notePosition": 40,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdendl.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "rJ1TzVrf5g1k",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"rJ1TzVrf5g1k"
+													],
+													"title": "std::getline()",
+													"notePosition": 50,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdgetline().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "lyLwJbW4feKv",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"lyLwJbW4feKv"
+													],
+													"title": "std::flush",
+													"notePosition": 60,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdflush.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "9r3bz2vuNwgZ",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"9r3bz2vuNwgZ"
+													],
+													"title": "std::left,right,internal",
+													"notePosition": 70,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdleft,right,internal.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "7hbBXBo9jJAC",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"7hbBXBo9jJAC"
+													],
+													"title": "std::(no)showpos",
+													"notePosition": 80,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "std(no)showpos.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "eOrNd5k4H987",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"eOrNd5k4H987"
+													],
+													"title": "std::dec,hex,oct",
+													"notePosition": 90,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stddec,hex,oct.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "2lOIwWRe0ha9",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"2lOIwWRe0ha9"
+													],
+													"title": "std::(no)showbase",
+													"notePosition": 100,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "std(no)showbase.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "4ohMRXEz9IVO",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"4ohMRXEz9IVO"
+													],
+													"title": "std::(no)uppercase",
+													"notePosition": 110,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "std(no)uppercase.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "xUSBkEhuXBsH",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"xUSBkEhuXBsH"
+													],
+													"title": "std::fixed,scientific",
+													"notePosition": 120,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdfixed,scientific.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "GE2trDUJ1ssx",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"GE2trDUJ1ssx"
+													],
+													"title": "std::(no)showpoint",
+													"notePosition": 130,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "std(no)showpoint.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "L9w2HgqzKLQw",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"CohtwhvQa17s",
+														"L9w2HgqzKLQw"
+													],
+													"title": "std::size()",
+													"notePosition": 140,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdsize().html"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "LCjTnflSHyUJ",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"hMAPRgchLViD",
+												"LCjTnflSHyUJ"
+											],
+											"title": "<iomanip>",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "iomanip",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "XrWpkZ84DSUQ",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"LCjTnflSHyUJ",
+														"XrWpkZ84DSUQ"
+													],
+													"title": "std::setprecision()",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdsetprecision().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "nDO71OfqZd6c",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"LCjTnflSHyUJ",
+														"nDO71OfqZd6c"
+													],
+													"title": "std::setw()",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdsetw().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "KEIEhMWBOzIL",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"LCjTnflSHyUJ",
+														"KEIEhMWBOzIL"
+													],
+													"title": "std::(no)boolalpha",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "std(no)boolalpha.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "TXIpIS5iV8qF",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"LCjTnflSHyUJ",
+														"TXIpIS5iV8qF"
+													],
+													"title": "std::setfill()",
+													"notePosition": 30,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdsetfill().html"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "mGNrSi5qSHdE",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"hMAPRgchLViD",
+												"mGNrSi5qSHdE"
+											],
+											"title": "<limits>",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "limits",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "KfhfoTsdCnHi",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"mGNrSi5qSHdE",
+														"KfhfoTsdCnHi"
+													],
+													"title": "std::numeric_limits<T>",
+													"notePosition": 0,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdnumeric_limitsT.html",
+													"dirFileName": "stdnumeric_limitsT",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "OyPctc9nu39W",
+															"notePath": [
+																"root",
+																"GzuPdx5ljqnA",
+																"vldPuU65gqa8",
+																"hMAPRgchLViD",
+																"mGNrSi5qSHdE",
+																"KfhfoTsdCnHi",
+																"OyPctc9nu39W"
+															],
+															"title": "max()",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "max().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "tX086BExdy6b",
+															"notePath": [
+																"root",
+																"GzuPdx5ljqnA",
+																"vldPuU65gqa8",
+																"hMAPRgchLViD",
+																"mGNrSi5qSHdE",
+																"KfhfoTsdCnHi",
+																"tX086BExdy6b"
+															],
+															"title": "min()",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "min().html"
+														},
+														{
+															"isClone": false,
+															"noteId": "j9XU2vdwiwED",
+															"notePath": [
+																"root",
+																"GzuPdx5ljqnA",
+																"vldPuU65gqa8",
+																"hMAPRgchLViD",
+																"mGNrSi5qSHdE",
+																"KfhfoTsdCnHi",
+																"j9XU2vdwiwED"
+															],
+															"title": "is_signed",
+															"notePosition": 30,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "is_signed.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "KwRGt3ys0YIe",
+															"notePath": [
+																"root",
+																"GzuPdx5ljqnA",
+																"vldPuU65gqa8",
+																"hMAPRgchLViD",
+																"mGNrSi5qSHdE",
+																"KfhfoTsdCnHi",
+																"KwRGt3ys0YIe"
+															],
+															"title": "digits",
+															"notePosition": 40,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "digits.html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "u8529aqD8Ecq",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"hMAPRgchLViD",
+												"u8529aqD8Ecq"
+											],
+											"title": "<cmath>",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "cmath",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "urJbQgbYJCnj",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"u8529aqD8Ecq",
+														"urJbQgbYJCnj"
+													],
+													"title": "std::round(),floor(),ceil()",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdround(),floor(),ceil().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "uRa5AueNegSm",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"u8529aqD8Ecq",
+														"uRa5AueNegSm"
+													],
+													"title": "std::abs()",
+													"notePosition": 40,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdabs().html"
+												},
+												{
+													"isClone": false,
+													"noteId": "QrA9i0OEB7ey",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"u8529aqD8Ecq",
+														"QrA9i0OEB7ey"
+													],
+													"title": "std::exp(),pow(),log(),log10(),sqrt()",
+													"notePosition": 50,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdexp(),pow(),log(),log10(),s.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "Im2383aSYQgD",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"hMAPRgchLViD",
+														"u8529aqD8Ecq",
+														"Im2383aSYQgD"
+													],
+													"title": "std::sin(),cos(),tan()",
+													"notePosition": 100,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "stdsin(),cos(),tan().html"
+												}
+											]
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "ePxb9SzVxmIV",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"vldPuU65gqa8",
+										"ePxb9SzVxmIV"
+									],
+									"title": "Control flow",
+									"notePosition": 90,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dirFileName": "Control flow",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "o5Hy6icWGNsi",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"ePxb9SzVxmIV",
+												"o5Hy6icWGNsi"
+											],
+											"title": "Conditionals",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Conditionals",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "8Hy9rqGD7Mmu",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"ePxb9SzVxmIV",
+														"o5Hy6icWGNsi",
+														"8Hy9rqGD7Mmu"
+													],
+													"title": "If statement",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "If statement.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "OV1nXzFrrKwR",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"ePxb9SzVxmIV",
+														"o5Hy6icWGNsi",
+														"OV1nXzFrrKwR"
+													],
+													"title": "Switch statement",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Switch statement.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "UTjiXLw23067",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"ePxb9SzVxmIV",
+														"o5Hy6icWGNsi",
+														"UTjiXLw23067"
+													],
+													"title": "Ternary operator",
+													"notePosition": 30,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Ternary operator.html"
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "ciEJUOkBxuVk",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"ePxb9SzVxmIV",
+												"ciEJUOkBxuVk"
+											],
+											"title": "Loops",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Loops",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "lCCppZ8bhThF",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"ePxb9SzVxmIV",
+														"ciEJUOkBxuVk",
+														"lCCppZ8bhThF"
+													],
+													"title": "For loop",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "For loop.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "8JfoN3BcaNTB",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"ePxb9SzVxmIV",
+														"ciEJUOkBxuVk",
+														"8JfoN3BcaNTB"
+													],
+													"title": "While loop",
+													"notePosition": 30,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "While loop.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "mB4NOhubdNSC",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"ePxb9SzVxmIV",
+														"ciEJUOkBxuVk",
+														"mB4NOhubdNSC"
+													],
+													"title": "Do while loop",
+													"notePosition": 40,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Do while loop.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "mNCZ1OSq1Kbw",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"ePxb9SzVxmIV",
+														"ciEJUOkBxuVk",
+														"mNCZ1OSq1Kbw"
+													],
+													"title": "Premature exit",
+													"notePosition": 50,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Premature exit.html"
+												},
+												{
+													"isClone": false,
+													"noteId": "ch9aVmpA9xx0",
+													"notePath": [
+														"root",
+														"GzuPdx5ljqnA",
+														"vldPuU65gqa8",
+														"ePxb9SzVxmIV",
+														"ciEJUOkBxuVk",
+														"ch9aVmpA9xx0"
+													],
+													"title": "Foreach loop",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Foreach loop.html"
+												}
+											]
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "gb9EK3fZOJRk",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"vldPuU65gqa8",
+										"gb9EK3fZOJRk"
+									],
+									"title": "Arrays",
+									"notePosition": 100,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Arrays.html",
+									"dirFileName": "Arrays",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "XVr7JWVicX68",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"gb9EK3fZOJRk",
+												"XVr7JWVicX68"
+											],
+											"title": "char arrays",
+											"notePosition": 10,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "char arrays.html"
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "FHyYBYH8ZQb9",
+									"notePath": [
+										"root",
+										"GzuPdx5ljqnA",
+										"vldPuU65gqa8",
+										"FHyYBYH8ZQb9"
+									],
+									"title": "Pointers",
+									"notePosition": 110,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dirFileName": "Pointers",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "sL2750tAT21u",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"FHyYBYH8ZQb9",
+												"sL2750tAT21u"
+											],
+											"title": "Defining",
+											"notePosition": 20,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Defining.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "EOgP7X0woMyq",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"FHyYBYH8ZQb9",
+												"EOgP7X0woMyq"
+											],
+											"title": "(De)Referencing",
+											"notePosition": 30,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "(De)Referencing.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "gK6Zj6bKHgPv",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"FHyYBYH8ZQb9",
+												"gK6Zj6bKHgPv"
+											],
+											"title": "On data types",
+											"notePosition": 10,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "On data types.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "u1TaLHtMIbVF",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"FHyYBYH8ZQb9",
+												"u1TaLHtMIbVF"
+											],
+											"title": "Default: nullptr",
+											"notePosition": 40,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Default nullptr.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "5pRqexc6YVaX",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"FHyYBYH8ZQb9",
+												"5pRqexc6YVaX"
+											],
+											"title": "Pointer to char array",
+											"notePosition": 50,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Pointer to char array.html"
+										},
+										{
+											"isClone": false,
+											"noteId": "Bj17wcvgmb0o",
+											"notePath": [
+												"root",
+												"GzuPdx5ljqnA",
+												"vldPuU65gqa8",
+												"FHyYBYH8ZQb9",
+												"Bj17wcvgmb0o"
+											],
+											"title": "Dynamic memory allocation",
+											"notePosition": 60,
+											"isExpanded": true,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Dynamic memory allocation.html"
 										}
 									]
 								}
