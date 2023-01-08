@@ -1,0 +1,35 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>char arrays</h1>
+
+    <p><code>char</code> arrays are special because of its properties. First,
+      it is the only type of array that can be directly printed to the terminal
+      using <code>std::cout</code> (displayed as a string).</p>
+    <p>Before explaining further, I must define <code>C string</code>: it is an
+      array of characters ending in a <code>NULL</code> terminator (<code>\0</code>).&nbsp;</p>
+    <p>Furthermore, there are some nuances that must be considered:</p>
+    <ul>
+      <li><code>char message[2] { ‘h’, ‘i' };</code> - not considered a C string</li>
+      <li><code>char message[3] { ‘h’, ‘i’ };</code> - &nbsp;is a C string (notice
+        that it was initialized with 3 elements, however only two were given. Because
+        of that, the compiler will add a NULL terminator at the end)</li>
+      <li><code>char message[] { ‘h’, ‘i’ };</code> - not a C string (the array is
+        initialized automatically with the numbers of elements it was given. Because
+        of that, this case gets converted into the first case)</li>
+      <li><code>char message[3] { ‘h’, ‘i’, ‘\0’ };</code> - is a C string because
+        it ends explicitly with a NULL terminator</li>
+      <li><code>char message[] { “hi” };</code> - is a C string because the compiler
+        will add the NULL terminator automatically; notice the <code>"hi"</code>,
+        instead of <code>'hi'</code>.</li>
+    </ul>
+  </body>
+
+</html>

@@ -1,0 +1,41 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Switch statement</h1>
+
+<pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+int main() {
+	int a = 101;
+
+	switch(a) {
+		case 10: {
+				std::cout &lt;&lt; "a is 10" &lt;&lt; std::endl;
+				break;
+		}
+	
+		case 11: {
+			std::cout &lt;&lt; "a is 11" &lt;&lt; std::endl;
+			break;
+		}
+			
+		default: {
+			std::cout &lt;&lt; "a != 10 &amp; != 11" &lt;&lt; std::endl;
+			break;
+		}
+	}
+
+	return 0;
+}</code></pre>
+    <p>&nbsp;</p>
+    <p>Note that the <code>switch</code> expression must be of type <code>int</code> or <code>enum</code>.</p>
+  </body>
+
+</html>

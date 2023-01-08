@@ -1,0 +1,28 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>std::getline()</h1>
+
+    <p><code>std::getline()</code> is a function that reads an entire line - not
+      just until a space character, but the whole line, until a line-break character.</p>
+    <p>It takes two arguments: a buffer (normally <code>std::cin</code>) and a
+      variable in which the read data will be stored:</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+int main() {
+	std::string name;
+	
+	std::cout &lt;&lt; "Type your name: ";
+	std::getline(std::cin, name);
+	std::cout &lt;&lt; "Welcome, " &lt;&lt; name &lt;&lt; std::endl;
+}</code></pre>
+
+  </body>
+
+</html>

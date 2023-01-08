@@ -1,0 +1,25 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>static_cast&lt;T&gt;()</h1>
+
+    <p>The <code>static_cast</code> function takes a type <code>T</code> and converts
+      the given argument into that type, returning the result. It is a way to
+      convert a char back to an int, for example:</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+int main() {
+	char c = 65;
+	std::cout &lt;&lt; c &lt;&lt; std::endl;					//'A'
+	std::cout &lt;&lt; static_cast&lt;int&gt;(c) &lt;&lt; std::endl;	//65
+}</code></pre>
+
+  </body>
+
+</html>

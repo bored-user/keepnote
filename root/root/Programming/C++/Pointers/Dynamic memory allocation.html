@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Dynamic memory allocation</h1>
+
+    <p>One can allocate memory on the heap to be used (only by) the current script
+      using the <code>new</code> keyword. Afterwards, one must run <code>delete ptr;</code> to
+      return the memory to the operating system and it's a good practice to also
+      run <code>ptr = nullptr;</code> in order to be sure no one uses it again
+      without redefining by accident</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+int main() {
+	int* a_ptr = new int(69);
+	// using a_ptr
+
+	delete a_ptr;
+	a_ptr = nullptr;
+
+	return 0;
+}</code></pre>
+    <p>&nbsp;</p>
+  </body>
+
+</html>
