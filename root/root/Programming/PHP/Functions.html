@@ -1,0 +1,35 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>Functions</h1>
+
+      <div class="ck-content">
+        <p>Defined using <code>function fun($arg1, $arg2) {}</code>. One can call
+          a function using a string:</p><pre><code class="language-text-x-php">function fun($arg1) {
+	echo $arg1;
+}
+
+$var = "fun";
+
+fun("hello, world!");
+$var("hello, world!");
+// Both print 'hello, world!'</code></pre>
+        <p>&nbsp;</p>
+        <p>Anonymous functions are also supported:</p><pre><code class="language-text-x-php">$fun = function($arg1) { echo $arg1; };
+$fun("hello, world!"); // #=&gt; hello, world! 
+
+$fun = function() { return "hello, world!"; };
+echo $fun(); // #=&gt; hello, world!</code></pre>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,38 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>Strict typing</h1>
+
+      <div class="ck-content">
+        <p>One can specify the type of data which a function will recieve as argument,
+          using the typename keyword, just like in C#. For instance, if a function
+          can only get an integer as parameter, one may use <code>function func(int $arg) {}</code>.
+          That means that PHP will throw an error if the data given isn't the specified
+          one.
+          <br>
+          <br>Actually, there's something called strict declaration which will FORCE
+          PHP to throw the error. In that integer example above, one may give "2"
+          (which is technically a string) but PHP will convert it to an integer and
+          won't throw any error.
+          <br>
+          <br>The same problem may also happen in the wanted data is a string but the
+          user passes the number 4 as an argument. PHP will convert the integer "4"
+          to the string "4".
+          <br>
+          <br>The programmer may avoid this by declaring strict_types predefined constant
+          to 1, using <code>declare(strict_types = 1)</code>. This will not allow
+          PHP to automatically convert data types (like the ones on the examples
+          above).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

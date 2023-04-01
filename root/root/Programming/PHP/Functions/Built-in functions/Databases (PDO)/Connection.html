@@ -1,0 +1,26 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>Connection</h1>
+
+      <div class="ck-content">
+        <p>In order to connect to a database using PDO statements, one must use:
+          <br>
+          <br><code>$pdo = new PDO("mysql:host=[host_name];dbname=[database_name]", $username, $password);</code>
+          <br>It's also good to use <code>$pdo-&gt;setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);</code>
+          <br>
+          <br>And return the <code>$pdo</code> variable, which will later be used to query
+          the database.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

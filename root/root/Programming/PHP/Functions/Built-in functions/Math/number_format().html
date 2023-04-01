@@ -1,0 +1,36 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>number_format()</h1>
+
+      <div class="ck-content">
+        <p>The number_format() function formats a number.
+          <br>It takes 3 optional parameters and a mandatory one:</p>
+        <ul>
+          <li>The first parameter (mandatory) is the number.</li>
+          <li>The second is the decimal number quantity.</li>
+          <li>The third is the decimal indicator.</li>
+          <li>The fourth is the thousands indicator.
+            <br>&nbsp;</li>
+        </ul>
+        <p>If only the first parameter is given, the function formats the number
+          according to the English notation (3 decimal places, "." for decimals and
+          "," for thousands). If some parameter isn't given it is set to the default
+          one(s).
+          <br>
+          <br><code>$number = 123.456</code>
+          <br><code>number_format($number, 1, ",") // 123,4</code>
+        </p>
+      </div>
+    </div>
+  </body>
+
+</html>

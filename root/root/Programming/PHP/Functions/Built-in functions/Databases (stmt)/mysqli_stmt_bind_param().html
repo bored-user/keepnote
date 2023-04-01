@@ -1,0 +1,41 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>mysqli_stmt_bind_param()</h1>
+
+      <div class="ck-content">
+        <p>Binds the parameters on the original SQL query. Takes 3 or more parameters:
+          $stmt, a string indicating data type ("s" for string, "i" for integer,
+          "b" for BLOB and "d" for double) and the replacement data. Data replacement
+          points are indicated using the question mark.
+          <br>Returns a boolean indicating success.
+          <br>
+          <br>Example #1:
+          <br><code>$userInput = 123;</code>
+          <br><code>$sql = "SELECT * FROM `table` WHERE id = '?'";</code>
+          <br><code>$stmt = mysqli_stmt_init($conn);</code>
+          <br><code>mysqli_stmt_prepare($stmt, $sql);</code>
+          <br><code>mysqli_stmt_bind_param($stmt, "i", $userInput);</code>
+          <br>
+          <br>
+          <br>Example #2:
+          <br><code>$userInput1 = 123;</code>
+          <br><code>$userInput2 = "hello";</code>
+          <br><code>$sql = "SELECT * FROM `table` WHERE id = '?' AND name = '?'";</code>
+          <br><code>$stmt = mysqli_stmt_init($conn);</code>
+          <br><code>mysqli_stmt_prepare($stmt, $sql);</code>
+          <br><code>mysqli_stmt_bind_param($stmt, "is", $userInput, $userInput2);</code>
+        </p>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,35 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>substr()</h1>
+
+      <div class="ck-content">
+        <p>substr() returns a part of a string. It takes three parameters (2 are
+          mandatory): the string, the start position and lenght. The string is the
+          input string. The one to be searched on. The start is where the search
+          will start (positive: left to right; negative: right to left). Length:
+          A "to" parameter. Meaning: get characters from start position to lenght
+          one. If omitted, the substring starting from start until the end of the
+          string will be returned.
+          <br>
+          <br>Examples:
+          <br><code>$string = "abcd"</code>
+          <br><code>substr($string, 0) // "abcd"</code>
+          <br><code>substr($string, -1) // "d"</code>
+          <br><code>substr($string, 0, 1) // "a"</code>
+          <br><code>substr($string, 0, -1) // "abc"</code>
+          <br><code>substr($string, -2, -1) // "c"</code>
+        </p>
+      </div>
+    </div>
+  </body>
+
+</html>

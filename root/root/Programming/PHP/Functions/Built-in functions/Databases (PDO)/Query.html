@@ -1,0 +1,34 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>Query</h1>
+
+      <div class="ck-content">
+        <p>One should first set the SQL query and then use it on a <code>$stmt</code> variable,
+          like:</p>
+        <p>
+          <br><code>$stmt = $this-&gt;connect()-&gt;query($sql); // where $this referes to the connect function set on the database class which was extended to the currently working class.</code>
+        </p>
+        <p>
+          <br>And then use a <code>$stmt-&gt;fetch()</code> or <code>$stmt-&gt;fetchAll()</code> to
+          get the result accordingly.
+          <br>
+          <br>Using prepared statements (when there's user input):
+          <br><code>$stmt = $this-&gt;connect()-&gt;prepare($sql);</code>
+          <br><code>$stmt-&gt;execute(["item 1", "item 2"]); // in this case, the SQL query will have some "blanks" that need to be filled. Every time there's a blank, one should use the question mark as a placeholder. Example: $sql = "SELECT * FROM users WHERE name = ? AND id = ?"; The first array item will indicate the value of the name row, while the second item will indicate the value of the id row, and so on.</code>
+          <br>
+          <br>This will also works on INSERT queries (need to use prepared statements
+          for security).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

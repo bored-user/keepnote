@@ -1,0 +1,27 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>Definition by reference</h1>
+
+      <div class="ck-content">
+        <p>When setting a variable name, one can use the &amp; sign.
+          <br>That means that the set variable will ALWAYS have the value of the other
+          var. Basically, a pointer
+          <br>&nbsp;</p><pre><code class="language-text-x-php">$myName = "Joao";
+$name = &amp;$myName;
+echo $name; // "Joao"
+$myName = 1234;
+echo $name; // 1234</code></pre>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,44 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>spl_autoload_register()</h1>
+
+      <div class="ck-content">
+        <p>It is used to load class files automatically on demand. There must be
+          a pattern on class paths (like class/className.class.php) in order to load
+          it.
+          <br>
+          <br>Takes a function as parameter. This child function takes a parameter (the
+          class name) and must have an include (or include_once) command in order
+          to load the class file.
+          <br>
+          <br>Also, for error handling, it is possible to add a <code>if (!file_exists(classFile)) { return false; }</code> before
+          the <code>include_once</code> command.
+          <br>
+          <br>The loading (child) function will also work for namespaces if the class
+          is instanciated using <code>new NamespaceName\ClassName()</code>. There
+          must also be a folder inside the class folder which has the same name as
+          the namespace.
+          <br>
+          <br>In order to detect whether or not the function (child) is being executed
+          from a file on the root folder or the includes folder, one must check if
+          the <code>$_SERVER["HTTP_HOST"]</code> and <code>$_SERVER["REQUEST_URI"]</code> doesn't
+          contain the keyword <code>includes</code>. If it does, the script must add
+          "../" accordingly.
+          <br>
+          <br>Finally, one can use the "brute-force method": scan files inside class
+          directory, using <code>scandir()</code> and run a for loop on those files,
+          loading 'em all.</p>
+      </div>
+    </div>
+  </body>
+
+</html>
