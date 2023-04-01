@@ -7,11 +7,13 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Note on general structure</h1>
+  <body>
+    <div class="content">
+       <h1>Note on general structure</h1>
 
-    <p>Usually, in programming languages like JavaScript, Java, C#, C++, etc, <code>if</code>, <code>for</code>, <code>while</code>,
-      etc blocks' conditions are written enclosed in parentheses, like so:</p><pre><code class="language-text-plain">// C#
+      <div class="ck-content">
+        <p>Usually, in programming languages like JavaScript, Java, C#, C++, etc, <code>if</code>, <code>for</code>, <code>while</code>,
+          etc blocks' conditions are written enclosed in parentheses, like so:</p><pre><code class="language-text-plain">// C#
 for(int i = 1; i &lt;= 5; i++)
 	System.Console.WriteLine(i);
 	
@@ -23,9 +25,9 @@ for(let i = 1; i &lt;= 5; i++)
 if(i &lt;= 5)
 	System.out.printLn("i is less than or equal to 5");</code></pre>
 
-    <p> </p>
-    <p>In Go, however, there's no parentheses! One simply writes the conditions
-      of the loop or <code>if</code> block:</p><pre><code class="language-text-x-go">package main
+        <p> </p>
+        <p>In Go, however, there's no parentheses! One simply writes the conditions
+          of the loop or <code>if</code> block:</p><pre><code class="language-text-x-go">package main
 
 import "fmt"
 
@@ -43,10 +45,12 @@ func main() {
 	}
 }</code></pre>
 
-    <p> </p>
-    <p>Also, note that, in the languages mentioned above, when there's only one
-      instruction on the conditional or loop structure, one can omit the curly
-      braces. In Go, however, there always has to be a set of curly braces.</p>
+        <p> </p>
+        <p>Also, note that, in the languages mentioned above, when there's only one
+          instruction on the conditional or loop structure, one can omit the curly
+          braces. In Go, however, there always has to be a set of curly braces.</p>
+      </div>
+    </div>
   </body>
 
 </html>

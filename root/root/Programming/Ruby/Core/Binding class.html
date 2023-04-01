@@ -7,14 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Binding class</h1>
+  <body>
+    <div class="content">
+       <h1>Binding class</h1>
 
-    <p>The binding class is a way to access local variables on the global scope.
-      It creates an anchor on the code, allowing one to access the variables
-      later on.</p>
-    <p>After the binding method is used, the <a href="Functions/Methods/class.html">function's class</a> (where
-      said binding method was called) turns to <code>BindingClass</code>.</p><pre><code class="language-text-plain">def normal_meth
+      <div class="ck-content">
+        <p>The binding class is a way to access local variables on the global scope.
+          It creates an anchor on the code, allowing one to access the variables
+          later on.</p>
+        <p>After the binding method is used, the <a href="Functions/Methods/class.html">function's class</a> (where
+          said binding method was called) turns to <code>BindingClass</code>.</p><pre><code class="language-text-plain">def normal_meth
     a = 123
     'my normal return'
 end
@@ -32,6 +34,8 @@ puts normal_meth.class #=&gt; 'BindingClass'
 puts binding_meth.eval('a') #=&gt; 123
 puts a #=&gt; ERROR</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

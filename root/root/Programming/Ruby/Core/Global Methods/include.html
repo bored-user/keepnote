@@ -7,14 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>include</h1>
+  <body>
+    <div class="content">
+       <h1>include</h1>
 
-    <p><code>include</code> is used to add a module to a class. It turns the module's
-      methods to instance methods, which means that one needs to instantiate
-      a class before using said methods.</p>
-    <p>Basically, when one uses <code>include</code>, it's like all the module's
-      methods are class methods: one can call from within the class methods:</p><pre><code class="language-text-x-ruby">module MyModule
+      <div class="ck-content">
+        <p><code>include</code> is used to add a module to a class. It turns the module's
+          methods to instance methods, which means that one needs to instantiate
+          a class before using said methods.</p>
+        <p>Basically, when one uses <code>include</code>, it's like all the module's
+          methods are class methods: one can call from within the class methods:</p><pre><code class="language-text-x-ruby">module MyModule
 	def say_hi
 		'hi'
 	end
@@ -30,8 +32,10 @@ end
 
 cl = MyClass.new #=&gt; 'hi'</code></pre>
 
-    <p>However, if there's a class method with the same name as the module method,
-      the class method prevails. This can be changed using <a href="prepend.html"><code>prepend</code></a>.</p>
+        <p>However, if there's a class method with the same name as the module method,
+          the class method prevails. This can be changed using <a href="prepend.html"><code>prepend</code></a>.</p>
+      </div>
+    </div>
   </body>
 
 </html>

@@ -7,14 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>is a</h1>
+  <body>
+    <div class="content">
+       <h1>is a</h1>
 
-     <h2>is_a?</h2>
+      <div class="ck-content">
+         <h2>is_a?</h2>
 
-    <p>Returns true/ false indicating if data type is or isn't an instance of
-      given object.</p>
-    <p>In order to find of what class an object is, one can use the <a href="class.html"><code>class</code></a> method.</p><pre><code class="language-text-x-ruby">str = 'hello'
+        <p>Returns true/ false indicating if data type is or isn't an instance of
+          given object.</p>
+        <p>In order to find of what class an object is, one can use the <a href="class.html"><code>class</code></a> method.</p><pre><code class="language-text-x-ruby">str = 'hello'
 puts str.is_a?(String) #=&gt; true
 
 num = 123
@@ -23,6 +25,8 @@ puts num.is_a?(Numeric) #=&gt; true
 bool = true
 puts bool.is_a(TrueClass) #=&gt; true</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

@@ -7,30 +7,34 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Keywords</h1>
+  <body>
+    <div class="content">
+       <h1>Keywords</h1>
 
-    <p>Here's the list of constraint keywords:</p><pre><code class="language-text-x-csharp">class MyCustomType
+      <div class="ck-content">
+        <p>Here's the list of constraint keywords:</p><pre><code class="language-text-x-csharp">class MyCustomType
 {}
 
 interface IMyCustomInterface
 {}</code></pre>
 
-    <ul>
-      <li><code>where T : IMyCustomInterface</code> - where the type implements <code>IMyCustomInterface</code>
+        <ul>
+          <li><code>where T : IMyCustomInterface</code> - where the type implements <code>IMyCustomInterface</code>
 
-      </li>
-      <li><code>where T : MyCustomType</code> - where type is a <code>MyCustomType</code>
+          </li>
+          <li><code>where T : MyCustomType</code> - where type is a <code>MyCustomType</code>
 
-      </li>
-      <li><code>where T : class</code>  - where the type is a reference type</li>
-      <li><code>where T : struct</code> - where the type is a value type</li>
-      <li><code>where T : new()</code> - where the type has a constructor</li>
-    </ul>
-    <p> </p>
-    <p>The final syntax is, for instance:</p><pre><code class="language-text-x-csharp">class GenericClass&lt;T&gt; where T : class
+          </li>
+          <li><code>where T : class</code>  - where the type is a reference type</li>
+          <li><code>where T : struct</code> - where the type is a value type</li>
+          <li><code>where T : new()</code> - where the type has a constructor</li>
+        </ul>
+        <p> </p>
+        <p>The final syntax is, for instance:</p><pre><code class="language-text-x-csharp">class GenericClass&lt;T&gt; where T : class
 {}</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

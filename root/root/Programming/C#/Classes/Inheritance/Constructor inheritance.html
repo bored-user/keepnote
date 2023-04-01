@@ -7,16 +7,18 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Constructor inheritance</h1>
+  <body>
+    <div class="content">
+       <h1>Constructor inheritance</h1>
 
-    <p>Constructors are inherited by default. Well, not exactly inherited. They
-      are executed by default before all the code of the child class. If a parent
-      class and the child class constructor takes one argument, the argument
-      given to the child class will be automatically given to the parent class.
-      However, if the number of argument is different, one must use the <code>base</code> methods,
-      passing arguments onto the parent class.</p>
-    <p>The <code>base</code> method has a similar syntax to <a href="../Constructors.html">constructor overloading</a>:</p><pre><code class="language-text-x-csharp">using System;
+      <div class="ck-content">
+        <p>Constructors are inherited by default. Well, not exactly inherited. They
+          are executed by default before all the code of the child class. If a parent
+          class and the child class constructor takes one argument, the argument
+          given to the child class will be automatically given to the parent class.
+          However, if the number of argument is different, one must use the <code>base</code> methods,
+          passing arguments onto the parent class.</p>
+        <p>The <code>base</code> method has a similar syntax to <a href="../Constructors.html">constructor overloading</a>:</p><pre><code class="language-text-x-csharp">using System;
 
 class ChildClass : ParentClass
 {
@@ -35,6 +37,8 @@ class ChildClass2 : ParentClass
 	{}
 }</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

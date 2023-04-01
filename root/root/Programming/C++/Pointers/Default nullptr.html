@@ -7,14 +7,18 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Default: nullptr</h1>
+  <body>
+    <div class="content">
+       <h1>Default: nullptr</h1>
 
-    <p>When declaring a pointer using curly-brace assignement (<code>int* a_ptr{};</code>),
-      if no value is assigned to it, it's automatically set to <code>nullptr</code>.
-      This is a value stored at address 0 in memory which should never be dereferenced.
-      If one tries to dereference a pointer pointing to <code>nullptr</code>,
-      a segmentation fault will happen.</p>
+      <div class="ck-content">
+        <p>When declaring a pointer using curly-brace assignement (<code>int* a_ptr{};</code>),
+          if no value is assigned to it, it's automatically set to <code>nullptr</code>.
+          This is a value stored at address 0 in memory which should never be dereferenced.
+          If one tries to dereference a pointer pointing to <code>nullptr</code>,
+          a segmentation fault will happen.</p>
+      </div>
+    </div>
   </body>
 
 </html>

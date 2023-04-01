@@ -7,13 +7,15 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>std::getline()</h1>
+  <body>
+    <div class="content">
+       <h1>std::getline()</h1>
 
-    <p><code>std::getline()</code> is a function that reads an entire line - not
-      just until a space character, but the whole line, until a line-break character.</p>
-    <p>It takes two arguments: a buffer (normally <code>std::cin</code>) and a
-      variable in which the read data will be stored:</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+      <div class="ck-content">
+        <p><code>std::getline()</code> is a function that reads an entire line - not
+          just until a space character, but the whole line, until a line-break character.</p>
+        <p>It takes two arguments: a buffer (normally <code>std::cin</code>) and a
+          variable in which the read data will be stored:</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
 
 int main() {
 	std::string name;
@@ -22,7 +24,8 @@ int main() {
 	std::getline(std::cin, name);
 	std::cout &lt;&lt; "Welcome, " &lt;&lt; name &lt;&lt; std::endl;
 }</code></pre>
-
+      </div>
+    </div>
   </body>
 
 </html>

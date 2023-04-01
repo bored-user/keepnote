@@ -7,19 +7,23 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>engine()</h1>
+  <body>
+    <div class="content">
+       <h1>engine()</h1>
 
-    <p>Sets a new engine. Takes the file extension as the first parameter and
-      the imported engine function as the second.
-      <br />Example: <code>app.engine('mst', mustache());</code>
+      <div class="ck-content">
+        <p>Sets a new engine. Takes the file extension as the first parameter and
+          the imported engine function as the second.
+          <br />Example: <code>app.engine('mst', mustache());</code>
 
-      <br />
-      <br />That <code>mustache()</code> function above takes an optional argument:
-      the location (folder) of partial files (like headers or footers).
-      <br />Example: <code>app.engine('mst', mustache(`${__dirname}/views/partials`));</code>
+          <br />
+          <br />That <code>mustache()</code> function above takes an optional argument:
+          the location (folder) of partial files (like headers or footers).
+          <br />Example: <code>app.engine('mst', mustache(`${__dirname}/views/partials`));</code>
 
-    </p>
+        </p>
+      </div>
+    </div>
   </body>
 
 </html>

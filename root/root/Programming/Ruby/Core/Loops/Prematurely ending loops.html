@@ -7,16 +7,18 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Prematurely ending loops</h1>
+  <body>
+    <div class="content">
+       <h1>Prematurely ending loops</h1>
 
-    <p>It's also possible to exit loops before the specified condition is met
-      or even stop the current iteration and go to the next one using the <code>break</code> and <code>next</code> keywords.</p>
-    <p>The first will stop the loop completely and continue parsing the code
-      from bellow it. The second stops the current iteration and continue running
-      the loop (same effect as the <code>continue</code> keyword in most programming
-      languages).</p>
-    <p> </p><pre><code class="language-text-x-ruby">arr = %w[r u b y]
+      <div class="ck-content">
+        <p>It's also possible to exit loops before the specified condition is met
+          or even stop the current iteration and go to the next one using the <code>break</code> and <code>next</code> keywords.</p>
+        <p>The first will stop the loop completely and continue parsing the code
+          from bellow it. The second stops the current iteration and continue running
+          the loop (same effect as the <code>continue</code> keyword in most programming
+          languages).</p>
+        <p> </p><pre><code class="language-text-x-ruby">arr = %w[r u b y]
 for char in arr
 	next if char == 'b'
 	puts char #=&gt; 'r' 'u' 'y'
@@ -27,6 +29,8 @@ for char in arr
 	puts char #=&gt; 'r' 'u'
 end</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

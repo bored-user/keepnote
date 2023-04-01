@@ -7,15 +7,17 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>(De)Referencing</h1>
+  <body>
+    <div class="content">
+       <h1>(De)Referencing</h1>
 
-    <p>One may get the address of a variable (referencing) using <code>int* a_ptr = &amp;a</code> -
-      where <code>a</code> is a previously defined variable of type integer. Threfore, <code>&amp;a</code> gets
-      the address of <code>a</code>.</p>
-    <p>Then, one may dereference the pointer and get the value back using <code>*a_ptr</code>.
-      Therefore, <code>*a_ptr</code> gets the value stored in the address represented
-      by <code>a_ptr</code>.</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+      <div class="ck-content">
+        <p>One may get the address of a variable (referencing) using <code>int* a_ptr = &amp;a</code> -
+          where <code>a</code> is a previously defined variable of type integer. Threfore, <code>&amp;a</code> gets
+          the address of <code>a</code>.</p>
+        <p>Then, one may dereference the pointer and get the value back using <code>*a_ptr</code>.
+          Therefore, <code>*a_ptr</code> gets the value stored in the address represented
+          by <code>a_ptr</code>.</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
 
 int main() {
         int a = 10;
@@ -30,7 +32,8 @@ int main() {
 
         return 0;
 }</code></pre>
-
+      </div>
+    </div>
   </body>
 
 </html>

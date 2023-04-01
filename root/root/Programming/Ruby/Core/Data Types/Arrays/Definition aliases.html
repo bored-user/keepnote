@@ -7,23 +7,27 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Definition aliases</h1>
+  <body>
+    <div class="content">
+       <h1>Definition aliases</h1>
 
-    <p>There are two array definition aliases:</p>
-    <ol>
-      <li>%w</li>
-      <li>%W</li>
-    </ol>
-    <p>Both are used when an array contain only strings and are the correct way
-      (to define a word only array) according to conventions.</p>
-    <p> </p>
-    <p><code>%w</code> should be used when the array elements should be surrounded
-      in single quotes, while <code>%w</code>, when in double quotes.</p>
-    <p> </p><pre><code class="language-text-x-ruby">name = 'joao'
+      <div class="ck-content">
+        <p>There are two array definition aliases:</p>
+        <ol>
+          <li>%w</li>
+          <li>%W</li>
+        </ol>
+        <p>Both are used when an array contain only strings and are the correct way
+          (to define a word only array) according to conventions.</p>
+        <p> </p>
+        <p><code>%w</code> should be used when the array elements should be surrounded
+          in single quotes, while <code>%w</code>, when in double quotes.</p>
+        <p> </p><pre><code class="language-text-x-ruby">name = 'joao'
 interpol_arr = %W[#{name}] #=&gt; ['joao']
 non_interpol_arr = %w[a b c] #=&gt; ['a', 'b', 'c']</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

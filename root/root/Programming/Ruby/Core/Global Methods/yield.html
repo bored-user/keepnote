@@ -7,11 +7,13 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>yield</h1>
+  <body>
+    <div class="content">
+       <h1>yield</h1>
 
-    <p><code>yield</code> is the function used to call a given <a href="../Blocks.html"><code>Block</code></a> with
-      some argument:</p><pre><code class="language-text-x-ruby">def block_method
+      <div class="ck-content">
+        <p><code>yield</code> is the function used to call a given <a href="../Blocks.html"><code>Block</code></a> with
+          some argument:</p><pre><code class="language-text-x-ruby">def block_method
 	yield 'hello' # same as yield('hello')
 end
 
@@ -22,6 +24,8 @@ end
 block_method { |s| puts s } #=&gt; 'hello'
 block_method_2 { |x, y| puts x, y } #=&gt; '1' '2'</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

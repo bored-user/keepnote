@@ -7,17 +7,21 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>#else</h1>
+  <body>
+    <div class="content">
+       <h1>#else</h1>
 
-    <p>Works like a normal <a href="../../Conditionals/If%20else.html"><code>else</code></a> block
-      - but the code will/ won't be compiled depending on the condition.</p><pre><code class="language-text-x-csharp">// same as #if (DEBUG == true)
+      <div class="ck-content">
+        <p>Works like a normal <a href="../../Conditionals/If%20else.html"><code>else</code></a> block
+          - but the code will/ won't be compiled depending on the condition.</p><pre><code class="language-text-x-csharp">// same as #if (DEBUG == true)
 #if DEBUG
 	Console.WriteLine("on debug mode");
 #else
 	Console.WriteLine("not on debug mode");
 #endif</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

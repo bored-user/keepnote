@@ -7,12 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>extend</h1>
+  <body>
+    <div class="content">
+       <h1>extend</h1>
 
-    <p><code>extend</code> module methods are imported as class methods. Therefore,
-      there's no need to instantiate the class before using said methods:</p>
-    <p> </p><pre><code class="language-text-x-ruby">module MyModule
+      <div class="ck-content">
+        <p><code>extend</code> module methods are imported as class methods. Therefore,
+          there's no need to instantiate the class before using said methods:</p>
+        <p> </p><pre><code class="language-text-x-ruby">module MyModule
 	def say_hi
 		'hi'
 	end
@@ -24,6 +26,8 @@ end
 
 puts MyClass.say_hi #=&gt; 'hi'</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

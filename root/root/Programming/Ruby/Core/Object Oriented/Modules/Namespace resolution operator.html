@@ -7,11 +7,13 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Namespace resolution operator</h1>
+  <body>
+    <div class="content">
+       <h1>Namespace resolution operator</h1>
 
-    <p>The namespace resolution operator (<code>::</code>) is the way to access
-      a Module's variables/ classes.</p><pre><code class="language-text-plain">module Mod
+      <div class="ck-content">
+        <p>The namespace resolution operator (<code>::</code>) is the way to access
+          a Module's variables/ classes.</p><pre><code class="language-text-plain">module Mod
     VERSION = '1.0.0'
     def self.say_hi
         'hi'
@@ -39,6 +41,8 @@ puts ic.say_hello #=&gt; 'hello'
 puts ic.say_howdy #=&gt; 'howdy'
 puts mc.say_hello #=&gt; 'hello'</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

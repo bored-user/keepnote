@@ -7,16 +7,18 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>params</h1>
+  <body>
+    <div class="content">
+       <h1>params</h1>
 
-    <p>The <code>params</code> keyword act much like the <code>rest operator</code> in
-      JavaScript. It's possible to give a method (which is expecting an array
-      of <a href="../../Generics.html"><code>&lt;T&gt;</code></a> as argument)
-      lots of <code>&lt;T&gt;</code> data (not in an array) and it'll join them
-      together, forming the array.</p>
-    <p>For instance - note the <a href="../../Object%20initialization.html">object initialization operator</a> -,
-      this</p><pre><code class="language-text-x-csharp">static void Main()
+      <div class="ck-content">
+        <p>The <code>params</code> keyword act much like the <code>rest operator</code> in
+          JavaScript. It's possible to give a method (which is expecting an array
+          of <a href="../../Generics.html"><code>&lt;T&gt;</code></a> as argument)
+          lots of <code>&lt;T&gt;</code> data (not in an array) and it'll join them
+          together, forming the array.</p>
+        <p>For instance - note the <a href="../../Object%20initialization.html">object initialization operator</a> -,
+          this</p><pre><code class="language-text-x-csharp">static void Main()
 {
 	Console.WriteLine(Sum(new int[] { 1, 2, 3, 4, 5 }));
 }
@@ -30,7 +32,7 @@ static int Sum(int[] nums)
 	return res;
 }</code></pre>
 
-    <p>could be converted to this</p><pre><code class="language-text-x-csharp">static void Main()
+        <p>could be converted to this</p><pre><code class="language-text-x-csharp">static void Main()
 {
 	Console.WriteLine(Sum(1, 2, 3, 4, 5));
 }
@@ -44,12 +46,14 @@ static int Sum(params int[] nums)
 	return res;
 }</code></pre>
 
-    <p> </p>
-    <p>The second version is better since it's not necessary to create a new
-      array in memory for every method call.</p>
-    <p>Note that, when using the <code>params</code> modifier, the method argument
-      must be an array. Therefore, if the method used to receive argument <code>DataType dt</code>,
-      one must adapt it to <code>DataType[] dt</code>.</p>
+        <p> </p>
+        <p>The second version is better since it's not necessary to create a new
+          array in memory for every method call.</p>
+        <p>Note that, when using the <code>params</code> modifier, the method argument
+          must be an array. Therefore, if the method used to receive argument <code>DataType dt</code>,
+          one must adapt it to <code>DataType[] dt</code>.</p>
+      </div>
+    </div>
   </body>
 
 </html>

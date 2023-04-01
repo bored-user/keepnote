@@ -7,13 +7,15 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>ref</h1>
+  <body>
+    <div class="content">
+       <h1>ref</h1>
 
-    <p>The <code>ref</code> modifier allows a method to receive a reference of
-      the value and not the value itself, even if the value is a <a href="../../Types/Reference%20vs%20value%20type.html">value type</a>.
-      The <code>ref</code> modifier is very similar to a pointer.</p>
-    <p>Using it, one can replace this</p><pre><code class="language-text-x-csharp">static void Main()
+      <div class="ck-content">
+        <p>The <code>ref</code> modifier allows a method to receive a reference of
+          the value and not the value itself, even if the value is a <a href="../../Types/Reference%20vs%20value%20type.html">value type</a>.
+          The <code>ref</code> modifier is very similar to a pointer.</p>
+        <p>Using it, one can replace this</p><pre><code class="language-text-x-csharp">static void Main()
 {
 	int n = 1;
 	n = AddOne(n);
@@ -22,7 +24,7 @@
 
 static int AddOne(int n) =&gt; ++n;</code></pre>
 
-    <p>with this</p><pre><code class="language-text-x-csharp">static void Main()
+        <p>with this</p><pre><code class="language-text-x-csharp">static void Main()
 {
 	int n = 1;
 	AddOne(n);
@@ -34,6 +36,8 @@ static void AddOne(ref int n)
 	n++;
 }</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

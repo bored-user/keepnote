@@ -7,10 +7,12 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Constraints</h1>
+  <body>
+    <div class="content">
+       <h1>Constraints</h1>
 
-    <p>It's possible to constrain the generic type using the <code>where</code> clause:</p><pre><code class="language-text-x-csharp">class CustomList&lt;T&gt; where T : IComparable
+      <div class="ck-content">
+        <p>It's possible to constrain the generic type using the <code>where</code> clause:</p><pre><code class="language-text-x-csharp">class CustomList&lt;T&gt; where T : IComparable
 // That means "&lt;T&gt; may be any value [that is] that implements IComparable interface"
 {
 	public void Add(T value)
@@ -23,11 +25,11 @@
 	}
 }</code></pre>
 
-    <p>Note that in the example above, an interface was used as constraint. It's
-      also possible to use a [class] (meaning “where &lt;T&gt; is of type [class]”),
-      struct ("where &lt;T&gt; is a struct") and even the class keyword.</p>
-    <p>Note that it's also possible to have multiple constraints. They are separated
-      by a comma character, like so:</p><pre><code class="language-text-x-csharp">class CustomList&lt;T&gt; where T : IComparable, MyCustomType
+        <p>Note that in the example above, an interface was used as constraint. It's
+          also possible to use a [class] (meaning “where &lt;T&gt; is of type [class]”),
+          struct ("where &lt;T&gt; is a struct") and even the class keyword.</p>
+        <p>Note that it's also possible to have multiple constraints. They are separated
+          by a comma character, like so:</p><pre><code class="language-text-x-csharp">class CustomList&lt;T&gt; where T : IComparable, MyCustomType
 // That means "&lt;T&gt; may be any value that implements IComparable interface and is of type 'MyCustomType'"
 {
 	public void Add(T value)
@@ -40,6 +42,8 @@
 	}
 }</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

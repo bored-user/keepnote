@@ -7,21 +7,25 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Convention</h1>
+  <body>
+    <div class="content">
+       <h1>Convention</h1>
 
-    <p>According to Ruby convention rules, every method that has a question mark
-      in it's name (e.g <code>include?</code>) returns a boolean.</p>
-    <p> </p>
-    <p>Also, almost every ‘action method’ (e.g <code>sort</code>, <code>reverse</code>, <code>upcase</code>,
-      etc) has a modifying (aka dangerous) and a non-modifying (aka non-dangerous)
-      version. The modifying version modifies the data structure it was called
-      on and has a <code>!</code> on its name (e.g <code>sort!</code>, <code>reverse!</code> and <code>upcase!</code>).
-      While the non-modifying version doesn't has an exclamation mark on it and
-      only returns a copy, a modified version of the data structure it was called
-      on. However there are some methods (like <code>push</code>, <code>pop,</code>  <code>shift</code> and <code>unshift</code>)
-      which <strong>do</strong> modify said data structure but <strong>don't</strong> include
-      the bang in its name.</p>
+      <div class="ck-content">
+        <p>According to Ruby convention rules, every method that has a question mark
+          in it's name (e.g <code>include?</code>) returns a boolean.</p>
+        <p> </p>
+        <p>Also, almost every ‘action method’ (e.g <code>sort</code>, <code>reverse</code>, <code>upcase</code>,
+          etc) has a modifying (aka dangerous) and a non-modifying (aka non-dangerous)
+          version. The modifying version modifies the data structure it was called
+          on and has a <code>!</code> on its name (e.g <code>sort!</code>, <code>reverse!</code> and <code>upcase!</code>).
+          While the non-modifying version doesn't has an exclamation mark on it and
+          only returns a copy, a modified version of the data structure it was called
+          on. However there are some methods (like <code>push</code>, <code>pop,</code>  <code>shift</code> and <code>unshift</code>)
+          which <strong>do</strong> modify said data structure but <strong>don't</strong> include
+          the bang in its name.</p>
+      </div>
+    </div>
   </body>
 
 </html>

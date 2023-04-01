@@ -7,11 +7,13 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Custom enumerables</h1>
+  <body>
+    <div class="content">
+       <h1>Custom enumerables</h1>
 
-    <p>To define an Enumerable, one needs to create a class which includes the <code>Enumerable</code> object
-      &amp; has a method which yield values, like so:</p><pre><code class="language-text-x-ruby">class MyEnumerable
+      <div class="ck-content">
+        <p>To define an Enumerable, one needs to create a class which includes the <code>Enumerable</code> object
+          &amp; has a method which yield values, like so:</p><pre><code class="language-text-x-ruby">class MyEnumerable
 	include Enumerable
 	def each
 		yield 'Item 01'
@@ -20,8 +22,8 @@
 	end
 end</code></pre>
 
-    <p> </p>
-    <p>Enumerables use <a href="../Blocks.html">blocks</a> as arguments.</p><pre><code class="language-text-plain">=begin
+        <p> </p>
+        <p>Enumerables use <a href="../Blocks.html">blocks</a> as arguments.</p><pre><code class="language-text-plain">=begin
     After defining a custom enumerable, one needs to use the each method, giving a block as argument:
 =end
 
@@ -44,6 +46,8 @@ enum.each do |item|
     #=&gt; 'Item 01' 'Item 02' 'Item 03'
 end</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

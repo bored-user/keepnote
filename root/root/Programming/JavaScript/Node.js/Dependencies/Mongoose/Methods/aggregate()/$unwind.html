@@ -7,19 +7,23 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>$unwind</h1>
+  <body>
+    <div class="content">
+       <h1>$unwind</h1>
 
-    <p>$unwind: unwind splits all records on database according to an specific
-      field (which must be an array).
-      <br />
-      <br />Syntax: <code>{ $unwind: '$field' }</code>
+      <div class="ck-content">
+        <p>$unwind: unwind splits all records on database according to an specific
+          field (which must be an array).
+          <br />
+          <br />Syntax: <code>{ $unwind: '$field' }</code>
 
-      <br />
-      <br />Result: <code>[{ 'id': 1, 'field': 'array_item_1' }, { 'id': 1, 'field': 'array_item_2' }, { 'id': 2, 'field': 'array_item_1' }]</code>
+          <br />
+          <br />Result: <code>[{ 'id': 1, 'field': 'array_item_1' }, { 'id': 1, 'field': 'array_item_2' }, { 'id': 2, 'field': 'array_item_1' }]</code>
 
-      <br
-      /> </p>
+          <br
+          /> </p>
+      </div>
+    </div>
   </body>
 
 </html>

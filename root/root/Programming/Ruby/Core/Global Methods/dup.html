@@ -7,10 +7,12 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>dup</h1>
+  <body>
+    <div class="content">
+       <h1>dup</h1>
 
-    <p>Duplicates a string on heap.</p><pre><code class="language-text-x-ruby"># Without string duplication
+      <div class="ck-content">
+        <p>Duplicates a string on heap.</p><pre><code class="language-text-x-ruby"># Without string duplication
 a = 'abc'
 b = a
 a[0] = 'z'
@@ -22,6 +24,8 @@ b = a.dup
 a[0] = 'z'
 puts a, b #=&gt; 'zbc' 'abc'</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

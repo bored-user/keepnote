@@ -7,19 +7,21 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>out</h1>
+  <body>
+    <div class="content">
+       <h1>out</h1>
 
-    <p>The <code>out</code> modifier is very similar to the <a href="ref.html"><code>ref</code></a> modifier.
-      They are both used to pass a reference to a variable (a pointer, basically)
-      as argument to a method.</p>
-    <p>The main difference between them is that the variable to be given to the <code>out</code> modifier
-      may be initialized with the <code>out</code> call, while it has to have been
-      previously initialized when using <code>ref</code>.</p>
-    <p>One can also discard the result value passing <code>_</code> as the variable
-      name (that's common usage with the <a href="../../Types/List/int/Static%20methods/TryParse().html"><code>.TryParse()</code></a> methods).</p>
-    <p> </p>
-    <p>Examples:</p><pre><code class="language-text-x-csharp">static void Main()
+      <div class="ck-content">
+        <p>The <code>out</code> modifier is very similar to the <a href="ref.html"><code>ref</code></a> modifier.
+          They are both used to pass a reference to a variable (a pointer, basically)
+          as argument to a method.</p>
+        <p>The main difference between them is that the variable to be given to the <code>out</code> modifier
+          may be initialized with the <code>out</code> call, while it has to have been
+          previously initialized when using <code>ref</code>.</p>
+        <p>One can also discard the result value passing <code>_</code> as the variable
+          name (that's common usage with the <a href="../../Types/List/int/Static%20methods/TryParse().html"><code>.TryParse()</code></a> methods).</p>
+        <p> </p>
+        <p>Examples:</p><pre><code class="language-text-x-csharp">static void Main()
 {
 	int n;
 	AddOneRef(n); // #=&gt; `n` is now 1
@@ -32,6 +34,8 @@
 static void AddOneRef(ref int n) =&gt; n++;
 static void AddOneOut(out int m) =&gt; m++;</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

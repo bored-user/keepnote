@@ -7,28 +7,32 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>struct vs class</h1>
+  <body>
+    <div class="content">
+       <h1>struct vs class</h1>
 
-    <p>A <code>struct</code> and a <code>class</code> may seem really similar at
-      fist, but they have fundamental differences.</p>
-    <p> </p>
-    <p>A <code>struct</code> follows a value type, while a <code>class</code>, a
-      reference type.</p>
-    <p>This means that <code>struct</code>s are copied when passed or assigned,
-      while <code>class</code>es are passed around via pointers.</p>
-    <p><code>struct</code>s are copied on write and <code>class</code>es are automatically
-      reference counted (when writing on a (passed) <code>struct</code>s, a bitwise
-      copy is made. When writing on (passed) <code>class</code>es, only the original
-      one is modified, modifying all its pointers).</p>
-    <p><code>struct</code>s are built for functional programming, while <code>class</code>es
-      are for object-oriented programming.</p>
-    <p><code>struct</code>s have no inheritance and <code>class</code>es have
-      single inheritance.</p>
-    <p>The <code>init</code> function initialises all <code>var</code>s on <code>struct</code>s
-      and none on <code>class</code>es.</p>
-    <p>Data's mutability inside <code>struct</code>s needs to be explicitly stated,
-      while always allowed on <code>class</code>es.</p>
+      <div class="ck-content">
+        <p>A <code>struct</code> and a <code>class</code> may seem really similar at
+          fist, but they have fundamental differences.</p>
+        <p> </p>
+        <p>A <code>struct</code> follows a value type, while a <code>class</code>, a
+          reference type.</p>
+        <p>This means that <code>struct</code>s are copied when passed or assigned,
+          while <code>class</code>es are passed around via pointers.</p>
+        <p><code>struct</code>s are copied on write and <code>class</code>es are automatically
+          reference counted (when writing on a (passed) <code>struct</code>s, a bitwise
+          copy is made. When writing on (passed) <code>class</code>es, only the original
+          one is modified, modifying all its pointers).</p>
+        <p><code>struct</code>s are built for functional programming, while <code>class</code>es
+          are for object-oriented programming.</p>
+        <p><code>struct</code>s have no inheritance and <code>class</code>es have
+          single inheritance.</p>
+        <p>The <code>init</code> function initialises all <code>var</code>s on <code>struct</code>s
+          and none on <code>class</code>es.</p>
+        <p>Data's mutability inside <code>struct</code>s needs to be explicitly stated,
+          while always allowed on <code>class</code>es.</p>
+      </div>
+    </div>
   </body>
 
 </html>

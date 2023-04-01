@@ -7,15 +7,17 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Multi-line</h1>
+  <body>
+    <div class="content">
+       <h1>Multi-line</h1>
 
-    <p>There are basically three ways of adding multi line comments in Ruby:</p>
-    <ol>
-      <li>Using <code>=begin</code> and <code>=end</code> blocks</li>
-      <li>Using strings</li>
-      <li>After <code>__END__</code>.</li>
-    </ol><pre><code class="language-text-plain">=begin
+      <div class="ck-content">
+        <p>There are basically three ways of adding multi line comments in Ruby:</p>
+        <ol>
+          <li>Using <code>=begin</code> and <code>=end</code> blocks</li>
+          <li>Using strings</li>
+          <li>After <code>__END__</code>.</li>
+        </ol><pre><code class="language-text-plain">=begin
     this is a multi line comment. it won't be read by Ruby parser! it's kind of the default way of doing multi line comments.
 =end
 
@@ -25,6 +27,8 @@ __END__
 
 this won't be parsed</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

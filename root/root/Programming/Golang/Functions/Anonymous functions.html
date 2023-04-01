@@ -7,18 +7,20 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Anonymous functions</h1>
+  <body>
+    <div class="content">
+       <h1>Anonymous functions</h1>
 
-    <p>An anonymous function may be assigned to a variable or just called immediately:</p><pre><code class="language-text-x-go">x := func() string { return "aa" }
+      <div class="ck-content">
+        <p>An anonymous function may be assigned to a variable or just called immediately:</p><pre><code class="language-text-x-go">x := func() string { return "aa" }
 x()		// aa
 
 y := func(a int, b int) int { return a + b }(10, 20)
 // y == 30</code></pre>
 
-    <p> </p>
-    <p>Therefore, functions that return functions are also allowed - as well
-      as closures:</p><pre><code class="language-text-x-go">func a() (func() int) {
+        <p> </p>
+        <p>Therefore, functions that return functions are also allowed - as well
+          as closures:</p><pre><code class="language-text-x-go">func a() (func() int) {
 	return func() {
 		return 1 + 2
 	}
@@ -26,6 +28,8 @@ y := func(a int, b int) int { return a + b }(10, 20)
 
 a()()	// 3</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

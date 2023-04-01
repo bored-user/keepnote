@@ -7,14 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Dynamic memory allocation</h1>
+  <body>
+    <div class="content">
+       <h1>Dynamic memory allocation</h1>
 
-    <p>One can allocate memory on the heap to be used (only by) the current script
-      using the <code>new</code> keyword. Afterwards, one must run <code>delete ptr;</code> to
-      return the memory to the operating system and it's a good practice to also
-      run <code>ptr = nullptr;</code> in order to be sure no one uses it again
-      without redefining by accident</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+      <div class="ck-content">
+        <p>One can allocate memory on the heap to be used (only by) the current script
+          using the <code>new</code> keyword. Afterwards, one must run <code>delete ptr;</code> to
+          return the memory to the operating system and it's a good practice to also
+          run <code>ptr = nullptr;</code> in order to be sure no one uses it again
+          without redefining by accident</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
 
 int main() {
 	int* a_ptr = new int(69);
@@ -25,7 +27,9 @@ int main() {
 
 	return 0;
 }</code></pre>
-    <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
   </body>
 
 </html>

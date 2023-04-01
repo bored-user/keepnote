@@ -7,26 +7,28 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>each</h1>
+  <body>
+    <div class="content">
+       <h1>each</h1>
 
-    <p>Ruby also has a method named <code>each</code>, which acts like a <code>forEach</code> loop
-      in JavaScript. It can be run on <a href="../Enumerables.html"><code>Enumerables</code></a> &amp;
-      parses its code from a given <a href="../Blocks.html"><code>Block</code></a>.</p><pre><code class="language-text-plain">arr = [0, 1, 2, 3, 4, 5]
+      <div class="ck-content">
+        <p>Ruby also has a method named <code>each</code>, which acts like a <code>forEach</code> loop
+          in JavaScript. It can be run on <a href="../Enumerables.html"><code>Enumerables</code></a> &amp;
+          parses its code from a given <a href="../Blocks.html"><code>Block</code></a>.</p><pre><code class="language-text-plain">arr = [0, 1, 2, 3, 4, 5]
 arr.each { |i| puts i } #=&gt; 0 1 2 3 4 5
 arr.each do |i|
 	puts i #=&gt; 0 1 2 3 4 5
 end</code></pre>
 
-    <p> </p>
-    <p>Returns an <a href="../Enumerators">Enumerator</a> object.</p><pre><code class="language-text-plain"> arr = %w[a b c]
+        <p> </p>
+        <p>Returns an <a href="../Enumerators">Enumerator</a> object.</p><pre><code class="language-text-plain"> arr = %w[a b c]
 puts arr.each #=&gt; #&lt;Enumerator: ["a", "b", "c"]:each&gt;
 
 arr.each {|n| puts n} #=&gt; 'a' 'b' 'c'</code></pre>
 
-    <p> </p>
-    <p>Note that it's also possible to give an explicit block-symbol-method when
-      calling <code>each</code> on an Enumerator:</p><pre><code class="language-text-plain"> arr = %w[q w e r t]
+        <p> </p>
+        <p>Note that it's also possible to give an explicit block-symbol-method when
+          calling <code>each</code> on an Enumerator:</p><pre><code class="language-text-plain"> arr = %w[q w e r t]
 puts arr.map.each(&amp;:upcase)
 #=&gt; ["Q", "W", "E", "R", "T", "Y"]
 
@@ -38,6 +40,8 @@ puts arr.map.each(&amp;:next)
     One needs to convert the array into an Enumerator to be able to use the block-symbol-method thingy.
 =end</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

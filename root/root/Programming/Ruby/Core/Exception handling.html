@@ -7,13 +7,15 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Exception handling</h1>
+  <body>
+    <div class="content">
+       <h1>Exception handling</h1>
 
-    <p>Exception handling in Ruby can be done using <code>begin</code>/<code>rescue</code> blocks.</p>
-    <p>One can specify the error on the <code>rescue</code> statement or even chain
-      multiple <code>rescue</code>s to deal with different errors.</p>
-    <p>Finally, it's also possible to throw an exception using the <code>raise</code> statement.</p><pre><code class="language-text-x-ruby">begin
+      <div class="ck-content">
+        <p>Exception handling in Ruby can be done using <code>begin</code>/<code>rescue</code> blocks.</p>
+        <p>One can specify the error on the <code>rescue</code> statement or even chain
+          multiple <code>rescue</code>s to deal with different errors.</p>
+        <p>Finally, it's also possible to throw an exception using the <code>raise</code> statement.</p><pre><code class="language-text-x-ruby">begin
 	i = 10 / 0
 rescue ZeroDivisionError
 	puts 'ZeroDivisionError caught!'
@@ -32,6 +34,8 @@ rescue
 	puts 'Other error!'
 end</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

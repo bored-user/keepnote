@@ -7,17 +7,19 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Defining</h1>
+  <body>
+    <div class="content">
+       <h1>Defining</h1>
 
-    <p>There are two ways to define a block:</p>
-    <ol>
-      <li>Using the Hash-like syntax (<code>{}</code>)</li>
-      <li>Using the <code>do/end</code> keywords</li>
-    </ol>
-    <p>By convention, when there's only one line to be executed in said block,
-      the Hash-like syntax should be used. Otherwise, <code>do/end</code>.</p>
-    <p> </p><pre><code class="language-text-x-ruby"># Hash-like
+      <div class="ck-content">
+        <p>There are two ways to define a block:</p>
+        <ol>
+          <li>Using the Hash-like syntax (<code>{}</code>)</li>
+          <li>Using the <code>do/end</code> keywords</li>
+        </ol>
+        <p>By convention, when there's only one line to be executed in said block,
+          the Hash-like syntax should be used. Otherwise, <code>do/end</code>.</p>
+        <p> </p><pre><code class="language-text-x-ruby"># Hash-like
 { |opt_arg| puts "inside block, #{opt_arg}" }
 
 # do/end
@@ -25,6 +27,8 @@ do |opt_arg|
 	puts "insde block, #{opt_arg}"
 end</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

@@ -7,26 +7,30 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>puts</h1>
+  <body>
+    <div class="content">
+       <h1>puts</h1>
 
-    <p>The <code>puts</code> function is used to log something on the console.</p>
-    <p>The difference between <code>p</code> and <code>print</code> is that it renders
-      the <code>nil</code> value as a blank space and adds a line break at the
-      end of the printed string.</p>
-    <p>Before printing, <code>puts</code> tries to convert the data type to a String,
-      calling the <a href="../../Data%20Types/Hashes/Methods/to_s.html"><code>to_s</code></a> method.</p><pre><code class="language-text-x-ruby">puts 'hello, '
+      <div class="ck-content">
+        <p>The <code>puts</code> function is used to log something on the console.</p>
+        <p>The difference between <code>p</code> and <code>print</code> is that it renders
+          the <code>nil</code> value as a blank space and adds a line break at the
+          end of the printed string.</p>
+        <p>Before printing, <code>puts</code> tries to convert the data type to a String,
+          calling the <a href="../../Data%20Types/Hashes/Methods/to_s.html"><code>to_s</code></a> method.</p><pre><code class="language-text-x-ruby">puts 'hello, '
 puts 'world!'
 #=&gt; 'hello, 
 #    world!'
     
 puts nil #=&gt;</code></pre>
 
-    <p> </p>
-    <p><code>puts</code> can also be used to write something to an open file:</p><pre><code class="language-text-x-ruby">f = File.new('file', 'w')
+        <p> </p>
+        <p><code>puts</code> can also be used to write something to an open file:</p><pre><code class="language-text-x-ruby">f = File.new('file', 'w')
 f.puts('hello, world!')
 f.close</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

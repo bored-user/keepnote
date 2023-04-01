@@ -7,20 +7,22 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Methods and Props</h1>
+  <body>
+    <div class="content">
+       <h1>Methods and Props</h1>
 
-    <p>Properties, in Ruby, are called <i>attributes</i>.</p>
-    <p>And they're basically the same as methods. The only difference is that
-      an attribute is a method that returns its instance variables values.</p>
-    <p>What I mean by that is: since Ruby does not require brackets on function
-      calls, when someone uses <code>my_class.some_attr</code>, Ruby is executing
-      a method named <code>some_attr</code> from the <code>my_class</code> object.</p>
-    <p>The same thing happens when someone tries to set an attribute: <code>my_class.some_attr = ‘some_value’</code> actually
-      means that you're calling a function named <code>some_attr=</code> (Ruby
-      automatically removes the space after "attr") from the <code>my_class</code> object.</p>
-    <p>That's why, in order to have access to the attributes of a class outside
-      said class, one needs to create (basically) getters and setters methods:</p><pre><code class="language-text-plain"> class MyClass
+      <div class="ck-content">
+        <p>Properties, in Ruby, are called <i>attributes</i>.</p>
+        <p>And they're basically the same as methods. The only difference is that
+          an attribute is a method that returns its instance variables values.</p>
+        <p>What I mean by that is: since Ruby does not require brackets on function
+          calls, when someone uses <code>my_class.some_attr</code>, Ruby is executing
+          a method named <code>some_attr</code> from the <code>my_class</code> object.</p>
+        <p>The same thing happens when someone tries to set an attribute: <code>my_class.some_attr = ‘some_value’</code> actually
+          means that you're calling a function named <code>some_attr=</code> (Ruby
+          automatically removes the space after "attr") from the <code>my_class</code> object.</p>
+        <p>That's why, in order to have access to the attributes of a class outside
+          said class, one needs to create (basically) getters and setters methods:</p><pre><code class="language-text-plain"> class MyClass
 	def initialize(n1, n2)
 		@n1 = n1
 		@n2 = n2
@@ -31,7 +33,7 @@ my_class = MyClass.new(20, 50)
 puts my_class.n1 #=&gt; tries to call `n1` method inside MyClass object, which fails because there's no said method.
 my_class.n2 = 123 #=&gt; also fails, because it tries to call (unexistant) `n2=` method inside the my_class class.</code></pre>
 
-    <p>To solve that, one needs to create said getters and setters:</p><pre><code class="language-text-plain">class MyClass
+        <p>To solve that, one needs to create said getters and setters:</p><pre><code class="language-text-plain">class MyClass
 	def intialize(n1, n2)
 		@n1 = n1
 		@n2 = n2
@@ -59,10 +61,12 @@ puts my_class.n1 #=&gt; 20 - calls n1 method which returns instance variable n1
 my_class.n1 = 30 #=&gt; calls n1= method which takes the "new n1" (30) as argument
 puts my_class.n1 #=&gt; 30</code></pre>
 
-    <p>But having to write two methods per attribute is a little too much, isn't
-      it? Think about the Big O Notation of this. It would be <code>n*2</code>,
-      which is a lot.</p>
-    <p>That's because Ruby has the <a href="attr%20methods.html"><code>attr</code> methods</a>!</p>
+        <p>But having to write two methods per attribute is a little too much, isn't
+          it? Think about the Big O Notation of this. It would be <code>n*2</code>,
+          which is a lot.</p>
+        <p>That's because Ruby has the <a href="attr%20methods.html"><code>attr</code> methods</a>!</p>
+      </div>
+    </div>
   </body>
 
 </html>

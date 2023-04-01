@@ -7,12 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Multiple dispatch</h1>
+  <body>
+    <div class="content">
+       <h1>Multiple dispatch</h1>
 
-    <p>There's also that multiple dispatch thing, like Julia: one can define
-      multiple versions of a function, taking args from different types and returning
-      different types. Swift will automatically decide what to call.</p><pre><code class="language-text-x-swift">func concat_sum(a1: Int, a2: Int) -&gt; Int {
+      <div class="ck-content">
+        <p>There's also that multiple dispatch thing, like Julia: one can define
+          multiple versions of a function, taking args from different types and returning
+          different types. Swift will automatically decide what to call.</p><pre><code class="language-text-x-swift">func concat_sum(a1: Int, a2: Int) -&gt; Int {
 	n1 + n2
 }
 
@@ -23,6 +25,8 @@ func concat_sum(a1: String, a2: String) -&gt; String {
 concat_sum(a1: 1, a2: 2) // 3
 concat_sum(a1: "1", a2: "2") // 12</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

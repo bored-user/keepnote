@@ -7,13 +7,15 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Functions</h1>
+  <body>
+    <div class="content">
+       <h1>Functions</h1>
 
-    <p>Functions are declared using the <code>func</code> keyword. One needs to
-      namely specify (if any) the function's arguments and their possible aliases.</p>
-    <p>A function may be a <code>void</code>, which is a function that return
-      nothing.</p><pre><code class="language-text-x-swift">func sum(a: Int, b: Int) -&gt; Int {
+      <div class="ck-content">
+        <p>Functions are declared using the <code>func</code> keyword. One needs to
+          namely specify (if any) the function's arguments and their possible aliases.</p>
+        <p>A function may be a <code>void</code>, which is a function that return
+          nothing.</p><pre><code class="language-text-x-swift">func sum(a: Int, b: Int) -&gt; Int {
 	a + b // It takes 2 Ints, `a` and `b` and returns (keyword migth be omitted) their sum.
 }
 
@@ -25,8 +27,10 @@ func aliases(n1 alias1: String, n2 alias2: String) -&gt; String {
 	return alias1 + alias2
 }</code></pre>
 
-    <p> </p>
-    <p>One can call a function normally, using <code>name(arg1: 123, arg2: 123)</code>.</p>
+        <p> </p>
+        <p>One can call a function normally, using <code>name(arg1: 123, arg2: 123)</code>.</p>
+      </div>
+    </div>
   </body>
 
 </html>

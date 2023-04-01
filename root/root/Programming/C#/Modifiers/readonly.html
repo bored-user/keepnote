@@ -7,12 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>readonly</h1>
+  <body>
+    <div class="content">
+       <h1>readonly</h1>
 
-    <p>The <code>readonly</code> modifier ensures that the property won't be overwritten
-      (except for the method's constructor). If a method tries to change it,
-      an exception will be thrown.</p><pre><code class="language-text-x-csharp">class Program
+      <div class="ck-content">
+        <p>The <code>readonly</code> modifier ensures that the property won't be overwritten
+          (except for the method's constructor). If a method tries to change it,
+          an exception will be thrown.</p><pre><code class="language-text-x-csharp">class Program
 {
 	private readonly int _id;
 	
@@ -33,6 +35,8 @@
 	}
 }</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

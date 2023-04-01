@@ -7,15 +7,19 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Arguments</h1>
+  <body>
+    <div class="content">
+       <h1>Arguments</h1>
 
-    <p>It's possible to pass arguments to a Lambda using a parentheses block:</p>
-    <p> </p><pre><code class="language-text-x-ruby">times_two = -&gt; (x) { x * 2 }
+      <div class="ck-content">
+        <p>It's possible to pass arguments to a Lambda using a parentheses block:</p>
+        <p> </p><pre><code class="language-text-x-ruby">times_two = -&gt; (x) { x * 2 }
 times_two = lambda { |x| x * 2 }</code></pre>
 
-    <p>Lambdas will most likely throw an <code>ArgumentError</code> if the wrong
-      number of arguments is given.</p>
+        <p>Lambdas will most likely throw an <code>ArgumentError</code> if the wrong
+          number of arguments is given.</p>
+      </div>
+    </div>
   </body>
 
 </html>

@@ -7,24 +7,28 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>use()</h1>
+  <body>
+    <div class="content">
+       <h1>use()</h1>
 
-    <p><code>use()</code> is a function used to direction routes.
-      <br />It takes the route path as the first argument and the router itself as
-      the 2nd.
-      <br />
-      <br />One can set a helper object before the default route in order to pass
-      default arguments to Mustache.
-      <br />The default name for a helper file is helpers.js. One can export values
-      using exports.key = 'value'.
-      <br />The file is loaded using require() and passed to Mustache pages using:
-      <br
-      /> </p><pre><code class="language-application-javascript-env-backend">app.use((req, res, next) =&gt; {
+      <div class="ck-content">
+        <p><code>use()</code> is a function used to direction routes.
+          <br />It takes the route path as the first argument and the router itself as
+          the 2nd.
+          <br />
+          <br />One can set a helper object before the default route in order to pass
+          default arguments to Mustache.
+          <br />The default name for a helper file is helpers.js. One can export values
+          using exports.key = 'value'.
+          <br />The file is loaded using require() and passed to Mustache pages using:
+          <br
+          /> </p><pre><code class="language-application-javascript-env-backend">app.use((req, res, next) =&gt; {
 	res.locals.h = require('./helpers.js');
 	next();
 })</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

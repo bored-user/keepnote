@@ -7,12 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Return behavior</h1>
+  <body>
+    <div class="content">
+       <h1>Return behavior</h1>
 
-    <p>When someone executes <code>return</code> inside a Proc, the proc quits
-      local context:</p>
-    <p> </p><pre><code class="language-text-x-ruby">def proc_ex
+      <div class="ck-content">
+        <p>When someone executes <code>return</code> inside a Proc, the proc quits
+          local context:</p>
+        <p> </p><pre><code class="language-text-x-ruby">def proc_ex
 	puts 'before'
 	Proc.new { return }
 	puts 'after'
@@ -20,6 +22,8 @@ end
 
 proc_ex #=&gt; 'before'</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

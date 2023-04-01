@@ -7,14 +7,18 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>std::fixed,scientific</h1>
+  <body>
+    <div class="content">
+       <h1>std::fixed,scientific</h1>
 
-    <p>Controls floating pointing output format. Note that <code>std::fixed</code> will
-      display all numbers as <code>x.yyy</code> format; while <code>std::scientific</code> displays
-      everything as scientific notation.</p>
-    <p>The default behavior is a mix of the two - and can be recovered using <code>std::cout.unsetf(std::ios::scientific | std::ios::fixed);</code>
-    </p>
+      <div class="ck-content">
+        <p>Controls floating pointing output format. Note that <code>std::fixed</code> will
+          display all numbers as <code>x.yyy</code> format; while <code>std::scientific</code> displays
+          everything as scientific notation.</p>
+        <p>The default behavior is a mix of the two - and can be recovered using <code>std::cout.unsetf(std::ios::scientific | std::ios::fixed);</code>
+        </p>
+      </div>
+    </div>
   </body>
 
 </html>

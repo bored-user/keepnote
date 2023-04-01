@@ -7,28 +7,30 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Importing modules</h1>
+  <body>
+    <div class="content">
+       <h1>Importing modules</h1>
 
-    <p>There are three ways to import a module into a class:</p>
-    <ol>
-      <li><a href="../../Global%20Methods/include.html"><code>include</code></a>
+      <div class="ck-content">
+        <p>There are three ways to import a module into a class:</p>
+        <ol>
+          <li><a href="../../Global%20Methods/include.html"><code>include</code></a>
 
-      </li>
-      <li><a href="../../Global%20Methods/extend.html"><code>extend</code></a>
+          </li>
+          <li><a href="../../Global%20Methods/extend.html"><code>extend</code></a>
 
-      </li>
-      <li><a href="../../Global%20Methods/prepend.html"><code>prepend</code></a>
+          </li>
+          <li><a href="../../Global%20Methods/prepend.html"><code>prepend</code></a>
 
-      </li>
-    </ol>
-    <p> </p>
-    <p>The major difference between <code>include</code> and <code>extend</code> is
-      that when using <code>include MyModule</code> on <code>MyClass</code>, one
-      can write <code>MyClass.new.module_method</code>, which works perfectly;
-      while when one uses <code>extend MyModule</code>, it's only possible to
-      write <code>MyClass.module_method</code>. 
-      <br /> </p><pre><code class="language-text-plain">module MyModule
+          </li>
+        </ol>
+        <p> </p>
+        <p>The major difference between <code>include</code> and <code>extend</code> is
+          that when using <code>include MyModule</code> on <code>MyClass</code>, one
+          can write <code>MyClass.new.module_method</code>, which works perfectly;
+          while when one uses <code>extend MyModule</code>, it's only possible to
+          write <code>MyClass.module_method</code>. 
+          <br /> </p><pre><code class="language-text-plain">module MyModule
 	def greet
 		'Hi from MyModule'
 	end
@@ -47,7 +49,9 @@ p IncludeClass.new.greet #=&gt; 'Hi from MyModule'
 p ExtendClass.new.greet #=&gt; ERROR
 p ExtendClass.greet #=&gt; 'Hi from MyModule'</code></pre>
 
-    <p> </p>
+        <p> </p>
+      </div>
+    </div>
   </body>
 
 </html>

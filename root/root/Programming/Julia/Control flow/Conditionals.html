@@ -7,12 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Conditionals</h1>
+  <body>
+    <div class="content">
+       <h1>Conditionals</h1>
 
-    <p>In Julia, one can make basic if statements and use the ternary operator.
-      <br
-      /> </p><pre><code class="language-text-plain">if x == 1
+      <div class="ck-content">
+        <p>In Julia, one can make basic if statements and use the ternary operator.
+          <br
+          /> </p><pre><code class="language-text-plain">if x == 1
 	println("x == 1");
 else # one can also use elseif to make else if blocks
 	println("x != 1");
@@ -20,11 +22,13 @@ end
 
 println(x == 1 ? "x == 1" : "x != 1");</code></pre>
 
-    <p>
-      <br />In Julia, however, one can also use the <code>&amp;&amp;</code> operator:
-      <br
-      /><code>x == 1 &amp;&amp; println("x == 1")</code> - the <code>&amp;&amp;</code> will
-      only execute the second instruction if the first one is true</p>
+        <p>
+          <br />In Julia, however, one can also use the <code>&amp;&amp;</code> operator:
+          <br
+          /><code>x == 1 &amp;&amp; println("x == 1")</code> - the <code>&amp;&amp;</code> will
+          only execute the second instruction if the first one is true</p>
+      </div>
+    </div>
   </body>
 
 </html>

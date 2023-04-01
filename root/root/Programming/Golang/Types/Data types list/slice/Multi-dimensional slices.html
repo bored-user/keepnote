@@ -7,10 +7,12 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Multi-dimensional slices</h1>
+  <body>
+    <div class="content">
+       <h1>Multi-dimensional slices</h1>
 
-    <p>Note that it's possible to create multi-dimensional slices like so:</p><pre><code class="language-text-x-go">package main
+      <div class="ck-content">
+        <p>Note that it's possible to create multi-dimensional slices like so:</p><pre><code class="language-text-x-go">package main
 
 func main() {
 	slice2d := [][]int{
@@ -25,10 +27,12 @@ func main() {
 	// slice2d[1][1] == 5
 }</code></pre>
 
-    <p> </p>
-    <p>Be aware that there needs to be a comma after the <code>[]int</code> slice's
-      last element and after the <code>[][]int</code> slice's last element (unless
-      they are declared in a single line like so <code>[][]int{ []int { 1,2,3 }, []int { 4,5,6 } }</code>).</p>
+        <p> </p>
+        <p>Be aware that there needs to be a comma after the <code>[]int</code> slice's
+          last element and after the <code>[][]int</code> slice's last element (unless
+          they are declared in a single line like so <code>[][]int{ []int { 1,2,3 }, []int { 4,5,6 } }</code>).</p>
+      </div>
+    </div>
   </body>
 
 </html>

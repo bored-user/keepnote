@@ -7,13 +7,15 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>interface</h1>
+  <body>
+    <div class="content">
+       <h1>interface</h1>
 
-    <p>The <code>interface{}</code> type is the default type, from which all other
-      types inherit. It's like <code>object</code> (in JS, Ruby, C#, etc).</p>
-    <p>Any type (struct) that implements all methods of an interface is implicitly
-      cast:</p><pre><code class="language-text-x-go">type Shape interface{
+      <div class="ck-content">
+        <p>The <code>interface{}</code> type is the default type, from which all other
+          types inherit. It's like <code>object</code> (in JS, Ruby, C#, etc).</p>
+        <p>Any type (struct) that implements all methods of an interface is implicitly
+          cast:</p><pre><code class="language-text-x-go">type Shape interface{
 	perimeter() int
 }
 
@@ -35,6 +37,8 @@ func (s Square) perimeter() int {
 
 // Now, both Circle and Square are of type Shape </code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

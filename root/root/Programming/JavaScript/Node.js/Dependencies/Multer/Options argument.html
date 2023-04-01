@@ -7,12 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Options argument</h1>
+  <body>
+    <div class="content">
+       <h1>Options argument</h1>
 
-    <p>The argument which is given to the constructor function should be an object
-      with the following properties:
-      <br /> </p><pre><code class="language-application-javascript-env-backend">const multer = require('multer');
+      <div class="ck-content">
+        <p>The argument which is given to the constructor function should be an object
+          with the following properties:
+          <br /> </p><pre><code class="language-application-javascript-env-backend">const multer = require('multer');
 module.exports.upload = multer({
 
 	storage: multer.memoryStorage() // keep uploaded files temporarily stored on memory
@@ -24,6 +26,8 @@ module.exports.upload = multer({
 });
 </code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

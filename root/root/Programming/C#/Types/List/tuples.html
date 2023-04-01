@@ -7,32 +7,36 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>tuples</h1>
+  <body>
+    <div class="content">
+       <h1>tuples</h1>
 
-    <p>Tuples are defined using the parentheses notation.</p>
-    <p>One can set them using the type keywords (like <code>string</code>, <code>int</code>, <code>double</code>,
-      etc) or just the good ol' <code>var</code>.</p>
-    <p>Some examples:</p><pre><code class="language-text-x-csharp">static void Main()
+      <div class="ck-content">
+        <p>Tuples are defined using the parentheses notation.</p>
+        <p>One can set them using the type keywords (like <code>string</code>, <code>int</code>, <code>double</code>,
+          etc) or just the good ol' <code>var</code>.</p>
+        <p>Some examples:</p><pre><code class="language-text-x-csharp">static void Main()
 {
 	var tuple1 = (1, "string here", 435.54);
 	(int, string, double) tuple2 = (1, "string here", 435.54);
 };</code></pre>
 
-    <p>One can, then, access the tuple's members using <code>tuple1.Item1</code>, <code>tuple1.Item2</code>,
-      etc.</p>
-    <p> </p>
-    <p>Note that all of those examples above were made using what I call associative
-      tuples. One can create named tuples, so to speak, using this syntax:</p><pre><code class="language-text-x-csharp">static void Main()
+        <p>One can, then, access the tuple's members using <code>tuple1.Item1</code>, <code>tuple1.Item2</code>,
+          etc.</p>
+        <p> </p>
+        <p>Note that all of those examples above were made using what I call associative
+          tuples. One can create named tuples, so to speak, using this syntax:</p><pre><code class="language-text-x-csharp">static void Main()
 {
 	(int Member1, string Member2) tuple1 = (1, "string here");
 }</code></pre>
 
-    <p>and access them using <code>tuple1.Member1</code> and <code>tuple1.Member2</code>.</p>
-    <p> </p>
-    <p>Finally, be aware that method may return tuples: <code>public (int, string) Meth() =&gt; (1, “string here”);</code>
+        <p>and access them using <code>tuple1.Member1</code> and <code>tuple1.Member2</code>.</p>
+        <p> </p>
+        <p>Finally, be aware that method may return tuples: <code>public (int, string) Meth() =&gt; (1, “string here”);</code>
 
-    </p>
+        </p>
+      </div>
+    </div>
   </body>
 
 </html>

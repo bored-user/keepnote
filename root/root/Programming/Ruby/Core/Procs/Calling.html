@@ -7,18 +7,22 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Calling</h1>
+  <body>
+    <div class="content">
+       <h1>Calling</h1>
 
-    <p>A Proc can be also called using the <code>call</code> method. However, it
-      doesn't care for arguments:</p>
-    <p> </p><pre><code class="language-text-x-ruby">my_proc = Proc.new { |arg1, arg2| puts arg1, arg2 }
+      <div class="ck-content">
+        <p>A Proc can be also called using the <code>call</code> method. However, it
+          doesn't care for arguments:</p>
+        <p> </p><pre><code class="language-text-x-ruby">my_proc = Proc.new { |arg1, arg2| puts arg1, arg2 }
 
 my_proc.call #=&gt; nil, nil
 my_proc.call(1) #=&gt; 1, nil
 my_proc.call(1, 2) #=&gt; 1, 2
 my_proc.call(1, 2, 3) #=&gt; 1, 2</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

@@ -7,11 +7,13 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Multi-line</h1>
+  <body>
+    <div class="content">
+       <h1>Multi-line</h1>
 
-    <p>To build a multi-line string, one can use the <code>&lt;&lt;EOM</code> operator
-      or using a double quote block, indicating line breaks with <code>\n</code> sequences.</p><pre><code class="language-text-plain">default_multiline = "Hello,\nWorld!"
+      <div class="ck-content">
+        <p>To build a multi-line string, one can use the <code>&lt;&lt;EOM</code> operator
+          or using a double quote block, indicating line breaks with <code>\n</code> sequences.</p><pre><code class="language-text-plain">default_multiline = "Hello,\nWorld!"
 eom_multiline = &lt;&lt;EOM
     my very
     long
@@ -27,6 +29,8 @@ puts eom_multiline
 #   long
 #   string'</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

@@ -7,19 +7,21 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>functions</h1>
+  <body>
+    <div class="content">
+       <h1>functions</h1>
 
-    <p>Function notation can be used to declare types!</p><pre><code class="language-text-x-swift">(Double) -&gt; Double // takes and returns a Double
+      <div class="ck-content">
+        <p>Function notation can be used to declare types!</p><pre><code class="language-text-x-swift">(Double) -&gt; Double // takes and returns a Double
 () -&gt; Void // takes and returns nothing
 (Int) -&gt; Void // takes Int, returns nothing
 () -&gt; String // takes nothing, returns String</code></pre>
 
-    <p> </p>
-    <p>Therefore, one can set a variable as “type function”:</p><pre><code class="language-text-x-swift">var func_var: (Int) -&gt; Int</code></pre>
+        <p> </p>
+        <p>Therefore, one can set a variable as “type function”:</p><pre><code class="language-text-x-swift">var func_var: (Int) -&gt; Int</code></pre>
 
-    <p> </p>
-    <p>And even set said variable to a function:</p><pre><code class="language-text-x-swift">func sq(n: Int) -&gt; Int {
+        <p> </p>
+        <p>And even set said variable to a function:</p><pre><code class="language-text-x-swift">func sq(n: Int) -&gt; Int {
 	return n * n
 }
 var func_var: (Int) -&gt; Int
@@ -27,6 +29,8 @@ func_var = sq
 
 let res = func_var(2) // 4 - arg label isn't used</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

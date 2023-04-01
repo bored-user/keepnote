@@ -7,12 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>block given</h1>
+  <body>
+    <div class="content">
+       <h1>block given</h1>
 
-     <h2>block_given?</h2>
+      <div class="ck-content">
+         <h2>block_given?</h2>
 
-    <p>Returns a boolean indicating if a block was or wasn't given.</p><pre><code class="language-text-x-ruby">def block_method
+        <p>Returns a boolean indicating if a block was or wasn't given.</p><pre><code class="language-text-x-ruby">def block_method
 	if block_given?
 		yield 'inside block'
 	else
@@ -23,6 +25,8 @@ end
 block_method { |txt| puts txt } #=&gt; 'insde block'
 puts block_method #=&gt; 'no block given'</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

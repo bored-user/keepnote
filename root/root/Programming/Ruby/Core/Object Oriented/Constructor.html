@@ -7,13 +7,15 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Constructor</h1>
+  <body>
+    <div class="content">
+       <h1>Constructor</h1>
 
-    <p>A class constructor can be written using the <code>initialize</code> method.</p>
-    <p>One just needs to create an <code>initialize</code> method inside a class
-      and said method will be executed every time the class is instantiated.</p>
-    <p> </p><pre><code class="language-text-x-ruby">class MyClass
+      <div class="ck-content">
+        <p>A class constructor can be written using the <code>initialize</code> method.</p>
+        <p>One just needs to create an <code>initialize</code> method inside a class
+          and said method will be executed every time the class is instantiated.</p>
+        <p> </p><pre><code class="language-text-x-ruby">class MyClass
 	def initialize
 		puts "Initializing the #{self.class} class!" 
 	end
@@ -22,6 +24,8 @@ end
 my_class = MyClass.new
 #=&gt; "Initializing the MyClass class!"</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

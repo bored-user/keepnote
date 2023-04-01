@@ -7,14 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Underlying array nuance</h1>
+  <body>
+    <div class="content">
+       <h1>Underlying array nuance</h1>
 
-    <p>Note that when assigning the result of <code>append()</code> to a new array,
-      the underlying type of the old array is modified, meaning that the old
-      array is modified (illustrated below). Therefore, it's a best practice
-      to use other methods to expand an array (when dealing with +1 array), like
-      a <a href="../../Control%20flow/Loops/for.html"><code>for</code> loop</a>.</p><pre><code class="language-text-x-go">package main
+      <div class="ck-content">
+        <p>Note that when assigning the result of <code>append()</code> to a new array,
+          the underlying type of the old array is modified, meaning that the old
+          array is modified (illustrated below). Therefore, it's a best practice
+          to use other methods to expand an array (when dealing with +1 array), like
+          a <a href="../../Control%20flow/Loops/for.html"><code>for</code> loop</a>.</p><pre><code class="language-text-x-go">package main
 
 import (
 	"fmt"
@@ -35,6 +37,8 @@ func main() {
 }
 </code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

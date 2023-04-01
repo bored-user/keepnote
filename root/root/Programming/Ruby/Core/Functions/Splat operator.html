@@ -7,13 +7,15 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Splat operator</h1>
+  <body>
+    <div class="content">
+       <h1>Splat operator</h1>
 
-    <p>The splat operator is a way of getting every argument a function receives
-      and join them into an Array.</p>
-    <p>It doesn't affect blocks.</p>
-    <p> </p><pre><code class="language-text-x-ruby">def no_block_method(*args)
+      <div class="ck-content">
+        <p>The splat operator is a way of getting every argument a function receives
+          and join them into an Array.</p>
+        <p>It doesn't affect blocks.</p>
+        <p> </p><pre><code class="language-text-x-ruby">def no_block_method(*args)
 	p args
 end
 
@@ -32,6 +34,8 @@ block_method #=&gt; []
 block_method(1, 2) #=&gt; [1, 2]
 block_method(1) {|args| p args} #=&gt; [1] [1] [1]</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

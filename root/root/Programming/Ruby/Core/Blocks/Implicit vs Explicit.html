@@ -7,14 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Implicit vs Explicit</h1>
+  <body>
+    <div class="content">
+       <h1>Implicit vs Explicit</h1>
 
-    <p>The implicit block usage is the default one: passing the block outside
-      the function's argument parentheses and using <code>yield</code>.</p>
-    <p>But there's also the explicit version: listing the block in the function's
-      argument list through the <code>&amp;</code> symbol and the <code>block.call</code> method.</p>
-    <p> </p><pre><code class="language-text-x-ruby">def implicit
+      <div class="ck-content">
+        <p>The implicit block usage is the default one: passing the block outside
+          the function's argument parentheses and using <code>yield</code>.</p>
+        <p>But there's also the explicit version: listing the block in the function's
+          argument list through the <code>&amp;</code> symbol and the <code>block.call</code> method.</p>
+        <p> </p><pre><code class="language-text-x-ruby">def implicit
 	yield 'inside implicit!'
 end
 
@@ -26,6 +28,8 @@ end
 implicit { |s| puts s } # 'inside implicit!'
 explicit { |s| puts s } # 'inside explicit!'</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

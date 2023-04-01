@@ -7,17 +7,21 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>read()</h1>
+  <body>
+    <div class="content">
+       <h1>read()</h1>
 
-    <p>Function that returns a promise. It can read a file on the hard disk,
-      a string, a buffer, etc.
-      <br />Useful when using an async module.exports.resize function, to resize the
-      file like so:
-      <br /> </p><pre><code class="language-application-javascript-env-backend">module.exports.resize = async (req, res, next) =&gt; {
+      <div class="ck-content">
+        <p>Function that returns a promise. It can read a file on the hard disk,
+          a string, a buffer, etc.
+          <br />Useful when using an async module.exports.resize function, to resize the
+          file like so:
+          <br /> </p><pre><code class="language-application-javascript-env-backend">module.exports.resize = async (req, res, next) =&gt; {
 	const photo = await jimp.read(req.file.buffer);
 }</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

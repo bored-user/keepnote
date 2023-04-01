@@ -7,14 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>using Statement</h1>
+  <body>
+    <div class="content">
+       <h1>using Statement</h1>
 
-    <p>The <code>using</code> statement is useful when dealing with things that
-      implement <code>IDisposable</code> interface, like files.</p>
-    <p>It ensures that the <code>Dispose()</code> method will be called - even
-      if an exception happens.</p>
-    <p>The syntax is as follows:</p><pre><code class="language-text-x-csharp">using System;
+      <div class="ck-content">
+        <p>The <code>using</code> statement is useful when dealing with things that
+          implement <code>IDisposable</code> interface, like files.</p>
+        <p>It ensures that the <code>Dispose()</code> method will be called - even
+          if an exception happens.</p>
+        <p>The syntax is as follows:</p><pre><code class="language-text-x-csharp">using System;
 
 class Program
 {
@@ -38,6 +40,8 @@ class Program
 	}
 }</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

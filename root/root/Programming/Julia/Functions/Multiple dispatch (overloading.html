@@ -7,19 +7,23 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Multiple dispatch (overloading)</h1>
+  <body>
+    <div class="content">
+       <h1>Multiple dispatch (overloading)</h1>
 
-    <p>The reason why Julia accepts one to redeclare a function that's already
-      been declared it the fact that one can declare multiple functions with
-      the same name (and same type) which takes different argument types.
-      <br
-      />
-      <br /> </p><pre><code class="language-text-plain">printArg(Int::arg) = println("The argument $arg is an Int")
+      <div class="ck-content">
+        <p>The reason why Julia accepts one to redeclare a function that's already
+          been declared it the fact that one can declare multiple functions with
+          the same name (and same type) which takes different argument types.
+          <br
+          />
+          <br /> </p><pre><code class="language-text-plain">printArg(Int::arg) = println("The argument $arg is an Int")
 printArg(String::arg) = println("The argument $arg is a String")
 printArg(Bool::arg) = println("The argument $arg is a boolean")
 printArg(arg) = println("We don't know the data type of $(arg). Run typeof() and find out!")</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

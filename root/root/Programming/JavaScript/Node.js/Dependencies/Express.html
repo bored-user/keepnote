@@ -7,27 +7,31 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Express</h1>
+  <body>
+    <div class="content">
+       <h1>Express</h1>
 
-    <p>Express is the "most have" dependency used to create the server, routes,
-      etc.</p>
-    <p> </p>
-    <p>In order to send data from client to server as a POST call, one must specifiy
-      <br
-      /><code>express().use(express.json())</code> and <code>express().use(express.urlencoded({ extended: true }));</code>
+      <div class="ck-content">
+        <p>Express is the "most have" dependency used to create the server, routes,
+          etc.</p>
+        <p> </p>
+        <p>In order to send data from client to server as a POST call, one must specifiy
+          <br
+          /><code>express().use(express.json())</code> and <code>express().use(express.urlencoded({ extended: true }));</code>
 
-      <br
-      />
-      <br />Also, on the fetch/ XMLHttpRequest, one must specify the header <code>'Content-Type'</code> (to <code>'application/json'</code>).</p>
-    <p> </p>
-    <p>Static directories are directories treated as normal directories: the
-      user can access the files in it, without the need to specify routes.
-      <br
-      />One naming convention of static directories is the use of the <code>'public'</code> folder
-      name.
-      <br />In order to set it up, one must use <code>express().use(express.static('dir_name'))</code>.
-      Then, the files inside it can be accessed like normal files.</p>
+          <br
+          />
+          <br />Also, on the fetch/ XMLHttpRequest, one must specify the header <code>'Content-Type'</code> (to <code>'application/json'</code>).</p>
+        <p> </p>
+        <p>Static directories are directories treated as normal directories: the
+          user can access the files in it, without the need to specify routes.
+          <br
+          />One naming convention of static directories is the use of the <code>'public'</code> folder
+          name.
+          <br />In order to set it up, one must use <code>express().use(express.static('dir_name'))</code>.
+          Then, the files inside it can be accessed like normal files.</p>
+      </div>
+    </div>
   </body>
 
 </html>

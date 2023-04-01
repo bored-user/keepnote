@@ -7,12 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>If</h1>
+  <body>
+    <div class="content">
+       <h1>If</h1>
 
-    <p>If blocks start with the <code>if</code> keyword and ends with the <code>end</code> one.</p>
-    <p>They can be inline (when there's only one command to be executed) or in
-      block (otherwise).</p><pre><code class="language-text-x-ruby"># Using in block form
+      <div class="ck-content">
+        <p>If blocks start with the <code>if</code> keyword and ends with the <code>end</code> one.</p>
+        <p>They can be inline (when there's only one command to be executed) or in
+          block (otherwise).</p><pre><code class="language-text-x-ruby"># Using in block form
 age = 18
 if age &gt; 17
 	puts 'Can drink'
@@ -22,8 +24,8 @@ end
 age = 18
 puts 'Can drink' if age &gt; 17</code></pre>
 
-    <p> </p>
-    <p>One can also use the <code>else</code> and <code>elsif</code> keywords:</p><pre><code class="language-text-x-ruby"># Better way: `puts "#{bf} is my best friend!"`
+        <p> </p>
+        <p>One can also use the <code>else</code> and <code>elsif</code> keywords:</p><pre><code class="language-text-x-ruby"># Better way: `puts "#{bf} is my best friend!"`
 bf = 'Friend_1'
 if bf = 'Friend_1'
 	puts 'Friend_1 is my best friend!'
@@ -33,6 +35,8 @@ else
 	puts 'I don't know what my best friend is!'
 end</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

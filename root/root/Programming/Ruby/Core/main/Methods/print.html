@@ -7,12 +7,14 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>print</h1>
+  <body>
+    <div class="content">
+       <h1>print</h1>
 
-    <p><code>print</code> also logs to the console. It doesn't add a line break
-      after the printed data &amp; renders <code>nil</code> to blank space (since
-      it's absence of value).</p><pre><code class="language-text-x-ruby">print 'hello, '
+      <div class="ck-content">
+        <p><code>print</code> also logs to the console. It doesn't add a line break
+          after the printed data &amp; renders <code>nil</code> to blank space (since
+          it's absence of value).</p><pre><code class="language-text-x-ruby">print 'hello, '
 print 'world'
 #=&gt; 'hello, ' 'world'
 
@@ -23,6 +25,8 @@ print nil #=&gt;
     `print "hello\n", 'world'`.
 =end</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

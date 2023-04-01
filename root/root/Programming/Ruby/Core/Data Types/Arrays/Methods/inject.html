@@ -7,37 +7,41 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>inject</h1>
+  <body>
+    <div class="content">
+       <h1>inject</h1>
 
-    <p>Acts like JavaScript <code>map</code>: takes an accumulator as first argument
-      and a block as “second”.</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
+      <div class="ck-content">
+        <p>Acts like JavaScript <code>map</code>: takes an accumulator as first argument
+          and a block as “second”.</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
 sum = arr.inject(0) {|acc, n| acc += n}
 prod = arr.inject(0) {|acc, n| acc *= n}
 
 puts sum, prod
 #=&gt; 15, 120</code></pre>
 
-    <p> </p>
-    <p>When no argument is given as accumulator, the method starts at array index
-      1 and the accumulator turns to the 1st array element (index 0).</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
+        <p> </p>
+        <p>When no argument is given as accumulator, the method starts at array index
+          1 and the accumulator turns to the 1st array element (index 0).</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
 sum = arr.inject {|acc, n| acc += n}
 prod = arr.inject {|acc, n| acc *= n}
 
 puts sum, prod
 #=&gt; 15, 120</code></pre>
 
-    <p> </p>
-    <p>Because Ruby uses <code>:+</code> and <code>:*</code> as the symbols for the
-      addition and multiplication operations, it's possible to dry that code
-      a little:</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
+        <p> </p>
+        <p>Because Ruby uses <code>:+</code> and <code>:*</code> as the symbols for the
+          addition and multiplication operations, it's possible to dry that code
+          a little:</p><pre><code class="language-text-plain">arr = [1, 2, 3, 4, 5]
 sum = arr.inject(:+)
 prod = arr.inject(:*)
 
 puts sum, prod
 #=&gt; 15, 120</code></pre>
 
-    <p> </p>
+        <p> </p>
+      </div>
+    </div>
   </body>
 
 </html>

@@ -7,11 +7,13 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Casting</h1>
+  <body>
+    <div class="content">
+       <h1>Casting</h1>
 
-    <p>It's also possible to cast the enum value using <a href="../../Conversion/Explicit%20(casting).html">explicit conversion</a> (and
-      cast the values back to the enum key, using casting as well).</p><pre><code class="language-text-x-csharp">enum Email
+      <div class="ck-content">
+        <p>It's also possible to cast the enum value using <a href="../../Conversion/Explicit%20(casting).html">explicit conversion</a> (and
+          cast the values back to the enum key, using casting as well).</p><pre><code class="language-text-x-csharp">enum Email
 {
 	Slow = 0,
 	Default = 1,
@@ -27,9 +29,11 @@ public static void Main()
 	// #=&gt; Fast	
 }</code></pre>
 
-    <p> </p>
-    <p>Finally, it's also possible to parse a key name string to fetch the value
-      it represents, using <code>Enum.Parse()</code>.</p>
+        <p> </p>
+        <p>Finally, it's also possible to parse a key name string to fetch the value
+          it represents, using <code>Enum.Parse()</code>.</p>
+      </div>
+    </div>
   </body>
 
 </html>

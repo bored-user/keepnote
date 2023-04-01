@@ -7,14 +7,18 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Syntactic sugar</h1>
+  <body>
+    <div class="content">
+       <h1>Syntactic sugar</h1>
 
-    <p>However, note that all those static class conventions are just syntactic
-      sugar. Under the hood, when one calls <code>str.extension()</code>, the
-      compiler actually calls <code>ExtensionClass.extension(str)</code>. The
-      only thing that is actually necessary to create an extension method is
-      make it receive <code>this [data type] [argument]</code> as first argument.</p>
+      <div class="ck-content">
+        <p>However, note that all those static class conventions are just syntactic
+          sugar. Under the hood, when one calls <code>str.extension()</code>, the
+          compiler actually calls <code>ExtensionClass.extension(str)</code>. The
+          only thing that is actually necessary to create an extension method is
+          make it receive <code>this [data type] [argument]</code> as first argument.</p>
+      </div>
+    </div>
   </body>
 
 </html>

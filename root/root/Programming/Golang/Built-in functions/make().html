@@ -7,15 +7,17 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>make()</h1>
+  <body>
+    <div class="content">
+       <h1>make()</h1>
 
-    <p>The <code>make()</code> function creates a <a href="../Types/Data%20types%20list/slice.html"><code>slice</code></a> with
-      of type <code>T</code> (first argument) with <code>L</code> length (2nd) and <code>C</code> capacity
-      (3rd). It improves the performance of <code>slice</code>s, since it allows
-      Go to only recreate the <a href="../Types/Data%20types%20list/array.html"><code>array</code></a> when
-      the <code>capacity</code> is reached.</p>
-    <p>For instance;</p><pre><code class="language-text-x-go">package main
+      <div class="ck-content">
+        <p>The <code>make()</code> function creates a <a href="../Types/Data%20types%20list/slice.html"><code>slice</code></a> with
+          of type <code>T</code> (first argument) with <code>L</code> length (2nd) and <code>C</code> capacity
+          (3rd). It improves the performance of <code>slice</code>s, since it allows
+          Go to only recreate the <a href="../Types/Data%20types%20list/array.html"><code>array</code></a> when
+          the <code>capacity</code> is reached.</p>
+        <p>For instance;</p><pre><code class="language-text-x-go">package main
 
 func main() {
 	// Creates a slice which underlying array is 3 slots long.
@@ -32,12 +34,14 @@ func main() {
 	slice = append(slice, 0)
 }</code></pre>
 
-    <p> </p>
-    <p>One can get the <code>capacity</code> of a <code>slice</code> using the
-      <a
-      href="cap().html"><code>cap()</code>
+        <p> </p>
+        <p>One can get the <code>capacity</code> of a <code>slice</code> using the
+          <a
+          href="cap().html"><code>cap()</code>
 
-        </a>function.</p>
+            </a>function.</p>
+      </div>
+    </div>
   </body>
 
 </html>

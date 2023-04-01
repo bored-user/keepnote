@@ -7,10 +7,12 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Compound structs</h1>
+  <body>
+    <div class="content">
+       <h1>Compound structs</h1>
 
-    <p>Structs can be inside other structs:</p><pre><code class="language-text-x-go">type struct1 struct {}
+      <div class="ck-content">
+        <p>Structs can be inside other structs:</p><pre><code class="language-text-x-go">type struct1 struct {}
 
 type structname struct {
 	a string
@@ -22,6 +24,8 @@ type structname struct {
 e := structname{ a: "a", b: 1, c: true, d: struct1{}, }
 e.b == 1</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

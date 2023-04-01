@@ -7,14 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Slicing a slice</h1>
+  <body>
+    <div class="content">
+       <h1>Slicing a slice</h1>
 
-    <p>One can slice a slice using a like-Python notation, using square brackets
-      and colons: <code>slice[x:y]</code>. The <code>x</code> index is included
-      but the <code>y</code> is excluded.</p>
-    <p>Note that this will return another <code>slice</code> with the proper elements
-      (even if there's only one element).</p><pre><code class="language-text-x-go">package main
+      <div class="ck-content">
+        <p>One can slice a slice using a like-Python notation, using square brackets
+          and colons: <code>slice[x:y]</code>. The <code>x</code> index is included
+          but the <code>y</code> is excluded.</p>
+        <p>Note that this will return another <code>slice</code> with the proper elements
+          (even if there's only one element).</p><pre><code class="language-text-x-go">package main
 
 import "fmt"
 
@@ -28,6 +30,8 @@ func main() {
 	
 }</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

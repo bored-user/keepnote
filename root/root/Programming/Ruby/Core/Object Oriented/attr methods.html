@@ -7,33 +7,35 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>attr methods</h1>
+  <body>
+    <div class="content">
+       <h1>attr methods</h1>
 
-    <p>The attr methods are a way to easily make attributes. They automatically
-      creates the getters and setters functions.</p>
-    <p>There are three different types:</p>
-    <ul>
-      <li><code>attr_reader</code>
+      <div class="ck-content">
+        <p>The attr methods are a way to easily make attributes. They automatically
+          creates the getters and setters functions.</p>
+        <p>There are three different types:</p>
+        <ul>
+          <li><code>attr_reader</code>
 
-      </li>
-      <li><code>attr_writer</code>
+          </li>
+          <li><code>attr_writer</code>
 
-      </li>
-      <li><code>attr_accessor</code>
+          </li>
+          <li><code>attr_accessor</code>
 
-      </li>
-    </ul>
-    <p>The first one is used when one wants to create only the method which returns
-      the instance variable equivalent to its name (basically, only read it).</p>
-    <p>The second one is used when one wants to create only the <code>name=</code> method,
-      which allows the programmer to modify the attribute value (but not read
-      it).</p>
-    <p>The third one is a combination of the other two. It allows one to read
-      and write the attribute value.</p>
-    <p>The syntax is the same for all three: one calls the method giving a Symbol
-      with the attribute name as argument. It's possible to give more than one
-      argument.</p><pre><code class="language-text-plain">class MyClass
+          </li>
+        </ul>
+        <p>The first one is used when one wants to create only the method which returns
+          the instance variable equivalent to its name (basically, only read it).</p>
+        <p>The second one is used when one wants to create only the <code>name=</code> method,
+          which allows the programmer to modify the attribute value (but not read
+          it).</p>
+        <p>The third one is a combination of the other two. It allows one to read
+          and write the attribute value.</p>
+        <p>The syntax is the same for all three: one calls the method giving a Symbol
+          with the attribute name as argument. It's possible to give more than one
+          argument.</p><pre><code class="language-text-plain">class MyClass
 	attr_reader :reading
 	attr_writer :writting
 	attr_accessor :both
@@ -58,6 +60,8 @@ puts my_class.both #=&gt; 'try reading/ writting me!'
 my_class.both = 'hello, world!'
 puts my_class.both #=&gt; 'hello, world!'</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

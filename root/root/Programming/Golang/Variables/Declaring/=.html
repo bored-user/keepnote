@@ -7,15 +7,17 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>=</h1>
+  <body>
+    <div class="content">
+       <h1>=</h1>
 
-     <h2>:=</h2>
+      <div class="ck-content">
+         <h2>:=</h2>
 
-    <p>The gopher (aka short variable declaration operator) operator can only
-      be used inside a closure. It cannot be used to declare global variables.
-      It should always (when possible) be used. Has type-inference &amp; must
-      declare, at least, one variable.</p><pre><code class="language-text-x-go">package main
+        <p>The gopher (aka short variable declaration operator) operator can only
+          be used inside a closure. It cannot be used to declare global variables.
+          It should always (when possible) be used. Has type-inference &amp; must
+          declare, at least, one variable.</p><pre><code class="language-text-x-go">package main
 
 import "fmt"
 
@@ -27,6 +29,8 @@ func main() {
 	// 20 10
 }</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

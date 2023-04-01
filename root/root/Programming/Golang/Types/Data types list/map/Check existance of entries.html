@@ -7,15 +7,17 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Check existance of entries</h1>
+  <body>
+    <div class="content">
+       <h1>Check existance of entries</h1>
 
-    <p>One can use the <code>map_variable[TKey]</code> notation to retrieve the
-      value held by a <code>map</code>. However, note that the Go language will
-      return the <a href="../../Default%20values.html">default type value (aka zero value)</a> if
-      there's no entry in that <code>TKey</code>. One can verify if there really
-      isn't an entry using the <a href="../../../Control%20flow/Conditionals/Comma%20ok%20idiom.html"><code>comma ok idiom</code></a> like
-      so:</p><pre><code class="language-text-x-go">package main
+      <div class="ck-content">
+        <p>One can use the <code>map_variable[TKey]</code> notation to retrieve the
+          value held by a <code>map</code>. However, note that the Go language will
+          return the <a href="../../Default%20values.html">default type value (aka zero value)</a> if
+          there's no entry in that <code>TKey</code>. One can verify if there really
+          isn't an entry using the <a href="../../../Control%20flow/Conditionals/Comma%20ok%20idiom.html"><code>comma ok idiom</code></a> like
+          so:</p><pre><code class="language-text-x-go">package main
 
 import "fmt"
 
@@ -32,6 +34,8 @@ func main() {
 	}
 }</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

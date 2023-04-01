@@ -7,14 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Creating</h1>
+  <body>
+    <div class="content">
+       <h1>Creating</h1>
 
-    <p>One can create a custom attribute simply by creating a class that derives
-      from <code>Attribute</code> base class. Its nomenclature must be <code>NameAttribute</code> -
-      like <code>CoolAttribute</code> (which can then be used as <code>[Cool]</code> or <code>[CoolAttribute]</code>).</p>
-    <p>In order to make the attribute able to receive arguments, one must create
-      a constructor on the attribute derived class, like so:</p><pre><code class="language-text-x-csharp">using System;
+      <div class="ck-content">
+        <p>One can create a custom attribute simply by creating a class that derives
+          from <code>Attribute</code> base class. Its nomenclature must be <code>NameAttribute</code> -
+          like <code>CoolAttribute</code> (which can then be used as <code>[Cool]</code> or <code>[CoolAttribute]</code>).</p>
+        <p>In order to make the attribute able to receive arguments, one must create
+          a constructor on the attribute derived class, like so:</p><pre><code class="language-text-x-csharp">using System;
 
 class CoolAttribute : Attribute
 {
@@ -24,9 +26,11 @@ class CoolAttribute : Attribute
 	}
 }</code></pre>
 
-    <p> </p>
-    <p>Note that an attribute accepts only simple data types, such as <code>string</code>, <code>int</code>, <code>bool</code>, <code>double</code>, <code>enum</code>,
-      etc.</p>
+        <p> </p>
+        <p>Note that an attribute accepts only simple data types, such as <code>string</code>, <code>int</code>, <code>bool</code>, <code>double</code>, <code>enum</code>,
+          etc.</p>
+      </div>
+    </div>
   </body>
 
 </html>

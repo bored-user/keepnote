@@ -7,15 +7,17 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Extension methods vs Query operators</h1>
+  <body>
+    <div class="content">
+       <h1>Extension methods vs Query operators</h1>
 
-    <p>LINQ's extension methods are the default of method calling in C#. The
-      methods are called on the collections, and receive a lambda expression.
-      They can be chained.</p>
-    <p>Query operators, on the other hand, are a little bit like SQL. They all
-      start with the <code>from</code> statement and end with <code>select</code>.
-      For instance:</p><pre><code class="language-text-x-csharp">using System.Collections.Generic;
+      <div class="ck-content">
+        <p>LINQ's extension methods are the default of method calling in C#. The
+          methods are called on the collections, and receive a lambda expression.
+          They can be chained.</p>
+        <p>Query operators, on the other hand, are a little bit like SQL. They all
+          start with the <code>from</code> statement and end with <code>select</code>.
+          For instance:</p><pre><code class="language-text-x-csharp">using System.Collections.Generic;
 using System.Linq;
 using System;
 
@@ -47,6 +49,8 @@ class Program
 	}
 }</code></pre>
 
+      </div>
+    </div>
   </body>
 
 </html>

@@ -7,14 +7,16 @@
     <base target="_parent">
   </head>
   
-  <body class="ck-content">
-     <h1>Folder structure</h1>
+  <body>
+    <div class="content">
+       <h1>Folder structure</h1>
 
-    <p>Go programs follow a particular folder structure. It all depends on the <code>$GOPATH</code> environment
-      variable (which can be echoed using <code>go env GOPATH</code>). When not
-      set, <code>$GOPATH</code> points to <code>/home/[user]/go</code> in Linux and <code>/Users/[user]/go</code> in
-      MacOS.</p>
-    <p>The basic folder structure for go programs is as follows:</p><pre><code class="language-text-plain">$GOPATH/
+      <div class="ck-content">
+        <p>Go programs follow a particular folder structure. It all depends on the <code>$GOPATH</code> environment
+          variable (which can be echoed using <code>go env GOPATH</code>). When not
+          set, <code>$GOPATH</code> points to <code>/home/[user]/go</code> in Linux and <code>/Users/[user]/go</code> in
+          MacOS.</p>
+        <p>The basic folder structure for go programs is as follows:</p><pre><code class="language-text-plain">$GOPATH/
 	src/							// where the code lives
 		example.com/					// site, like github.com
 			user/					// user, like bored-user
@@ -34,12 +36,14 @@
 	bin/							// binaries
 	pkg/							// external pkgs</code></pre>
 
-    <p> </p>
-    <p>Note, however, that it's possible to build and compile projects outside
-      of the illustrated folder structure. For instance, one may have a <code>script.go</code> file
-      on the Desktop and run it using <code>go run script.go</code> or build it
-      using <code>go build</code> (which will generate a binary file with the parent
-      folder name).</p>
+        <p> </p>
+        <p>Note, however, that it's possible to build and compile projects outside
+          of the illustrated folder structure. For instance, one may have a <code>script.go</code> file
+          on the Desktop and run it using <code>go run script.go</code> or build it
+          using <code>go build</code> (which will generate a binary file with the parent
+          folder name).</p>
+      </div>
+    </div>
   </body>
 
 </html>
