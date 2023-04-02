@@ -1,0 +1,33 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>Exception handling</h1>
+
+      <div class="ck-content">
+        <p>Exception handling in Python is done using <code>try</code>/ <code>except</code> and <code>finally</code> blocks
+          - in conjunction with the <code>raise</code> instruction.</p>
+        <p><code>except</code> is what other languages call <code>catch</code>. The <code>finally</code> block
+          is only ran if no exception occurs. In order to throw an error, in Python,
+          one <code>raise</code>s an exception.</p>
+        <p>Also, it's possible to catch more than one error using multiple except
+          blocks:&nbsp;</p><pre><code class="language-text-x-python">try:
+	5 / 0
+except IndexError as e:
+	print('index error: ', e)
+except ZeroDivisionError as e:
+	print('zero error: ', e)
+
+#=&gt; zero error: division by zero</code></pre>
+      </div>
+    </div>
+  </body>
+
+</html>

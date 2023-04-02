@@ -1,0 +1,38 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>Lists</h1>
+
+      <div class="ck-content">
+        <p>Written between square brackets. Are able to store multiple data types,
+          even other lists.
+          <br>&nbsp;</p><pre><code class="language-text-x-python">l = [1,"hi", 3.3]
+
+print(l[0])			#=&gt; 1
+print(l[0:2])		#=&gt; [1, "hi"]
+print(l[-1])		#=&gt; 3.3
+print(l[1:])		#=&gt; ["hi", 3.3]
+
+print(len(l)) 		#=&gt; 3
+
+l.append("hello") 	# "hello" added as last item
+
+l.pop() 			# removes the last item
+l.pop(0) 			# removes the first item
+
+ll = ["pair item1", "pair item2", " pair item3"]
+lll = zip(l, ll)
+print(list(lll)) 	#=&gt; [(1, "pair item 1"), ("hi", "pair item 2"), (variable, "pair item 3")]</code></pre>
+      </div>
+    </div>
+  </body>
+
+</html>

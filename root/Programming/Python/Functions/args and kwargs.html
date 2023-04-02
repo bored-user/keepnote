@@ -1,0 +1,45 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>*args and **kwargs</h1>
+
+      <div class="ck-content">
+        <p>One can pass in an unspecified number of arguments using <code>*args</code> and <code>**kwargs</code>.
+          They work roughly like JS's rest operator. The difference is that <code>*args</code> take
+          in unnamed arguments - while <code>**kwargs</code> take in named arguments.
+          In summary, <code>**kwargs</code> provides a dictionary in which the key
+          is the name of the argument and the value is its value - while <code>*args</code> returns
+          an array of values only.</p><pre><code class="language-text-x-python">def fun1(*args):
+	for arg in args:
+		print(arg, '\n')
+		
+def fun2(**kwargs):
+	for key, val in kwargs.items():
+		print('key: ', key, '\n', 'val: ', val, '\n\n')
+		
+fun1(1, 2, "hello")
+"""
+	1
+	2
+	"hello"
+"""
+
+fun2(a=1, b=2, c="hello")
+"""
+	a: 1
+	b: 2
+	c: "hello"
+"""</code></pre>
+      </div>
+    </div>
+  </body>
+
+</html>
