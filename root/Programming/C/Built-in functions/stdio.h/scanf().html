@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>scanf()</h1>
+
+      <div class="ck-content">
+        <p>Used to take input from stdin. Can be formated like <code>printf()</code>.
+          Also, takes a reference to variables onto which the typed data will be
+          saved:</p><pre><code class="language-text-x-csrc">int digit;
+char character;
+double dbl;
+
+scanf("%d", &amp;digit);
+scanf(" %c", &amp;character);
+scanf("%d", &amp;dbl);</code></pre>
+        <p>&nbsp;</p>
+        <p>The whitespace before <code>%c</code> tells the compiler to skip the last
+          linebreak - which would otherwise be saved to the given variable.</p>
+      </div>
+    </div>
+  </body>
+
+</html>
