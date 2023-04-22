@@ -1,0 +1,46 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>References</h1>
+
+      <div class="ck-content">
+        <p>References are somewhat similar to pointers.</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+int main() {
+	int a = 12;
+	int&amp; ref = a;
+	
+	std::cout &lt;&lt; "a: " &lt;&lt; a &lt;&lt; std::endl;
+	std::cout &lt;&lt; "ref: " &lt;&lt; ref &lt;&lt; std:endl;
+	
+	a = 15;
+	
+	std::cout &lt;&lt; "a: " &lt;&lt; a &lt;&lt; std::endl;
+	std::cout &lt;&lt; "ref: " &lt;&lt; ref &lt;&lt; std:endl;
+	
+	ref = 23;
+	
+	std::cout &lt;&lt; "a: " &lt;&lt; a &lt;&lt; std::endl;
+	std::cout &lt;&lt; "ref: " &lt;&lt; ref &lt;&lt; std:endl;
+ }</code></pre>
+        <p>&nbsp;</p>
+        <p>The print statements above will print 12, 15 and 23. Note that both the
+          original variable and the reference are modified when either one is modified.</p>
+        <p>Some nuances of references: they MUST be initialized at declaration (<code>int&amp; ref;</code> throws
+          a compile error); they cannot be reassigned to reference something else
+          and there's no need to perform dereference operations on references.</p>
+        <p>An <code>int&amp;</code> is kind of like a <code>const int*</code>, without
+          the ugly pointer notation.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

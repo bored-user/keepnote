@@ -1,0 +1,59 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>Constant pointers</h1>
+
+      <div class="ck-content">
+        <p>A pointer can be constant if:</p>
+        <ul>
+          <li>one cannot change its pointing address</li>
+          <li>one cannot change the value it points to</li>
+          <li>both of the above</li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>For the first case, use an <code>int* const ptr = &amp;int_var;</code>,
+          like so:</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+int main() {
+	int a = 12;
+	int b = 13;
+	
+	int* const ptr = &amp;a;
+	*ptr = 13;		// Works fine
+	ptr = &amp;b;		// ERROR: cannot point somewhere else
+}</code></pre>
+        <p>&nbsp;</p>
+        <p>For the second case, <code>const int* ptr = &amp;int_var;</code>:</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+int main() {
+	int a = 12;
+	int b = 13;
+	
+	const int* ptr = &amp;a;
+	*ptr = 13;		// ERROR: cannot redefine (pointed) value
+	ptr = &amp;b;		// Works fine
+}</code></pre>
+        <p>&nbsp;</p>
+        <p>The third case is a union of the first two:</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+int main() {
+	int a = 12;
+	int b = 13;
+	
+	const int* const ptr = &amp;a;
+	*ptr = 13;		// ERROR: cannot redefine (pointed) value
+	ptr = &amp;b;		// ERROR: cannot point somewhere else
+}</code></pre>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,27 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1>Dangling pointer</h1>
+
+      <div class="ck-content">
+        <ul>
+          <li>If a pointer is not initialized properly (<code>int* p;</code>), it contains
+            junk address. Bad things can happen if one tries to assign values or to
+            read from such a pointer.</li>
+          <li>Undefined behavior happens if one tries to use a pointer after deleting
+            it with the <code>delete</code> keyword.</li>
+          <li>&nbsp;</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>
