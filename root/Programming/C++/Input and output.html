@@ -1,0 +1,29 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Input and output</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Input and output</h1>
+
+      <div class="ck-content">
+        <p>One can use <code>std::cout</code> to print things to the screen. Also, <code>std::cin</code> can
+          be useful to read data from the keyboard. However, <code>std::cin</code> stops
+          reading on a space character.</p>
+        <p>To avoid that behavior, one can use <code>std::getline()</code>, which
+          takes a input stream (<code>std::cin</code>, usually) and a string variable
+          in which to store the read information.</p>
+        <p>Another useful trick is <code>while(std::cin &gt;&gt; variable) {}</code>,
+          which executes a code block while a data from that specific type is available
+          to be read from the keyboard.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

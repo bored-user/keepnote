@@ -1,0 +1,50 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Using multiple files</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Using multiple files</h1>
+
+      <div class="ck-content">
+        <p>In C++, it is a normal practice to split code across multiple files. When
+          compiling, all one needs to do is to indicate the path of all C++ files,
+          in order for the compilation to finish successfully.</p>
+        <p>Also, it's possible to declare functions in a header file and simply import
+          it using a <code>#include</code> directive.</p><pre><code class="language-text-x-c-src">// main.cpp
+#include &lt;iostream&gt;
+#include &lt;custommath.h&gt;
+
+int main() {
+	int grt = max(10, 20);
+	int sml = min(10, 20);
+	
+	std::cout &lt;&lt; grt &lt;&lt; std::endl;
+	std::cout &lt;&lt; sml &lt;&lt; std::endl;
+}</code></pre><pre><code class="language-text-x-c-src">// custommath.h
+int max(int a, int b);
+int min(int a, int b);</code></pre><pre><code class="language-text-x-c-src">// custommath.cpp
+int max(int a, int b) {
+	if(a &gt;= b) return a;
+	else	  return b;
+}
+
+int min(int a, int b) {
+	if(a &lt;= b) return a;
+	else	   return b;
+}</code></pre>
+        <p>In order to compile, simply execute <code>&gt; gcc *.cpp</code>. This way,
+          the compiler will compile <code>custom.cpp</code> and <code>main.cpp</code>.
+          It automatically looks for and links header files (<code>custommath.h</code>)
+          correctly.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

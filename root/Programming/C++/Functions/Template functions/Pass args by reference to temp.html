@@ -1,0 +1,54 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Pass args by reference to template</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Pass args by reference to template</h1>
+
+      <div class="ck-content">
+        <p>One may template a function using reference arguments. It is generally
+          a good practice to use constant references, so <code>template &lt;typename T&gt; &nbsp;const T&amp; add(const T&amp; a, const T&amp; b) { &nbsp;}</code> (though
+          it is not required, so <code>template &lt;typename T&gt; &nbsp;T&amp; add(T&amp; a, T&amp; b) { &nbsp;}</code> would
+          also work).</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+template &lt;typename T&gt;
+const T&amp; add(const T&amp; a, const T&amp; b) {
+	return a + b;
+}
+
+template &lt;typename T&gt;
+const &amp;T max(const &amp;T a, const &amp;T b) {
+	if(a &gt; b) return a;
+	else 	  return b;
+}
+
+int main() {
+	int a1 = 10, b1 = 5;
+	float a2 = 10.5, b2 = 5.5;
+	double a3 = 10.5555555, b3 = 5.5555555;
+	long a4 = 1000000000, b4 = 55555555555;
+	
+	int max1 = max(a1, b1);
+	float max2 = max(a2, b2);
+	double max3 = max(a3, b3);
+	long max4 = max(a4, b4);
+	
+	std::cout &lt;&lt; max1 &lt;&lt; std::endl;
+	std::cout &lt;&lt; max2 &lt;&lt; std::endl;
+	std::cout &lt;&lt; max3 &lt;&lt; std::endl;
+	std::cout &lt;&lt; max4 &lt;&lt; std::endl;
+
+	return 0;
+}</code></pre>
+      </div>
+    </div>
+  </body>
+
+</html>

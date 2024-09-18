@@ -1,0 +1,62 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Template functions</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Template functions</h1>
+
+      <div class="ck-content">
+        <p>Template functions are a way to write only one function which gets translated
+          to multiple functions with multiple signatures.</p>
+        <p>It's useful, for instance, to write a <code>add()</code> method for floats,
+          doubles, longs and integers: the logic will be the same (<code>return a + b;</code>)
+          but C++'s type system would make one write 4 different functions with 4
+          different signatures. One function template can solve this.</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+template &lt;typename T&gt; T add(T a, T b) {
+	return a + b;
+}
+
+template &lt;typename T&gt; T max(T a, T b) {
+	if(a &gt; b) return a;
+	else 	  return b;
+}
+
+int main() {
+	int a1 = 10, b1 = 5;
+	float a2 = 10.5, b2 = 5.5;
+	double a3 = 10.5555555, b3 = 5.5555555;
+	long a4 = 1000000000, b4 = 55555555555;
+	
+	int add1 = add(a1, b1);
+	float add2 = add(a2, b2);
+	double add3 = add(a3, b3);
+	long add4 = add(a4, b4);
+	
+	int max1 = max(a1, b1);
+	float max2 = max(a2, b2);
+	double max3 = max(a3, b3);
+	long max4 = max(a4, b4);
+	
+	std::cout &lt;&lt; add1 &lt;&lt; " " &lt;&lt; max1 &lt;&lt; std::endl;
+	std::cout &lt;&lt; add2 &lt;&lt; " " &lt;&lt; max2 &lt;&lt; std::endl;
+	std::cout &lt;&lt; add3 &lt;&lt; " " &lt;&lt; max3 &lt;&lt; std::endl;
+	std::cout &lt;&lt; add4 &lt;&lt; " " &lt;&lt; max4 &lt;&lt; std::endl;
+	
+	return 0;
+}</code></pre>
+        <p>The compiler, when generating machine code, generates four versions of
+          the add and max functions (matching the type system). Templating is just
+          easier for the programmer.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

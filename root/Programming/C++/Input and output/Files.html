@@ -1,0 +1,35 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Files</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Files</h1>
+
+      <div class="ck-content">
+        <ul>
+          <li>The <code>fstream</code> library is used.</li>
+          <li><code>ifstream infile("in.txt", fstream::in);</code>
+          </li>
+          <li><code>ifstream outfile("out.txt", fstream::out);</code>
+          </li>
+          <li><code>outfile &lt;&lt; “aaa”;</code> just like with <code>cout</code>
+          </li>
+          <li><code>infile &gt;&gt; line;</code> just like with <code>cin</code>
+          </li>
+          <li><code>file.is_open()</code> returns a boolean. Useful with if blocks after
+            opening and before using</li>
+          <li><code>file.close()</code>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,33 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Pointers to structs</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Pointers to structs</h1>
+
+      <div class="ck-content">
+        <p>Just like in C, when dealing with a pointer to a <code>struct</code>, one
+          must use the <code>→</code> operator (instead of <code>.</code>).</p><pre><code class="language-text-x-c-src">struct date { int day; int month; int year; };
+
+date d1;
+date* d2 = &amp;d1;
+
+d1.day = 1;
+d1.month = 2;
+d1.year = 3;
+
+d2-&gt;day = 10;
+d2-&gt;month = 20;
+d2-&gt;year = 30;</code></pre>
+      </div>
+    </div>
+  </body>
+
+</html>

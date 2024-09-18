@@ -1,0 +1,42 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Capture list</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Capture list</h1>
+
+      <div class="ck-content">
+        <p>The capture list of a lambda function is a way to use variables that are
+          declared outside of the scope of the lambda function. In C++, a lambda
+          only has access to variables declared in its own scope.</p>
+        <p>Additionally, one can pass in arguments to a capture list through reference
+          or through a copy.</p>
+        <p>The variables on a lambda function capture list (both the ones passed
+          by reference and by value) are read-only. However, it is possible to add
+          the <code>mutable</code> keyword at the end of a lambda function declaration
+          to allow it to modify the variables on the capture-list: <code>auto lm2 = [&amp;c]() mutable { … }</code>.</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+int main() {
+	int c = 0;
+
+	auto lm1 = [c]() { std::cout &lt;&lt; "inner1: " &lt;&lt; &amp;c &lt;&lt; std::endl; };
+	auto lm2 = [&amp;c]() { std::cout &lt;&lt; "inner2: " &lt;&lt; &amp;c &lt;&lt; std::endl; };
+	
+	std::cout &lt;&lt; "outer0: " &lt;&lt; &amp;c &lt;&lt; std::endl;
+	lm1();
+	lm2();
+}</code></pre>
+        <p>It is also possible to use <code>[=]</code> and <code>[&amp;]</code> to get
+          access to all external variables - as copies and as references, respectively: <code>auto lm1 = [=]() {};</code> and <code>auto lm2 = [&amp;]() {};</code>.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../../../style.css">
     <base target="_parent">
+    <title data-trilium-title>Switch statement</title>
   </head>
   
   <body>
     <div class="content">
-       <h1>Switch statement</h1>
+       <h1 data-trilium-h1>Switch statement</h1>
 
       <div class="ck-content"><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
 
@@ -37,6 +38,10 @@ int main() {
 }</code></pre>
         <p>&nbsp;</p>
         <p>Note that the <code>switch</code> expression must be of type <code>int</code> or <code>enum</code>.</p>
+        <p>The curly braces are not mandatory. They are however useful, so that the
+          scope of the variables declared inside a <code>case</code> block will end
+          at the end of the <code>case</code> block. The <code>break</code> statement
+          can go inside or outside of the curly braces.</p>
       </div>
     </div>
   </body>

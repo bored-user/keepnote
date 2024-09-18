@@ -1,0 +1,45 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>String streams</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>String streams</h1>
+
+      <div class="ck-content">
+        <p>The library <code>sstream</code> is used to handle strings as streams of
+          data. Therefore, <code>#include &lt;sstream&gt;</code>.</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;sstream&gt;
+
+using namespace std;
+
+int main() {
+	string line;
+	while(getline(cin, line)) {
+		stringstream info(line);
+		string aux;
+		while(getline(info, aux, ';')) {
+			cout &lt;&lt; aux &lt;&lt; endl;
+		}
+	}
+}</code></pre>
+        <p>That block of code reads a line from <code>cin</code> (including spaces, <code>getline()</code>).
+          Then, it creates an instance of <code>stringstream</code> called <code>info</code>,
+          based on the information on the line read. Then, it reads every few characters
+          in <code>info</code> (a stream, just like <code>cin</code>) and passes it
+          along to aux. It's like <code>String.split()</code> in higher level languages.&nbsp;</p>
+        <p>With a stringstream, it would also be possible to use the extraction operator
+          (<code>&gt;&gt;</code>), as if it were <code>cin</code>: <code>info &gt;&gt; aux</code>.
+          In this case, the splitting is done using spaces, just like <code>cin</code>.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

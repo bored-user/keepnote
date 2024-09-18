@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../style.css">
     <base target="_parent">
+    <title data-trilium-title>Arrays</title>
   </head>
   
   <body>
     <div class="content">
-       <h1>Arrays</h1>
+       <h1 data-trilium-h1>Arrays</h1>
 
       <div class="ck-content">
-        <p>An array is defined using <code>typename identifier[n] {};</code>. Note
-          that <code>n</code> is only optional if there are values inside of the curly
-          braces - if that's the case, the compiler will deduct the number of elements
-          in the array and allocate memory accordingly. Also, the curly braces are
-          only needed if one wants to initialize the array with values in it - otherwise,
-          one could write <code>typename identifier[10];</code> to create an array
-          of type <code>typename</code> and 10 elements.</p>
+        <p>An array is defined using <code>typename identifier[n] {};</code>. It lives
+          on the stack.</p>
+        <p>Note that <code>n</code> is only optional if there are values inside of
+          the curly braces - if that's the case, the compiler will deduct the number
+          of elements in the array and allocate memory accordingly.</p>
+        <p>Also, the curly braces are only needed if one wants to initialize the
+          array with values in it - otherwise, one could write <code>typename identifier[10];</code> to
+          create an array of type <code>typename</code> and 10 elements.</p>
         <p>It is not possible to create an (static) array which's size is set at
-          runtime. For that, use dynamic arrays.</p>
+          runtime. For that, use dynamic arrays - which live on the heap.</p>
       </div>
     </div>
   </body>

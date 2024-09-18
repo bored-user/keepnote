@@ -1,0 +1,33 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>std::strchr()</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>std::strchr()</h1>
+
+      <div class="ck-content">
+        <p>Takes a character pointer and a character and returns a pointer to the
+          first found instance of the given character in the given character pointer.
+          If no instance is found, it returns a nullptr.</p>
+        <p>It's a great tool to check if a substring exists within a given string.</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+
+int main() {
+	std::cout &lt;&lt; std::strchr("hello", 'l') &lt;&lt; std::endl;
+	// returns and prints a pointer to "llo"
+	
+	std::cout &lt;&lt; std::strchr("hello", "a") == nullptr &lt;&lt; std::endl;
+	// returns nullptr and prints 1
+}</code></pre>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

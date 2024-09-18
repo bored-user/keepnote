@@ -1,0 +1,47 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>struct</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>struct</h1>
+
+      <div class="ck-content">
+        <p>A <code>struct</code> is a way for the user to define their own type.</p><pre><code class="language-text-x-c-src">#include &lt;iostream&gt;
+#include &lt;string&gt;
+
+struct Student {
+	std::string name;
+	std::string address;
+	int age;
+	
+	
+	Student(std::string name, int age, std::string addr) {
+		this-&gt;name = name;
+		this-&gt;age = age;
+		address = addr;
+	}
+	
+	Student(std::string name) {
+		this-&gt;name = name;
+	}
+ };</code></pre>
+        <p>Note:</p>
+        <ul>
+          <li style="margin-left:40px;">semicolon after struct definition</li>
+          <li style="margin-left:40px;">multiple constructors: name of the struct</li>
+          <li style="margin-left:40px;"><code>this</code> acts as a pointer to the current structure.</li>
+          <li style="margin-left:40px;"><code>this</code> is not needed, not mandatory. One must use it when the <code>struct</code> has
+            a field with the same name as a variable in the current scope.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>
