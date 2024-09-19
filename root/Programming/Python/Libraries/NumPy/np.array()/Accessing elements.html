@@ -1,0 +1,34 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Accessing elements</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Accessing elements</h1>
+
+      <div class="ck-content">
+        <p>Uses python default bracket notation for 1d arrays. For higher dimensions,
+          use the comma notation.</p><pre><code class="language-text-x-python">import numpy as np
+
+a = np.array([1,2,3])
+b = np.array([[1,2,3],[4,5,6])
+a[0] #=&gt; 1
+b[0, 1] #=&gt; 2</code></pre>
+        <p>Works with negative indices as well.</p>
+        <p>A colon means “everything”. In the example above, <code>b[0, :]</code> returns <code>[1,2,3]</code>,
+          which are the elements of the first row.</p>
+        <p>You can replace an entire row by <code>b[0, :] = [9, 8, 7]</code> changes
+          the first row of <code>b</code> to <code>[9, 8, 7]</code>.</p>
+        <p>&nbsp;</p>
+        <p>Elements on a numpy array can also be accessed via lists. <code>a[[0,1]]</code> returns <code>[1,2]</code>.</p>
+      </div>
+    </div>
+  </body>
+
+</html>
