@@ -1,0 +1,38 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Splitting train and test</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Splitting train and test</h1>
+
+      <div class="ck-content">
+        <p>Sklearn has a built-in method to split the train set from the test set:</p>
+        <p><code>sklearn.model_selection.train_test_split()</code>.</p>
+        <p>One can specify a test_size float argument and a random_state integer
+          argument - to set the size of the test set (usually 20%) and the random
+          state in order for the test set be equal on every execution of the script.</p>
+        <p>It is possible to create a stratified sampling using the stratify argument.
+          It takes a column of the DataFrame object and stratifies the data based
+          on it.</p>
+        <p>Finally, it's possible to create a column on a DataFrame object using
+          Pandas's <code>pd.cut()</code> method. It creates a new attribute on the
+          DataFrame based on a given pre-existing attribute, like so:</p>
+        <p><code>pd.cut(df["oldcol"], bins=[0, 1.5, 3, 4.5, 6, np.inf], labels=[1,2,3,4,5])</code> creates
+          a new DataFrame column based on the column of the given <code>df</code> object.
+          Its ranges work as so: the first category ranges from 0 to 1.5; the second,
+          from 1.5 to 3 and so on. After using, it may be dropped by <code>train_set.drop("newcat", axis=1, inplace=True)</code>.
+          The inplace argument modifies the original object; if it's not given to
+          the function, <code>drop()</code> will return a copy of the object.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

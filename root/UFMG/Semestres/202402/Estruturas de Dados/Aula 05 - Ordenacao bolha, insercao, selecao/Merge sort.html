@@ -1,0 +1,95 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Merge sort</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Merge sort</h1>
+
+      <div class="ck-content">
+        <p>Toma vantagem do fato de que a intercalacao de vetores ordenados eh linear.</p>
+        <p>O algoritmo divide o vetor em metades sucessivas (ate cada parte ter um
+          elemento so) e vai juntando essas metades ja ordenadas (procedimento linear,
+          como dito acima) ate ordenar o vetor inteiro.</p><pre><code class="language-text-x-csrc">// recebe as duas metades do vetor, a da esquerda e da direita
+// ordena em ordem crescente
+int* merge(int* valuesL, int* valuesR, int nl, int nr) {
+	int tamtotal = nl+nr;
+	int* result = (int*)malloc(tamtotal * sizeof(int));
+	int i = 0, j = 0, k = 0;
+	
+	// percorre os subvetores ate que um acabe
+	// note que mesmo que nl = nr - ie metade perfeita, um vai acabar antes do outro (por causa do if e do ++)
+	while(i &lt; nl &amp;&amp; j &lt; nr) {
+	
+		// se for igual, coloca na direita (mantem a ordem, alg eh estavel)
+		if(valuesL[i] &lt; valuesR[j]) {
+			result[k] = valuesL[i];
+			i++;
+		} else {
+			result[k] = valuesR[j];
+			j++;
+		}
+		k++;
+	}
+	
+	// if desncessario: como sempre vai sair do while antes de acabar ambos, k sempre sera &lt; tamtotal
+	if(k &lt; tamtotal) {
+	
+		// descarrega os elementos restantes (que podem vir do subvetor pequeno ou do grande) no array resultante
+		for(; i&lt; nl; i++) {
+			result[k] = valuesL[i];
+			k++;
+		}
+		for(; j &lt; nr; j++) {
+			result[k] = valuesR[j];
+			k++;
+		}
+	}
+	
+	return result;
+}</code></pre>
+        <p>Embora seja estavel, o algoritmo nao eh adaptavel (faz sempre o mesmo
+          numero de comparacoes, independente da entrada).</p>
+        <p>A complexidade:</p>
+        <ul>
+          <li>usando equacoes de recorrencia,
+            <ul>
+              <li>para n = 1, T(1) = 0</li>
+              <li>para n &gt; 1, separa uma vez para os primeiros n/2 elementos e outra
+                para os outros n/2</li>
+            </ul>
+          </li>
+          <li>a operacao de merge tem custo linear</li>
+          <li>logo, T(n) = 2T(n/2) + n = O(n log n)</li>
+        </ul>
+        <p>Nao eh inplace, pois usa espaco extra de memoria no vetor result - memoria
+          extra eh maior que c*log n.</p>
+        <p>Melhorias:</p>
+        <ul>
+          <li>para pequenos subvetores (&lt; 7 elementos), usar o insertion sort - porque
+            n^2 &lt; n*log n para n~7</li>
+          <li>parar se o vetor ja estiver ordenado, ie se o maior elemento da 1a metade
+            ≤ menor elemento da 2a metade</li>
+        </ul>
+        <p>Vantagens:</p>
+        <ul>
+          <li>por ter melhor caso = pior caso = caso medio = n*log n, eh util quando
+            o alto custo de pior caso eh intoleravel</li>
+          <li>eh o algoritmo otimo em numero de comparacoes</li>
+        </ul>
+        <p>Desvantagens:</p>
+        <ul>
+          <li>nao eh inplace: requer espaco extra proporcional a n (nao eh otimo em
+            complexidade de espaco)</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

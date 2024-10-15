@@ -1,0 +1,61 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Criterios de classificacao</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Criterios de classificacao</h1>
+
+      <div class="ck-content">
+        <ul>
+          <li>Localização dos dados
+            <ul>
+              <li>interna: chaves na memoria principal</li>
+              <li>externa: chaves na memoria secundaria</li>
+            </ul>
+          </li>
+          <li>Estabilidade: elementos “duplicados” (ie, manutencao da ordem relativa
+            entre chaves de mesmo valor)
+            <ul>
+              <li>estável: quando a ordem relativa dos registros com mesma chave não se
+                altera</li>
+              <li>instavel: quando a ordem relativa se altera</li>
+            </ul>
+          </li>
+          <li>Adaptabilidade
+            <ul>
+              <li>adaptavel: sequencia de operacoes muda conforme a entrada (nao ordena
+                array ordenado previamente)</li>
+              <li>nao-adaptavel: sempre as mesmas operacoes</li>
+            </ul>
+          </li>
+          <li>Uso da memoria
+            <ul>
+              <li>in-place: transforma os dados usando espaco extra de tamanho constante
+                (ie, sem array auxiliar), se usa memoria extra ≤ c*log n, sendo n o tamanho
+                da entrada</li>
+            </ul>
+          </li>
+          <li>Movimentacao dos dados
+            <ul>
+              <li>direta: registro todo eh acessado e movido</li>
+              <li>indireta: apenas os ponteiros sao rearranjados</li>
+            </ul>
+          </li>
+        </ul>
+        <p>Metricas de complexidade:</p>
+        <ul>
+          <li>numero de comparacoes C(n) - eg, numero de if's</li>
+          <li>numero de movimentacoes M(n) - eg, numero de swaps</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,43 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Clean the data</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Clean the data</h1>
+
+      <div class="ck-content">
+        <p>Sometimes, there are a few instances with missing attributes. When that
+          happens, it's a good idea to clean the data, removing such instances (or
+          at least modifying them).</p>
+        <p><code>housing.dropna(subset=["attr"], inplace=True)</code> removes every
+          instance in which the “attr” attribute is null/ missing.</p>
+        <p><code>housing.drop("attr", inplace=True)</code> removes the “attr” attribute
+          for every instance (not mattering if it's null or not).</p>
+        <p><code>housing["attr"].fillna(somevalue, inplace=True)</code> fills the
+          missing instance attributes with the somevalue variable (imputation).</p>
+        <p>Instead of using the code of the third option, one can use sklearn's SimpleImputer:</p>
+        <p><code>imputer = sklearn.impute.SimpleImputer(strategy="median")</code>
+        </p>
+        <p><code>housing_num = housing.select_dtypes(include=[np.number])</code>
+        </p>
+        <p><code>imputer.fit(housing_num)</code>
+        </p>
+        <p><code>X = imputer.transform(housing_num)</code>
+        </p>
+        <p>First, create the imputer. Then, feed it with the numerical columns of
+          the housing DataFrame (that's when it calculates the median). Finally,
+          impute the numerical columns with the median.</p>
+        <p>Sklearn returns Numpy arrays. To restore it to a DataFrame object, <code>housing = pd.DataFrame(X, columns=housing_num.columns, index=housing_num.index)</code>
+        </p>
+      </div>
+    </div>
+  </body>
+
+</html>

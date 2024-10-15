@@ -1,0 +1,29 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Train and evaluate on the training set</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Train and evaluate on the training set</h1>
+
+      <div class="ck-content">
+        <p>A linear regression model can be created using <code>sklearn.linear_model.LinearRegression()</code>.
+          Then, another pipeline can be created with this last estimator (a predictor): <code>lin_reg = make_pipeline(preprocessing, LinearRegression())</code>.
+          That takes the result of the previous preprocessing pipeline and feed it
+          to the linear regression model. Finally, <code>lin_reg.fit_transform(X, y)</code> -
+          in which X are the instances and y are the labels.</p>
+        <p>To measure the result, you can use <code>sklearn.metrics.mean_squared_error</code>.</p>
+        <p>Another model that can be used is a <code>sklearn.tree.DecisionTreeRegressor</code>: <code>tree_reg = make_pipeline(preprocessing, DecisionTreeRegressor(random_state=42))</code>.</p>
+        <p>Finally, one can use a Random Forest regressor (from <code>sklearn.ensemble.RamdomForestRegressor</code>).
+          The code is the same as the DecisionTreeRegressor.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

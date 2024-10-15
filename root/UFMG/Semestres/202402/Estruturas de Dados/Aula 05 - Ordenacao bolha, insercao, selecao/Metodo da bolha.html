@@ -1,0 +1,58 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Metodo da bolha</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Metodo da bolha</h1>
+
+      <div class="ck-content">
+        <p>Percorre o arquivo inteiro trocando elementos adjacentes, ate que os registros
+          fiquem ordenados, ie primeiro loop de 0-n e segundo loop de 1-(sz-i).</p>
+        <p>Ou seja, para cada elemento do vetor, compara os elementos dois a dois,
+          movendo o maior para a direita (ordem crescente).</p><pre><code class="language-text-x-csrc">void Bolha(int* vet, int sz) {
+	for(int i = 0; i &lt; sz; i++) {
+		for(int j = 1; j &lt; sz-i; j++) {
+			if(v[j] &lt; v[j-1]) swap(v[j-1], v[j]);
+		}
+	}
+}</code></pre>
+        <p>Eh estavel por trocar elementos apenas quando um eh estritamente menor
+          que o outro (nao trocaria dois elementos iguais, logo nao alteraria a ordem
+          relativa entre itens duplicados).</p>
+        <p>Em cada iteracao i do primeiro loop, ha n-(i+1) iteracoes do segundo loop;
+          ou seja, C(n) = n^2-n/2 = O(n^2) comparacoes.</p>
+        <p>As movimentacoes dependem do caso:</p>
+        <ul>
+          <li>no melhor caso, o vetor ja esta ordenado e portanto ha 0 movimentacoes;
+            M(n) = 0 = O(1)</li>
+          <li>no pior caso, o vetor esta inversamente ordenado e ha 3*C(n) = O(n^2)
+            movimentacoes (o 3 depende da implementacao da funcao swap).</li>
+        </ul>
+        <p>Apesar de simples e estavel, o metodo da bolha nao eh adaptavel em termos
+          de comparacoes e ha muitas trocas entre itens.</p>
+        <p>Melhoria: parar o algoritmo quando nao forem efetuadas trocas no for interior:</p><pre><code class="language-text-x-csrc">void Bolha(int* vet, int sz) {
+	for(int i = 0; i &lt; sz; i++) {
+		int trocou = 0;
+		for(int j = 1; j &lt; sz-i; j++) {
+			if(v[j] &lt; v[j-1]) {
+				swap(v[j-1], v[j]);
+				trocou = 1;
+			}
+		}
+		if(!trocou) break;
+	}
+}</code></pre>
+        <p>Quando nenhuma troca eh feita no for interno, significa que o os elementos
+          de vet[0] ate vet[n-1] estao ordenados, ie, o vetor esta ordenado.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

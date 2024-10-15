@@ -1,0 +1,98 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Metodo da insercao</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Metodo da insercao</h1>
+
+      <div class="ck-content">
+        <p>Algoritmo do “jogador de cartas”. Seleciona o elemento na segunda posicao
+          e verifica se deve ficar antes ou na posicao que esta e assim sucessivamente.</p><pre><code class="language-text-x-csrc">void Insercao(int* vet, int sz) {
+	for(int i = 1; i &lt; sz; i++) {
+		int aux = vet[i];
+		int j = i-1;
+		while((j &gt;= 0) &amp;&amp; (aux &lt; vet[j])) {
+			vet[j+1] = vet[j];
+			j--;
+		}
+		vet[j+1] = aux;
+	}
+}</code></pre>
+        <ul>
+          <li>O loop externo itera em cada elemento do vetor</li>
+          <li>O aux guarda o elemento a ser inserido na posicao correta</li>
+          <li>O while interno vai voltando (a partir da i-esima posicao) no array
+            <ul>
+              <li>Movendo todos os elementos anteriores para frente para "abrir espaco"</li>
+            </ul>
+          </li>
+          <li>Por fim, o novo elemento eh inserido na posicao correta</li>
+        </ul>
+        <p>Como no while ha “&lt;” e nao “≤” na checagem do elemento contra o auxiliar,
+          o algoritmo nao muda a ordem relativa dos elementos de mesma chave, logo
+          eh estavel.</p>
+        <p>Comparacoes:</p>
+        <ul>
+          <li>O loop interno
+            <ul>
+              <li>no melhor caso, o array esta ordenado, entao ha apenas uma comparacao
+                no while, Ci = 1</li>
+              <li>no pior caso, o array esta em ordem inversa, ha i comparacoes no while
+                (j vai de i-1 ate 0), Ci = i</li>
+            </ul>
+          </li>
+          <li>O loop externo sempre eh executado uma quantidade fixa de vezes (i vezes
+            com custo Ci)
+            <ul>
+              <li>no melhor caso, Ci = 1 (do melhor caso do loop interno), logo O(n)</li>
+              <li>no pior caso, Ci = i, logo O(n^2-n/2) = O(n^2)</li>
+            </ul>
+          </li>
+        </ul>
+        <p>Movimentacoes:</p>
+        <ul>
+          <li>No loop interno
+            <ul>
+              <li>no melhor caso, o array esta ordenado e ha 0 movimentacoes</li>
+              <li>no pior caso, o array esta invertido e ha i-1 movimentacoes</li>
+            </ul>
+          </li>
+          <li>No loop externo: para cada iteracao, 2 (aux=vet[i] e vet[j+1]=aux), entao
+            2(n-1)</li>
+          <li>No total:
+            <ul>
+              <li>no melhor caso, nunca entra no loop interno, O(n)</li>
+              <li>no pior caso, sempre entra no loop interno, O(n^2)</li>
+            </ul>
+          </li>
+        </ul>
+        <p>Algoritmo a ser utilizado quando o arquivo esta quase ordenado ou quando
+          se deseja adicionar poucos itens a um arquivo ja ordenado - pois o custo
+          de insercao eh linear. Eh estavel. Apesar disso, o custo de movimentacao
+          eh alto.</p>
+        <p>Melhoria: uso da sentinela (vetor comeca no indice 1, no indice 0 eh copiado
+          o valor atualmente sendo testado; remove o (j ≤ 0) do while.</p><pre><code class="language-text-x-csrc">void Insercao(int* vet, int sz) {
+	for(int i = 2; i &lt;= sz; i++) {
+		int aux = vet[i];
+		int j = i-1;
+		v[0] = aux;
+		while(aux &lt; vet[j]) {
+			vet[j+1] = vet[j];
+			j--;
+		}
+		vet[j+1] = aux;
+	}
+}</code></pre>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

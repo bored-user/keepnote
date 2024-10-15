@@ -1,0 +1,26 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Custom transformers</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Custom transformers</h1>
+
+      <div class="ck-content">
+        <p>For transformations that don't require training, you can create your own
+          transformers using <code>sklearn.preprocessing.FunctionTransformer</code> class.
+          For instance, <code>log_transformer = FunctionTransformer(np.log, inverse_func=np.exp)</code> creates
+          a transformer which outputs the log of the attribute. Then, you can call <code>log_transformer.transform()</code> to
+          transform the data. Also, <code>log_transformer.inverse_transform()</code> to
+          return the original.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

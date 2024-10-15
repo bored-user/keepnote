@@ -1,0 +1,52 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Shell sort</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Shell sort</h1>
+
+      <div class="ck-content">
+        <p>Extensao do insertion sort: em vez de sempre trocar itens vizinhos, permite
+          a troca de elementos distantes (separados por h posicoes). Entao o valor
+          de h eh reduzido ate chegar em 1 (shell sort com h=1 eh o insertion sort
+          padrao). Cada h-esima posicao produz uma subsequencia ordenada (h subsequencias
+          ordenadas independentes intercaladas).</p>
+        <p>Uma escolha padrao de h eh n/2^i. Ou seja, a cada iteracao o valor de
+          h vai sendo diminuido pela metade (comecando na metade do tamanho do vetor).&nbsp;</p><pre><code class="language-text-x-csrc">void shellsort(int array[], int n) {
+	// como sao divisoes inteiras, h eventualmente chega a zero
+	for(int h = n / 2; h &gt; 0; h /= 2) {
+		
+		// percorrendo o subarray
+		for(int i = h; i &lt; n; i++) {
+			int temp = array[i];
+			
+			// pulando de h em h e trocando apenas quando array[j-h] &gt; temp, ie abrindo espaco para temp
+			// pula h posicoes de uma so vez, trocando [j] por [j-h] - em vez de 1 em 1 como o ins sort
+			for(int j = i; j &gt;= h &amp;&amp; array[j-h] &gt; temp; j -= h) {
+				array[j] = array[j-h];
+			}
+			
+			// colocando temp na posicao correta
+			array[j] = temp;
+		}
+	}
+}</code></pre>
+        <p>A complexidade de tempo depende da escolha da sequencia. Para n/2^i, o
+          shell sort eh O(n^2). No pior caso em comparacoes, eh O(n^3/2) = O(n *
+          sqrt(n)). Por nao usar espaco extra (espaco que cresce com o tamanho da
+          entrada), eh inplace.</p>
+        <p>Como ele troca dois elementos distantes de posicao, pode ocorrer de mudar
+          a ordem relativa das duplicatas - logo, nao eh estavel.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

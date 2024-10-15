@@ -1,0 +1,29 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Feature scaling and transformation</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Feature scaling and transformation</h1>
+
+      <div class="ck-content">
+        <p>There are two main ways to scale data: min-max scaling (normalization)
+          and standardization.</p>
+        <p>Note that only numerical data can be scaled, so run a <code>housing_num = housing.select_dtypes(include=[np.number])</code> in
+          order to select only the numerical attributes from all the housing dataset.</p>
+        <p>The first can be achieved via <code>sklearn.preprocessing.MinMaxScaler</code>,
+          with a feature_range attribute set to a (-1, 1) tuple. Then, the result
+          is outputed by <code>scaler.fit_transform(housing_num)</code>.</p>
+        <p>The second is done by <code>sklearn.preprocessing.StandardScaler()</code>,
+          and then outputed by <code>scaler.fit_transform()</code> as well.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

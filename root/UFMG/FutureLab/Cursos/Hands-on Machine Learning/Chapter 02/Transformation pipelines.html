@@ -1,0 +1,43 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Transformation pipelines</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Transformation pipelines</h1>
+
+      <div class="ck-content">
+        <p>You can assemble several transformers into a pipeline, which runs them
+          all automatically The. <code>sklearn.pipeline.Pipeline()</code> class does
+          just that. It takes as input an array of tuples - the first element of
+          the tuple must be a string with unique names without double underscores;
+          the second element is the transformer itself.</p>
+        <p>If you don't want to name all the elements of the pipeline, just call <code>sklearn.pipeline.make_pipeline()</code>.
+          Each of its arguments is a element on the pipeline (the name of the element
+          is its classname all lowercase).&nbsp;</p>
+        <p>If the last estimator of the pipeline is a predictor, there's a <code>.predict()</code> method
+          on the pipeline itself, which runs <code>.transform()</code> on all estimators
+          and pass the result as input to the predictor. Then, it returns the output
+          of the predictor as its own.</p>
+        <p>If on the other hand, the pipeline's estimators are all transformers,
+          there's a <code>.transform()</code> (and <code>.fit_transform()</code>) methods
+          that can be called on it.</p>
+        <p>Pipelines return numpy arrays. To recover the DataFrame object, pass the
+          pipeline's output along to <code>pd.DataFrame(pipeline_output, columns=pipeline.get_features_names_out(), index=numerical_data.index)</code> -
+          in which <code>pipeline_output = pipeline.fit_transform(numerical_data)</code>.</p>
+        <p>So far, we have dealt with numerical and categorical columns (attributes)
+          separately. Fortunately, there's <code>sklearn.compose.ColumnTransformer</code> class
+          (with the help of <code>sklearn.compose.make_column_selector</code>), which
+          let's you handle both at the same time. Also, if you don't care for the
+          naming of the transformers, use <code>sklearn.compose.make_column_transformer</code>: <code>preprocessing = make_column_transformer((num_pipeline, make_column_selector(dtype_include=np.number)), (cat_pipeline, make_column_selector(dtype_include=object)))</code>.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

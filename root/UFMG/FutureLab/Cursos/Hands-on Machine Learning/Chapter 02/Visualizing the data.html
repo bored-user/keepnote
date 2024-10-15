@@ -1,0 +1,27 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Visualizing the data</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Visualizing the data</h1>
+
+      <div class="ck-content">
+        <p>Before running tools to visualize what the data looks like, it's usually
+          a good idea to copy it: <code>view = df.copy()</code>.</p>
+        <p><code>view.plot(kind='scatter', x='longitude', y='latitude', grid=True, s=view["population"] / 100, label="population", c="median_house_value", cmap="jet", colorbar=True)</code>
+        </p>
+        <p>That creates a scatter plot based on longitude (x) and latitude (y); in
+          which the radius of each circle is the district's population and the color
+          is the meadian house value.</p>
+      </div>
+    </div>
+  </body>
+
+</html>
