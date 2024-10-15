@@ -8744,7 +8744,7 @@
 					"title": "Programming",
 					"notePosition": 40,
 					"prefix": "",
-					"isExpanded": true,
+					"isExpanded": false,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [],
@@ -40056,7 +40056,7 @@
 							"title": "Python",
 							"notePosition": 150,
 							"prefix": null,
-							"isExpanded": true,
+							"isExpanded": false,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
@@ -40419,7 +40419,7 @@
 									"title": "Libraries",
 									"notePosition": 70,
 									"prefix": null,
-									"isExpanded": true,
+									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [],
@@ -40439,7 +40439,7 @@
 											"title": "NumPy",
 											"notePosition": 10,
 											"prefix": null,
-											"isExpanded": true,
+											"isExpanded": false,
 											"type": "text",
 											"mime": "text/html",
 											"attributes": [],
@@ -41736,6 +41736,637 @@
 									"attributes": [],
 									"format": "html",
 									"dataFileName": "Functions.html"
+								}
+							]
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "TY0w8BsYUEYf",
+					"notePath": [
+						"root",
+						"TY0w8BsYUEYf"
+					],
+					"title": "UFMG",
+					"notePosition": 50,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "UFMG",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "2pqeYHaEoAcx",
+							"notePath": [
+								"root",
+								"TY0w8BsYUEYf",
+								"2pqeYHaEoAcx"
+							],
+							"title": "Semestres",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dirFileName": "Semestres",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "pAWlXe0PHyhI",
+									"notePath": [
+										"root",
+										"TY0w8BsYUEYf",
+										"2pqeYHaEoAcx",
+										"pAWlXe0PHyhI"
+									],
+									"title": "2024/02",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dirFileName": "202402",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "EPXcpBrqmEiE",
+											"notePath": [
+												"root",
+												"TY0w8BsYUEYf",
+												"2pqeYHaEoAcx",
+												"pAWlXe0PHyhI",
+												"EPXcpBrqmEiE"
+											],
+											"title": "Estruturas de Dados",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Estruturas de Dados",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "DsFpIIAjwkL3",
+													"notePath": [
+														"root",
+														"TY0w8BsYUEYf",
+														"2pqeYHaEoAcx",
+														"pAWlXe0PHyhI",
+														"EPXcpBrqmEiE",
+														"DsFpIIAjwkL3"
+													],
+													"title": "Aula 05 - Ordenacao: bolha, insercao, selecao",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Aula 05 - Ordenacao bolha, insercao, selecao",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "YUV9cxtyaof8",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"2pqeYHaEoAcx",
+																"pAWlXe0PHyhI",
+																"EPXcpBrqmEiE",
+																"DsFpIIAjwkL3",
+																"YUV9cxtyaof8"
+															],
+															"title": "Criterios de classificacao",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Criterios de classificacao.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "9TVc2iKOtlmL",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"2pqeYHaEoAcx",
+																"pAWlXe0PHyhI",
+																"EPXcpBrqmEiE",
+																"DsFpIIAjwkL3",
+																"9TVc2iKOtlmL"
+															],
+															"title": "Metodo da bolha",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Metodo da bolha.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "4Ee62pt2ABWz",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"2pqeYHaEoAcx",
+																"pAWlXe0PHyhI",
+																"EPXcpBrqmEiE",
+																"DsFpIIAjwkL3",
+																"4Ee62pt2ABWz"
+															],
+															"title": "Metodo da selecao",
+															"notePosition": 30,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Metodo da selecao.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "AgXGhNDerFpj",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"2pqeYHaEoAcx",
+																"pAWlXe0PHyhI",
+																"EPXcpBrqmEiE",
+																"DsFpIIAjwkL3",
+																"AgXGhNDerFpj"
+															],
+															"title": "Metodo da insercao",
+															"notePosition": 40,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Metodo da insercao.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "PPUvhJuJlNf3",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"2pqeYHaEoAcx",
+																"pAWlXe0PHyhI",
+																"EPXcpBrqmEiE",
+																"DsFpIIAjwkL3",
+																"PPUvhJuJlNf3"
+															],
+															"title": "Shell sort",
+															"notePosition": 50,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Shell sort.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "399ggvQx0y2r",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"2pqeYHaEoAcx",
+																"pAWlXe0PHyhI",
+																"EPXcpBrqmEiE",
+																"DsFpIIAjwkL3",
+																"399ggvQx0y2r"
+															],
+															"title": "Merge sort",
+															"notePosition": 60,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Merge sort.html"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "sEgtpP4mlhXm",
+							"notePath": [
+								"root",
+								"TY0w8BsYUEYf",
+								"sEgtpP4mlhXm"
+							],
+							"title": "FutureLab",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dirFileName": "FutureLab",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "wRQLsIiDVXzp",
+									"notePath": [
+										"root",
+										"TY0w8BsYUEYf",
+										"sEgtpP4mlhXm",
+										"wRQLsIiDVXzp"
+									],
+									"title": "Cursos",
+									"notePosition": 0,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dirFileName": "Cursos",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "bG1pvoQyOW0t",
+											"notePath": [
+												"root",
+												"TY0w8BsYUEYf",
+												"sEgtpP4mlhXm",
+												"wRQLsIiDVXzp",
+												"bG1pvoQyOW0t"
+											],
+											"title": "Hands-on Machine Learning",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Hands-on Machine Learning",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "mVggmAqOzi60",
+													"notePath": [
+														"root",
+														"TY0w8BsYUEYf",
+														"sEgtpP4mlhXm",
+														"wRQLsIiDVXzp",
+														"bG1pvoQyOW0t",
+														"mVggmAqOzi60"
+													],
+													"title": "Chapter 02",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Chapter 02",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "PBxoKn46sACg",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"PBxoKn46sACg"
+															],
+															"title": "Loading CSV data",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Loading CSV data.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "wIavXiew2QTc",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"wIavXiew2QTc"
+															],
+															"title": "Getting info on the data",
+															"notePosition": 20,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Getting info on the data.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "0bJLrQfEyQrx",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"0bJLrQfEyQrx"
+															],
+															"title": "Plotting",
+															"notePosition": 30,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Plotting.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "pVoBXI58wlZg",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"pVoBXI58wlZg"
+															],
+															"title": "Splitting train and test",
+															"notePosition": 40,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Splitting train and test.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "uLj0VuQkzVP1",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"uLj0VuQkzVP1"
+															],
+															"title": "Visualizing the data",
+															"notePosition": 50,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Visualizing the data.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "tP9eAUYAgF30",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"tP9eAUYAgF30"
+															],
+															"title": "Look for correlations",
+															"notePosition": 60,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Look for correlations.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "5Kb0eBhAor6T",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"5Kb0eBhAor6T"
+															],
+															"title": "Experiment with attribute combinations",
+															"notePosition": 70,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Experiment with attribute comb.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "rM7UjDkhoY8h",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"rM7UjDkhoY8h"
+															],
+															"title": "Clean the data",
+															"notePosition": 80,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Clean the data.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "xql7EpnSM0AS",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"xql7EpnSM0AS"
+															],
+															"title": "Handling text and categorical attributes",
+															"notePosition": 90,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Handling text and categorical .html"
+														},
+														{
+															"isClone": false,
+															"noteId": "pSZJf1DfqzFx",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"pSZJf1DfqzFx"
+															],
+															"title": "Feature scaling and transformation",
+															"notePosition": 100,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Feature scaling and transforma.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "3oveK9jhgGCy",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"3oveK9jhgGCy"
+															],
+															"title": "Custom transformers",
+															"notePosition": 110,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Custom transformers.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "GGXe5HiE5Taa",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"GGXe5HiE5Taa"
+															],
+															"title": "Transformation pipelines",
+															"notePosition": 120,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Transformation pipelines.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "HcOde5hWpsSi",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"HcOde5hWpsSi"
+															],
+															"title": "Train and evaluate on the training set",
+															"notePosition": 130,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Train and evaluate on the trai.html"
+														},
+														{
+															"isClone": false,
+															"noteId": "NhS0oXELVnBN",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"bG1pvoQyOW0t",
+																"mVggmAqOzi60",
+																"NhS0oXELVnBN"
+															],
+															"title": "Better evaluation using cross-validation",
+															"notePosition": 140,
+															"prefix": null,
+															"isExpanded": false,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Better evaluation using cross-.html"
+														}
+													]
+												}
+											]
+										}
+									]
 								}
 							]
 						}
