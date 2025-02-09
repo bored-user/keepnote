@@ -1,0 +1,32 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Remocao em qualquer posicao</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Remocao em qualquer posicao</h1>
+
+      <div class="ck-content">
+        <p>O(1) ou O(n)</p><pre><code class="language-text-x-c-src">// posiciona p na celula anterior a pos
+Celula* p = Posiciona(pos, true);
+
+Celula* q = p-&gt;prox;
+p-&gt;prox = q-&gt;prox;
+tamanho--;
+
+Item aux = q-&gt;item;
+delete q;
+if(p-&gt;prox == NULL) ultimo = 0;
+return aux;</code></pre>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,40 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Lista de adjacencia</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Lista de adjacencia</h1>
+
+      <div class="ck-content">
+        <ul>
+          <li>Uma lista para cada vertice (lista de listas/ vetor de listas) e nessa
+            lista tem os vizinhos daquele vertice.</li>
+          <li>Para verificar a existencia do vertice k, basta percorrer a lista da k-esima
+            entrada da lista de adjacencia, O(n).</li>
+          <li>Para encontrar quem sao os vizinhos de um vertice, basta encontrar a lista
+            referente ao vertice estudado, O(n)</li>
+        </ul>
+        <p>Vantagens:</p>
+        <ul>
+          <li>Espaco O(|E|+|V|). |E| = O(n^2), entao no pior caso a lista ocupa espaco
+            proporcional ao da matriz de adjacencia</li>
+          <li>Tempos de execucao menores quando o grafo possui poucas arestas (apesar
+            de o comportamento assintotico ser o mesmo da matriz de adjacencia; constantes
+            importam!)</li>
+        </ul>
+        <p>Desvantagens:</p>
+        <ul>
+          <li>Verificar a existencia de uma aresta eh O(n).</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,41 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Matriz de adjacencia</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Matriz de adjacencia</h1>
+
+      <div class="ck-content">
+        <ul>
+          <li>Grafo com n vertices. Matriz de adjacencia Anxn, A[i][j] = 1 se existe
+            aresta ij, 0 caso contrario.</li>
+          <li>Como o grafo eh nao dirigido (ie, as arestas nao tem direcao, ie, aresta
+            que conecta i a j conecta tambem j a i), a matriz eh simetrica.</li>
+          <li>Para verificar a existencia de uma aresta, basta verificar o valor da
+            matriz na posicao ij. Logo, O(1)</li>
+          <li>Para verificar os vizinhos de um vertice, basta varrer a linha/ coluna
+            da matriz de adjacencia (ie, achar os vizinhos do vertice 2, basta varrer
+            A[2][i] ou A[i][2]). Melhor utilizar as linhas pela localidade de referencia.
+            Isso eh theta(n).</li>
+        </ul>
+        <p>Vantagens:</p>
+        <ul>
+          <li>acesso rapido as arestas, O(1)</li>
+        </ul>
+        <p>Desvantagens:</p>
+        <ul>
+          <li>consultar vizinhanca eh theta(n) sempre</li>
+          <li>espaco O(n^2)</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

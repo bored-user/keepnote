@@ -1,0 +1,46 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Coordinate list (COO)</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Coordinate list (COO)</h1>
+
+      <div class="ck-content">
+        <p>Essa eh uma forma de representar matrizes esparsas que consiste em armazenar
+          3 listas, cada uma com k elementos (sendo k o numero de elementos nao nulos
+          da matriz esparsa original). A primeira lista armazena o indice da linha
+          do elemento; a segunda, o indice da coluna; e a terceira, o valor do elemento.</p>
+        <p>Uma matriz esparsa A com A[0,0] = 3, A[0,3] = 15, A[3,3] = 12 e os demais
+          elementos iguais a zero viraria:</p>
+        <p>[ 0 0 3 ] (indices das linhas)</p>
+        <p>[ 0 3 3 ] (indices das colunas)</p>
+        <p>[ 3 15 12 ] (valores)</p>
+        <p>Para encontrar um elemento nessa representacao, o custo eh O(k), sendo
+          k a quantidade de elementos nao nulos na matriz original (busca sequencial
+          nos elementos nao nulos).</p>
+        <p>A complexidade da impressao continua O(n^2), sendo n o tamanho da matriz
+          original (pois, apesar da representacao esparsa, ainda eh necessario percorrer
+          todos os elementos da matriz original).</p>
+        <p>A soma de duas matrizes eh feita em 3 partes: primeiro, combinam-se os
+          elementos nao nulos de ambas (essa parte com 3 casos: quando A e B tem
+          elemento nao nulo na mesma posicao; quando A eh nulo e B nao; quando A
+          eh nao nulo e B eh nulo); depois, transcreve-se os possiveis elementos
+          restantes de A na matriz resultante; e, por fim, transcreve-se os possiveis
+          elementos restantes da matriz B na resultante (essas ultimas duas partes
+          sao disjuntas). A complexidade da soma eh O(max(k1, k2)) sendo k1 e k2
+          a quantidade de elementos nao nulos em A e em B respectivamente.</p>
+        <p>O produto de uma matriz esparsa com um vetor eh feita percorrendo cada
+          elemento da matriz esparsa uma unica vez. Logo, a multiplicacao nao depende
+          diretamente do tamanho original da matriz e, portanto, eh O(k).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

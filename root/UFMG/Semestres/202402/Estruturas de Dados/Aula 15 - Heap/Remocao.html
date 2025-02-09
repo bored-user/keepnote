@@ -1,0 +1,38 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Remocao</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Remocao</h1>
+
+      <div class="ck-content">
+        <p>A remocao sempre acontece na raiz da arvore - ou seja, a remocao sempre
+          retorna o maior elemento. Apos isso, eh necessario consertar a arvore caso
+          necessario. O candidato a nova raiz sera sempre o ultimo elemento escrito
+          no vetor.</p><pre><code class="language-text-plain">Remove() {
+	x = v[0];
+	v[0] = v[t-1];
+	t--;
+	i = 0;
+	s = index maior sucessor de i;
+	while v[i] &lt; v[s] {
+		swap v[i] v[s];
+		i = s;
+		s = index maior sucessor de i;
+	}
+	
+	return x;
+}</code></pre>
+        <p>Novamente, a complexidade de tempo eh O(log n).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

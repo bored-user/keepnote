@@ -1,0 +1,33 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Implementacao com arvores</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Implementacao com arvores</h1>
+
+      <div class="ck-content">
+        <p>Na implementacao com arvores, cada conjunto eh uma arvore e o representante
+          de cada conjunto eh a raiz daquela arvore. Todos os elementos tem um ponteiro
+          “pai” e o pai da raiz eh si proprio.</p>
+        <p>Ou seja, a funcao find agora percorre a arvore a procura da raiz (elemento
+          cujo pai eh ele mesmo), O(log n).</p>
+        <p>Para unir dois conjuntos, basta conectar as duas arvores (fazendo o ponteiro
+          de uma das raizes apontar para a outra). No entanto, essa juncao sem criterios
+          pode degenerar a arvore em uma lista encadeada. Portanto, para garantir
+          a complexidade logaritimica para o find, deve-se garantir que a arvore
+          permaneca balanceada. Entao, usa-se a altura da arvore, adicionando, em
+          cada elemento, o campo rank, que guarda 0 inicialmente (altura daquele
+          elemento). Para determinar a nova raiz, usa-se a raiz original de maior
+          rank.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

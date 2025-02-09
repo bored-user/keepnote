@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Identificacao de componentes conexos de grafos</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Identificacao de componentes conexos de grafos</h1>
+
+      <div class="ck-content">
+        <p>DSU's podem ser utilizados para identificar componentes conexos de um
+          grafo. Um grafo eh conexo quando para todo par de vertices u e v, existe
+          um caminho que conecta u a v. Os vertices de um grafo nao conexo podem
+          ser particionados em componentes conexos.</p>
+        <p>Inicialmente, cada vertice v estara em um componente conexo que contem
+          apenas v. Entao, itera-se pelas arestas e para cada aresta E, chamar union
+          para os representantes dos dois vertices de E caso seus representantes
+          (ainda) sejam diferentes (pois uma aresta liga dois vertices, portanto,
+          une-se o conjunto daqueles vertices).&nbsp;</p>
+        <p>A complexidade desse algoritmo, utilizando DSU's com rank e path compression,
+          depende praticamente apenas do numero de arestas do grafo, O(E).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,42 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Arvore binaria de pesquisa</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Arvore binaria de pesquisa</h1>
+
+      <div class="ck-content">
+        <p>Em uma arvore binaria, cada no tem no maximo 2 filhos (0, 1 ou 2). Em
+          uma arvore binaria de pesquisa, cada no tem 0, 1 ou 2 filhos e filho Esq
+          &lt; raiz ≤ filho Dir.</p>
+        <p>Para encontrar um registro em uma arvore de pesquisa, compare-o com a
+          chave que esta na raiz. Se for menor, va para a subarvore da esquerda.
+          Se foi maior, para a da direita. Repita recursivamente ate que a chave
+          procurada seja encontrada ou que um no folha seja atingido.</p>
+        <p>A insercao eh feita adicionando o elemento como folha na arvore. De forma
+          recursiva, compara-se o item com a raiz. Se for menor, insere recursivamente
+          na subarvore da esquerda. Se for maior, na da direita. Quando a raiz for
+          nula, insere o item.</p>
+        <p>A remocao eh separada em tres casos: removendo nos folha, removendo nos
+          com um filho e removendo nos com dois filhos. A remocao de um no folha
+          simplesmente deleta o no. A remocao de um no com um filho remove o no e
+          move o filho para o lugar do pai. A remocao de um no com dois filhos pode
+          ser implementada com substituicao por sucessor (substitui o no a ser removido
+          pelo filho mais a esquerda da sub-arvore da direita, ie, substitui o no
+          a ser removido pelo seu menor sucessor) ou por antecessor (substitui o
+          no a ser removido pelo filho mais a direita da sub-arvore da esquerda,
+          ie, substitui o no a ser removido pelo seu maior antecessor).</p>
+        <p>As operacoes em uma arvore de pesquisa balanceada sao O(log n) caso a
+          arvore esteja balanceada ou O(n) caso contrario.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

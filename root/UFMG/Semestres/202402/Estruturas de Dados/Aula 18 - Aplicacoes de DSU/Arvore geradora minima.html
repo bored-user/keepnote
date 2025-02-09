@@ -1,0 +1,37 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Arvore geradora minima</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Arvore geradora minima</h1>
+
+      <div class="ck-content">
+        <p>Uma arvore geradora eh uma arvore pertencente a um grafo que conecte todos
+          os seus vertices (nao eh unica). A arvore geradora minima eh a arvore que
+          minimiza a soma dos custos das arestas selecionadas. Note que toda arvore
+          de n vertices possui n-1 arestas (pois arvores sao aciclicas).</p>
+        <p>Usa-se um minheap para determinar em qual ordem analisar as arestas do
+          grafo (as mais “baratas” tem prioridade). O algoritmo consiste em inicializar
+          um contador de unioes e um de custo com zero. Entao, colocar todas as arestas
+          no minheap e criar um subconjunto para cada vertice (sendo ele seu proprio
+          representante inicialmente). Enquanto o heap nao estiver vazio, remova
+          uma a uma as arestas do heap e incremente o contador. Se o representante
+          de cada ponta for diferente, faca a uniao e incremente os contadores. Quando
+          o contador de unioes valer n-1, pare o loop (pois teremos uma arvore; que
+          sera minima pois ela foi feita retirando arestas do minheap).&nbsp;</p>
+        <p>Esse algoritmo utiliza um minheap e todas as arestas sao inseridas nele.
+          Se o grafo de entrada for uma arvore (pior caso), o algoritmo ira parar
+          apenas quando todas as arestas forem removidas e analisadas. Nesse caso,
+          utilizando rank e path compression, a complexidade eh O(E log E).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

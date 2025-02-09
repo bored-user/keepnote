@@ -1,0 +1,43 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Ordenacao por contagem</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Ordenacao por contagem</h1>
+
+      <div class="ck-content">
+        <p>Quando ja se sabe o range do vetor (por exemplo, todos os elementos sao
+          inteiros positivos entre 0 e max, max ja conhecido).</p>
+        <p>A ordenacao eh feita criando um array auxiliar de tamanho max que armazena
+          o numero de vezes que cada elemento do vetor apareceu. Apos isso, esse
+          array de contagem eh percorrido e os itens sao reordenados no array original.</p><pre><code class="language-text-x-csrc">void countingsort(int* values, int n, int max) {
+	int* counts = (int*)calloc(max, sizeof(int));
+	int i = 0;
+	for(i = 0; i &lt; n; i++)
+		counts[values[i]]++;
+	
+	i = 0;
+	for(int j = 0; j &lt; max; j++) {
+		while(counts[j] &gt; 0) {
+			values[i] = j;
+			counts[j]--;
+			i++;
+		}
+	}
+	
+	free(counts);
+}</code></pre>
+        <p>A ordenacao eh feita em O(n); porem, usa muita memoria extra. Alem disso,
+          o metodo so eh viavel se soubermos a faixa de elementos anteriormente.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

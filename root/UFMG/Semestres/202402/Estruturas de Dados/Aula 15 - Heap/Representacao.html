@@ -1,0 +1,28 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Representacao</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Representacao</h1>
+
+      <div class="ck-content">
+        <p>Uma forma de representar o heap na memoria eh usando um vetor estatico
+          de tamanho n (n nos no heap). A ordem em que os nos aparecem no vetor eh
+          a resultante de um caminhamento por nivel.</p>
+        <p>Dessa forma, se um no aparece na posicao i do vetor, seus sucessores da
+          esquerda aparecerao em 2i+1 e, da direita, em 2i+2. Ou seja:</p><pre><code class="language-text-x-c-src">int GetAncestral(int i) { return (i-1)/2; }
+int GetSuccessorEsq(int i) { return 2*i+1; }
+int GetSucessorDir(int i) { return 2*i+2; }</code></pre>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

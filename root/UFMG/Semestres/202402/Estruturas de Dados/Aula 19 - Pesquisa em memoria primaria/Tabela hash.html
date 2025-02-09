@@ -1,0 +1,81 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Tabela hash</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Tabela hash</h1>
+
+      <div class="ck-content">
+        <p>Uma tabela hash eh uma tabela que mapeia chaves em inteiros dentro do
+          intervalo [0, M-1], sendo M o tamanho da tabela. O problema principal dos
+          algoritmos de hashing eh como lidar com colisoes. Para resolver esse problema,
+          existem dois principais metodos: encadeamento (listas encadeadas) ou enderecamento
+          aberto.</p>
+        <p>&nbsp;</p>
+        <p>O metodo de encadeamento consiste em criar uma lista encadeada para cada
+          endereco da tabela. Assim, chaves com o mesmo endereco na tabela sao encadeadas
+          na lista linear.</p>
+        <p>A busca por elementos, entao, se torna uma questao de hashear a chave
+          (ie, transforma-la em um endereco na tabela para saber em qual lista procurar,
+          e executar a busca sequencial na lista em questao).</p>
+        <p>A insercao de elementos consiste em hashear a chave (para encontrar a
+          lista correspondente na qual o elemento deve ser inserido) e inserir o
+          elemento ao final da lista. Da mesma forma, a remocao hasheia a chave e
+          remove daquela lista encadeada especifica.</p>
+        <p>Se cada lista tiver tamanho N/M (sendo N o numero de registros armazenados
+          na tabela e M a capacidade da tabela, ie, distribuicao uniforme de registros
+          nas listas da tabela), as operacoes de pesquisa, insercao e remocao sao
+          O(N/M) para percorrer a lista. Quando M~N, o tempo se torna constante (assintoticamente
+          O(1)).</p>
+        <p>&nbsp;</p>
+        <p>Ja o metodo do enderecamento aberto consiste em armazenar as chaves na
+          propria tabela. Esse metodo eh util quando o numero de registros a serem
+          armazenados na tabela puder ser previamente estimado. Usando tabelas com
+          tamanho M (sendo a capacidade M da tabela maior que o numero N de registros
+          gravados nela), pode-se usar espacos vazios da propria tabela para resolver
+          colisoes.</p>
+        <p>Nessa tecnica, quando a posicao da tabela que guardaria um elemento ja
+          esta ocupada (ie, ocorre uma colisao), procura-se uma "localizacao alternativa"
+          na qual armazenar o item. No entanto, isso gera um problema: quando um
+          elemento eh retirado, o espaco armazenado por ele torna-se vazio. Mas,
+          se a pesquisa considerasse aquele espaco como vazio, o resultado da pesquisa
+          seria incorreto. A solucao para isso eh diferenciar os estados de vazio
+          e de retirado. Para a pesquisa, uma posicao com estado retirada equivale
+          a uma posicao ocupada. Ja para a inseracao, uma posicao com estado retirada
+          equivale a uma posicao vazia.</p>
+        <p>A pesquisa, insercao e remocao com enderecamento aberto sao O(1) no melhor
+          caso e O(n) no pior.&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>Um mal que o hashing linear sofre chama-se agrupamento. Isso ocorre quando
+          a tabela comeca a ficar cheia, pois ai a insercao de uma nova chave tende
+          a ocupar uma posicao na tabela que esteja contigua a outras posicoes ja
+          ocupadas, o que deteriora o tempo de pesquisa. Isso tem relacao com o chamado
+          fator de carga, que eh a razao N/M. Quando o fator de carga eh alto, o
+          hashing linear passa a sofrer com o agrupamento. No encadeamento, o fator
+          de carga pode ser maior que 1 (ou seja, a quantidade de registros na tabela
+          pode ser maior que sua capacidade; embora possivel, nao eh desejavel).
+          Ja no enderecamento aberto, um fator de carga 1 significa que a tabela
+          esta cheia e nao consegue mais armazenar novos itens. A alternativa para
+          lidar com o agrupamento eh aumentar o tamanho da tabela quando o fator
+          de carga atingir algum valor.</p>
+        <p>Ao aumentar o tamanho da tabela, eh necessario re-hashear todos os elementos
+          (ie, passar por cada um e executar a funcao de hashing novamente, para
+          descobrir o novo endereco). Como isso eh custoso, eh interessante sempre
+          aumentar o tamanho da tabela de forma substancial.</p>
+        <p>&nbsp;</p>
+        <p>Por fim, o uso de tabelas hash eh util pela alta eficiencia na pesquisa,
+          O(1) para o caso medio. Por outro lado, o custo eh alto para recuperar
+          registros em ordem, sendo necessario ordenar o arquivo. O pior caso de
+          tabelas hash eh O(n).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

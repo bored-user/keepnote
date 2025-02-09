@@ -1,0 +1,32 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Implementacao com vetores</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Implementacao com vetores</h1>
+
+      <div class="ck-content">
+        <p>Nessa implementacao, cria-se um vetor estatico de n elementos e utiliza-se
+          representantes para montar os conjuntos. Dois elementos estao em um mesmo
+          conjunto se possuem representantes iguais.</p>
+        <p>Inicialmente, a funcao make inicializa o vetor estatico, fazendo cada
+          elemento ser seu proprio representante (conjuntos[x] = x), sendo que os
+          dados a serem armazenados, x, sao numeros sequenciais de 0 a n. A complexidade
+          da funcao eh O(1).</p>
+        <p>Para encontrar um elemento, basta retornar o conjuntos[x], ou seja, O(1)
+          tambem.</p>
+        <p>A uniao encontra o representante dos dois elementos e percorre o vetor
+          inteiro, trocando os representantes de acordo com a necessidade. Portanto,
+          O(n).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

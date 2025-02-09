@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Bucket sort</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Bucket sort</h1>
+
+      <div class="ck-content">
+        <p>O bucket sort eh uma generalizacao do counting sort, no qual o numero
+          de baldes eh variavel (nao eh sempre o maior elemento do vetor).</p>
+        <p>Consiste em separar os elementos em baldes de tamanho menor e ordenar
+          separadamente cada um dos baldes utilizando algoritmos tradicionais de
+          ordenacao. Alternativamente, pode-se implementar os baldes como listas
+          encadeadas e ja inserir de forma ordenada em cada lista.</p>
+        <p>Usa-se O(n/k) para inserir os n elementos em k baldes. Logo, o pior caso
+          eh O(n^2). O Melhor caso eh O(n). Usa-se O(n) memoria extra. Uma das vantagens
+          eh que quando k cresce, a ordenacao eh quase linear: n^2/k → n quando k
+          → n.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

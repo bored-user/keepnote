@@ -1,0 +1,43 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Insercao</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Insercao</h1>
+
+      <div class="ck-content">
+        <p>Metodo recursivo: compara o item com o elemento da raiz</p>
+        <ul>
+          <li>se for menor, insere na esquerda</li>
+          <li>se for maior, insere na direita</li>
+          <li>se raiz == null, insere item</li>
+        </ul><pre><code class="language-text-x-c-src">void Insere(Item item) {
+	InsereRecursivo(raiz, item);
+}
+
+void InsereRecursivo(No* &amp;p, Item item) {
+	if(p == NULL) {
+		p = new No();
+		p-&gt;item = item;
+	} else {
+		if(item &lt; p-&gt;item) InsereRecursivo(p-&gt;esq, item);
+		else			   InsereRecursivo(p-&gt;dir, item);
+	}
+}</code></pre>
+        <p>Pior caso: arvore binaria de maior altura: quando todos os nos da arvore
+          tem apenas um filho (ex.: insercao de elementos em ordem crescente). Nesse
+          caso, a arvore se degenera em uma lista encadeada. O(n)</p>
+        <p>Melhor caso: arvore binaria de menor altura: quando eh balanceada: todos
+          os nos possuem dois filhos. O(log n)</p>
+      </div>
+    </div>
+  </body>
+
+</html>

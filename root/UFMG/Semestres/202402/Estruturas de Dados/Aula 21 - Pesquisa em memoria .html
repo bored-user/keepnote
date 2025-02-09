@@ -1,0 +1,63 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Aula 21 - Pesquisa em memoria secundaria</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Aula 21 - Pesquisa em memoria secundaria</h1>
+
+      <div class="ck-content">
+        <p>Uma arvore B eh um jeito de armazenar dados muito grandes para serem armazenados
+          em memoria primaria de forma eficiente. Sao arvores n-arias, com mais de
+          um registro por no (por pagina). Em uma arvore B de ordem m, tem-se: na
+          pagina raiz, 1 a 2m registros; nas demais paginas (nos), de m a 2m registros
+          e de m+1 a 2m+1 descendentes. Os registros folha aparecem todos no mesmo
+          nivel e os registros ficam em ordem crescente da esquerda para a direita.</p>
+        <p>A pesquisa eh realizada de forma tradicional, comparando a chave com os
+          registros do no (da pagina) para decidir se deve-se procurar na pagina
+          da direita ou da esquerda recursivamente.</p>
+        <p>A insercao eh feita apenas em nos folhas. Primeiro, localiza-se a pagina
+          onde o registro deve ser inserido. Se a pagina tem menos de 2m registros,
+          o processo de insercao fica limitado a pagina. Se a pagina esta cheia,
+          eh criada uma nova pagina. No caso da pagina pai estar cheia, a divisao
+          se propaga. Ie, se a pagina a receber o novo registro contem 2m registros
+          (esta cheia), ela eh quebrada em duas, cada uma com m registros. O registro
+          do meio eh movido para o no pai. No pior caso, uma nova raiz eh criada,
+          aumentando a altura da arvore (a altura da arvore B so aumenta com a divisao
+          da raiz).</p>
+        <p>Algoritmo da insercao: localizar a pagina p onde o registro deve ser inserido.
+          Se p tem menos de 2m registros, insere em p e termina. Caso contrario,
+          cria uma nova pagina p'. Insere o registro na pagina p e move o registro
+          do meio para o pai e os menores que o do meio para p'. Caso o pai de p
+          tenha ficado cheio nesse processo, quebra-o em dois tambem.</p>
+        <p>A remocao eh mais complicada. Como a insercao, ela so ocorre em nos folha.
+          Caso o registro a ser removido estiver em uma pagina folha, retira-se o
+          registro. Se a pagina nao tiver pelo menos m registros, pega-se um registro
+          emprestado da pagina vizinha (se nao existir registros suficientes, as
+          duas paginas sao fundidas). Se a pagina com o registro a ser removido nao
+          eh folha, substitui o registro a ser removido com uma pagina folha sucessora
+          ou antecessora. Se, apos a remocao, o numero de registros restantes na
+          pagina-folha for menor que m, um registro da pagina vizinha deve ser emprestado.
+          Se a pagina vizinha tiver m registros apenas, as duas paginas devem ser
+          fundidas. Na fusao de duas paginas, o registro do meio deve ser emprestado
+          da pagina pai e o procedimento eh propagado ate a raiz. Se o numero de
+          registros na raiz zerar, reduz a altura da arvore.</p>
+        <p>Algoritmo da remocao: a pagina p com registro a ser removido eh folha?
+          Se sim, retira o registro. Se nao, substitui o registro por um adjacente
+          (antecessor ou sucessor) e remove. Apos a remocao, p ficou pequena demais
+          (menos que m filhos)? Se nao, termina. Se sim, checa a irma de p. Caso
+          ela tenha ficado pequena demais tambem, as paginas sao fundidas. Caso contrario,
+          as chaves sao redistribuidas entre paginas vizinhas.</p>
+        <p>A pesquisa, insercao e remocao em arvores B sao logaritimicas. Alem disso,
+          a insercao e a remocao sempre deixam a arvore balanceada.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

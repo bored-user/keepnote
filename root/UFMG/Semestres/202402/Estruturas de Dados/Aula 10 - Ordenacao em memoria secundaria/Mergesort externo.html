@@ -1,0 +1,53 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Mergesort externo</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Mergesort externo</h1>
+
+      <div class="ck-content">
+        <p>Dividir o vetor de entrada em chunks (pedacos) que caibam em memoria (runs).
+          Intercalar grupos de runs usando a intercalacao externa. Continuar a intercalacao
+          das runs resultantes em passos (pass) ate ter-se o arquivo de entrada ordenado.</p>
+        <p>Entrada: arquivo X a ser ordenado, arquivo Y vazio</p>
+        <p>Fase 1: ate o fim do arquivo X,</p>
+        <ul>
+          <li>leia M registros de X</li>
+          <li>ordene em memoria</li>
+          <li>escreva no fim do arquivo Y</li>
+        </ul>
+        <p>Fase 2: repete enquanto existir mais de uma run</p>
+        <ul>
+          <li>apaga X</li>
+          <li>MergeAllRuns(Y, X)</li>
+          <li>troca X e Y</li>
+        </ul>
+        <p>MergeAllRuns(X, Y): repete ate o fim de Y:</p>
+        <ul>
+          <li>chama TwoWayMerge para intercalar duas runs sequenciais de Y em uma run,
+            que eh escrita no fim de X</li>
+        </ul>
+        <p>TwoWayMerge: usa 3 buckets</p>
+        <p>Com N runs (cada uma se referindo a uma unica pagina), precisamos de ceil(log2
+          n) + 1 passos (passes) para ordenar todo arquivo. Cada passo (pass) precisa
+          de 2N I/O, logo o custo total eh 2N * (ceil(log2 n)+1).</p>
+        <p>Usando mais de 3 paginas de buffer, podemos melhorar esse algoritmo. Usando
+          o maximo de memoria em cada passada, eh possivel reduzir o numero de passadas
+          e reduzir a quantidade de operacoes de I/O.</p>
+        <p>Intercalacao de k sequencias (k-way): intercalar k sequencias (em vez
+          de apenas 2). &nbsp;Quanto maior k, maior o numero de arquivos que tem
+          que ficar abertos ao mesmo tempo para serem usados como intermediarios
+          na intercalacao. No entanto, ha uma melhora significativa no numero de
+          passadas.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,70 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Compressed sparse row (CSR)</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Compressed sparse row (CSR)</h1>
+
+      <div class="ck-content">
+        <p>Essa eh uma otimizacao para o metodo das listas coordenadas. Aqui, em
+          vez de armazenar 3 listas (com indices de linhas, de colunas e valores,
+          respectivamente), armazena-se ponteiros para os indices onde cada linha
+          comeca no vetor de colunas.</p>
+        <p>[ 3 0 0 15 ]</p>
+        <p>[ 0 2 4 0 ]</p>
+        <p>[ 0 7 0 0 ]</p>
+        <p>[ 6 0 0 12 ]</p>
+        <p>Considerando essa matriz, a representacao CSR eh:</p>
+        <p>linhas: &nbsp; &nbsp; &nbsp; [ 0 2 4 5 7 ]</p>
+        <p>colunas: &nbsp; [ 0 3 1 2 1 0 3 ]</p>
+        <p>valores: &nbsp; &nbsp; [ 3 15 2 4 7 6 12 ]</p>
+        <p>Note que os vetores de colunas e de valores tem sempre o mesmo numero
+          de elementos (que eh o numero de elementos nao nulos na matriz esparsa
+          original).</p>
+        <p>O vetor de linhas funciona da seguinte forma: a linha 1 da matriz (linhas[1],
+          valor 2) comeca no indice 2 do vetor de colunas. Ou seja, o primeiro elemento
+          nao nulo da linha 1 da matriz original esta na coluna 1. De fato, [1,2]=4
+          eh o primeiro elemento nao nulo da linha 1 da matriz original.</p>
+        <p>Para saber a quantidade de elementos nao nulos de uma linha, basta olhar
+          o valor armazenado no vetor de linhas na celula contigua. Por exemplo:
+          o primeiro valor eh 0. O proximo eh 2. Isso significa que na primeira linha
+          (linha 0) da matriz original, ha 2 valores. Em contraste, na 3a linha da
+          matriz original (linha 2), ha apenas um valor, pois linhas[2]=4 e linhas[3]=5
+          (olhando a posicao contigua).</p>
+        <p>Para lidar com edge cases, no fim do vetor de linhas ha uma entrada extra
+          que informa a a quantidade de elementos dos vetores colunas/ valores. Nesse
+          exemplo, o vetor de colunas tem 7 elementos, 0-6, pois o ultimo elemento
+          de linhas eh 7.</p>
+        <p>Para a criacao de uma CSR, eh necessario percorrer todos os elementos
+          da matriz original. Logo, o custo eh O(n^2).</p>
+        <p>Para acessar um elemento na CSR, precisamos acessar a linha (o que eh
+          feito em tempo constante, O(1)) para entao percorrer o vetor de colunas
+          e achar o valor esperado. Utilizando uma busca sequencial, temos O(k) -
+          k elementos nao nulos na matriz. Note que com os elementos ordenados, eh
+          possivel realizar busca binaria, que baixaria o custo para O(log k).</p>
+        <p>Para alterar um valor, tem-se o caso em que o valor daquela coordenada
+          ja era nao nulo (nesse caso, o custo eh o mesmo que o de acesso) e o caso
+          em que o valor original era nulo, e entao eh necessario modificar a estrutura
+          da CSR para inserir ordenado. Nessa situacao, utilizando um algoritmo como
+          o insertion sort, eh possivel inserir ordenado em O(k).</p>
+        <p>Para a impressao, eh necessario passar por todos os elementos da matriz
+          original (ate mesmo os nulos). Logo, O(n^2).</p>
+        <p>Como no COO, a soma de duas matrizes tem 3 partes (soma as entradas nao
+          nulas de mesma coordenada/ as entradas nulas em A e nao nulas em B/ as
+          entradas nulas em B e nao nulas em A; transcreve os restantes de A na resultante;
+          transcreve os restantes de B na resultante) e custa O(max(k1, k2)) sendo
+          k1 e k2 a quantidade de elementos nao nulos em A e em B.</p>
+        <p>O produto de matriz com vetor continua O(k) pois nao eh necessario passar
+          por todos os elementos da matriz original.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,56 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Rotacoes</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Rotacoes</h1>
+
+      <div class="ck-content">
+        <p>Caso 1: insere na esquerda do parent e avo fica com desbalanceamento negativo
+          (rotacao para a direita)</p>
+        <p>Caso 2: insere na direita do parent e avo fica com desbalanceamento positivo
+          (rotacao para a esquerda)</p>
+        <p>Caso 3: insere na direita do parent e avo fica com desbalanceamento negativo
+          (rotacao para a esquerda seguida de para a direita)</p>
+        <p>Caso 4: insere na esquerda do parent e avo fica com desbalanceamento positivo
+          (rotacao para a direita seguida de para a esquerda)</p>
+        <p>A insercao realizando as rotacoes custa log n para achar o local do no,
+          log n para atualizar as alturas e 1 para rotacionar = O(log n)</p>
+        <p>&nbsp;</p>
+        <p>Na remocao de um no folha, se faz como nas arvores de pesquisa: apenas
+          remove o no. Porem, eh necessario percorrer a arvore para checar o desbalanceamento
+          e a possivel necessidade de realizar rotacoes. Isso eh feito da seguinte
+          forma: verifica-se o balanceamento do pai do no em questao. Se tiver ok,
+          continua subindo na arvore ate achar um no problematico (chamado de x).
+          Quando esse eh encontrado, identifica-se o filho de maior altura de x (chamado
+          de y). Entao, identifica-se o neto de maior altura de x (chamado de z).
+          Olhando para x, y e z e seus fatores de balanceamento, caimos em um dos
+          casos de balanceamento da insercao. Entao, realiza-se as rotacoes necessarias
+          e repete o processo comecando pelo avo (x), ate atingir a raiz da arvore.</p>
+        <p>Na remocao de um no que tem 2 filhos, podemos trocar o no a ser removido
+          pelo seu antecessor (no mais a direita da subarvore a esquerda) ou com
+          seu sucessor (no mais a esquerda da subarvore a direita). Uma vez que isso
+          eh realizado, eh necessario verificar a arvore para encontrar nos problematicos.
+          Uma vez encontrado, eh chamado de x. Entao, encontra-se o filho de maior
+          altura, y e o neto de maior altura, z. Nesse ponto, caimos novamente em
+          um dos casos da insercao.&nbsp;</p>
+        <p>A intuicao geral para a remocao de nos da arvore eh a seguinte: encontra
+          um no desbalanceado, x; seu filho de maior altura, y; e seu neto de maior
+          altura, z. Nesse ponto, corrigimos com um dos casos de desbalanceamento
+          da insercao (realizando rotacoes). Enquanto ha nos desbalanceados, anda
+          para cima, verifica e corrige.</p>
+        <p>O custo da remocao eh log n para encontrar o antecessor/ sucessor, log
+          n + 1 para realizar a retirada e log n para verificar se ha desbalanceamento
+          = log n.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

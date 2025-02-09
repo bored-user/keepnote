@@ -1,0 +1,54 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Aula 09 - Localidade de referencia</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Aula 09 - Localidade de referencia</h1>
+
+      <div class="ck-content">
+        <p>Localidade de referencia espacial: acesso a uma posicao de memoria aumenta
+          a probabilidade de acessar posicoes proximas;</p>
+        <p>Localidade de referencia temporal: acesso a uma posicao de memoria aumenta
+          a probabilidade de acessa-la no futuro proximo.</p>
+        <figure class="image">
+          <img src="Aula%2009%20-%20Localidade%20de%20referencia/image.png">
+        </figure>
+        <p>Estruturacao de cache/ memoria: supondo uma memoria de 16kb. Um mono-bloco
+          de 16kb favorece a localidade espacial (quando o primeiro endereco for
+          requisitado, os 16kb serao carregados; logo, quando qualquer outro endereco
+          contiguo dos 16kb for requisitado, ele ja estara disponivel), mas desfavorece
+          a localidade temporal (se essa memoria for reusada no futuro, todos os
+          16kb deverao ser carregados novamente). Por outro lado, 16 blocos de 1kb
+          cada favorecem a localidade temporal (por ser um bloco pequeno, o custo
+          de carrega-lo novamente nao eh muito grande; logo nao faz mal recarregar
+          no futuro caso ele seja reusado), mas desfavorece a localidade espacial
+          (os blocos contiguos de 1kb precisarao ser carregados continuamente caso
+          necessario). O “compromisso” entre localidade espacial e temporal esta
+          em usar estruturas intermediarias (4 blocos de 4kb).</p>
+        <figure class="image">
+          <img src="Aula%2009%20-%20Localidade%20de%20referencia/1_image.png">
+        </figure>
+        <p>A localidade de referencia pode ser medida pela distancia de pilha. Seja
+          uma pilha inicialmente vazia com 5 posicoes. Cada vez que um endereco eh
+          acessado, ele eh colocado no topo da pilha. Sua posicao na pilha eh a distancia
+          de pilha. Usando isso, eh possivel saber o quao eficiente esta a localidade
+          de referencia de um programa. A distancia de pilha mede o numero de referencias
+          unicas a memoria entre o acesso atual e o acesso mais recente. Se o cache
+          armazena uma quantidade de itens correspondentes a distancia de pilha,
+          tem-se um hit (ou seja, quando o elemento eh novamente requisitado, ele
+          ainda esta disponivel no cache - ja que o cache armazena o numero de itens
+          da distancia de pilha). Baixos valores de distancia de pilha geralmente
+          indicam boa localidade (o dado frequentemente acessado eh mais provavel
+          de estar no cache).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

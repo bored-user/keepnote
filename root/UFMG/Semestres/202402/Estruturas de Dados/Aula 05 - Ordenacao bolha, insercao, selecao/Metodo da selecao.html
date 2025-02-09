@@ -20,7 +20,7 @@
 		for(int j = i+1; j &lt; sz; j++) {
 			if(vet[j] &lt; vet[min]) min = j;
 		}
-		troca(vet[j], vet[min]);
+		troca(vet[i], vet[min]);
 	}
 }</code></pre>
         <p>O metodo da selecao nao eh estavel, em funcao de um efeito colateral:

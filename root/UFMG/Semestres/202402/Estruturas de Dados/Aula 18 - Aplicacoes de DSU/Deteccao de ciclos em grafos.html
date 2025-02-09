@@ -1,0 +1,29 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Deteccao de ciclos em grafos</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Deteccao de ciclos em grafos</h1>
+
+      <div class="ck-content">
+        <p>Dado um DSU com os vertices do grafo (inicialmente, cada vertice eh seu
+          proprio representante), itere por todas as arestas. Se em alguma aresta
+          os vertices ja pertencem a mesma componente conexa antes do union (se find
+          u == find v), retorne true. Ao fim da iteracao, retorne false. O codigo
+          apenas chegara no return false caso a execucao do union sempre se de em
+          vertices de componentes conexos diferentes (pois, para cada par de vertices,
+          existe apenas um unico caminho os conectando).</p>
+        <p>No pior caso, quando nao ha ciclos, tem-se que iterar por todas as arestas.
+          Nesse caso, utilizando rank e path compression, o algoritmo eh O(E).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

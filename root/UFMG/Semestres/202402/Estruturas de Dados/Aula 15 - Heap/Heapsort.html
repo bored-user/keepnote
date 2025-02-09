@@ -1,0 +1,65 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Heapsort</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Heapsort</h1>
+
+      <div class="ck-content">
+        <p>O heapsort consiste em utilizar um heap para ordenar um vetor. Ou seja,
+          adiciona-se os elementos do vetor em um heap e, apos isso, os elementos
+          sao removidos. Pelas propriedades do heap, os elementos sairao ordenados
+          do heap.</p>
+        <p>Ao representar um vetor como um maxheap, dos n elementos do vetor, n/2
+          sao folhas (que ja atendem a propriedade de serem maiores ou iguais que
+          seus sucessores - uma vez que folhas nao tem sucessores). Portanto, deve-se
+          ordenar os elementos da primeira metade do vetor. Ou seja, eh necessario
+          verificar as subarvores enraizadas por cada um dos elementos da primeira
+          metade, comecando mais a direita.</p>
+        <p>Para consertar a subarvore, usa-se o seguinte procedimento (similar a
+          remocao), no qual v eh o vetor, n eh um inteiro indicando o tamanho do
+          vetor e raiz eh o indice da raiz da subarvore:</p><pre><code class="language-text-plain">VerificaSubarvore(v, n, raiz) {
+	i = raiz;
+	s = index maior sucessor de i;
+	while v[i] &lt; v[s] and s &lt; n {
+		swap v[i] v[s];
+		i = s;
+		s = index maior sucessor de i;
+	}
+}</code></pre>
+        <p>Como eh necessario verificar todas as subarvores:</p><pre><code class="language-text-plain">ConstroiHeap(v, n) {
+	i = n/2;
+	while i &gt; 0 {
+		i--;
+		VerificaSubarvore(v, n, i);
+	}
+}</code></pre>
+        <p>Assim, o algoritmo do heapsort torna-se:</p><pre><code class="language-text-plain">HeapSort(v, n) {
+	ConstroiHeap(v, n);
+	t = n - 1;
+	while t &gt; 0 {
+		aux = v[t];
+		v[t] = v[0];
+		v[0] = aux;
+		t--;
+		VerificaSubarvore(v, t, 0);
+	}
+}</code></pre>
+        <p>O heapsort nao eh estavel, pois pode trocar elementos iguais. Alem disso,
+          ele eh O(nlog n), pois o VerificaSubarvore eh O(log n) e eh chamado n-1
+          vezes; o ConstroiHeap eh O(nlogn) e eh chamado 1 vez.</p>
+        <p>Vantagens: O(nlogn) nao importa a entrada.</p>
+        <p>Desvantagens: nao eh estavel. Nao eh recomendado para arquivos com poucos
+          registros por causa do tempo de construcao do heap.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

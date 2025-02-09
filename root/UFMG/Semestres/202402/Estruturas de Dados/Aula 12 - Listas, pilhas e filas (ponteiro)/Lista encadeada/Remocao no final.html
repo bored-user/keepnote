@@ -1,0 +1,31 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Remocao no final</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Remocao no final</h1>
+
+      <div class="ck-content">
+        <p>O(n)</p><pre><code class="language-text-x-c-src">// posiciona p na celula antes da ultima
+Celula* p = Posiciona(tamanho, true);
+p-&gt;prox = NULL;
+tamanho--;
+
+Item aux = ultimo-&gt;item;
+delete ultimo;
+ultimo = p;
+
+return aux;</code></pre>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

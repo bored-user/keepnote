@@ -1,0 +1,60 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Quicksort externo</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Quicksort externo</h1>
+
+      <div class="ck-content">
+        <p>Mantem o paradigma de divisao e conquista do quicksort interno. O pivot
+          nao eh um elemento simples e sim um buffer de tamanho m, m = O(log n).
+          Eh um algoritmo in-place. Os n registros a serem ordenados estao em memoria
+          externa de acesso aleatorio.</p>
+        <p>Sendo A o arquivo a ser ordenado, o algoritmo particiona os registros
+          R de A da seguinte forma:</p>
+        <p>A1: R1, … Ri</p>
+        <p>pivot: Ri+1,… Rj-1</p>
+        <p>A2: Rj,… Rn</p>
+        <p>Sendo A1 ≤ pivot ≤ A2</p>
+        <p>Chamar recursivamente para cada um dos subarquivos A1 e A2. Os elementos
+          do pivot ja estao ordenados corretamente.</p>
+        <p>Para o particionamento, eh utilizada uma area de armazenamento da memoria
+          interna (tam_area = j - i - 1, tam_area ≥ 3).</p>
+        <p>Algoritmo (ordenar):</p>
+        <ul>
+          <li>ler os primeiros m/2 e os ultimos m/2 elementos de A para o buffer e ordena-los</li>
+          <li>guardar os valores max(buffer) e min(buffer)</li>
+          <li>ler x, o proximo elemento do comeco e do fim (alternadamente) de forma
+            a balancear a escrita:
+            <ul>
+              <li>se x ≤ min(buffer): escrever x no espaco do comeco do arquivo</li>
+              <li>se x ≥ max(buffer): escrever x no fim do arquivo</li>
+              <li>se min(buffer) &lt; x &lt; max(buffer): escrever min(buffer) ou max(buffer)
+                no arquivo, colocar x no buffer e recalcular min e max</li>
+            </ul>
+          </li>
+          <li>ao terminar, escrever o conteudo do buffer</li>
+          <li>recursivamente, ordenar(particao menor), ordenar(particao maior).</li>
+        </ul>
+        <p>Sendo n o numero de registros no arquivo e b o tamanho do bloco de leitura
+          e escrita,</p>
+        <ul>
+          <li>melhor caso, O(n/b) - quando o arquivo ja esta ordenado</li>
+          <li>pior caso, O(n^2/tam_area) - quando uma das particoes tem o maior tamanho
+            possivel e a outra eh vazia; a medida que n cresce, a probabilidade de
+            ocorrencia do pior caso tende a zero</li>
+          <li>caso medio, O(n/b * log(n/tam_area))</li>
+        </ul>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

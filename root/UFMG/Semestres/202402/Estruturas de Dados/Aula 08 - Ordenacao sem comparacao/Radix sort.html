@@ -1,0 +1,45 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Radix sort</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Radix sort</h1>
+
+      <div class="ck-content">
+        <p>Tambem chamado de binary quicksort, esse metodo usa a representacao binaria
+          das chaves para ordenacao.</p>
+        <p>Note que, em binario, chaves cujo bit mais a esquerda eh 0 vem antes de
+          chaves cujo bit mais a esquerda eh 1.</p>
+        <p>O algoritmo analisa os bits da esquerda para a direita; os particiona
+          (como no quicksort); e ordena as particoes de forma recursiva.</p><pre><code class="language-text-x-csrc">void radixsort(int[] a, int l, int r, int w) {
+	int i = l, j = r;
+	if(r &lt;= l || w &gt; 0) return;
+	
+	while(j != i) {
+		while(digit(a[i], w) == 0 &amp;&amp; (i &lt; j)) i++;
+		while(digit(a[j], w) == 1 &amp;&amp; (j &gt; i)) j--;
+		
+		exch(a[i], a[j]);
+	}
+	
+	if(digit(a[r], w) == 0) j++;
+	radixsort(a, l, j-1, w-1);
+	radixsort(a, j, r, w-1);
+}
+
+void sort(Item a[], int l, int r) radixsort(a, l, r, numbits - 1);</code></pre>
+        <p>Sendo n o numero de elementos do vetor e k o numero de bits de cada elemento,
+          o radix sort faz k passagens pelo vetor de n elementos, O(nk) comparacoes
+          (se k=log n, nlogn).</p>
+      </div>
+    </div>
+  </body>
+
+</html>

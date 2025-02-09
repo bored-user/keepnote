@@ -1,0 +1,66 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Aula 07 - Quicksort</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Aula 07 - Quicksort</h1>
+
+      <div class="ck-content">
+        <p>Algoritmo recursivo de divisao e conquista. Diferentemente do mergesort
+          (tambem eh divisao e conquista), o vetor nao eh dividido na metade necessariamente.</p>
+        <p>Um pivo eh escolhido arbitrariamente. Uma variavel i percorre o array
+          de 0 ate o pivo;. Toda vez que i encontra um elemento maior que o pivo,
+          uma variavel j percorre o vetor do fim ate o pivo e, ao encontrar alguem
+          menor que o pivo, A[i] e A[j] trocam. O processo continua ate que i e j
+          se cruzem. Ao final, o vetor esta ordenado de forma que A[0] → A[j] sao
+          menores que o pivo e A[i] → A[n-1] sao maiores que o pivo.</p><pre><code class="language-text-x-csrc">void Particao(int Esq, int Dir, int* i, int* j, Item* A) {
+	Item x, w;
+	*i = Esq;
+	*j = Dir;
+	x = A[(Esq + Dir) / 2];
+	do {
+		while(x &gt; A[*i]) (*i)++;
+		while(x &lt; A[*j]) (*j)--;
+		if(*i &lt;= *j) {
+			w = A[*i];
+			A[*i] = A[*j];
+			A[*j] = w;
+			(*i)++;
+			(*j)--;
+		}
+	} while(*i &lt;= *j);
+}
+
+void Ordena(int Esq, int Dir, Item* A) {
+	int i, j;
+	Particao(Esq, Dir, &amp;i, &amp;j, A);
+	if(Esq &lt; j) Ordena(Esq, j, A);
+	if(i &lt; Dir) Ordena(i, Dir, A);
+}
+
+void Quicksort(Item* A, int n) {
+	Ordena(0, n-1, A);
+}</code></pre>
+        <p>Por realizar saltos, o quicksort nao eh um algoritmo estavel (pode trocar
+          a posicao relativa entre elementos iguais por causa disso).</p>
+        <p>Se, em cada iteracao, o pivo eh o maior ou o menor elemento, as particoes
+          terao 1 e n-1 elementos; ou seja, o vetor sera ordenado elemento a elemento.
+          Isso significa que o pior caso do algoritmo eh T(n) = n + T(n-1) → C(n)
+          = O(n^2)</p>
+        <p>No melhor caso e caso medio, todas as particoes tem o mesmo tamanho e
+          T(n) = 2T(n/2) + n → C(n) = O(nlogn)</p>
+        <p>Melhorias possiveis sao fazer a mediana de 3 na escolha do pivo (evita
+          pegar o menor e maior elementos); utilizar um algoritmo simples (insercao
+          ou selecao) para particoes de tamanho pequeno; fazer o quicksort nao recursivo.</p>
+      </div>
+    </div>
+  </body>
+
+</html>

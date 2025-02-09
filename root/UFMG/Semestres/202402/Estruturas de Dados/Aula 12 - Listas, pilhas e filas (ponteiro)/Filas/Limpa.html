@@ -1,0 +1,30 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Limpa</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Limpa</h1>
+
+      <div class="ck-content">
+        <p>Remove todas as celulas (restando apenas a cabeca), define o tamanho para <code>0</code>,
+          atualiza <code>tras</code>.</p><pre><code class="language-text-x-c-src">Celula* p = frente-&gt;prox;
+while(p!=NULL) {
+	frente-&gt;prox = p-&gt;prox;
+	delete p;
+	p = frente-&gt;prox;
+}
+
+tamanho = 0;
+tras = frente;</code></pre>
+      </div>
+    </div>
+  </body>
+
+</html>
