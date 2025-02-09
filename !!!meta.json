@@ -41788,7 +41788,7 @@
 									"title": "2024/02",
 									"notePosition": 10,
 									"prefix": null,
-									"isExpanded": true,
+									"isExpanded": false,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [],
@@ -44198,7 +44198,7 @@
 							"title": "FutureLab",
 							"notePosition": 20,
 							"prefix": null,
-							"isExpanded": false,
+							"isExpanded": true,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
@@ -44217,7 +44217,7 @@
 									"title": "Cursos",
 									"notePosition": 0,
 									"prefix": null,
-									"isExpanded": false,
+									"isExpanded": true,
 									"type": "text",
 									"mime": "text/html",
 									"attributes": [],
@@ -44572,6 +44572,122 @@
 															"attributes": [],
 															"format": "html",
 															"dataFileName": "Better evaluation using cross-.html"
+														}
+													]
+												}
+											]
+										},
+										{
+											"isClone": false,
+											"noteId": "PHVbdV6rHdWg",
+											"notePath": [
+												"root",
+												"TY0w8BsYUEYf",
+												"sEgtpP4mlhXm",
+												"wRQLsIiDVXzp",
+												"PHVbdV6rHdWg"
+											],
+											"title": "Machine Learning Specialization",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": true,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dirFileName": "Machine Learning Specialization",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "iqNhKKrdbY6O",
+													"notePath": [
+														"root",
+														"TY0w8BsYUEYf",
+														"sEgtpP4mlhXm",
+														"wRQLsIiDVXzp",
+														"PHVbdV6rHdWg",
+														"iqNhKKrdbY6O"
+													],
+													"title": "Advanced Learning Algorithms",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": true,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dirFileName": "Advanced Learning Algorithms",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "OVTZrUP63yXB",
+															"notePath": [
+																"root",
+																"TY0w8BsYUEYf",
+																"sEgtpP4mlhXm",
+																"wRQLsIiDVXzp",
+																"PHVbdV6rHdWg",
+																"iqNhKKrdbY6O",
+																"OVTZrUP63yXB"
+															],
+															"title": "Week 4 (Decision trees)",
+															"notePosition": 10,
+															"prefix": null,
+															"isExpanded": true,
+															"type": "text",
+															"mime": "text/html",
+															"attributes": [],
+															"format": "html",
+															"dataFileName": "Week 4 (Decision trees).html",
+															"dirFileName": "Week 4 (Decision trees)",
+															"children": [
+																{
+																	"isClone": false,
+																	"noteId": "bCrlPZHEPiSp",
+																	"notePath": [
+																		"root",
+																		"TY0w8BsYUEYf",
+																		"sEgtpP4mlhXm",
+																		"wRQLsIiDVXzp",
+																		"PHVbdV6rHdWg",
+																		"iqNhKKrdbY6O",
+																		"OVTZrUP63yXB",
+																		"bCrlPZHEPiSp"
+																	],
+																	"title": "Learning process",
+																	"notePosition": 10,
+																	"prefix": null,
+																	"isExpanded": false,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Learning process.html"
+																},
+																{
+																	"isClone": false,
+																	"noteId": "Of4ULLBCe9Z6",
+																	"notePath": [
+																		"root",
+																		"TY0w8BsYUEYf",
+																		"sEgtpP4mlhXm",
+																		"wRQLsIiDVXzp",
+																		"PHVbdV6rHdWg",
+																		"iqNhKKrdbY6O",
+																		"OVTZrUP63yXB",
+																		"Of4ULLBCe9Z6"
+																	],
+																	"title": "Entropy as a measure of impurity",
+																	"notePosition": 20,
+																	"prefix": null,
+																	"isExpanded": false,
+																	"type": "text",
+																	"mime": "text/html",
+																	"attributes": [],
+																	"format": "html",
+																	"dataFileName": "Entropy as a measure of impuri.html"
+																}
+															]
 														}
 													]
 												}
