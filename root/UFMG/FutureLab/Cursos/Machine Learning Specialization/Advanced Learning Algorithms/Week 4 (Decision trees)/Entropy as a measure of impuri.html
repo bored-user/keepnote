@@ -1,0 +1,37 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Entropy as a measure of impurity</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Entropy as a measure of impurity</h1>
+
+      <div class="ck-content">
+        <p>In order to measure how much a set is pure/ impure, the entropy function
+          is used.</p>
+        <p>Suppose that in a dataset of cats and dogs, out of 100 examples, 10 are
+          cats (what we're looking for). In that case, the ratio of “successes” is
+          10/100. That set is far more “pure” than a set with 50/100 dogs and 50/100
+          cats.</p>
+        <p>Therefore intuitively, the entropy function should look kind of like a
+          parabola, which has a peak in the middle and goes to zero on both ends.</p>
+        <p>That's roughly what it is. The entropy function, H(p), is a function of
+          the ratio of successes, p. <code>H(p) = -plog2(p) - (1-p)log2(1-p)</code>.
+          That function describes the curve explained above.</p>
+        <p>Note that if p is 1 or 0, there will be log2(0). In that case, although
+          the log function isn't defined at x=0, it's a convention that the value
+          the function takes at that point is 0.</p>
+        <p>In the way that it's defined, H(p) outputs values between 0 and 1, where
+          1 is worse (higher entropy, higher impurity) and 0 is best (lower entropy,
+          lower impurity). The peak is at <code>H(½) = 1</code>.</p>
+      </div>
+    </div>
+  </body>
+
+</html>
